@@ -13,7 +13,7 @@ export default function FamilyHotelsBlog({ data }) {
       </div>
 
       {data.hotelList && data.hotelList.length > 0 && (
-        <div className="grid grid-cols-2">
+        <div className="grid grid-cols-2">s
           {data.hotelList.map((hotel, index) => (
             <div key={hotel.id} className="flex gap-2 items-center">
               <span className="m-s-b text-fs-28">{index + 1}.</span>

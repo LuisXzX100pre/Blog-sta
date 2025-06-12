@@ -3,7 +3,8 @@
 import { Container } from "../components/general/Container"
 import blogData from "../data/blog-data.json"
 
-// SOLO Template 3 components
+// solo componentes del template 3
+
 import WeatherRecommendations from "../components/template3/WeatherRecommendations"
 import InfoByMonth from "../components/template3/InfoByMonth"
 import CurrentQuestions from "../components/template3/CurrentQuestions"
