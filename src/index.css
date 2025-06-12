@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .m-b {
+    @apply font-bold;
+  }
+  .m-s-b {
+    @apply font-semibold;
+  }
+  .m-m {
+    @apply font-medium;
+  }
+}

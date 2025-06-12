@@ -1,0 +1,498 @@
+{
+  "blogTitle": {
+    "es": "Guía Completa de Destinos Mexicanos: De la Costa al Interior",
+    "en": "Complete Guide to Mexican Destinations: From Coast to Inland"
+  },
+  "slug": "guia-destinos-mexicanos-completa",
+  "heroImage": "https://images.pexels.com/photos/261101/pexels-photo-261101.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+  "introduction": {
+    "es": "Descubre los secretos, rutas, y maravillas de México con nuestra guía detallada, cubriendo todo lo que necesitas para tu aventura, desde las playas de Cancún y Acapulco hasta información esencial para tu viaje.",
+    "en": "Discover the secrets, routes, and wonders of Mexico with our detailed guide, covering everything you need for your adventure, from the beaches of Cancun and Acapulco to essential travel information."
+  },
+  "sections": {
+    "locationInfo": {
+      "data": {
+        "title": {
+          "es": "¿Dónde queda Puerto Juárez?",
+          "en": "Where is Puerto Juarez located?"
+        },
+        "introductionParagraphs": [
+          {
+            "es": "Puerto Juárez es una localidad que se encuentra en el municipio de Benito Juárez, en el estado de Quintana Roo, México. Está ubicado al norte del centro de Cancún, a lo largo de la costa del Mar Caribe. Es conocido por ser un puerto marítimo importante para la salida de ferries hacia Isla Mujeres.",
+            "en": "Puerto Juarez is a town located in the municipality of Benito Juarez, in the state of Quintana Roo, Mexico. It is situated north of downtown Cancun, along the Caribbean Sea coast. It is known for being an important seaport for ferry departures to Isla Mujeres."
+          },
+          {
+            "es": "Y si te estas preguntando ¿Cuál es la distancia entre Puerto Juárez y aeropuerto de Cancún? La respuesta es: 24.4 kilómetros. Además, el tiempo promedio que vas a demorar en recorrer esta distancia a través de un traslado privado es de 30 minutos aproximadamente.",
+            "en": "And if you are wondering, what is the distance between Puerto Juarez and Cancun airport? The answer is: 24.4 kilometers. Additionally, the average time you will take to cover this distance via private transfer is approximately 30 minutes."
+          },
+          {
+            "es": "Algo muy interesante de todo esto es que Puerto Juárez no es como tal considerado parte de Cancún. Es considerado como una pequeña zona cercana a la ciudad de Cancún. ¿Quieres conocer más? Bueno, sigue leyendo porque ahora nos adentraremos a su puerto y su terminal marítima.",
+            "en": "Something very interesting about all this is that Puerto Juarez is not technically considered part of Cancun. It is considered a small area near the city of Cancun. Want to know more? Well, keep reading because now we will delve into its port and maritime terminal."
+          }
+        ],
+        "mapSection": {
+          "image": {
+            "src": "https://images.pexels.com/photos/1450353/pexels-photo-1450353.jpeg?auto=compress&cs=tinysrgb&w=600&h=400",
+            "alt": {
+              "es": "Mapa de Google Maps de Puerto Juárez",
+              "en": "Google Maps of Puerto Juarez"
+            }
+          },
+          "caption": {
+            "es": "Puerto Juárez Mapa de Google Map: Este mapa destaca como punto principal la terminal marítima en la Playa Puerto Juárez. El cual es barrio que forma parte de Cancún y se extiende hasta Costa Mujeres. Costa Mujeres no forma parte de Cancún, es una pequeña zona continental de Isla Mujeres.",
+            "en": "Puerto Juarez Google Map: This map highlights the maritime terminal at Puerto Juarez Beach as the main point. This neighborhood is part of Cancun and extends to Costa Mujeres. Costa Mujeres is not part of Cancun; it is a small continental area of Isla Mujeres."
+          }
+        },
+        "conclusionParagraph": {
+          "es": "Ahora que ya conoces un poco de Puerto Juárez, seguramente te debes de estar preguntando ¿Cómo llegar a Puerto Juárez desde Cancun?, ¿Cómo llegar del aeropuerto de Cancún a puerto Juárez? e incluso ¿Cómo llegar de Playa del Carmen a Puerto? Bueno, todo eso te lo vamos a describir un poco aquí, en esta sección pero recuerda: Si quieres profundizar más, por eso tenemos artículos completos y técnico que hablan sobre los paso que tienes que seguir para poder llegar al pequeño pueblo pesquero de Puerto Juárez Quintana Roo.",
+          "en": "Now that you know a little about Puerto Juarez, you must be wondering: How to get to Puerto Juarez from Cancun? How to get from Cancun airport to Puerto Juarez? And even, how to get from Playa del Carmen to Puerto Juarez? Well, we will describe all that a bit here in this section, but remember: If you want to delve deeper, we have complete and technical articles that talk about the steps you need to follow to reach the small fishing village of Puerto Juarez, Quintana Roo."
+        }
+      }
+    },
+    "whatToFind": {
+      "data": {
+        "title": {
+          "es": "¿Qué encontrarás en Isla Mujeres?",
+          "en": "What Will You Find in Isla Mujeres?"
+        },
+        "items": [
+          {
+            "id": "isla_mujeres_arqueologia_unica",
+            "image": {
+              "src": "https://images.pexels.com/photos/2474690/pexels-photo-2474690.jpeg?auto=compress&cs=tinysrgb&w=800",
+              "alt": {
+                "es": "Zonas arqueológicas en Isla Mujeres",
+                "en": "Archaeological zones in Isla Mujeres"
+              }
+            },
+            "name": {
+              "es": "Zonas arqueológicas",
+              "en": "Archaeological Zones"
+            },
+            "description": {
+              "es": "El Meco es una pequeña zona arqueológica que se encuentra en Puerto Juárez y no suele ser muy conocida, lo que le da una privacidad de explorar completamente el lugar casi de manera privada y su costo de acceso es de 50 MXN.",
+              "en": "El Meco is a small archaeological zone located in Puerto Juarez and is not widely known, which allows for exploring the site almost privately. Its access cost is 50 MXN."
+            }
+          }
+        ]
+      }
+    },
+    "ferrySchedule": {
+      "data": {
+        "title": {
+          "es": "Horarios del Ferry Isla Mujeres",
+          "en": "Isla Mujeres Ferry Schedule"
+        },
+        "introduction": {
+          "es": "Descubre la comodidad y eficiencia de los horarios del ferry que conecta con el paraíso de Isla Mujeres. Sumérgete en una experiencia de transporte marítimo diseñada para ofrecer conexiones fluidas y convenientes. Conoce más sobre los horarios del ferry Isla Mujeres y planifica tu viaje con la certeza de disfrutar de una travesía sin contratiempos hacia este destino de ensueño.",
+          "en": "Discover the comfort and efficiency of the ferry schedules connecting to the paradise of Isla Mujeres. Immerse yourself in a maritime transport experience designed to offer smooth and convenient connections. Learn more about the Isla Mujeres ferry schedules and plan your trip with the certainty of enjoying a seamless journey to this dream destination."
+        },
+        "scheduleTable": {
+          "headers": [
+            { "id": "cancunToIsla", "label": { "es": "Cancún a Isla Mujeres", "en": "Cancun to Isla Mujeres" } },
+            { "id": "islaToCancun", "label": { "es": "Isla Mujeres a Cancún", "en": "Isla Mujeres to Cancun" } }
+          ],
+          "rows": [
+            { "cancunToIsla": "5:30 am", "islaToCancun": "6:00 am" },
+            { "cancunToIsla": "6:30 am", "islaToCancun": "7:00 am" },
+            { "cancunToIsla": "7:00 am", "islaToCancun": "8:00 am" },
+            { "cancunToIsla": "8:00 am", "islaToCancun": "9:00 am" },
+            { "cancunToIsla": "9:00 am", "islaToCancun": "10:00 am" },
+            { "cancunToIsla": "10:00 am", "islaToCancun": "11:00 am" },
+            { "cancunToIsla": "11:00 am", "islaToCancun": "12:00 pm" },
+            { "cancunToIsla": "12:00 pm", "islaToCancun": "1:00 pm" }
+          ]
+        },
+        "footerNote": { "es": "Horarios sujetos a cambio.", "en": "Schedules subject to change." }
+      }
+    },
+    "journeyVideo": {
+      "data": {
+        "title": {
+          "es": "Puerto Juárez a Isla Mujeres",
+          "en": "Puerto Juarez to Isla Mujeres"
+        },
+        "descriptionParagraphs": [
+          {
+            "es": "La terminal marítima de Puerto Juárez es el principal punto de conexión para el transporte marítimo desde y hacia Isla Mujeres. Ahora que hemos explorado las diversas formas de llegar a dicho lugar, seguramente te estarás preguntando sobre la distancia y el costo del ferry, ¿verdad? Bueno, ¡ahora responderemos esas preguntas!",
+            "en": "The Puerto Juarez maritime terminal is the main connection point for sea transportation to and from Isla Mujeres. Now that we have explored the various ways to get to this place, you are surely wondering about the distance and cost of the ferry, right? Well, now we will answer those questions!"
+          },
+          {
+            "es": "¿Cuál es el precio del ferry de Puerto Juárez a Isla Mujeres? El costo del ferry desde Puerto Juárez a Isla Mujeres es de 270 pesos mexicanos (14.25 dólares) por trayecto para adultos y 200 pesos mexicanos (10.25 dólares) para niños. Para el viaje de ida y vuelta, el precio es de 540 pesos mexicanos (28.50 dólares) para adultos y 400 pesos mexicanos (20.50 dólares) para niños.",
+            "en": "What is the price of the ferry from Puerto Juarez to Isla Mujeres? The cost of the ferry from Puerto Juarez to Isla Mujeres is 270 Mexican pesos (14.25 dollars) per way for adults and 200 Mexican pesos (10.25 dollars) for children. For a round trip, the price is 540 Mexican pesos (28.50 dollars) for adults and 400 Mexican pesos (20.50 dollars) for children."
+          },
+          {
+            "es": "¿Cuál es la distancia de Puerto Juárez a Isla Mujeres? La distancia desde la terminal marítima de Puerto Juárez hasta Isla Mujeres es de 13.9 km, y la duración promedio del viaje en ferry es de 25 minutos o menos. Todo dependerá de las condiciones climáticas en el momento de tu viaje.",
+            "en": "What is the distance from Puerto Juarez to Isla Mujeres? The distance from the Puerto Juarez maritime terminal to Isla Mujeres is 13.9 km, and the average ferry travel time is 25 minutes or less. Everything will depend on the weather conditions at the time of your trip."
+          },
+          {
+            "es": "Es importante mencionar que estos precios son para el público en general. Existen tarifas especiales que suelen ser más económicas para residentes del estado, personas de la tercera edad, y precios ligeramente más altos al optar por servicios VIP de traslado marítimo de ultramar.",
+            "en": "It is important to mention that these prices are for the general public. Special rates are often available that are more economical for state residents, seniors, and slightly higher prices when opting for VIP Ultramar sea transfer services."
+          }
+        ],
+        "video": {
+          "embedUrl": "https://www.youtube.com/embed/FkCXFvgmzB0",
+          "ariaTitle": {
+            "es": "Viaje en Ferry Puerto Juárez a Isla Mujeres",
+            "en": "Ferry Trip Puerto Juarez to Isla Mujeres"
+          }
+        },
+        "videoCaption": { "es": "Disfruta el viaje.", "en": "Enjoy the trip." }
+      }
+    },
+    "photoGallery": {
+      "data": {
+        "largeImage": {
+          "src": "https://images.pexels.com/photos/1450353/pexels-photo-1450353.jpeg?auto=compress&cs=tinysrgb&w=800",
+          "alt": { "es": "Galería de blog Hotel Krystal Cancún", "en": "Blog gallery Hotel Krystal Cancun" }
+        },
+        "smallImages": [
+          {
+            "id": "gallery_main_img_1",
+            "src": "https://images.pexels.com/photos/1450353/pexels-photo-1450353.jpeg?auto=compress&cs=tinysrgb&w=400",
+            "alt": { "es": "Imagen 1 de galería", "en": "Gallery image 1" }
+          },
+          {
+            "id": "gallery_main_img_2",
+            "src": "https://images.pexels.com/photos/2474690/pexels-photo-2474690.jpeg?auto=compress&cs=tinysrgb&w=400",
+            "alt": { "es": "Imagen 2 de galería", "en": "Gallery image 2" }
+          },
+          {
+            "id": "gallery_main_img_3",
+            "src": "https://images.pexels.com/photos/1320684/pexels-photo-1320684.jpeg?auto=compress&cs=tinysrgb&w=400",
+            "alt": { "es": "Imagen 3 de galería", "en": "Gallery image 3" }
+          },
+          {
+            "id": "gallery_main_img_4",
+            "src": "https://images.pexels.com/photos/1320686/pexels-photo-1320686.jpeg?auto=compress&cs=tinysrgb&w=400",
+            "alt": { "es": "Imagen 4 de galería", "en": "Gallery image 4" }
+          }
+        ]
+      }
+    },
+    "familyHotels": {
+      "data": {
+        "title": {
+          "es": "Hoteles familiares en Puerto Juárez",
+          "en": "Family Hotels in Puerto Juarez"
+        },
+        "introductionParagraphs": [
+          {
+            "es": "Puerto Juárez es un destino ideal para familias con niños. El pueblo ofrece una variedad de actividades y atracciones para niños de todas las edades, como playas, parques acuáticos, parques temáticos y museos.",
+            "en": "Puerto Juarez is an ideal destination for families with children. The town offers a variety of activities and attractions for children of all ages, such as beaches, water parks, theme parks, and museums."
+          },
+          {
+            "es": "Si estás buscando un hotel familiar en Puerto Juárez, hay muchas opciones disponibles. Aquí hay una lista de los mejores hoteles familiares en Puerto Juárez:",
+            "en": "If you're looking for a family hotel in Puerto Juarez, there are many options available. Here is a list of the best family hotels in Puerto Juarez:"
+          }
+        ],
+        "hotelList": [{ "id": "hotel_la_amada_principal", "name": { "es": "La Amada", "en": "La Amada" } }],
+        "mainImage": {
+          "src": "https://images.pexels.com/photos/1320684/pexels-photo-1320684.jpeg?auto=compress&cs=tinysrgb&w=800",
+          "alt": { "es": "Hotel familiar en Puerto Juárez", "en": "Family hotel in Puerto Juarez" }
+        }
+      }
+    },
+    "favoriteActivities": {
+      "data": {
+        "sectionTitle": {
+          "es": "Nuestras 2 actividades favoritas para ti",
+          "en": "Our 2 favorite activities for you"
+        },
+        "introductionParagraphs": [
+          {
+            "es": "Puerto Juárez es un destino ideal para familias con niños. El pueblo ofrece una variedad de actividades y atracciones para niños de todas las edades, como playas, parques acuáticos, parques temáticos y museos.",
+            "en": "Puerto Juarez is an ideal destination for families with children. The town offers a variety of activities and attractions for children of all ages, such as beaches, water parks, theme parks, and museums."
+          },
+          {
+            "es": "Si estás buscando aventuras emocionantes en Puerto Juárez, hay muchas opciones disponibles. Aquí tienes nuestras actividades favoritas:",
+            "en": "If you're looking for exciting adventures in Puerto Juarez, there are many options available. Here are our favorite activities:"
+          }
+        ],
+        "activities": [
+          {
+            "title": { "es": "Capitán Hook", "en": "Captain Hook" },
+            "description": {
+              "es": "Cerca de la terminal marítima de ultramar de Puerto Juárez, encontraremos el tour del Capitán Hooks, un tour que nos regala una aventura recorriendo el mar caribe a bordo de la replica de un galeón español, mientras disfrutamos de un show pirata y una rica cena que puede ser pollo o langosta.",
+              "en": "Near the Ultramar maritime terminal in Puerto Juarez, you'll find the Captain Hook tour, an adventure that takes you through the Caribbean Sea aboard a replica of a Spanish galleon, while enjoying a pirate show and a delicious dinner which can be chicken or lobster."
+            }
+          },
+          {
+            "title": { "es": "Tour Isla Mujeres", "en": "Isla Mujeres Tour" },
+            "description": {
+              "es": "Si bien desde la terminal de Puerto Juárez se puede llegar a Isla Mujeres, muchos prefieren tomar los tour a Isla Mujeres, que ofrecen los lancheros cercanos a la terminal marítima. Estos tour particularmente te llevan a conocer las mejores zonas de la Isla y te incluyen un rico bufet.",
+              "en": "While you can reach Isla Mujeres from the Puerto Juarez terminal, many prefer to take the Isla Mujeres tours offered by boaters near the maritime terminal. These tours specifically take you to the best areas of the island and include a delicious buffet."
+            }
+          }
+        ],
+        "mainImage": {
+          "src": "https://images.pexels.com/photos/2474690/pexels-photo-2474690.jpeg?auto=compress&cs=tinysrgb&w=800",
+          "alt": { "es": "Actividades favoritas en Puerto Juárez", "en": "Favorite activities in Puerto Juarez" }
+        }
+      }
+    },
+    "howToGetThere": {
+      "data": {
+        "sections": [
+          {
+            "id": "htg_main_intro_loc",
+            "title": {
+              "es": "¿Cómo llegar a Puerto Juárez desde Cancún?",
+              "en": "How to get to Puerto Juarez from Cancun?"
+            },
+            "paragraphs": [
+              {
+                "es": "Si te encuentras en Cancún y deseas llegar a Puerto Juárez, ya sea para tomar el ferry a Isla Mujeres, visitar la zona arqueológica El Meco, recorrer el pequeño pueblo o disfrutar de su gastronomía, conocer y refrescarte con sus playas, entonces aquí te explicaremos paso a paso cómo hacerlo.",
+                "en": "If you are in Cancun and wish to get to Puerto Juarez, whether to take the ferry to Isla Mujeres, visit the El Meco archaeological zone, explore the small town, or enjoy its gastronomy, get to know and cool off at its beaches, then here we will explain step by step how to do it."
+              },
+              {
+                "es": "Como ya debes saber, el centro de Cancún es el punto en el cual se toman los camiones, colectivos y taxis para poder llegar a cualquier otra parte de Cancún o incluso fuera de él. Por ende, ya te debes imaginar que para llegar a Puerto Juárez, primero necesitas estar en el centro de Cancún.",
+                "en": "As you may already know, downtown Cancun is the point where buses, colectivos, and taxis are taken to reach any other part of Cancun or even outside of it. Therefore, you can imagine that to get to Puerto Juarez, you first need to be in downtown Cancun."
+              },
+              {
+                "es": "Entonces, ¿Cómo puedo llegar al centro de Cancún? Normalmente no es muy complicado llegar al centro de Cancún, casi todas las rutas de los camiones de transporte público llegan por aquí, sin embargo el centro de Cancún es un poco amplio en contexto de la palabra, entonces ¿Cómo llegar a Puerto Juárez desde el centro de Cancún? .",
+                "en": "So, how can I get to downtown Cancun? It is usually not very complicated to get to downtown Cancun, almost all public transport bus routes arrive here, however, downtown Cancun is a bit broad in context, so how to get to Puerto Juarez from downtown Cancun?"
+              }
+            ],
+            "image": {
+              "src": "https://images.pexels.com/photos/1320686/pexels-photo-1320686.jpeg?auto=compress&cs=tinysrgb&w=800",
+              "alt": {
+                "es": "Cómo llegar a Puerto Juárez desde Cancún",
+                "en": "How to get to Puerto Juarez from Cancun"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "howToBookTransport": {
+      "data": {
+        "title": {
+          "es": "¿Cómo reservar un transporte?",
+          "en": "How to book transportation?"
+        },
+        "introduction": {
+          "es": "Reservar tu transporte hacia Puerto Juárez es muy sencillo. Te ofrecemos diferentes opciones para que puedas elegir la que mejor se adapte a tus necesidades y presupuesto. Desde transporte público económico hasta servicios privados de lujo.",
+          "en": "Booking your transportation to Puerto Juarez is very simple. We offer different options so you can choose the one that best suits your needs and budget. From economical public transport to luxury private services."
+        },
+        "steps": [
+          {
+            "id": "htb_trans_step1_main",
+            "icon": { "src": "📍", "alt": { "es": "Icono ubicación", "en": "Location icon" } },
+            "text": {
+              "es": "Tu estancia perfecta comienza con la ubicación ideal.",
+              "en": "Your perfect stay begins with the ideal location."
+            },
+            "highlightStyle": "normal"
+          },
+          {
+            "id": "htb_trans_step2_main",
+            "icon": { "src": "📅", "alt": { "es": "Icono calendario", "en": "Calendar icon" } },
+            "text": { "es": "Selecciona el día que más te convenga.", "en": "Select the day that suits you best." },
+            "highlightStyle": "accent"
+          },
+          {
+            "id": "htb_trans_step3_main",
+            "icon": { "src": "✈️", "alt": { "es": "Icono aeropuerto", "en": "Airport icon" } },
+            "text": {
+              "es": "Elige y reserva el auto perfecto para ti",
+              "en": "Choose and reserve the perfect car for you"
+            },
+            "highlightStyle": "normal"
+          }
+        ]
+      }
+    },
+    "placesToVisit": {
+      "data": {
+        "sectionTitle": {
+          "es": "8 Lugares que visitar en Acapulco",
+          "en": "8 Places to Visit in Acapulco"
+        },
+        "introduction": {
+          "es": "Toma nota de tus favoritos y consulta el mapa con ubicaciones exactas al final de la nota. Comienza a planear tus días cuando sea el momento de llegar a la gran costera Guerrerense.",
+          "en": "Take note of your favorites and check the map with exact locations at the end of the note. Start planning your days when it's time to arrive at the great Guerrerense coast."
+        },
+        "placesList": [
+          {
+            "id": "acapulco_ptv_zona_dorada",
+            "title": { "es": "Zona Dorada", "en": "Golden Zone" },
+            "subtitle": {
+              "es": "¡La emblemática costa que distingue a Acapulco!.",
+              "en": "The emblematic coast that distinguishes Acapulco!."
+            },
+            "descriptionParagraphs": [
+              {
+                "es": "Para empezar el día y si eres de las personas a las que les gusta ejercitarse un poco antes de empezar la jornada, la Zona Dorada de Acapulco te ofrece la oportunidad de practicar paddle board y kayak en el mar.",
+                "en": "To start the day, and if you are one of those people who like to exercise a little before starting the day, the Golden Zone of Acapulco offers you the opportunity to practice paddle boarding and kayaking in the sea."
+              },
+              {
+                "es": "¿Te imaginas navegar con un acompañante mientras remas por tu cuenta? Es un buen ejercicio para despertar y la brisa del mar te relajará.",
+                "en": "Can you imagine navigating with a companion while you row on your own? It's a good exercise to wake up and the sea breeze will relax you."
+              }
+            ],
+            "image": {
+              "src": "https://images.unsplash.com/photo-1576159599964-9fc3a3c5e4d8?q=80&w=2060&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+              "alt": { "es": "Zona Dorada Acapulco", "en": "Acapulco Golden Zone" }
+            }
+          }
+        ]
+      }
+    },
+    "generalClimateInfo": {
+      "data": {
+        "contentBlocks": [
+          {
+            "id": "gci_title_1",
+            "type": "mainTitle",
+            "text": {
+              "es": "CUÁNDO ES LA MEJOR ÉPOCA PARA VIAJAR A CANCÚN",
+              "en": "WHEN IS THE BEST TIME TO TRAVEL TO CANCUN"
+            }
+          },
+          {
+            "id": "gci_p_1",
+            "type": "paragraph",
+            "text": {
+              "es": "Antes de comenzar con este post acerca de la mejor época para viajar a Cancún, creemos que es importante que conozcas un poco más de las temporadas y el clima de la ciudad para que tengas un mejor criterio.",
+              "en": "Before starting this post about the best time to travel to Cancun, we think it's important for you to know a little more about the city's seasons and climate so you can have better judgment."
+            }
+          },
+          {
+            "id": "gci_season_dry",
+            "type": "seasonInfo",
+            "seasonTitle": { "es": "Temporada seca en Cancún ☀️", "en": "Dry season in Cancun ☀️" },
+            "paragraphs": [
+              {
+                "es": "La temporada seca es la mejor época para viajar a Cancún. ¡Va desde noviembre hasta abril! Durante estos meses, las temperaturas son las más agradables del año, el sol brilla, la brisa es acogedora y hay muy pocas posibilidades de lluvia.",
+                "en": "The dry season is the best time to travel to Cancun. It runs from November to April! During these months, temperatures are the most pleasant of the year, the sun shines, the breeze is welcoming, and there is very little chance of rain."
+              }
+            ]
+          },
+          {
+            "id": "gci_season_rainy",
+            "type": "seasonInfo",
+            "seasonTitle": { "es": "Temporada de lluvias en Cancún 💧", "en": "Rainy season in Cancun 💧" },
+            "paragraphs": [
+              {
+                "es": "Por otro lado, la temporada de lluvias en Cancún dura de mayo a octubre. Durante estos meses la temperatura de la ciudad se mantiene cálida y puedes encontrar menos turistas.",
+                "en": "On the other hand, the rainy season in Cancun lasts from May to October. During these months, the city's temperature remains warm, and you can find fewer tourists."
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "monthlyInfo": {
+      "data": {
+        "seasons": [
+          {
+            "id": "dry_season_cancun_month_info",
+            "seasonTitle": {
+              "es": "1. Viajar a Cancún en temporada seca (noviembre a abril)",
+              "en": "1. Traveling to Cancun in the dry season (November to April)"
+            },
+            "seasonIntroductionParagraphs": [
+              {
+                "es": "Si eres de los que buscan disfrutar de un clima cálido y seco, de noviembre hasta abril es la mejor época para viajar a Cancún.",
+                "en": "If you are looking to enjoy a warm and dry climate, November to April is the best time to travel to Cancun."
+              }
+            ],
+            "monthsData": [
+              {
+                "id": "cancun_nov_month_info_detail",
+                "monthTitle": {
+                  "es": "1.1. Viajar a Cancún en noviembre",
+                  "en": "1.1. Traveling to Cancun in November"
+                },
+                "stats": [
+                  {
+                    "id": "temp_nov_month_info",
+                    "icon": "🌡",
+                    "label": { "es": "Temperatura promedio (min/max):", "en": "Average temperature (min/max):" },
+                    "value": "21ºC – 29ºC"
+                  },
+                  {
+                    "id": "precip_nov_month_info",
+                    "icon": "🌧",
+                    "label": { "es": "Precipitación promedio:", "en": "Average precipitation:" },
+                    "value": "85mm"
+                  }
+                ],
+                "descriptionParagraphs": [
+                  {
+                    "es": "Si lo que buscas es un clima agradable y con menos turistas, noviembre puede ser una de las mejores épocas para viajar a Cancún.",
+                    "en": "If you are looking for pleasant weather with fewer tourists, November can be one of the best times to travel to Cancun."
+                  }
+                ],
+                "image": {
+                  "src": "https://images.pexels.com/photos/2474690/pexels-photo-2474690.jpeg?auto=compress&cs=tinysrgb&w=800",
+                  "alt": { "es": "Clima de Cancún en noviembre", "en": "Cancun weather in November" }
+                }
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "frequentlyAskedQuestions": {
+      "data": {
+        "sectionTitle": {
+          "es": "Preguntas Frecuentes sobre Puerto Juárez y Cancún",
+          "en": "Frequently Asked Questions about Puerto Juarez and Cancun"
+        },
+        "introduction": {
+          "es": "A continuación, respondemos las preguntas más comunes sobre Puerto Juárez, Cancún y tu viaje a estos destinos mexicanos.",
+          "en": "Below, we answer the most common questions about Puerto Juarez, Cancun and your trip to these Mexican destinations."
+        },
+        "faqList": [
+          {
+            "id": "faq_cancun_best_time_final_main",
+            "question": {
+              "es": "En definitiva, ¿cuál es el mejor mes para viajar a Cancún?",
+              "en": "Ultimately, what is the best month to travel to Cancun?"
+            },
+            "answer": {
+              "es": "Enero es el mejor mes para viajar a Cancún. Eso sí, mejor espera a que pase la primera semana y bajen los precios, ya que suelen mantenerse alto después de las festividades de Navidad, Año Nuevo y Reyes. Durante las tres últimas semanas de enero, no hay tantas multitudes como en marzo y abril y no hace tanto calor. ¡Nuestro mes favorito para viajar a Cancún!",
+              "en": "January is the best month to travel to Cancun. However, it's better to wait until after the first week for prices to drop, as they tend to remain high after the Christmas, New Year, and Epiphany holidays. During the last three weeks of January, there aren't as many crowds as in March and April, and it's not as hot. Our favorite month to travel to Cancun!"
+            }
+          },
+          {
+            "id": "faq_puerto_juarez_ferry_cost",
+            "question": {
+              "es": "¿Cuánto cuesta el ferry de Puerto Juárez a Isla Mujeres?",
+              "en": "How much does the ferry from Puerto Juarez to Isla Mujeres cost?"
+            },
+            "answer": {
+              "es": "El costo del ferry desde Puerto Juárez a Isla Mujeres es de 270 pesos mexicanos (14.25 dólares) por trayecto para adultos y 200 pesos mexicanos (10.25 dólares) para niños. Para el viaje de ida y vuelta, el precio es de 540 pesos mexicanos (28.50 dólares) para adultos y 400 pesos mexicanos (20.50 dólares) para niños.",
+              "en": "The cost of the ferry from Puerto Juarez to Isla Mujeres is 270 Mexican pesos (14.25 dollars) per way for adults and 200 Mexican pesos (10.25 dollars) for children. For a round trip, the price is 540 Mexican pesos (28.50 dollars) for adults and 400 Mexican pesos (20.50 dollars) for children."
+            }
+          },
+          {
+            "id": "faq_puerto_juarez_distance",
+            "question": {
+              "es": "¿Cuál es la distancia entre Puerto Juárez y el aeropuerto de Cancún?",
+              "en": "What is the distance between Puerto Juarez and Cancun airport?"
+            },
+            "answer": {
+              "es": "La distancia entre Puerto Juárez y el aeropuerto de Cancún es de 24.4 kilómetros. El tiempo promedio que vas a demorar en recorrer esta distancia a través de un traslado privado es de 30 minutos aproximadamente.",
+              "en": "The distance between Puerto Juarez and Cancun airport is 24.4 kilometers. The average time you will take to cover this distance via private transfer is approximately 30 minutes."
+            }
+          }
+        ]
+      }
+    },
+    "quickFact": {
+      "data": {
+        "title": {
+          "es": "¿Sabías qué de Puerto Juárez?...",
+          "en": "Did you know about Puerto Juarez?..."
+        },
+        "fact": {
+          "es": "Puerto Juárez no es técnicamente considerado parte de Cancún, sino una pequeña zona cercana a la ciudad que sirve como el principal punto de conexión para el transporte marítimo hacia Isla Mujeres.",
+          "en": "Puerto Juarez is not technically considered part of Cancun, but rather a small area near the city that serves as the main connection point for sea transportation to Isla Mujeres."
+        }
+      }
+    }
+  }
+}
