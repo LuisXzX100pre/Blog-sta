@@ -1,8 +1,9 @@
 "use client"
 
+import { Container } from "../components/general/Container"
 import blogData from "../data/blog-data.json"
 
-// SOLO Template 2 components
+// solo componentes del template 2
 import FactBox from "../components/template2/FactBox"
 import MapView from "../components/template2/MapView"
 import PlacesToVisit from "../components/template2/PlacesToVisit"
@@ -13,34 +14,40 @@ export default function Template2Layout() {
   const sections = blogData?.sections
 
   if (!sections) {
-    return <div>Error: No se pudieron cargar los datos del Template 2</div>
+    return (
+      <Container>
+        <div>Error: No se pudieron cargar los datos del Template 2</div>
+      </Container>
+    )
   }
 
   return (
-    <div className="space-y-12">
-      {sections.quickFact && (
+    <Container>
+      <div className="space-y-12">
+        {sections.quickFact && (
+          <section>
+            <FactBox data={sections.quickFact.data} />
+          </section>
+        )}
+
+        {sections.placesToVisit && (
+          <section>
+            <PlacesToVisit data={sections.placesToVisit.data} />
+          </section>
+        )}
+
         <section>
-          <FactBox data={sections.quickFact.data} />
+          <MapView />
         </section>
-      )}
 
-      {sections.placesToVisit && (
         <section>
-          <PlacesToVisit data={sections.placesToVisit.data} />
+          <RecommendationsBeforeVisit />
         </section>
-      )}
 
-      <section>
-        <MapView />
-      </section>
-
-      <section>
-        <RecommendationsBeforeVisit />
-      </section>
-
-      <section>
-        <RoutesRecommendations />
-      </section>
-    </div>
+        <section>
+          <RoutesRecommendations />
+        </section>
+      </div>
+    </Container>
   )
 }

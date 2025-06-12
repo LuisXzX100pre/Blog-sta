@@ -1,5 +1,6 @@
 "use client"
 
+import { Container } from "../general/Container"
 import TemplateNavigation from "../general/TemplateNavigation"
 import blogData from "../../data/blog-data.json"
 import ReturnButton from "../general/ReturnButton"
@@ -8,7 +9,7 @@ import CreationDate from "../general/CreationDate"
 import Title from "../general/Titles"
 import Paragraph from "../general/Paragraph"
 
-// Importaciones del template 2
+// solo componentes del template 2
 import FactBox from "../template2/FactBox"
 import MapView from "../template2/MapView"
 import PlacesToVisit from "../template2/PlacesToVisit"
@@ -19,33 +20,35 @@ export default function Template2View() {
   const sections = blogData?.sections
 
   return (
-    <div className="max-w-4xl mx-auto px-4 py-8">
-      <TemplateNavigation currentTemplate={2} />
+    <Container>
+      <div className="py-8">
+        <TemplateNavigation currentTemplate={2} />
 
-      <ReturnButton />
-      <WelcomeImage source={blogData.heroImage} />
-      <CreationDate />
+        <ReturnButton />
+        <WelcomeImage source={blogData.heroImage} />
+        <CreationDate />
 
-      <div className="px-[98.5px] flex flex-col justify-center max-lg:p-0">
-        <div className="mt-4 mb-6">
-          <Title title={blogData.blogTitle.es} />
-        </div>
-        <div className="flex flex-col gap-5">
-          <Paragraph text={blogData.introduction.es} />
+        <div className="flex flex-col justify-center">
+          <div className="mt-4 mb-6">
+            <Title title={blogData.blogTitle.es} />
+          </div>
+          <div className="flex flex-col gap-5">
+            <Paragraph text={blogData.introduction.es} />
 
-          <div className="space-y-12">
-            {sections?.quickFact && <FactBox data={sections.quickFact.data} />}
+            <div className="space-y-12">
+              {sections?.quickFact && <FactBox data={sections.quickFact.data} />}
 
-            {sections?.placesToVisit && <PlacesToVisit data={sections.placesToVisit.data} />}
+              {sections?.placesToVisit && <PlacesToVisit data={sections.placesToVisit.data} />}
 
-            <MapView />
+              <MapView />
 
-            <RecommendationsBeforeVisit />
+              <RecommendationsBeforeVisit />
 
-            <RoutesRecommendations />
+              <RoutesRecommendations />
+            </div>
           </div>
         </div>
       </div>
-    </div>
+    </Container>
   )
 }

@@ -1,8 +1,9 @@
 "use client"
 
+import { Container } from "../components/general/Container"
 import blogData from "../data/blog-data.json"
 
-// SOLO Template 1 components
+// solo componentes del template 3
 import WhereLocated from "../components/template1/WhereLocated"
 import HowToGet from "../components/template1/HowToGet"
 import HowToBook from "../components/template1/HowToBook"
@@ -18,68 +19,74 @@ export default function Template1Layout() {
   const sections = blogData?.sections
 
   if (!sections) {
-    return <div>Error: No se pudieron cargar los datos del Template 1</div>
+    return (
+      <Container>
+        <div>Error: No se pudieron cargar los datos del Template 1</div>
+      </Container>
+    )
   }
 
   return (
-    <div className="space-y-12">
-      {sections.locationInfo && (
-        <section>
-          <WhereLocated data={sections.locationInfo.data} />
-        </section>
-      )}
+    <Container>
+      <div className="space-y-12">
+        {sections.locationInfo && (
+          <section>
+            <WhereLocated data={sections.locationInfo.data} />
+          </section>
+        )}
 
-      {sections.howToGetThere && (
-        <section>
-          <HowToGet data={sections.howToGetThere.data} />
-        </section>
-      )}
+        {sections.howToGetThere && (
+          <section>
+            <HowToGet data={sections.howToGetThere.data} />
+          </section>
+        )}
 
-      {sections.howToBookTransport && (
-        <section>
-          <HowToBook data={sections.howToBookTransport.data} />
-        </section>
-      )}
+        {sections.howToBookTransport && (
+          <section>
+            <HowToBook data={sections.howToBookTransport.data} />
+          </section>
+        )}
 
-      {sections.journeyVideo && (
-        <section>
-          <VideoPlace data={sections.journeyVideo.data} />
-        </section>
-      )}
+        {sections.journeyVideo && (
+          <section>
+            <VideoPlace data={sections.journeyVideo.data} />
+          </section>
+        )}
 
-      {sections.familyHotels && (
-        <section>
-          <FamilyHotelsBlog data={sections.familyHotels.data} />
-        </section>
-      )}
+        {sections.familyHotels && (
+          <section>
+            <FamilyHotelsBlog data={sections.familyHotels.data} />
+          </section>
+        )}
 
-      {sections.favoriteActivities && (
-        <section>
-          <FavoriteActivitiesBlog data={sections.favoriteActivities.data} />
-        </section>
-      )}
+        {sections.favoriteActivities && (
+          <section>
+            <FavoriteActivitiesBlog data={sections.favoriteActivities.data} />
+          </section>
+        )}
 
-      <section>
-        <FromToBlog />
-      </section>
-
-      {sections.photoGallery && (
         <section>
-          <GalleryPicsCollage data={sections.photoGallery.data} />
+          <FromToBlog />
         </section>
-      )}
 
-      {sections.whatToFind && (
-        <section>
-          <WhatWillYouFind data={sections.whatToFind.data} />
-        </section>
-      )}
+        {sections.photoGallery && (
+          <section>
+            <GalleryPicsCollage data={sections.photoGallery.data} />
+          </section>
+        )}
 
-      {sections.ferrySchedule && (
-        <section>
-          <ScheduleBlog data={sections.ferrySchedule.data} />
-        </section>
-      )}
-    </div>
+        {sections.whatToFind && (
+          <section>
+            <WhatWillYouFind data={sections.whatToFind.data} />
+          </section>
+        )}
+
+        {sections.ferrySchedule && (
+          <section>
+            <ScheduleBlog data={sections.ferrySchedule.data} />
+          </section>
+        )}
+      </div>
+    </Container>
   )
 }
