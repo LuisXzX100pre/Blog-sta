@@ -1,17 +1,21 @@
 import { Routes, Route } from "react-router-dom"
-import HomeView from "./components/views/HomeView"
-import Template1View from "./components/views/Template1View"
-import Template2View from "./components/views/Template2View"
-import Template3View from "./components/views/Template3View"
+import Template1Layout from "./layaouts/Template1Layout"
+import Template2Layout from "./layaouts/Template2Layout"
+import Template3Layout from "./layaouts/Template3Layout"
+import TemplateSelectionLayout from "./layaouts/TemplateSelectionLayout"
+import ScrollToTop from "./components/general/ScrollToTop"
 
 function App() {
   return (
-    <Routes>
-      <Route path="/" element={<HomeView />} />
-      <Route path="/template1" element={<Template1View />} />
-      <Route path="/template2" element={<Template2View />} />
-      <Route path="/template3" element={<Template3View />} />
-    </Routes>
+    <>
+      <ScrollToTop />
+      <Routes>
+        <Route path="/" element={<TemplateSelectionLayout />} />
+        <Route path="/template1" element={<Template1Layout />} />
+        <Route path="/template2" element={<Template2Layout />} />
+        <Route path="/template3" element={<Template3Layout />} />
+      </Routes>
+    </>
   )
 }
 

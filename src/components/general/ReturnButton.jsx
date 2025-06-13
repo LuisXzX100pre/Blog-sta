@@ -1,14 +1,28 @@
-import { Link } from "react-router-dom"
+"use client"
+
+import { useNavigate, useLocation } from "react-router-dom"
 
 export default function ReturnButton() {
+  const navigate = useNavigate()
+  const location = useLocation()
+
+  if (location.pathname === "/") {
+    return null
+  }
+  const handleReturn = (e) => {
+    e.preventDefault()
+    navigate(-1)
+   
+    window.scrollTo(0, 0)
+  }
+
   return (
-    <div className="mb-4">
-      <Link
-        to="/"
-        className="inline-flex items-center px-4 py-2 text-sm font-medium text-gray-700 bg-white border border-gray-300 rounded-lg hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500 transition-colors"
-      >
-        ← Volver al inicio
-      </Link>
-    </div>
+    <button
+      onClick={handleReturn}
+      className="flex items-center text-gray-600 hover:text-gray-900 mb-4 transition-colors"
+    >
+      <img src="https://photos.staywuw.com/assets/icons/arrows/left-100.svg" alt="Regresar" className="w-5 h-5 mr-2" />
+      <span>Regresar</span>
+    </button>
   )
 }

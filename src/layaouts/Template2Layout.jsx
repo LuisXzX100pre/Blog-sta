@@ -2,6 +2,11 @@
 
 import { Container } from "../components/general/Container"
 import blogData from "../data/blog-data.json"
+import ReturnButton from "../components/general/ReturnButton"
+import WelcomeImage from "../components/general/WelcomeImage"
+import CreationDate from "../components/general/CreationDate"
+import Title from "../components/general/Titles"
+import Paragraph from "../components/general/Paragraph"
 
 // solo componentes del template 2
 import FactBox from "../components/template2/FactBox"
@@ -23,30 +28,45 @@ export default function Template2Layout() {
 
   return (
     <Container>
-      <div className="space-y-12">
-        {sections.quickFact && (
-          <section>
-            <FactBox data={sections.quickFact.data} />
-          </section>
-        )}
+      <div className="py-8">
+        <ReturnButton />
+        <WelcomeImage source={blogData.heroImage} />
+        <CreationDate />
 
-        {sections.placesToVisit && (
-          <section>
-            <PlacesToVisit data={sections.placesToVisit.data} />
-          </section>
-        )}
+        <div className="flex flex-col justify-center">
+          <div className="mt-4 mb-6">
+            <Title title={blogData.blogTitle.es} />
+          </div>
+          <div className="flex flex-col gap-5">
+            <Paragraph text={blogData.introduction.es} />
 
-        <section>
-          <MapView />
-        </section>
+            <div className="space-y-12">
+              {sections?.quickFact && (
+                <section>
+                  <FactBox data={sections.quickFact.data} />
+                </section>
+              )}
 
-        <section>
-          <RecommendationsBeforeVisit />
-        </section>
+              {sections?.placesToVisit && (
+                <section>
+                  <PlacesToVisit data={sections.placesToVisit.data} />
+                </section>
+              )}
 
-        <section>
-          <RoutesRecommendations />
-        </section>
+              <section>
+                <MapView />
+              </section>
+
+              <section>
+                <RecommendationsBeforeVisit />
+              </section>
+
+              <section>
+                <RoutesRecommendations />
+              </section>
+            </div>
+          </div>
+        </div>
       </div>
     </Container>
   )
