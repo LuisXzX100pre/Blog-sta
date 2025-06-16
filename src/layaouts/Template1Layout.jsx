@@ -41,8 +41,7 @@ export default function Template1Layout() {
         <ReturnButton />
         <WelcomeImage source={blogData.heroImage} />
         <CreationDate />
-
-        <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex flex-col justify-center">
             <div className="mt-4 mb-6">
               <Title title={blogData.blogTitle.es} />
@@ -53,8 +52,8 @@ export default function Template1Layout() {
               ) : (
                 <Paragraph text={blogData.introduction.es} />
               )}
-
               <div className="space-y-12">
+                {/* Contenido existente del template */}
                 {sections?.photoGallery && <GalleryPicsCollage data={sections.photoGallery.data} />}
                 {sections?.locationInfo && <WhereLocated data={sections.locationInfo.data} />}
                 {sections?.howToBookTransport && <HowToBook data={sections.howToBookTransport.data} />}
