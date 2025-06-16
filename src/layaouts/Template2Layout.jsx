@@ -5,10 +5,13 @@ import blogData from "../data/blog-data.json"
 import ReturnButton from "../components/general/ReturnButton"
 import WelcomeImage from "../components/general/WelcomeImage"
 import CreationDate from "../components/general/CreationDate"
-import Title from "../components/general/Titles"
-import Paragraph from "../components/general/Paragraph"
+
+// Componentes generales
+import CategoryTags from "../components/general/CategoryTags"
+import RelatedArticlesBlog from "../components/general/RelatedArticlesBlog"
 
 // solo componentes del template 2
+import AcapulcoGuideIntro from "../components/template2/AcapulcoGuideIntro"
 import FactBox from "../components/template2/FactBox"
 import MapView from "../components/template2/MapView"
 import PlacesToVisit from "../components/template2/PlacesToVisit"
@@ -17,6 +20,7 @@ import RoutesRecommendations from "../components/template2/RoutesRecommendations
 
 export default function Template2Layout() {
   const sections = blogData?.sections
+  const acapulcoGuide = blogData?.acapulcoGuide
 
   if (!sections) {
     return (
@@ -32,24 +36,19 @@ export default function Template2Layout() {
         <ReturnButton />
         <WelcomeImage source={blogData.heroImage} />
         <CreationDate />
-
-        <div className="flex flex-col justify-center">
-          <div className="mt-4 mb-6">
-            <Title title={blogData.blogTitle.es} />
-          </div>
-          <div className="flex flex-col gap-5">
-            <Paragraph text={blogData.introduction.es} />
-
+        <div className="max-w-[68vw] mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="flex flex-col justify-center">
+            {acapulcoGuide && <AcapulcoGuideIntro data={acapulcoGuide.data} />}
             <div className="space-y-12">
-              {sections?.quickFact && (
-                <section>
-                  <FactBox data={sections.quickFact.data} />
-                </section>
-              )}
-
               {sections?.placesToVisit && (
                 <section>
                   <PlacesToVisit data={sections.placesToVisit.data} />
+                </section>
+              )}
+
+              {sections?.quickFact && (
+                <section>
+                  <FactBox data={sections.quickFact.data} />
                 </section>
               )}
 
@@ -65,6 +64,9 @@ export default function Template2Layout() {
                 <RoutesRecommendations />
               </section>
             </div>
+
+            <CategoryTags />
+            <RelatedArticlesBlog />
           </div>
         </div>
       </div>

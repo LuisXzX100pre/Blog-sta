@@ -5,6 +5,24 @@
   },
   "slug": "guia-completa-destinos-mexicanos",
   "heroImage": "https://images.pexels.com/photos/261101/pexels-photo-261101.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+
+  "acapulcoGuide": {
+    "data": {
+      "mainTitle": {
+        "es": "¿Qué visitar en Acapulco? 8 Lugares Imperdibles",
+        "en": "What to visit in Acapulco? 8 Must-see Places"
+      },
+      "subtitle": {
+        "es": "Descubre qué visitar en Acapulco, Guerrero durante tus vacaciones o de fin de semana",
+        "en": "Discover what to visit in Acapulco, Guerrero during your vacation or weekend"
+      },
+      "heroImage": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-kMotf0sIJpBquD5O0bHUAhdZTV8EOb.png",
+      "introductionParagraphs": [
+        
+      ]
+    }
+  },
+
   "introduction": {
     "es": [
       "Bienvenido a \"Puerto Juárez Cancún\", bienvenido al comienzo de una de las ciudades más importantes de México, que hoy en día recibe a más de 31 millones de pasajeros en su aeropuerto.",

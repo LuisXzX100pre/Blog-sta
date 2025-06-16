@@ -41,7 +41,7 @@ export default function Template1Layout() {
         <ReturnButton />
         <WelcomeImage source={blogData.heroImage} />
         <CreationDate />
-        <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="max-w-[68vw] mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex flex-col justify-center">
             <div className="mt-4 mb-6">
               <Title title={blogData.blogTitle.es} />
