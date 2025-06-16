@@ -41,30 +41,34 @@ export default function Template1Layout() {
         <ReturnButton />
         <WelcomeImage source={blogData.heroImage} />
         <CreationDate />
-        <div className="flex flex-col justify-center">
-          <div className="mt-4 mb-6">
-            <Title title={blogData.blogTitle.es} />
-          </div>
-          <div className="flex flex-col gap-5">
-            {Array.isArray(blogData.introduction.es) ? (
-              blogData.introduction.es.map((paragraph, index) => <Paragraph key={index} text={paragraph} />)
-            ) : (
-              <Paragraph text={blogData.introduction.es} />
-            )}
-            <div className="space-y-12">
-              {sections?.photoGallery && <GalleryPicsCollage data={sections.photoGallery.data} />}
-              {sections?.locationInfo && <WhereLocated data={sections.locationInfo.data} />}
-              {sections?.howToBookTransport && <HowToBook data={sections.howToBookTransport.data} />}
-              {sections?.howToGetThere && <HowToGet data={sections.howToGetThere.data} />}
-              {sections?.journeyVideo && <VideoPlace data={sections.journeyVideo.data} />}
-              {sections?.ferrySchedule && <ScheduleBlog data={sections.ferrySchedule.data} />}
-              {sections?.whatToFind && <WhatWillYouFind data={sections.whatToFind.data} />}
-              {sections?.routesFrom && <FromToBlog data={sections.routesFrom.data} />}
-              {sections?.familyHotels && <FamilyHotelsBlog data={sections.familyHotels.data} />}
-              {sections?.favoriteActivities && <FavoriteActivitiesBlog data={sections.favoriteActivities.data} />}
+
+        <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="flex flex-col justify-center">
+            <div className="mt-4 mb-6">
+              <Title title={blogData.blogTitle.es} />
             </div>
-            <CategoryTags />
-            <RelatedArticlesBlog />
+            <div className="flex flex-col gap-5">
+              {Array.isArray(blogData.introduction.es) ? (
+                blogData.introduction.es.map((paragraph, index) => <Paragraph key={index} text={paragraph} />)
+              ) : (
+                <Paragraph text={blogData.introduction.es} />
+              )}
+
+              <div className="space-y-12">
+                {sections?.photoGallery && <GalleryPicsCollage data={sections.photoGallery.data} />}
+                {sections?.locationInfo && <WhereLocated data={sections.locationInfo.data} />}
+                {sections?.howToBookTransport && <HowToBook data={sections.howToBookTransport.data} />}
+                {sections?.howToGetThere && <HowToGet data={sections.howToGetThere.data} />}
+                {sections?.journeyVideo && <VideoPlace data={sections.journeyVideo.data} />}
+                {sections?.ferrySchedule && <ScheduleBlog data={sections.ferrySchedule.data} />}
+                {sections?.whatToFind && <WhatWillYouFind data={sections.whatToFind.data} />}
+                {sections?.routesFrom && <FromToBlog data={sections.routesFrom.data} />}
+                {sections?.familyHotels && <FamilyHotelsBlog data={sections.familyHotels.data} />}
+                {sections?.favoriteActivities && <FavoriteActivitiesBlog data={sections.favoriteActivities.data} />}
+              </div>
+              <CategoryTags />
+              <RelatedArticlesBlog />
+            </div>
           </div>
         </div>
       </div>
