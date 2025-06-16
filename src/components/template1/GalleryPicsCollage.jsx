@@ -4,22 +4,22 @@ export default function GalleryPicsCollage({ data }) {
   }
 
   return (
-    <div className="flex w-full h-[383px] gap-2 mt-6 max-lg:flex-col max-lg:h-auto">
-      <div className="w-1/2 h-full max-xl:w-[40%] max-lg:w-full">
+    <div className="flex w-full h-[300px] md:h-[383px] gap-2 mt-6 max-lg:flex-col max-lg:h-auto">
+      <div className="w-full lg:w-1/2 h-full max-lg:h-[200px]">
         <img
           src={data.largeImage?.src || "/placeholder.svg"}
           alt={data.largeImage?.alt?.es || "Imagen principal"}
-          className="w-full h-full object-cover rounded-lg"
+          className="w-full h-full object-cover rounded-xl border border-gray-200 shadow-sm"
         />
       </div>
-      <div className="w-1/2 max-xl:w-[60%] h-full grid grid-cols-2 gap-2 max-lg:w-full">
+      <div className="w-full lg:w-1/2 h-full grid grid-cols-2 gap-2 max-lg:h-[200px]">
         {data.smallImages &&
           data.smallImages.map((image) => (
-            <div key={image.id} className="w-full h-[187px]">
+            <div key={image.id} className="w-full h-full">
               <img
                 src={image.src || "/placeholder.svg"}
                 alt={image.alt?.es || "Imagen de galería"}
-                className="object-cover rounded-lg w-full h-full"
+                className="object-cover rounded-xl border border-gray-200 shadow-sm w-full h-full"
               />
             </div>
           ))}

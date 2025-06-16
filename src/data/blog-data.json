@@ -1,19 +1,27 @@
 {
   "blogTitle": {
-    "es": "Guía Completa de Destinos Mexicanos: De la Costa al Interior",
-    "en": "Complete Guide to Mexican Destinations: From Coast to Inland"
+    "es": "Puerto Juárez México. Aquí inició Cancún",
+    "en": "Puerto Juarez, Mexico. Cancun begins here."
   },
-  "slug": "guia-destinos-mexicanos-completa",
+  "slug": "guia-completa-destinos-mexicanos",
   "heroImage": "https://images.pexels.com/photos/261101/pexels-photo-261101.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
   "introduction": {
-    "es": "Descubre los secretos, rutas, y maravillas de México con nuestra guía detallada, cubriendo todo lo que necesitas para tu aventura, desde las playas de Cancún y Acapulco hasta información esencial para tu viaje.",
-    "en": "Discover the secrets, routes, and wonders of Mexico with our detailed guide, covering everything you need for your adventure, from the beaches of Cancun and Acapulco to essential travel information."
+    "es": [
+      "Bienvenido a \"Puerto Juárez Cancún\", bienvenido al comienzo de una de las ciudades más importantes de México, que hoy en día recibe a más de 31 millones de pasajeros en su aeropuerto.",
+      "Para empezar, un poco de historia sobre este increíble lugar en el Caribe mexicano: En 1969, el gobierno mexicano inició el proyecto de Cancún, un desarrollo turístico en la costa del Caribe. La primera etapa del proyecto consistió en la construcción de un puerto y una pequeña comunidad pesquera en lo que hoy conocemos como Puerto Juárez, México. Esta comunidad fue la base para el crecimiento de la ciudad de Cancún, que se convirtió en un importante destino turístico internacional.",
+      "Actualmente, este pequeño pueblo pesquero es el principal punto de transportación marítima a Isla Mujeres: Ofrece más de 29 de Ida al día y se estima que más de 22,000 personas al día llegan a este lugar para tomar el ferry a Isla Mujeres."
+    ],
+    "en": [
+      "Welcome to \"Puerto Juarez Cancun\", welcome to the beginning of one of the most important cities in Mexico, which today receives more than 31 million passengers at its airport.",
+      "To begin, a bit of history about this incredible place in the Mexican Caribbean: In 1969, the Mexican government initiated the Cancun project, a tourist development on the Caribbean coast. The first stage of the project consisted of building a port and a small fishing community in what we now know as Puerto Juarez, Mexico. This community was the base for the growth of the city of Cancun, which became an important international tourist destination.",
+      "Currently, this small fishing village is the main point of maritime transportation to Isla Mujeres: It offers more than 29 one-way trips per day and it is estimated that more than 22,000 people per day arrive at this place to take the ferry to Isla Mujeres."
+    ]
   },
   "sections": {
     "locationInfo": {
       "data": {
         "title": {
-          "es": "¿Dónde queda mexico?",
+          "es": "¿Dónde queda Puerto Juárez?",
           "en": "Where is Puerto Juarez located?"
         },
         "introductionParagraphs": [
@@ -32,7 +40,7 @@
         ],
         "mapSection": {
           "image": {
-            "src": "https://images.pexels.com/photos/1450353/pexels-photo-1450353.jpeg?auto=compress&cs=tinysrgb&w=600&h=400",
+            "src": "/src/assets/MAPA DE PUERTO JUAREZ.png",
             "alt": {
               "es": "Mapa de Google Maps de Puerto Juárez",
               "en": "Google Maps of Puerto Juarez"
@@ -59,7 +67,43 @@
           {
             "id": "isla_mujeres_arqueologia_unica",
             "image": {
-              "src": "https://images.pexels.com/photos/2474690/pexels-photo-2474690.jpeg?auto=compress&cs=tinysrgb&w=800",
+              "src": "/src/assets/playa.jpeg",
+              "alt": {
+                "es": "Zonas arqueológicas en Isla Mujeres",
+                "en": "Archaeological zones in Isla Mujeres"
+              }
+            },
+            "name": {
+              "es": "Zonas arqueológicas",
+              "en": "Archaeological Zones"
+            },
+            "description": {
+              "es": "El Meco es una pequeña zona arqueológica que se encuentra en Puerto Juárez y no suele ser muy conocida, lo que le da una privacidad de explorar completamente el lugar casi de manera privada y su costo de acceso es de 50 MXN.",
+              "en": "El Meco is a small archaeological zone located in Puerto Juarez and is not widely known, which allows for exploring the site almost privately. Its access cost is 50 MXN."
+            }
+          },
+          {
+            "id": "isla_mujeres_arqueologia_2",
+            "image": {
+              "src": "/src/assets/isla-mujeres-tour-snorkel.jpg",
+              "alt": {
+                "es": "Zonas arqueológicas en Isla Mujeres",
+                "en": "Archaeological zones in Isla Mujeres"
+              }
+            },
+            "name": {
+              "es": "Zonas arqueológicas",
+              "en": "Archaeological Zones"
+            },
+            "description": {
+              "es": "El Meco es una pequeña zona arqueológica que se encuentra en Puerto Juárez y no suele ser muy conocida, lo que le da una privacidad de explorar completamente el lugar casi de manera privada y su costo de acceso es de 50 MXN.",
+              "en": "El Meco is a small archaeological zone located in Puerto Juarez and is not widely known, which allows for exploring the site almost privately. Its access cost is 50 MXN."
+            }
+          },
+          {
+            "id": "isla_mujeres_arqueologia_3",
+            "image": {
+              "src": "/src/assets/El meco.jpg",
               "alt": {
                 "es": "Zonas arqueológicas en Isla Mujeres",
                 "en": "Archaeological zones in Isla Mujeres"
@@ -75,160 +119,6 @@
             }
           }
         ]
-      }
-    },
-    "ferrySchedule": {
-      "data": {
-        "title": {
-          "es": "Horarios del Ferry Isla Mujeres",
-          "en": "Isla Mujeres Ferry Schedule"
-        },
-        "introduction": {
-          "es": "Descubre la comodidad y eficiencia de los horarios del ferry que conecta con el paraíso de Isla Mujeres. Sumérgete en una experiencia de transporte marítimo diseñada para ofrecer conexiones fluidas y convenientes. Conoce más sobre los horarios del ferry Isla Mujeres y planifica tu viaje con la certeza de disfrutar de una travesía sin contratiempos hacia este destino de ensueño.",
-          "en": "Discover the comfort and efficiency of the ferry schedules connecting to the paradise of Isla Mujeres. Immerse yourself in a maritime transport experience designed to offer smooth and convenient connections. Learn more about the Isla Mujeres ferry schedules and plan your trip with the certainty of enjoying a seamless journey to this dream destination."
-        },
-        "scheduleTable": {
-          "headers": [
-            { "id": "cancunToIsla", "label": { "es": "Cancún a Isla Mujeres", "en": "Cancun to Isla Mujeres" } },
-            { "id": "islaToCancun", "label": { "es": "Isla Mujeres a Cancún", "en": "Isla Mujeres to Cancun" } }
-          ],
-          "rows": [
-            { "cancunToIsla": "5:30 am", "islaToCancun": "6:00 am" },
-            { "cancunToIsla": "6:30 am", "islaToCancun": "7:00 am" },
-            { "cancunToIsla": "7:00 am", "islaToCancun": "8:00 am" },
-            { "cancunToIsla": "8:00 am", "islaToCancun": "9:00 am" },
-            { "cancunToIsla": "9:00 am", "islaToCancun": "10:00 am" },
-            { "cancunToIsla": "10:00 am", "islaToCancun": "11:00 am" },
-            { "cancunToIsla": "11:00 am", "islaToCancun": "12:00 pm" },
-            { "cancunToIsla": "12:00 pm", "islaToCancun": "1:00 pm" }
-          ]
-        },
-        "footerNote": { "es": "Horarios sujetos a cambio.", "en": "Schedules subject to change." }
-      }
-    },
-    "journeyVideo": {
-      "data": {
-        "title": {
-          "es": "Puerto Juárez a Isla Mujeres",
-          "en": "Puerto Juarez to Isla Mujeres"
-        },
-        "descriptionParagraphs": [
-          {
-            "es": "La terminal marítima de Puerto Juárez es el principal punto de conexión para el transporte marítimo desde y hacia Isla Mujeres. Ahora que hemos explorado las diversas formas de llegar a dicho lugar, seguramente te estarás preguntando sobre la distancia y el costo del ferry, ¿verdad? Bueno, ¡ahora responderemos esas preguntas!",
-            "en": "The Puerto Juarez maritime terminal is the main connection point for sea transportation to and from Isla Mujeres. Now that we have explored the various ways to get to this place, you are surely wondering about the distance and cost of the ferry, right? Well, now we will answer those questions!"
-          },
-          {
-            "es": "¿Cuál es el precio del ferry de Puerto Juárez a Isla Mujeres? El costo del ferry desde Puerto Juárez a Isla Mujeres es de 270 pesos mexicanos (14.25 dólares) por trayecto para adultos y 200 pesos mexicanos (10.25 dólares) para niños. Para el viaje de ida y vuelta, el precio es de 540 pesos mexicanos (28.50 dólares) para adultos y 400 pesos mexicanos (20.50 dólares) para niños.",
-            "en": "What is the price of the ferry from Puerto Juarez to Isla Mujeres? The cost of the ferry from Puerto Juarez to Isla Mujeres is 270 Mexican pesos (14.25 dollars) per way for adults and 200 Mexican pesos (10.25 dollars) for children. For a round trip, the price is 540 Mexican pesos (28.50 dollars) for adults and 400 Mexican pesos (20.50 dollars) for children."
-          },
-          {
-            "es": "¿Cuál es la distancia de Puerto Juárez a Isla Mujeres? La distancia desde la terminal marítima de Puerto Juárez hasta Isla Mujeres es de 13.9 km, y la duración promedio del viaje en ferry es de 25 minutos o menos. Todo dependerá de las condiciones climáticas en el momento de tu viaje.",
-            "en": "What is the distance from Puerto Juarez to Isla Mujeres? The distance from the Puerto Juarez maritime terminal to Isla Mujeres is 13.9 km, and the average ferry travel time is 25 minutes or less. Everything will depend on the weather conditions at the time of your trip."
-          },
-          {
-            "es": "Es importante mencionar que estos precios son para el público en general. Existen tarifas especiales que suelen ser más económicas para residentes del estado, personas de la tercera edad, y precios ligeramente más altos al optar por servicios VIP de traslado marítimo de ultramar.",
-            "en": "It is important to mention that these prices are for the general public. Special rates are often available that are more economical for state residents, seniors, and slightly higher prices when opting for VIP Ultramar sea transfer services."
-          }
-        ],
-        "video": {
-          "embedUrl": "https://www.youtube.com/embed/FkCXFvgmzB0",
-          "ariaTitle": {
-            "es": "Viaje en Ferry Puerto Juárez a Isla Mujeres",
-            "en": "Ferry Trip Puerto Juarez to Isla Mujeres"
-          }
-        },
-        "videoCaption": { "es": "Disfruta el viaje.", "en": "Enjoy the trip." }
-      }
-    },
-    "photoGallery": {
-      "data": {
-        "largeImage": {
-          "src": "https://images.pexels.com/photos/1450353/pexels-photo-1450353.jpeg?auto=compress&cs=tinysrgb&w=800",
-          "alt": { "es": "Galería de blog Hotel Krystal Cancún", "en": "Blog gallery Hotel Krystal Cancun" }
-        },
-        "smallImages": [
-          {
-            "id": "gallery_main_img_1",
-            "src": "https://images.pexels.com/photos/1450353/pexels-photo-1450353.jpeg?auto=compress&cs=tinysrgb&w=400",
-            "alt": { "es": "Imagen 1 de galería", "en": "Gallery image 1" }
-          },
-          {
-            "id": "gallery_main_img_2",
-            "src": "https://images.pexels.com/photos/2474690/pexels-photo-2474690.jpeg?auto=compress&cs=tinysrgb&w=400",
-            "alt": { "es": "Imagen 2 de galería", "en": "Gallery image 2" }
-          },
-          {
-            "id": "gallery_main_img_3",
-            "src": "https://images.pexels.com/photos/1320684/pexels-photo-1320684.jpeg?auto=compress&cs=tinysrgb&w=400",
-            "alt": { "es": "Imagen 3 de galería", "en": "Gallery image 3" }
-          },
-          {
-            "id": "gallery_main_img_4",
-            "src": "https://images.pexels.com/photos/1320686/pexels-photo-1320686.jpeg?auto=compress&cs=tinysrgb&w=400",
-            "alt": { "es": "Imagen 4 de galería", "en": "Gallery image 4" }
-          }
-        ]
-      }
-    },
-    "familyHotels": {
-      "data": {
-        "title": {
-          "es": "Hoteles familiares en Puerto Juárez",
-          "en": "Family Hotels in Puerto Juarez"
-        },
-        "introductionParagraphs": [
-          {
-            "es": "Puerto Juárez es un destino ideal para familias con niños. El pueblo ofrece una variedad de actividades y atracciones para niños de todas las edades, como playas, parques acuáticos, parques temáticos y museos.",
-            "en": "Puerto Juarez is an ideal destination for families with children. The town offers a variety of activities and attractions for children of all ages, such as beaches, water parks, theme parks, and museums."
-          },
-          {
-            "es": "Si estás buscando un hotel familiar en Puerto Juárez, hay muchas opciones disponibles. Aquí hay una lista de los mejores hoteles familiares en Puerto Juárez:",
-            "en": "If you're looking for a family hotel in Puerto Juarez, there are many options available. Here is a list of the best family hotels in Puerto Juarez:"
-          }
-        ],
-        "hotelList": [{ "id": "hotel_la_amada_principal", "name": { "es": "La Amada", "en": "La Amada" } }],
-        "mainImage": {
-          "src": "https://images.pexels.com/photos/1320684/pexels-photo-1320684.jpeg?auto=compress&cs=tinysrgb&w=800",
-          "alt": { "es": "Hotel familiar en Puerto Juárez", "en": "Family hotel in Puerto Juarez" }
-        }
-      }
-    },
-    "favoriteActivities": {
-      "data": {
-        "sectionTitle": {
-          "es": "Nuestras 2 actividades favoritas para ti",
-          "en": "Our 2 favorite activities for you"
-        },
-        "introductionParagraphs": [
-          {
-            "es": "Puerto Juárez es un destino ideal para familias con niños. El pueblo ofrece una variedad de actividades y atracciones para niños de todas las edades, como playas, parques acuáticos, parques temáticos y museos.",
-            "en": "Puerto Juarez is an ideal destination for families with children. The town offers a variety of activities and attractions for children of all ages, such as beaches, water parks, theme parks, and museums."
-          },
-          {
-            "es": "Si estás buscando aventuras emocionantes en Puerto Juárez, hay muchas opciones disponibles. Aquí tienes nuestras actividades favoritas:",
-            "en": "If you're looking for exciting adventures in Puerto Juarez, there are many options available. Here are our favorite activities:"
-          }
-        ],
-        "activities": [
-          {
-            "title": { "es": "Capitán Hook", "en": "Captain Hook" },
-            "description": {
-              "es": "Cerca de la terminal marítima de ultramar de Puerto Juárez, encontraremos el tour del Capitán Hooks, un tour que nos regala una aventura recorriendo el mar caribe a bordo de la replica de un galeón español, mientras disfrutamos de un show pirata y una rica cena que puede ser pollo o langosta.",
-              "en": "Near the Ultramar maritime terminal in Puerto Juarez, you'll find the Captain Hook tour, an adventure that takes you through the Caribbean Sea aboard a replica of a Spanish galleon, while enjoying a pirate show and a delicious dinner which can be chicken or lobster."
-            }
-          },
-          {
-            "title": { "es": "Tour Isla Mujeres", "en": "Isla Mujeres Tour" },
-            "description": {
-              "es": "Si bien desde la terminal de Puerto Juárez se puede llegar a Isla Mujeres, muchos prefieren tomar los tour a Isla Mujeres, que ofrecen los lancheros cercanos a la terminal marítima. Estos tour particularmente te llevan a conocer las mejores zonas de la Isla y te incluyen un rico bufet.",
-              "en": "While you can reach Isla Mujeres from the Puerto Juarez terminal, many prefer to take the Isla Mujeres tours offered by boaters near the maritime terminal. These tours specifically take you to the best areas of the island and include a delicious buffet."
-            }
-          }
-        ],
-        "mainImage": {
-          "src": "https://images.pexels.com/photos/2474690/pexels-photo-2474690.jpeg?auto=compress&cs=tinysrgb&w=800",
-          "alt": { "es": "Actividades favoritas en Puerto Juárez", "en": "Favorite activities in Puerto Juarez" }
-        }
       }
     },
     "howToGetThere": {
@@ -255,12 +145,158 @@
               }
             ],
             "image": {
-              "src": "https://images.pexels.com/photos/1320686/pexels-photo-1320686.jpeg?auto=compress&cs=tinysrgb&w=800",
+              "src": "/src/assets/How-to-get-to-Puerto-Morelos-Juarez-from-Cancun.jpg",
               "alt": {
                 "es": "Cómo llegar a Puerto Juárez desde Cancún",
                 "en": "How to get to Puerto Juarez from Cancun"
               }
             }
+          },
+          {
+            "id": "htg_main_details_loc",
+            "paragraphs": [
+              {
+                "es": "El crucero es una parte que forma parte del centro de Cancún y se puede encontrar entre la avenida José López Portillo y Tulum. En esta intersección, tú puedes tomar uno de los camiones o colectivos que recorren Puerto Juárez y en cierta instancia, Costa Mujeres y parte de Playa Mujeres.",
+                "en": "The 'crucero' (crossing) is part of downtown Cancun and can be found between José López Portillo Avenue and Tulum Avenue. At this intersection, you can take one of the buses or colectivos that go through Puerto Juarez and, in some cases, Costa Mujeres and part of Playa Mujeres."
+              },
+              {
+                "es": "Cabe mencionar que no es la única alternativa. Desde el centro de Cancún se puede tomar un taxi hacia Puerto Juárez, pero este puede tener un costo de 200 MXN a 300 MXN, que en USD son aproximadamente de 20 USD a 30 USD.",
+                "en": "It is worth mentioning that this is not the only alternative. From downtown Cancun, you can take a taxi to Puerto Juarez, but this can cost from 200 MXN to 300 MXN, which is approximately 20 USD to 30 USD."
+              },
+              {
+                "es": "Cabe mencionar que al ser parte de Cancún, es mucho más sencillo encontrar transporte recurrente hacia Puerto Juárez y nuevamente repetimos: El centro de Cancún es amplio y el lugar que estás buscando para abordar un transporte a cualquier lugar de Puerto es en el crucero.",
+                "en": "It is worth mentioning that being part of Cancun, it is much easier to find recurring transportation to Puerto Juarez, and we repeat: Downtown Cancun is large, and the place you are looking for to board transportation to anywhere in Puerto Juarez is at the 'crucero'."
+              }
+            ]
+          },
+          {
+            "id": "htg_main_zona_hotelera_loc",
+            "title": {
+              "es": "¿Cómo llegar a Puerto Juárez desde la Zona Hotelera de Cancún?",
+              "en": "How to get to Puerto Juarez from the Cancun Hotel Zone?"
+            },
+            "paragraphs": [
+              {
+                "type": "normal",
+                "text": {
+                  "es": "Desde la Zona Hotelera, también se puede llegar a cualquier parte de Puerto Juárez, pero es necesario entender que para lograrlo se tiene que realizar una combinación de 2 o 3 servicios de transporte público.",
+                  "en": "From the Hotel Zone, you can also reach any part of Puerto Juarez, but it is necessary to understand that to do so, you have to make a combination of 2 or 3 public transport services."
+                }
+              },
+              {
+                "type": "normal",
+                "text": {
+                  "es": "¿Por qué transporte público? Porque los servicios de taxi que puedes adquirir en la Zona Hotelera te pueden llegar a cobrar hasta 800 MXN o más por llevarte a Puerto Juárez, y no queremos eso, ¿verdad?",
+                  "en": "Why public transport? Because taxi services you can get in the Hotel Zone can charge you up to 800 MXN or more to take you to Puerto Juarez, and we don't want that, right?"
+                }
+              },
+              {
+                "type": "normal",
+                "text": {
+                  "es": "Nuestro primer camión lo tomaremos afuera de nuestro hotel. Normalmente, a las afueras de cualquiera de los hoteles de la Zona Hotelera, encontraremos \"paraderos de autobuses\", y si no somos muy pacientes, entonces tomaremos cualquiera de los camiones que vaya hacia el centro de Cancún.",
+                  "en": "We will take our first bus outside our hotel. Normally, outside any of the hotels in the Hotel Zone, we will find \"bus stops\", and if we are not very patient, then we will take any of the buses going towards downtown Cancun."
+                }
+              },
+              {
+                "type": "normal",
+                "text": {
+                  "es": "Normalmente existen camiones que te pueden llevar directo al crucero, pero si no eres paciente, puedes tomar cualquier otro camión.",
+                  "en": "Normally there are buses that can take you directly to the 'crucero', but if you are not patient, you can take any other bus."
+                }
+              },
+              {
+                "type": "highlighted",
+                "text": {
+                  "es": "Entonces, desde el centro, puedes tomar otro camión hacia el crucero y desde aquí, tomar un transporte hacia Puerto Juárez. Así de simple y así de sencillo.",
+                  "en": "So, from downtown, you can take another bus to the 'crucero' and from here, take transportation to Puerto Juarez. That simple and that easy."
+                }
+              }
+            ],
+            "link": {
+              "url": "https://staywuw.com/",
+              "text": { "es": "https://staywuw.com/", "en": "https://staywuw.com/" }
+            }
+          },
+          {
+            "id": "htg_main_quote_loc",
+            "text": {
+              "es": "¿Por qué transporte público? Porque los servicios de taxi que puedes adquirir en la Zona Hotelera te pueden llegar a cobrar hasta 800 MXN o más por llevarte a Puerto Juárez, y no queremos eso, ¿verdad?",
+              "en": "Why public transport? Because taxi services you can get in the Hotel Zone can charge you up to 800 MXN or more to take you to Puerto Juarez, and we don't want that, right?"
+            }
+          },
+          {
+            "id": "htg_main_map_image_loc",
+            "image": {
+              "src": "/src/assets/como-llegar-a-puerto-juarez-desde-zona-hotelera.jpg",
+              "alt": {
+                "es": "Ubicación como llegar a Puerto Juárez",
+                "en": "Location how to get to Puerto Juarez"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "routesFrom": {
+      "data": {
+        "title": {
+          "es": "Desde Puerto Juárez a....",
+          "en": "From Puerto Juarez to...."
+        },
+        "routes": [
+          {
+            "id": "pj_to_cancun_detail_main",
+            "number": 1,
+            "descriptionParagraphs": [
+              {
+                "es": "Si te encuentras en Cancún y deseas llegar a Puerto Juárez, ya sea para tomar el ferry a Isla Mujeres, visitar la zona arqueológica El Meco, recorrer el pequeño pueblo o disfrutar de su gastronomía, conocer y refrescarte con sus playas, entonces aquí te explicaremos paso a paso cómo hacerlo.",
+                "en": "If you are in Cancun and wish to get to Puerto Juarez, whether to take the ferry to Isla Mujeres, visit the El Meco archaeological zone, explore the small town, or enjoy its gastronomy, get to know and cool off at its beaches, then here we will explain step by step how to do it."
+              },
+              {
+                "es": "Como ya debes saber, el centro de Cancún es el punto en el cual se toman los camiones, colectivos y taxis para poder llegar a cualquier otra parte de Cancún o incluso fuera de él. Por ende, ya te debes imaginar que para llegar a Puerto Juárez, primero necesitas estar en el centro de Cancún.",
+                "en": "As you may already know, downtown Cancun is the point where buses, colectivos, and taxis are taken to reach any other part of Cancun or even outside of it. Therefore, you can imagine that to get to Puerto Juarez, you first need to be in downtown Cancun."
+              },
+              {
+                "es": "Entonces, ¿Cómo puedo llegar al centro de Cancún? Normalmente no es muy complicado llegar al centro de Cancún, casi todas las rutas de los camiones de transporte público llegan por aquí, sin embargo el centro de Cancún es un poco amplio en contexto de la palabra, entonces ¿Cómo llegar a Puerto Juárez desde el centro de Cancún? .",
+                "en": "So, how can I get to downtown Cancun? It is usually not very complicated to get to downtown Cancun, almost all public transport bus routes arrive here, however, downtown Cancun is a bit broad in context, so how to get to Puerto Juarez from downtown Cancun?"
+              }
+            ]
+          },
+          {
+            "id": "pj_to_cancun_detail_2",
+            "number": 2,
+            "descriptionParagraphs": [
+              {
+                "es": "Si te encuentras en Cancún y deseas llegar a Puerto Juárez, ya sea para tomar el ferry a Isla Mujeres, visitar la zona arqueológica El Meco, recorrer el pequeño pueblo o disfrutar de su gastronomía, conocer y refrescarte con sus playas, entonces aquí te explicaremos paso a paso cómo hacerlo.",
+                "en": "If you are in Cancun and wish to get to Puerto Juarez, whether to take the ferry to Isla Mujeres, visit the El Meco archaeological zone, explore the small town, or enjoy its gastronomy, get to know and cool off at its beaches, then here we will explain step by step how to do it."
+              },
+              {
+                "es": "Como ya debes saber, el centro de Cancún es el punto en el cual se toman los camiones, colectivos y taxis para poder llegar a cualquier otra parte de Cancún o incluso fuera de él. Por ende, ya te debes imaginar que para llegar a Puerto Juárez, primero necesitas estar en el centro de Cancún.",
+                "en": "As you may already know, downtown Cancun is the point where buses, colectivos, and taxis are taken to reach any other part of Cancun or even outside of it. Therefore, you can imagine that to get to Puerto Juarez, you first need to be in downtown Cancun."
+              },
+              {
+                "es": "Entonces, ¿Cómo puedo llegar al centro de Cancún? Normalmente no es muy complicado llegar al centro de Cancún, casi todas las rutas de los camiones de transporte público llegan por aquí, sin embargo el centro de Cancún es un poco amplio en contexto de la palabra, entonces ¿Cómo llegar a Puerto Juárez desde el centro de Cancún? .",
+                "en": "So, how can I get to downtown Cancun? It is usually not very complicated to get to downtown Cancun, almost all public transport bus routes arrive here, however, downtown Cancun is a bit broad in context, so how to get to Puerto Juarez from downtown Cancun?"
+              }
+            ]
+          },
+          {
+            "id": "pj_to_cancun_detail_3",
+            "number": 3,
+            "descriptionParagraphs": [
+              {
+                "es": "Si te encuentras en Cancún y deseas llegar a Puerto Juárez, ya sea para tomar el ferry a Isla Mujeres, visitar la zona arqueológica El Meco, recorrer el pequeño pueblo o disfrutar de su gastronomía, conocer y refrescarte con sus playas, entonces aquí te explicaremos paso a paso cómo hacerlo.",
+                "en": "If you are in Cancun and wish to get to Puerto Juarez, whether to take the ferry to Isla Mujeres, visit the El Meco archaeological zone, explore the small town, or enjoy its gastronomy, get to know and cool off at its beaches, then here we will explain step by step how to do it."
+              },
+              {
+                "es": "Como ya debes saber, el centro de Cancún es el punto en el cual se toman los camiones, colectivos y taxis para poder llegar a cualquier otra parte de Cancún o incluso fuera de él. Por ende, ya te debes imaginar que para llegar a Puerto Juárez, primero necesitas estar en el centro de Cancún.",
+                "en": "As you may already know, downtown Cancun is the point where buses, colectivos, and taxis are taken to reach any other part of Cancun or even outside of it. Therefore, you can imagine that to get to Puerto Juarez, you first need to be in downtown Cancun."
+              },
+              {
+                "es": "Entonces, ¿Cómo puedo llegar al centro de Cancún? Normalmente no es muy complicado llegar al centro de Cancún, casi todas las rutas de los camiones de transporte público llegan por aquí, sin embargo el centro de Cancún es un poco amplio en contexto de la palabra, entonces ¿Cómo llegar a Puerto Juárez desde el centro de Cancún? .",
+                "en": "So, how can I get to downtown Cancun? It is usually not very complicated to get to downtown Cancun, almost all public transport bus routes arrive here, however, downtown Cancun is a bit broad in context, so how to get to Puerto Juarez from downtown Cancun?"
+              }
+            ]
           }
         ]
       }
@@ -272,13 +308,16 @@
           "en": "How to book transportation?"
         },
         "introduction": {
-          "es": "Reservar tu transporte hacia Puerto Juárez es muy sencillo. Te ofrecemos diferentes opciones para que puedas elegir la que mejor se adapte a tus necesidades y presupuesto. Desde transporte público económico hasta servicios privados de lujo.",
-          "en": "Booking your transportation to Puerto Juarez is very simple. We offer different options so you can choose the one that best suits your needs and budget. From economical public transport to luxury private services."
+          "es": "Lorem ipsum dolor sit amet consectetur. Viverra dignissim dictum faucibus sed potenti commodo libero id. Fames massa consectetur duis tortor urna maecenas accumsan habitant. Ut placerat sit aliquam dolor penatibus ut nunc interdum laoreet. Viverra dis sagittis amet quam aliquet etiam sed tincidunt. Convallis leo in netus velit. Metus proin elit posuere dictumst felis sodales nisl. Pellentesque aenean in turpis lacus egestas consectetur.",
+          "en": "Lorem ipsum dolor sit amet consectetur. Viverra dignissim dictum faucibus sed potenti commodo libero id. Fames massa consectetur duis tortor urna maecenas accumsan habitant. Ut placerat sit aliquam dolor penatibus ut nunc interdum laoreet. Viverra dis sagittis amet quam aliquet etiam sed tincidunt. Convallis leo in netus velit. Metus proin elit posuere dictumst felis sodales nisl. Pellentesque aenean in turpis lacus egestas consectetur."
         },
         "steps": [
           {
             "id": "htb_trans_step1_main",
-            "icon": { "src": "📍", "alt": { "es": "Icono ubicación", "en": "Location icon" } },
+            "icon": {
+              "src": "https://photos.staywuw.com/assets/icons/location/location-on-bl.svg",
+              "alt": { "es": "Icono ubicación", "en": "Location icon" }
+            },
             "text": {
               "es": "Tu estancia perfecta comienza con la ubicación ideal.",
               "en": "Your perfect stay begins with the ideal location."
@@ -287,13 +326,22 @@
           },
           {
             "id": "htb_trans_step2_main",
-            "icon": { "src": "📅", "alt": { "es": "Icono calendario", "en": "Calendar icon" } },
-            "text": { "es": "Selecciona el día que más te convenga.", "en": "Select the day that suits you best." },
+            "icon": {
+              "src": "https://photos.staywuw.com/assets/icons/calendar/calendar-done-w.svg",
+              "alt": { "es": "Icono calendario", "en": "Calendar icon" }
+            },
+            "text": {
+              "es": "Selecciona el día que más te convenga.",
+              "en": "Select the day that suits you best."
+            },
             "highlightStyle": "accent"
           },
           {
             "id": "htb_trans_step3_main",
-            "icon": { "src": "✈️", "alt": { "es": "Icono aeropuerto", "en": "Airport icon" } },
+            "icon": {
+              "src": "https://photos.staywuw.com/assets/icons/general/airport-bl.svg",
+              "alt": { "es": "Icono aeropuerto", "en": "Airport icon" }
+            },
             "text": {
               "es": "Elige y reserva el auto perfecto para ti",
               "en": "Choose and reserve the perfect car for you"
@@ -301,6 +349,196 @@
             "highlightStyle": "normal"
           }
         ]
+      }
+    },
+    "photoGallery": {
+      "data": {
+        "largeImage": {
+          "src": "/src/assets/krysttt.JPG",
+          "alt": {
+            "es": "Galería de blog Hotel Krystal Cancún",
+            "en": "Blog gallery Hotel Krystal Cancun"
+          }
+        },
+        "smallImages": [
+          {
+            "id": "gallery_main_img_1",
+            "src": "/src/assets/imagen 1.jpeg",
+            "alt": { "es": "Imagen 1 de galería", "en": "Gallery image 1" }
+          },
+          {
+            "id": "gallery_main_img_2",
+            "src": "/src/assets/img 2.jpg",
+            "alt": { "es": "Imagen 2 de galería", "en": "Gallery image 2" }
+          },
+          {
+            "id": "gallery_main_img_3",
+            "src": "/src/assets/ptj.jpg",
+            "alt": { "es": "Imagen 3 de galería", "en": "Gallery image 3" }
+          },
+          {
+            "id": "gallery_main_img_4",
+            "src": "/src/assets/aire can.jpg",
+            "alt": { "es": "Imagen 4 de galería", "en": "Gallery image 4" }
+          }
+        ]
+      }
+    },
+    "familyHotels": {
+      "data": {
+        "title": {
+          "es": "Hoteles familiares en Puerto Juárez",
+          "en": "Family Hotels in Puerto Juarez"
+        },
+        "introductionParagraphs": [
+          {
+            "es": "Puerto Juárez es un destino ideal para familias con niños. El pueblo ofrece una variedad de actividades y atracciones para niños de todas las edades, como playas, parques acuáticos, parques temáticos y museos.",
+            "en": "Puerto Juarez is an ideal destination for families with children. The town offers a variety of activities and attractions for children of all ages, such as beaches, water parks, theme parks, and museums."
+          },
+          {
+            "es": "Si estás buscando un hotel familiar en Puerto Juárez, hay muchas opciones disponibles. Aquí hay una lista de los mejores hoteles familiares en Puerto Juárez:",
+            "en": "If you're looking for a family hotel in Puerto Juarez, there are many options available. Here is a list of the best family hotels in Puerto Juarez:"
+          }
+        ],
+        "hotelList": [
+          {
+            "id": "hotel_la_amada_principal",
+            "name": { "es": "La Amada", "en": "La Amada" }
+          },
+          {
+            "id": "hotel_la_amada_2",
+            "name": { "es": "La Amada", "en": "La Amada" }
+          },
+          {
+            "id": "hotel_la_amada_3",
+            "name": { "es": "La Amada", "en": "La Amada" }
+          },
+          {
+            "id": "hotel_la_amada_4",
+            "name": { "es": "La Amada", "en": "La Amada" }
+          }
+        ],
+        "mainImage": {
+          "src": "/src/assets/imagen alberca.jpg",
+          "alt": {
+            "es": "Hotel familiar en Puerto Juárez",
+            "en": "Family hotel in Puerto Juarez"
+          }
+        }
+      }
+    },
+    "journeyVideo": {
+      "data": {
+        "title": {
+          "es": "Puerto Juárez a Isla Mujeres",
+          "en": "Puerto Juarez to Isla Mujeres"
+        },
+        "descriptionParagraphs": [
+          {
+            "es": "La terminal marítima de Puerto Juárez es el principal punto de conexión para el transporte marítimo desde y hacia Isla Mujeres. Ahora que hemos explorado las diversas formas de llegar a dicho lugar, seguramente te estarás preguntando sobre la distancia y el costo del ferry, ¿verdad? Bueno, ¡ahora responderemos esas preguntas!",
+            "en": "The Puerto Juarez maritime terminal is the main connection point for sea transportation to and from Isla Mujeres. Now that we have explored the various ways to get to this place, you are surely wondering about the distance and cost of the ferry, right? Well, now we will answer those questions!"
+          },
+          {
+            "es": "¿Cuál es el precio del ferry de Puerto Juárez a Isla Mujeres? El costo del ferry desde Puerto Juárez a Isla Mujeres es de 270 pesos mexicanos (14.25 dólares) por trayecto para adultos y 200 pesos mexicanos (10.25 dólares) para niños. Para el viaje de ida y vuelta, el precio es de 540 pesos mexicanos (28.50 dólares) para adultos y 400 pesos mexicanos (20.50 dólares) para niños.",
+            "en": "What is the price of the ferry from Puerto Juarez to Isla Mujeres? The cost of the ferry from Puerto Juarez to Isla Mujeres is 270 Mexican pesos (14.25 dollars) per way for adults and 200 Mexican pesos (10.25 dollars) for children. For a round trip, the price is 540 Mexican pesos (28.50 dollars) for adults and 400 pesos mexicanos (20.50 dollars) for children."
+          },
+          {
+            "es": "¿Cuál es la distancia de Puerto Juárez a Isla Mujeres? La distancia desde la terminal marítima de Puerto Juárez hasta Isla Mujeres es de 13.9 km, y la duración promedio del viaje en ferry es de 25 minutos o menos. Todo dependerá de las condiciones climáticas en el momento de tu viaje.",
+            "en": "What is the distance from Puerto Juarez to Isla Mujeres? The distance from the Puerto Juarez maritime terminal to Isla Mujeres is 13.9 km, and the average ferry travel time is 25 minutes or less. Everything will depend on the weather conditions at the time of your trip."
+          },
+          {
+            "es": "Es importante mencionar que estos precios son para el público en general. Existen tarifas especiales que suelen ser más económicas para residentes del estado, personas de la tercera edad, y precios ligeramente más altos al optar por servicios VIP de traslado marítimo de ultramar.",
+            "en": "It is important to mention that these prices are for the general public. Special rates are often available that are more economical for state residents, seniors, and slightly higher prices when opting for VIP Ultramar sea transfer services."
+          }
+        ],
+        "video": {
+          "embedUrl": "https://www.youtube.com/embed/FkCXFvgmzB0",
+          "ariaTitle": {
+            "es": "Viaje en Ferry Puerto Juárez a Isla Mujeres",
+            "en": "Ferry Trip Puerto Juarez to Isla Mujeres"
+          }
+        },
+        "videoCaption": { "es": "Disfruta el viaje.", "en": "Enjoy the trip." }
+      }
+    },
+    "ferrySchedule": {
+      "data": {
+        "title": {
+          "es": "Horarios del Ferry Isla Mujeres",
+          "en": "Isla Mujeres Ferry Schedule"
+        },
+        "introduction": {
+          "es": "Descubre la comodidad y eficiencia de los horarios del ferry que conecta con el paraíso de Isla Mujeres. Sumérgete en una experiencia de transporte marítimo diseñada para ofrecer conexiones fluidas y convenientes. Conoce más sobre los horarios del ferry Isla Mujeres y planifica tu viaje con la certeza de disfrutar de una travesía sin contratiempos hacia este destino de ensueño.",
+          "en": "Discover the comfort and efficiency of the ferry schedules connecting to the paradise of Isla Mujeres. Immerse yourself in a maritime transport experience designed to offer smooth and convenient connections. Learn more about the Isla Mujeres ferry schedules and plan your trip with the certainty of enjoying a seamless journey to this dream destination."
+        },
+        "scheduleTable": {
+          "headers": [
+            {
+              "id": "cancunToIsla",
+              "label": {
+                "es": "Cancún a Isla Mujeres",
+                "en": "Cancun to Isla Mujeres"
+              }
+            },
+            {
+              "id": "islaToCancun",
+              "label": {
+                "es": "Isla Mujeres a Cancún",
+                "en": "Isla Mujeres to Cancun"
+              }
+            }
+          ],
+          "rows": [
+            { "cancunToIsla": "5:30 am", "islaToCancun": "6:00 am" },
+            { "cancunToIsla": "6:30 am", "islaToCancun": "7:00 am" },
+            { "cancunToIsla": "7:00 am", "islaToCancun": "8:00 am" }
+          ]
+        },
+        "footerNote": {
+          "es": "Horarios sujetos a cambio.",
+          "en": "Schedules subject to change."
+        }
+      }
+    },
+    "favoriteActivities": {
+      "data": {
+        "sectionTitle": {
+          "es": "Nuestras 2 actividades favoritas para ti",
+          "en": "Our 2 favorite activities for you"
+        },
+        "introductionParagraphs": [
+          {
+            "es": "Puerto Juárez es un destino ideal para familias con niños. El pueblo ofrece una variedad de actividades y atracciones para niños de todas las edades, como playas, parques acuáticos, parques temáticos y museos.",
+            "en": "Puerto Juarez is an ideal destination for families with children. The town offers a variety of activities and attractions for children of all ages, such as beaches, water parks, theme parks, and museums."
+          },
+          {
+            "es": "Si estás buscando un hotel familiar en Puerto Juárez, hay muchas opciones disponibles. Aquí hay una lista de los mejores hoteles familiares en Puerto Juárez:",
+            "en": "If you're looking for a family hotel in Puerto Juarez, there are many options available. Here is a list of the best family hotels in Puerto Juarez:"
+          }
+        ],
+        "activities": [
+          {
+            "title": { "es": "Capitán Hook", "en": "Captain Hook" },
+            "description": {
+              "es": "Cerca de la terminal marítima de ultramar de Puerto Juárez, encontraremos el tour del Capitán Hooks, un tour que nos regala una aventura recorriendo el mar caribe a bordo de la replica de un galeón español, mientras disfrutamos de un show pirata y una rica cena que puede ser pollo o langosta.",
+              "en": "Near the Ultramar maritime terminal in Puerto Juarez, you'll find the Captain Hook tour, an adventure that takes you through the Caribbean Sea aboard a replica of a Spanish galleon, while enjoying a pirate show and a delicious dinner which can be chicken or lobster."
+            }
+          },
+          {
+            "title": { "es": "Tour Isla Mujeres", "en": "Isla Mujeres Tour" },
+            "description": {
+              "es": "Si bien desde la terminal de Puerto Juárez se puede llegar a Isla Mujeres, muchos prefieren tomar los tour a Isla Mujeres, que ofrecen los lancheros cercanos a la terminal marítima. Estos tour particularmente te llevan a conocer las mejores zonas de la Isla y te incluyen un rico bufet.",
+              "en": "While you can reach Isla Mujeres from the Puerto Juarez terminal, many prefer to take the Isla Mujeres tours offered by boaters near the maritime terminal. These tours specifically take you to the best areas of the island and include a delicious buffet."
+            }
+          }
+        ],
+        "mainImage": {
+          "src": "/src/assets/tour-en-cancun-capitan-hook-barco-pirata.jpg",
+          "alt": {
+            "es": "Actividades favoritas en Puerto Juárez",
+            "en": "Favorite activities in Puerto Juarez"
+          }
+        }
       }
     },
     "placesToVisit": {
@@ -316,6 +554,168 @@
         "placesList": [
           {
             "id": "acapulco_ptv_zona_dorada",
+            "number": 1,
+            "title": { "es": "Zona Dorada", "en": "Golden Zone" },
+            "subtitle": {
+              "es": "¡La emblemática costa que distingue a Acapulco!.",
+              "en": "The emblematic coast that distinguishes Acapulco!."
+            },
+            "descriptionParagraphs": [
+              {
+                "es": "Para empezar el día y si eres de las personas a las que les gusta ejercitarse un poco antes de empezar la jornada, la Zona Dorada de Acapulco te ofrece la oportunidad de practicar paddle board y kayak en el mar.",
+                "en": "To start the day, and if you are one of those people who like to exercise a little before starting the day, the Golden Zone of Acapulco offers you the opportunity to practice paddle boarding and kayaking in the sea."
+              },
+              {
+                "es": "¿Te imaginas navegar con un acompañante mientras remas por tu cuenta? Es un buen ejercicio para despertar y la brisa del mar te relajará.",
+                "en": "Can you imagine navigating with a companion while you row on your own? It's a good exercise to wake up and the sea breeze will relax you."
+              }
+            ],
+            "image": {
+              "src": "https://images.unsplash.com/photo-1576159599964-9fc3a3c5e4d8?q=80&w=2060&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+              "alt": { "es": "Zona Dorada Acapulco", "en": "Acapulco Golden Zone" }
+            }
+          },
+          {
+            "id": "acapulco_ptv_lugar_2",
+            "number": 2,
+            "title": { "es": "Zona Dorada", "en": "Golden Zone" },
+            "subtitle": {
+              "es": "¡La emblemática costa que distingue a Acapulco!.",
+              "en": "The emblematic coast that distinguishes Acapulco!."
+            },
+            "descriptionParagraphs": [
+              {
+                "es": "Para empezar el día y si eres de las personas a las que les gusta ejercitarse un poco antes de empezar la jornada, la Zona Dorada de Acapulco te ofrece la oportunidad de practicar paddle board y kayak en el mar.",
+                "en": "To start the day, and if you are one of those people who like to exercise a little before starting the day, the Golden Zone of Acapulco offers you the opportunity to practice paddle boarding and kayaking in the sea."
+              },
+              {
+                "es": "¿Te imaginas navegar con un acompañante mientras remas por tu cuenta? Es un buen ejercicio para despertar y la brisa del mar te relajará.",
+                "en": "Can you imagine navigating with a companion while you row on your own? It's a good exercise to wake up and the sea breeze will relax you."
+              }
+            ],
+            "image": {
+              "src": "https://images.unsplash.com/photo-1576159599964-9fc3a3c5e4d8?q=80&w=2060&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+              "alt": { "es": "Zona Dorada Acapulco", "en": "Acapulco Golden Zone" }
+            }
+          },
+          {
+            "id": "acapulco_ptv_lugar_3",
+            "number": 3,
+            "title": { "es": "Zona Dorada", "en": "Golden Zone" },
+            "subtitle": {
+              "es": "¡La emblemática costa que distingue a Acapulco!.",
+              "en": "The emblematic coast that distinguishes Acapulco!."
+            },
+            "descriptionParagraphs": [
+              {
+                "es": "Para empezar el día y si eres de las personas a las que les gusta ejercitarse un poco antes de empezar la jornada, la Zona Dorada de Acapulco te ofrece la oportunidad de practicar paddle board y kayak en el mar.",
+                "en": "To start the day, and if you are one of those people who like to exercise a little before starting the day, the Golden Zone of Acapulco offers you the opportunity to practice paddle boarding and kayaking in the sea."
+              },
+              {
+                "es": "¿Te imaginas navegar con un acompañante mientras remas por tu cuenta? Es un buen ejercicio para despertar y la brisa del mar te relajará.",
+                "en": "Can you imagine navigating with a companion while you row on your own? It's a good exercise to wake up and the sea breeze will relax you."
+              }
+            ],
+            "image": {
+              "src": "https://images.unsplash.com/photo-1576159599964-9fc3a3c5e4d8?q=80&w=2060&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+              "alt": { "es": "Zona Dorada Acapulco", "en": "Acapulco Golden Zone" }
+            }
+          },
+          {
+            "id": "acapulco_ptv_lugar_4",
+            "number": 4,
+            "title": { "es": "Zona Dorada", "en": "Golden Zone" },
+            "subtitle": {
+              "es": "¡La emblemática costa que distingue a Acapulco!.",
+              "en": "The emblematic coast that distinguishes Acapulco!."
+            },
+            "descriptionParagraphs": [
+              {
+                "es": "Para empezar el día y si eres de las personas a las que les gusta ejercitarse un poco antes de empezar la jornada, la Zona Dorada de Acapulco te ofrece la oportunidad de practicar paddle board y kayak en el mar.",
+                "en": "To start the day, and if you are one of those people who like to exercise a little before starting the day, the Golden Zone of Acapulco offers you the opportunity to practice paddle boarding and kayaking in the sea."
+              },
+              {
+                "es": "¿Te imaginas navegar con un acompañante mientras remas por tu cuenta? Es un buen ejercicio para despertar y la brisa del mar te relajará.",
+                "en": "Can you imagine navigating with a companion while you row on your own? It's a good exercise to wake up and the sea breeze will relax you."
+              }
+            ],
+            "image": {
+              "src": "https://images.unsplash.com/photo-1576159599964-9fc3a3c5e4d8?q=80&w=2060&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+              "alt": { "es": "Zona Dorada Acapulco", "en": "Acapulco Golden Zone" }
+            }
+          },
+          {
+            "id": "acapulco_ptv_lugar_5",
+            "number": 5,
+            "title": { "es": "Zona Dorada", "en": "Golden Zone" },
+            "subtitle": {
+              "es": "¡La emblemática costa que distingue a Acapulco!.",
+              "en": "The emblematic coast that distinguishes Acapulco!."
+            },
+            "descriptionParagraphs": [
+              {
+                "es": "Para empezar el día y si eres de las personas a las que les gusta ejercitarse un poco antes de empezar la jornada, la Zona Dorada de Acapulco te ofrece la oportunidad de practicar paddle board y kayak en el mar.",
+                "en": "To start the day, and if you are one of those people who like to exercise a little before starting the day, the Golden Zone of Acapulco offers you the opportunity to practice paddle boarding and kayaking in the sea."
+              },
+              {
+                "es": "¿Te imaginas navegar con un acompañante mientras remas por tu cuenta? Es un buen ejercicio para despertar y la brisa del mar te relajará.",
+                "en": "Can you imagine navigating with a companion while you row on your own? It's a good exercise to wake up and the sea breeze will relax you."
+              }
+            ],
+            "image": {
+              "src": "https://images.unsplash.com/photo-1576159599964-9fc3a3c5e4d8?q=80&w=2060&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+              "alt": { "es": "Zona Dorada Acapulco", "en": "Acapulco Golden Zone" }
+            }
+          },
+          {
+            "id": "acapulco_ptv_lugar_6",
+            "number": 6,
+            "title": { "es": "Zona Dorada", "en": "Golden Zone" },
+            "subtitle": {
+              "es": "¡La emblemática costa que distingue a Acapulco!.",
+              "en": "The emblematic coast that distinguishes Acapulco!."
+            },
+            "descriptionParagraphs": [
+              {
+                "es": "Para empezar el día y si eres de las personas a las que les gusta ejercitarse un poco antes de empezar la jornada, la Zona Dorada de Acapulco te ofrece la oportunidad de practicar paddle board y kayak en el mar.",
+                "en": "To start the day, and if you are one of those people who like to exercise a little before starting the day, the Golden Zone of Acapulco offers you the opportunity to practice paddle boarding and kayaking in the sea."
+              },
+              {
+                "es": "¿Te imaginas navegar con un acompañante mientras remas por tu cuenta? Es un buen ejercicio para despertar y la brisa del mar te relajará.",
+                "en": "Can you imagine navigating with a companion while you row on your own? It's a good exercise to wake up and the sea breeze will relax you."
+              }
+            ],
+            "image": {
+              "src": "https://images.unsplash.com/photo-1576159599964-9fc3a3c5e4d8?q=80&w=2060&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+              "alt": { "es": "Zona Dorada Acapulco", "en": "Acapulco Golden Zone" }
+            }
+          },
+          {
+            "id": "acapulco_ptv_lugar_7",
+            "number": 7,
+            "title": { "es": "Zona Dorada", "en": "Golden Zone" },
+            "subtitle": {
+              "es": "¡La emblemática costa que distingue a Acapulco!.",
+              "en": "The emblematic coast that distinguishes Acapulco!."
+            },
+            "descriptionParagraphs": [
+              {
+                "es": "Para empezar el día y si eres de las personas a las que les gusta ejercitarse un poco antes de empezar la jornada, la Zona Dorada de Acapulco te ofrece la oportunidad de practicar paddle board y kayak en el mar.",
+                "en": "To start the day, and if you are one of those people who like to exercise a little before starting the day, the Golden Zone of Acapulco offers you the opportunity to practice paddle boarding and kayaking in the sea."
+              },
+              {
+                "es": "¿Te imaginas navegar con un acompañante mientras remas por tu cuenta? Es un buen ejercicio para despertar y la brisa del mar te relajará.",
+                "en": "Can you imagine navigating with a companion while you row on your own? It's a good exercise to wake up and the sea breeze will relax you."
+              }
+            ],
+            "image": {
+              "src": "https://images.unsplash.com/photo-1576159599964-9fc3a3c5e4d8?q=80&w=2060&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+              "alt": { "es": "Zona Dorada Acapulco", "en": "Acapulco Golden Zone" }
+            }
+          },
+          {
+            "id": "acapulco_ptv_lugar_8",
+            "number": 8,
             "title": { "es": "Zona Dorada", "en": "Golden Zone" },
             "subtitle": {
               "es": "¡La emblemática costa que distingue a Acapulco!.",
@@ -339,6 +739,182 @@
         ]
       }
     },
+    "quickFact": {
+      "data": {
+        "title": {
+          "es": "¿Sabías qué?...",
+          "en": "Did you know?..."
+        },
+        "fact": {
+          "es": "Acapulco es la ciudad más grande del Estado de Guerrero y es uno de los 10 destinos turísticos más visitados de México.",
+          "en": "Acapulco is the largest city in the State of Guerrero and is one of the 10 most visited tourist destinations in Mexico."
+        }
+      }
+    },
+    "touristMap": {
+      "data": {
+        "title": {
+          "es": "Mapa de lugares turísticos para visitar en Acapulco",
+          "en": "Map of tourist places to visit in Acapulco"
+        },
+        "introduction": {
+          "es": "Consulta todos los lugares mencionados para visitar en Acapulco en el siguiente mapa:",
+          "en": "Check all the mentioned places to visit in Acapulco on the following map:"
+        },
+        "mapConfiguration": {
+          "apiKey": "",
+          "defaultCenter": { "lat": 16.85, "lng": -99.88 },
+          "defaultZoom": 12,
+          "markers": [
+            {
+              "id": "acapulco_map_main_marker_1",
+              "position": { "lat": 16.8464, "lng": -99.9117 },
+              "name": { "es": "La Quebrada", "en": "La Quebrada" },
+              "description": {
+                "es": "Clavados famosos.",
+                "en": "Famous cliff dives."
+              }
+            }
+          ]
+        },
+        "fallbackImage": {
+          "src": "/googleMaps.png",
+          "alt": { "es": "Mapa de Acapulco", "en": "Map of Acapulco" }
+        }
+      }
+    },
+    "beforeYouVisitRecommendations": {
+      "data": {
+        "sectionTitle": {
+          "es": "Recomendaciones antes de visitar Acapulco.",
+          "en": "Recommendations before visiting Acapulco."
+        },
+        "introduction": {
+          "es": "Sigue los siguientes tips para tener una mejor estancia en tu viaje:",
+          "en": "Follow these tips for a better stay on your trip:"
+        },
+        "tipsList": [
+          {
+            "id": "acapulco_main_tip_1",
+            "text": {
+              "es": "Recomendación para el viajero, recomendaciones para el viajero.",
+              "en": "Recommendation for the traveler, recommendations for the traveler."
+            }
+          },
+          {
+            "id": "acapulco_main_tip_2",
+            "text": {
+              "es": "Recomendación para el viajero, recomendaciones para el viajero.",
+              "en": "Recommendation for the traveler, recommendations for the traveler."
+            }
+          },
+          {
+            "id": "acapulco_main_tip_3",
+            "text": {
+              "es": "Recomendación para el viajero, recomendaciones para el viajero.",
+              "en": "Recommendation for the traveler, recommendations for the traveler."
+            }
+          },
+          {
+            "id": "acapulco_main_tip_4",
+            "text": {
+              "es": "Recomendación para el viajero, recomendaciones para el viajero.",
+              "en": "Recommendation for the traveler, recommendations for the traveler."
+            }
+          }
+        ],
+        "conclusionText": {
+          "parts": [
+            {
+              "type": "text",
+              "content": {
+                "es": "Prepara tus maletas y compra tus ",
+                "en": "Pack your bags and buy your "
+              }
+            },
+            {
+              "type": "link",
+              "text": { "es": "boletos de autobus", "en": "bus tickets" },
+              "href": ""
+            },
+            {
+              "type": "text",
+              "content": {
+                "es": " para conocer estos increíbles lugares para pasar un gran día.",
+                "en": " to explore these incredible places for a great day."
+              }
+            }
+          ]
+        }
+      }
+    },
+    "bestRoutesTo": {
+      "data": {
+        "sectionTitle": {
+          "es": "Mejores rutas hacia Acapulco, Gro:",
+          "en": "Best routes to Acapulco, Gro:"
+        },
+        "routes": [
+          {
+            "id": "route_to_aca_cdmx_main",
+            "name": {
+              "es": "Ciudad de México a Acapulco De Juárez.",
+              "en": "Mexico City to Acapulco De Juarez."
+            },
+            "duration": {
+              "label": {
+                "es": "Duración aproximada:",
+                "en": "Approximate duration:"
+              },
+              "value": "05 h 00m"
+            }
+          },
+          {
+            "id": "route_to_aca_2",
+            "name": {
+              "es": "Ciudad de México a Acapulco De Juárez.",
+              "en": "Mexico City to Acapulco De Juarez."
+            },
+            "duration": {
+              "label": {
+                "es": "Duración aproximada:",
+                "en": "Approximate duration:"
+              },
+              "value": "05 h 00m"
+            }
+          },
+          {
+            "id": "route_to_aca_3",
+            "name": {
+              "es": "Ciudad de México a Acapulco De Juárez.",
+              "en": "Mexico City to Acapulco De Juarez."
+            },
+            "duration": {
+              "label": {
+                "es": "Duración aproximada:",
+                "en": "Approximate duration:"
+              },
+              "value": "05 h 00m"
+            }
+          },
+          {
+            "id": "route_to_aca_4",
+            "name": {
+              "es": "Ciudad de México a Acapulco De Juárez.",
+              "en": "Mexico City to Acapulco De Juarez."
+            },
+            "duration": {
+              "label": {
+                "es": "Duración aproximada:",
+                "en": "Approximate duration:"
+              },
+              "value": "05 h 00m"
+            }
+          }
+        ],
+        "footerNote": { "es": "Los tiempos pueden variar.", "en": "Times may vary." }
+      }
+    },
     "generalClimateInfo": {
       "data": {
         "contentBlocks": [
@@ -359,26 +935,127 @@
             }
           },
           {
+            "id": "gci_title_2",
+            "type": "mainTitle",
+            "text": {
+              "es": "Características generales del clima en Cancún",
+              "en": "General characteristics of the climate in Cancun"
+            }
+          },
+          {
+            "id": "gci_p_2",
+            "type": "paragraph",
+            "text": {
+              "es": "Cancún es una de las ciudades de México más visitadas por los turistas. Sin embargo, su principal atractivo son las playas, así que es mejor que te asegures un buen clima antes de visitarla. A continuación te contaremos algunas características generales del clima de Cancún para que te familiarices con la ciudad y sepas cuándo es mejor viajar a Cancún.",
+              "en": "Cancun is one of the most visited cities in Mexico by tourists. However, its main attraction is its beaches, so it's best to ensure good weather before visiting. Below, we will tell you some general characteristics of Cancun's climate so you can familiarize yourself with the city and know when it's best to travel to Cancun."
+            }
+          },
+          {
+            "id": "gci_h4_1",
+            "type": "subheading",
+            "text": {
+              "es": "Dos temporadas: seca y lluviosa",
+              "en": "Two seasons: dry and rainy"
+            }
+          },
+          {
             "id": "gci_season_dry",
             "type": "seasonInfo",
-            "seasonTitle": { "es": "Temporada seca en Cancún ☀️", "en": "Dry season in Cancun ☀️" },
+            "seasonTitle": {
+              "es": "Temporada seca en Cancún ☀️",
+              "en": "Dry season in Cancun ☀️"
+            },
             "paragraphs": [
               {
-                "es": "La temporada seca es la mejor época para viajar a Cancún. ¡Va desde noviembre hasta abril! Durante estos meses, las temperaturas son las más agradables del año, el sol brilla, la brisa es acogedora y hay muy pocas posibilidades de lluvia.",
-                "en": "The dry season is the best time to travel to Cancun. It runs from November to April! During these months, temperatures are the most pleasant of the year, the sun shines, the breeze is welcoming, and there is very little chance of rain."
+                "es": "La temporada seca es la mejor época para viajar a Cancún. ¡Va desde noviembre hasta abril! Durante estos meses, las temperaturas son las más agradables del año, el sol brilla, la brisa es acogedora y hay muy pocas posibilidades de lluvia. Durante esta temporada, el destino turístico es muy concurrido, ya que muchas personas buscan refugiarse del frío y disfrutar de unas vacaciones en la playa.",
+                "en": "The dry season is the best time to travel to Cancun. It runs from November to April! During these months, temperatures are the most pleasant of the year, the sun shines, the breeze is welcoming, and there is very little chance of rain. During this season, the tourist destination is very crowded, as many people seek refuge from the cold and enjoy a beach vacation."
+              },
+              {
+                "es": "Debido a esto, es probable que los precios de hoteles y actividades turísticas sean más caros durante esta época. Sin embargo, los precios no impiden que los turistas sigan visitando Cancún para disfrutar de sus hermosas playas, aguas cristalinas, agradable clima y divertida vida nocturna. Sin duda, ¡la mejor época para viajar a Cancún!",
+                "en": "Because of this, hotel prices and tourist activities are likely to be more expensive during this time. However, prices do not prevent tourists from continuing to visit Cancun to enjoy its beautiful beaches, crystal-clear waters, pleasant climate, and fun nightlife. Without a doubt, the best time to travel to Cancun!"
               }
             ]
           },
           {
             "id": "gci_season_rainy",
             "type": "seasonInfo",
-            "seasonTitle": { "es": "Temporada de lluvias en Cancún 💧", "en": "Rainy season in Cancun 💧" },
+            "seasonTitle": {
+              "es": "Temporada de lluvias en Cancún 💧",
+              "en": "Rainy season in Cancun 💧"
+            },
             "paragraphs": [
               {
-                "es": "Por otro lado, la temporada de lluvias en Cancún dura de mayo a octubre. Durante estos meses la temperatura de la ciudad se mantiene cálida y puedes encontrar menos turistas.",
-                "en": "On the other hand, the rainy season in Cancun lasts from May to October. During these months, the city's temperature remains warm, and you can find fewer tourists."
+                "es": "Por otro lado, la temporada de lluvias en Cancún dura de mayo a octubre. Durante estos meses la temperatura de la ciudad se mantiene cálida y puedes encontrar menos turistas, lo que hace de esta temporada una de las mejores para visitar Cancún si quieres estar tranquilo y ahorrar unos cuantos euros.",
+                "en": "On the other hand, the rainy season in Cancun lasts from May to October. During these months, the city's temperature remains warm, and you can find fewer tourists, making this season one of the best times to visit Cancun if you want to be calm and save some money."
+              },
+              {
+                "es": "Sin embargo, es importante que tengas en cuenta que durante esta época del año las posibilidades de lluvias y tormentas eléctricas son mayores. Por ello, te recomendamos llevar un impermeable y estar cerca de zonas seguras. A pesar de las lluvias, Cancún sigue recibiendo bastantes turistas durante esta época del año. Dicho esto, la temporada de lluvias es la mejor oportunidad para disfrutar de este sorprendente destino sin tener que gastar mucho dinero.",
+                "en": "However, it's important to keep in mind that during this time of year, the chances of rain and thunderstorms are higher. Therefore, we recommend bringing a raincoat and staying near safe areas. Despite the rains, Cancun still receives quite a few tourists during this time of year. That said, the rainy season is the best opportunity to enjoy this amazing destination without spending a lot of money."
               }
             ]
+          },
+          {
+            "id": "gci_h4_2",
+            "type": "subheading",
+            "text": {
+              "es": "Patrones de lluvia en Cancún",
+              "en": "Rain patterns in Cancun"
+            }
+          },
+          {
+            "id": "gci_p_3",
+            "type": "paragraph",
+            "text": {
+              "es": "Algo importante que debes tomar en cuenta es que durante la temporada de lluvias (mayo a octubre), Cancún tiende a solearse en momentos del día. Las lluvias suelen ocurrir en ráfagas cortas e intensas. Además, septiembre es el mes donde más lluvia podrás presenciar, entre 100mm y 200mm de precipitación.",
+              "en": "Something important to consider is that during the rainy season (May to October), Cancun tends to have sunny periods during the day. Rains usually occur in short, intense bursts. Additionally, September is the month where you will see the most rain, between 100mm and 200mm of precipitation."
+            }
+          },
+          {
+            "id": "gci_p_4",
+            "type": "paragraph",
+            "text": {
+              "es": "Sin embargo, no tendrás problemas si decides viajar entre esos meses, ya que podrás disfrutar de la mayoría de tu viaje sin climas extremos. Esto debido a que la mayoría de las precipitaciones ocurren durante la noche o temprano en la mañana, haciendo del día, el espacio perfecto para disfrutar de este destino.",
+              "en": "However, you won't have problems if you decide to travel during these months, as you can enjoy most of your trip without extreme weather. This is because most of the rainfall occurs at night or early in the morning, making the day the perfect time to enjoy this destination."
+            }
+          },
+          {
+            "id": "gci_h4_3",
+            "type": "subheading",
+            "text": {
+              "es": "Riesgo de huracanes entre septiembre y octubre",
+              "en": "Hurricane risk between September and October"
+            }
+          },
+          {
+            "id": "gci_p_5",
+            "type": "paragraph",
+            "text": {
+              "es": "La temporada de huracanes se extiende desde principios de junio hasta finales de noviembre. Sin embargo, la temperatura del mar es más alta entre septiembre y octubre, lo que también significa que el riesgo de huracanes es mayor durante ese período.",
+              "en": "The hurricane season extends from early June to late November. However, the sea temperature is highest between September and October, which also means the risk of hurricanes is greater during that period."
+            }
+          },
+          {
+            "id": "gci_p_6",
+            "type": "paragraph",
+            "text": {
+              "es": "Durante estos meses, te recomendamos prestar más atención a los informes climáticos de la zona. Además, algunas recomendaciones importantes incluyen tener un suministro de agua, alimentos y un plan de evacuación en caso de ser necesario.",
+              "en": "During these months, we recommend paying more attention to local weather reports. Additionally, some important recommendations include having a supply of water, food, and an evacuation plan if necessary."
+            }
+          },
+          {
+            "id": "gci_final_image",
+            "type": "imageWithCaption",
+            "image": {
+              "src": "/hotel-krystal-cancun.png",
+              "alt": {
+                "es": "Clima soleado en Cancún",
+                "en": "Sunny weather in Cancun"
+              }
+            },
+            "caption": {
+              "es": "Cancún, desde las alturas",
+              "en": "Cancun, from above"
+            }
           }
         ]
       }
@@ -396,6 +1073,10 @@
               {
                 "es": "Si eres de los que buscan disfrutar de un clima cálido y seco, de noviembre hasta abril es la mejor época para viajar a Cancún.",
                 "en": "If you are looking to enjoy a warm and dry climate, November to April is the best time to travel to Cancun."
+              },
+              {
+                "es": "Especialmente enero: es el mes que más te recomendamos para visitar este hermoso destino. La temperatura que encontrarás oscila entre los 24 y 30ºC, lo que hace de este momento la mejor época para viajar a Cancún y disfrutar de sus playas. Además, durante estos meses es menos probable que llueva, por lo que es el momento ideal para que practiques deportes acuáticos como buceo, esnórquel o kayak. Y ya que vas a estar al aire libre, tenemos que contarte que otra ventaja de esta temporada es que como existe menos humedad, también existen menos mosquitos que puedan llegar a molestar. En cuanto a la cantidad de turistas, esta época es considerada como temporada alta en Cancún. Por lo que es importante que tengas en cuenta tu presupuesto para alojamiento, vuelos y otras actividades, ya que pueden ser más caros. Sin embargo, si planificas tu viaje con antelación, encontrarás interesantes ofertas y disfrutarás de una experiencia inolvidable.",
+                "en": "Especially January: it is the month we most recommend for visiting this beautiful destination. The temperature you will find ranges between 24 and 30ºC, making this the best time to travel to Cancun and enjoy its beaches. Additionally, during these months it is less likely to rain, so it is the ideal time to practice water sports such as diving, snorkeling, or kayaking. And since you will be outdoors, we have to tell you that another advantage of this season is that since there is less humidity, there are also fewer mosquitoes that can bother you. In terms of tourists, this time is considered high season in Cancun. So it is important that you consider your budget for accommodation, flights, and other activities, as they can be more expensive. However, if you plan your trip in advance, you will find interesting offers and enjoy an unforgettable experience."
               }
             ],
             "monthsData": [
@@ -409,25 +1090,205 @@
                   {
                     "id": "temp_nov_month_info",
                     "icon": "🌡",
-                    "label": { "es": "Temperatura promedio (min/max):", "en": "Average temperature (min/max):" },
+                    "label": {
+                      "es": "Temperatura promedio (min/max):",
+                      "en": "Average temperature (min/max):"
+                    },
                     "value": "21ºC – 29ºC"
                   },
                   {
                     "id": "precip_nov_month_info",
                     "icon": "🌧",
-                    "label": { "es": "Precipitación promedio:", "en": "Average precipitation:" },
+                    "label": {
+                      "es": "Precipitación promedio:",
+                      "en": "Average precipitation:"
+                    },
                     "value": "85mm"
                   }
                 ],
                 "descriptionParagraphs": [
                   {
-                    "es": "Si lo que buscas es un clima agradable y con menos turistas, noviembre puede ser una de las mejores épocas para viajar a Cancún.",
-                    "en": "If you are looking for pleasant weather with fewer tourists, November can be one of the best times to travel to Cancun."
+                    "es": "Si lo que buscas es un clima agradable y con menos turistas, noviembre puede ser una de las mejores épocas para viajar a Cancún. Durante esta temporada, encontrarás una temperatura promedio que ronda los 27°C. Junto a esto, disfrutarás de noches frescas que te invitarán a pasear por la playa o deleitarte con una cena al aire libre. Además, el agua del mar se mantiene cálida, similar a la temperatura ambiente, lo que la hace perfecta para nadar, bucear o practicar deportes acuáticos.",
+                    "en": "If you are looking for pleasant weather with fewer tourists, November can be one of the best times to travel to Cancun. During this season, you will find an average temperature around 27°C. Along with this, you will enjoy cool nights that will invite you to walk on the beach or enjoy an outdoor dinner. Additionally, the sea water remains warm, similar to the ambient temperature, making it perfect for swimming, diving, or practicing water sports."
+                  },
+                  {
+                    "es": "En cuanto a la cantidad de turistas es menor que en temporada alta, por lo que podrás visitar atracciones turísticas sin grandes aglomeraciones. También podrás disfrutar de las playas sin mucho ajetreo y acudir a alguno de los grandes conciertos programados en la ciudad. Otro de los principales atractivos de este mes es El Día de Muertos, que se celebra el 1 y 2 de noviembre. Durante esta hermosa celebración a los difuntos, encontrarás impresionantes decoraciones, ceremonias y un desfile espectacular que estamos seguros querrás presenciar. En cuanto a presupuesto, encontrarás ofertas en hoteles y vuelos, lo que hace de noviembre una época muy apetecible para visitar Cancún",
+                    "en": "In terms of tourists, it is less crowded than in high season, so you can visit tourist attractions without large crowds. You can also enjoy the beaches without much hustle and bustle and attend some of the great concerts scheduled in the city. Another main attraction of this month is The Day of the Dead, which is celebrated on November 1 and 2. During this beautiful celebration of the deceased, you will find impressive decorations, ceremonies, and a spectacular parade that we are sure you will want to witness. In terms of budget, you will find offers on hotels and flights, making November a very appealing time to visit Cancun."
                   }
                 ],
                 "image": {
-                  "src": "https://images.pexels.com/photos/2474690/pexels-photo-2474690.jpeg?auto=compress&cs=tinysrgb&w=800",
-                  "alt": { "es": "Clima de Cancún en noviembre", "en": "Cancun weather in November" }
+                  "src": "/maya-bg.jpg",
+                  "alt": {
+                    "es": "Clima de Cancún en noviembre",
+                    "en": "Cancun weather in November"
+                  }
+                },
+                "imageCaption": {
+                  "es": "Cancún, desde las alturas",
+                  "en": "Cancun, from above"
+                }
+              },
+              {
+                "id": "cancun_dec_month_info_detail",
+                "monthTitle": {
+                  "es": "1.2. Viajar a Cancún en diciembre",
+                  "en": "1.2. Traveling to Cancun in December"
+                },
+                "stats": [
+                  {
+                    "id": "temp_dec_month_info",
+                    "icon": "🌡",
+                    "label": {
+                      "es": "Temperatura promedio (min/max):",
+                      "en": "Average temperature (min/max):"
+                    },
+                    "value": "21ºC – 29ºC"
+                  },
+                  {
+                    "id": "precip_dec_month_info",
+                    "icon": "🌧",
+                    "label": {
+                      "es": "Precipitación promedio:",
+                      "en": "Average precipitation:"
+                    },
+                    "value": "85mm"
+                  }
+                ],
+                "descriptionParagraphs": [
+                  {
+                    "es": "Si lo que buscas es un clima agradable y con menos turistas, noviembre puede ser una de las mejores épocas para viajar a Cancún. Durante esta temporada, encontrarás una temperatura promedio que ronda los 27°C. Junto a esto, disfrutarás de noches frescas que te invitarán a pasear por la playa o deleitarte con una cena al aire libre. Además, el agua del mar se mantiene cálida, similar a la temperatura ambiente, lo que la hace perfecta para nadar, bucear o practicar deportes acuáticos.",
+                    "en": "If you are looking for pleasant weather with fewer tourists, November can be one of the best times to travel to Cancun. During this season, you will find an average temperature around 27°C. Along with this, you will enjoy cool nights that will invite you to walk on the beach or enjoy an outdoor dinner. Additionally, the sea water remains warm, similar to the ambient temperature, making it perfect for swimming, diving, or practicing water sports."
+                  },
+                  {
+                    "es": "En cuanto a la cantidad de turistas es menor que en temporada alta, por lo que podrás visitar atracciones turísticas sin grandes aglomeraciones. También podrás disfrutar de las playas sin mucho ajetreo y acudir a alguno de los grandes conciertos programados en la ciudad. Otro de los principales atractivos de este mes es El Día de Muertos, que se celebra el 1 y 2 de noviembre. Durante esta hermosa celebración a los difuntos, encontrarás impresionantes decoraciones, ceremonias y un desfile espectacular que estamos seguros querrás presenciar. En cuanto a presupuesto, encontrarás ofertas en hoteles y vuelos, lo que hace de noviembre una época muy apetecible para visitar Cancún",
+                    "en": "In terms of tourists, it is less crowded than in high season, so you can visit tourist attractions without large crowds. You can also enjoy the beaches without much hustle and bustle and attend some of the great concerts scheduled in the city. Another main attraction of this month is The Day of the Dead, which is celebrated on November 1 and 2. During this beautiful celebration of the deceased, you will find impressive decorations, ceremonies, and a spectacular parade that we are sure you will want to witness. In terms of budget, you will find offers on hotels and flights, making November a very appealing time to visit Cancun."
+                  }
+                ],
+                "image": {
+                  "src": "/maya-bg.jpg",
+                  "alt": {
+                    "es": "Clima de Cancún en diciembre",
+                    "en": "Cancun weather in December"
+                  }
+                },
+                "imageCaption": {
+                  "es": "Cancún, desde las alturas",
+                  "en": "Cancun, from above"
+                }
+              }
+            ]
+          },
+          {
+            "id": "rainy_season_cancun_month_info",
+            "seasonTitle": {
+              "es": "2. Viajar a Cancún en temporada de lluvias (mayo a octubre)",
+              "en": "2. Traveling to Cancun in the rainy season (May to October)"
+            },
+            "seasonIntroductionParagraphs": [
+              {
+                "es": "Viajar a Cancún durante la temporada de lluvias, puede ser una experiencia diferente. Esta época abarca los meses de mayo a octubre y puede ser una buena oportunidad para disfrutar de deportes acuáticos. La temperatura sigue siendo cálida, con un clima que puede ir desde los 23°C hasta los 33°C. Además, los precios suelen ser más bajos que en temporada alta, lo que será una ventaja para los viajeros que quieran ahorrar algo de dinero.",
+                "en": "Traveling to Cancun during the rainy season can be a different experience. This period covers the months from May to October and can be a good opportunity to enjoy water sports. The temperature remains warm, with a climate that can range from 23°C to 33°C. Additionally, prices are usually lower than in high season, which will be an advantage for travelers who want to save some money."
+              },
+              {
+                "es": "Sin embargo, es importante mencionar que el clima es el factor que más debe tomar en cuenta, ya que en ciertos meses, las lluvias pueden ser bastante intensas. También hay un mayor riesgo de huracanes durante esta temporada. Aunque no debes preocuparte, ya que los resorts y autoridades locales suelen estar preparados para ellos.",
+                "en": "However, it is important to mention that the climate is the factor that should be most considered, as in certain months, the rains can be quite intense. There is also a higher risk of hurricanes during this season. Although you should not worry, as resorts and local authorities are usually prepared for them."
+              }
+            ],
+            "monthsData": [
+              {
+                "id": "cancun_may_month_info_detail",
+                "monthTitle": {
+                  "es": "2.1. Viajar a Cancún en mayo",
+                  "en": "2.1. Traveling to Cancun in May"
+                },
+                "stats": [
+                  {
+                    "id": "temp_may_month_info",
+                    "icon": "🌡",
+                    "label": {
+                      "es": "Temperatura promedio (min/max):",
+                      "en": "Average temperature (min/max):"
+                    },
+                    "value": "21ºC – 29ºC"
+                  },
+                  {
+                    "id": "precip_may_month_info",
+                    "icon": "🌧",
+                    "label": {
+                      "es": "Precipitación promedio:",
+                      "en": "Average precipitation:"
+                    },
+                    "value": "85mm"
+                  }
+                ],
+                "descriptionParagraphs": [
+                  {
+                    "es": "Si lo que buscas es un clima agradable y con menos turistas, noviembre puede ser una de las mejores épocas para viajar a Cancún. Durante esta temporada, encontrarás una temperatura promedio que ronda los 27°C. Junto a esto, disfrutarás de noches frescas que te invitarán a pasear por la playa o deleitarte con una cena al aire libre. Además, el agua del mar se mantiene cálida, similar a la temperatura ambiente, lo que la hace perfecta para nadar, bucear o practicar deportes acuáticos.",
+                    "en": "If you are looking for pleasant weather with fewer tourists, November can be one of the best times to travel to Cancun. During this season, you will find an average temperature around 27°C. Along with this, you will enjoy cool nights that will invite you to walk on the beach or enjoy an outdoor dinner. Additionally, the sea water remains warm, similar to the ambient temperature, making it perfect for swimming, diving, or practicing water sports."
+                  },
+                  {
+                    "es": "En cuanto a la cantidad de turistas es menor que en temporada alta, por lo que podrás visitar atracciones turísticas sin grandes aglomeraciones. También podrás disfrutar de las playas sin mucho ajetreo y acudir a alguno de los grandes conciertos programados en la ciudad. Otro de los principales atractivos de este mes es El Día de Muertos, que se celebra el 1 y 2 de noviembre. Durante esta hermosa celebración a los difuntos, encontrarás impresionantes decoraciones, ceremonias y un desfile espectacular que estamos seguros querrás presenciar. En cuanto a presupuesto, encontrarás ofertas en hoteles y vuelos, lo que hace de noviembre una época muy apetecible para visitar Cancún",
+                    "en": "In terms of tourists, it is less crowded than in high season, so you can visit tourist attractions without large crowds. You can also enjoy the beaches without much hustle and bustle and attend some of the great concerts scheduled in the city. Another main attraction of this month is The Day of the Dead, which is celebrated on November 1 and 2. During this beautiful celebration of the deceased, you will find impressive decorations, ceremonies, and a spectacular parade that we are sure you will want to witness. In terms of budget, you will find offers on hotels and flights, making November a very appealing time to visit Cancun."
+                  }
+                ],
+                "image": {
+                  "src": "/acapulco2.jpg",
+                  "alt": {
+                    "es": "Clima de Cancún en mayo",
+                    "en": "Cancun weather in May"
+                  }
+                },
+                "imageCaption": {
+                  "es": "Cancún, desde las alturas en mayo",
+                  "en": "Cancun, from above in May"
+                }
+              },
+              {
+                "id": "cancun_jun_month_info_detail",
+                "monthTitle": {
+                  "es": "2.2. Viajar a Cancún en junio",
+                  "en": "2.2. Traveling to Cancun in June"
+                },
+                "stats": [
+                  {
+                    "id": "temp_jun_month_info",
+                    "icon": "🌡",
+                    "label": {
+                      "es": "Temperatura promedio (min/max):",
+                      "en": "Average temperature (min/max):"
+                    },
+                    "value": "21ºC – 29ºC"
+                  },
+                  {
+                    "id": "precip_jun_month_info",
+                    "icon": "🌧",
+                    "label": {
+                      "es": "Precipitación promedio:",
+                      "en": "Average precipitation:"
+                    },
+                    "value": "85mm"
+                  }
+                ],
+                "descriptionParagraphs": [
+                  {
+                    "es": "Si lo que buscas es un clima agradable y con menos turistas, noviembre puede ser una de las mejores épocas para viajar a Cancún. Durante esta temporada, encontrarás una temperatura promedio que ronda los 27°C. Junto a esto, disfrutarás de noches frescas que te invitarán a pasear por la playa o deleitarte con una cena al aire libre. Además, el agua del mar se mantiene cálida, similar a la temperatura ambiente, lo que la hace perfecta para nadar, bucear o practicar deportes acuáticos.",
+                    "en": "If you are looking for pleasant weather with fewer tourists, November can be one of the best times to travel to Cancun. During this season, you will find an average temperature around 27°C. Along with this, you will enjoy cool nights that will invite you to walk on the beach or enjoy an outdoor dinner. Additionally, the sea water remains warm, similar to the ambient temperature, making it perfect for swimming, diving, or practicing water sports."
+                  },
+                  {
+                    "es": "En cuanto a la cantidad de turistas es menor que en temporada alta, por lo que podrás visitar atracciones turísticas sin grandes aglomeraciones. También podrás disfrutar de las playas sin mucho ajetreo y acudir a alguno de los grandes conciertos programados en la ciudad. Otro de los principales atractivos de este mes es El Día de Muertos, que se celebra el 1 y 2 de noviembre. Durante esta hermosa celebración a los difuntos, encontrarás impresionantes decoraciones, ceremonias y un desfile espectacular que estamos seguros querrás presenciar. En cuanto a presupuesto, encontrarás ofertas en hoteles y vuelos, lo que hace de noviembre una época muy apetecible para visitar Cancún",
+                    "en": "In terms of tourists, it is less crowded than in high season, so you can visit tourist attractions without large crowds. You can also enjoy the beaches without much hustle and bustle and attend some of the great concerts scheduled in the city. Another main attraction of this month is The Day of the Dead, which is celebrated on November 1 and 2. During this beautiful celebration of the deceased, you will find impressive decorations, ceremonies, and a spectacular parade that we are sure you will want to witness. In terms of budget, you will find offers on hotels and flights, making November a very appealing time to visit Cancun."
+                  }
+                ],
+                "image": {
+                  "src": "/acapulco2.jpg",
+                  "alt": {
+                    "es": "Clima de Cancún en junio",
+                    "en": "Cancun weather in June"
+                  }
+                },
+                "imageCaption": {
+                  "es": "Cancún, desde las alturas en junio",
+                  "en": "Cancun, from above in June"
                 }
               }
             ]
@@ -438,12 +1299,12 @@
     "frequentlyAskedQuestions": {
       "data": {
         "sectionTitle": {
-          "es": "Preguntas Frecuentes sobre Puerto Juárez y Cancún",
-          "en": "Frequently Asked Questions about Puerto Juarez and Cancun"
+          "es": "5. PREGUNTAS FRECUENTES SOBRE CUÁL ES LA MEJOR ÉPOCA PARA VIAJAR A CANCÚN",
+          "en": "5. FREQUENTLY ASKED QUESTIONS ABOUT THE BEST TIME TO TRAVEL TO CANCUN"
         },
         "introduction": {
-          "es": "A continuación, respondemos las preguntas más comunes sobre Puerto Juárez, Cancún y tu viaje a estos destinos mexicanos.",
-          "en": "Below, we answer the most common questions about Puerto Juarez, Cancun and your trip to these Mexican destinations."
+          "es": "A continuación, a modo de resumen del artículo, responderemos algunas cuestiones acerca de la mejor época para viajar a Cancún.",
+          "en": "Below, as a summary of the article, we will answer some questions about the best time to travel to Cancun."
         },
         "faqList": [
           {
@@ -458,40 +1319,61 @@
             }
           },
           {
-            "id": "faq_puerto_juarez_ferry_cost",
+            "id": "faq_cancun_best_time_2",
             "question": {
-              "es": "¿Cuánto cuesta el ferry de Puerto Juárez a Isla Mujeres?",
-              "en": "How much does the ferry from Puerto Juarez to Isla Mujeres cost?"
+              "es": "En definitiva, ¿cuál es el mejor mes para viajar a Cancún?",
+              "en": "Ultimately, what is the best month to travel to Cancun?"
             },
             "answer": {
-              "es": "El costo del ferry desde Puerto Juárez a Isla Mujeres es de 270 pesos mexicanos (14.25 dólares) por trayecto para adultos y 200 pesos mexicanos (10.25 dólares) para niños. Para el viaje de ida y vuelta, el precio es de 540 pesos mexicanos (28.50 dólares) para adultos y 400 pesos mexicanos (20.50 dólares) para niños.",
-              "en": "The cost of the ferry from Puerto Juarez to Isla Mujeres is 270 Mexican pesos (14.25 dollars) per way for adults and 200 Mexican pesos (10.25 dollars) for children. For a round trip, the price is 540 Mexican pesos (28.50 dollars) for adults and 400 Mexican pesos (20.50 dollars) for children."
+              "es": "Enero es el mejor mes para viajar a Cancún. Eso sí, mejor espera a que pase la primera semana y bajen los precios, ya que suelen mantenerse alto después de las festividades de Navidad, Año Nuevo y Reyes. Durante las tres últimas semanas de enero, no hay tantas multitudes como en marzo y abril y no hace tanto calor. ¡Nuestro mes favorito para viajar a Cancún!",
+              "en": "January is the best month to travel to Cancun. However, it's better to wait until after the first week for prices to drop, as they tend to remain high after the Christmas, New Year, and Epiphany holidays. During the last three weeks of January, there aren't as many crowds as in March and April, and it's not as hot. Our favorite month to travel to Cancun!"
             }
           },
           {
-            "id": "faq_puerto_juarez_distance",
+            "id": "faq_cancun_best_time_3",
             "question": {
-              "es": "¿Cuál es la distancia entre Puerto Juárez y el aeropuerto de Cancún?",
-              "en": "What is the distance between Puerto Juarez and Cancun airport?"
+              "es": "En definitiva, ¿cuál es el mejor mes para viajar a Cancún?",
+              "en": "Ultimately, what is the best month to travel to Cancun?"
             },
             "answer": {
-              "es": "La distancia entre Puerto Juárez y el aeropuerto de Cancún es de 24.4 kilómetros. El tiempo promedio que vas a demorar en recorrer esta distancia a través de un traslado privado es de 30 minutos aproximadamente.",
-              "en": "The distance between Puerto Juarez and Cancun airport is 24.4 kilometers. The average time you will take to cover this distance via private transfer is approximately 30 minutes."
+              "es": "Enero es el mejor mes para viajar a Cancún. Eso sí, mejor espera a que pase la primera semana y bajen los precios, ya que suelen mantenerse alto después de las festividades de Navidad, Año Nuevo y Reyes. Durante las tres últimas semanas de enero, no hay tantas multitudes como en marzo y abril y no hace tanto calor. ¡Nuestro mes favorito para viajar a Cancún!",
+              "en": "January is the best month to travel to Cancun. However, it's better to wait until after the first week for prices to drop, as they tend to remain high after the Christmas, New Year, and Epiphany holidays. During the last three weeks of January, there aren't as many crowds as in March and April, and it's not as hot. Our favorite month to travel to Cancun!"
+            }
+          },
+          {
+            "id": "faq_cancun_best_time_4",
+            "question": {
+              "es": "En definitiva, ¿cuál es el mejor mes para viajar a Cancún?",
+              "en": "Ultimately, what is the best month to travel to Cancun?"
+            },
+            "answer": {
+              "es": "Enero es el mejor mes para viajar a Cancún. Eso sí, mejor espera a que pase la primera semana y bajen los precios, ya que suelen mantenerse alto después de las festividades de Navidad, Año Nuevo y Reyes. Durante las tres últimas semanas de enero, no hay tantas multitudes como en marzo y abril y no hace tanto calor. ¡Nuestro mes favorito para viajar a Cancún!",
+              "en": "January is the best month to travel to Cancun. However, it's better to wait until after the first week for prices to drop, as they tend to remain high after the Christmas, New Year, and Epiphany holidays. During the last three weeks of January, there aren't as many crowds as in March and April, and it's not as hot. Our favorite month to travel to Cancun!"
+            }
+          },
+          {
+            "id": "faq_cancun_best_time_5",
+            "question": {
+              "es": "En definitiva, ¿cuál es el mejor mes para viajar a Cancún?",
+              "en": "Ultimately, what is the best month to travel to Cancun?"
+            },
+            "answer": {
+              "es": "Enero es el mejor mes para viajar a Cancún. Eso sí, mejor espera a que pase la primera semana y bajen los precios, ya que suelen mantenerse alto después de las festividades de Navidad, Año Nuevo y Reyes. Durante las tres últimas semanas de enero, no hay tantas multitudes como en marzo y abril y no hace tanto calor. ¡Nuestro mes favorito para viajar a Cancún!",
+              "en": "January is the best month to travel to Cancun. However, it's better to wait until after the first week for prices to drop, as they tend to remain high after the Christmas, New Year, and Epiphany holidays. During the last three weeks of January, there aren't as many crowds as in March and April, and it's not as hot. Our favorite month to travel to Cancun!"
+            }
+          },
+          {
+            "id": "faq_cancun_best_time_6",
+            "question": {
+              "es": "En definitiva, ¿cuál es el mejor mes para viajar a Cancún?",
+              "en": "Ultimately, what is the best month to travel to Cancun?"
+            },
+            "answer": {
+              "es": "Enero es el mejor mes para viajar a Cancún. Eso sí, mejor espera a que pase la primera semana y bajen los precios, ya que suelen mantenerse alto después de las festividades de Navidad, Año Nuevo y Reyes. Durante las tres últimas semanas de enero, no hay tantas multitudes como en marzo y abril y no hace tanto calor. ¡Nuestro mes favorito para viajar a Cancún!",
+              "en": "January is the best month to travel to Cancun. However, it's better to wait until after the first week for prices to drop, as they tend to remain high after the Christmas, New Year, and Epiphany holidays. During the last three weeks of January, there aren't as many crowds as in March and April, and it's not as hot. Our favorite month to travel to Cancun!"
             }
           }
         ]
-      }
-    },
-    "quickFact": {
-      "data": {
-        "title": {
-          "es": "¿Sabías qué de Puerto Juárez?...",
-          "en": "Did you know about Puerto Juarez?..."
-        },
-        "fact": {
-          "es": "Puerto Juárez no es técnicamente considerado parte de Cancún, sino una pequeña zona cercana a la ciudad que sirve como el principal punto de conexión para el transporte marítimo hacia Isla Mujeres.",
-          "en": "Puerto Juarez is not technically considered part of Cancun, but rather a small area near the city that serves as the main connection point for sea transportation to Isla Mujeres."
-        }
       }
     }
   }

@@ -1,26 +1,32 @@
 export default function VideoPlace({ data }) {
+  if (!data) {
+    console.log("VideoPlace: datos insuficientes", data)
+    return null
+  }
+
   return (
-    <div>
-      <h3 className="text-fs-20 m-b mb-4">{data.title.es}</h3>
-      <div className="grid grid-cols-2 gap-x-[16px] gap-y-[24px] text-gry-100 text-fs-14 m-m">
-        {data.descriptionParagraphs.map((paragraph, index) => (
-          <p key={index}>{paragraph.es}</p>
-        ))}
+    <div className="my-11">
+      <h3 className="text-fs-20 m-b mb-4">{data.title?.es}</h3>
+
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-x-4 gap-y-6 text-gry-100 text-fs-14 m-m mb-8">
+        {data.descriptionParagraphs &&
+          data.descriptionParagraphs.map((paragraph, index) => <p key={index}>{paragraph.es}</p>)}
       </div>
 
       {/* VIDEO */}
-      <div className="h-[437px] w-full rounded-lg mt-11">
+      <div className="h-[250px] md:h-[437px] w-full rounded-xl overflow-hidden border border-gray-200 shadow-sm">
         <iframe
-          src={data.video.embedUrl}
+          src={data.video?.embedUrl}
           frameBorder="0"
           allowFullScreen
-          width={"100%"}
-          height={"100%"}
-          className="rounded-lg"
-          aria-label={data.video.ariaTitle.es}
-        ></iframe>
+          width="100%"
+          height="100%"
+          className="rounded-xl"
+          aria-label={data.video?.ariaTitle?.es}
+        />
       </div>
-      <p className="text-fs-12 text-gry-100 italic mt-2 text-center">{data.videoCaption.es}</p>
+
+      {data.videoCaption && <p className="text-fs-12 text-gry-100 italic mt-2 text-center">{data.videoCaption.es}</p>}
     </div>
   )
 }

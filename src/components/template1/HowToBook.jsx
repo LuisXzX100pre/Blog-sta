@@ -21,7 +21,11 @@ export default function HowToBook({ data }) {
                   step.highlightStyle === "accent" ? "bg-or-100" : "bg-gry-50"
                 } rounded-lg flex items-center justify-center`}
               >
-                <div className="text-3xl">{step.icon?.src}</div>
+                <img 
+                  src={step.icon?.src || "/placeholder.svg"} 
+                  alt={step.icon?.alt?.es || "Icono"} 
+                  className="w-8 h-8" 
+                />
               </div>
               <span>{step.text?.es}</span>
             </div>

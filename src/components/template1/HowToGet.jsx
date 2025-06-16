@@ -5,66 +5,93 @@ export default function HowToGet({ data }) {
     return <div>No hay información disponible sobre cómo llegar</div>
   }
 
-  const section = data.sections[0]
+  const mainSection = data.sections[0] // Sección principal
+  const hotelZoneSection = data.sections[2] // Sección de zona hotelera
 
   return (
     <>
+      {/* SECCIÓN PRINCIPAL: Cómo llegar desde Cancún */}
       <div className="flex justify-between max-md:flex-col max-md:gap-4">
         <div className="w-[417px] max-md:w-full">
-          <h3 className="text-fs-20 m-b mb-4">{section.title.es}</h3>
+          <h3 className="text-fs-20 m-b mb-4">{mainSection.title.es}</h3>
 
           <div className="flex flex-col gap-[24px] text-gry-100 text-fs-14">
-            {section.paragraphs && section.paragraphs.map((paragraph, index) => <p key={index}>{paragraph.es}</p>)}
+            {mainSection.paragraphs &&
+              mainSection.paragraphs.map((paragraph, index) => <p key={index}>{paragraph.es}</p>)}
           </div>
         </div>
 
-        <div className="w-1/2 max-md:w-full flex justify-center h-[475px]">
+        <div className="flex-1 max-md:w-full flex justify-center h-[475px] ml-8 max-md:ml-0">
           <img
-            src={section.image?.src || "/placeholder.svg"}
-            alt={section.image?.alt?.es || "Imagen de ubicación"}
-            className="w-full h-full object-cover"
+            src={mainSection.image?.src || "/placeholder.svg"}
+            alt={mainSection.image?.alt?.es || "Imagen de ubicación"}
+            className="w-full h-full object-cover rounded-lg"
           />
         </div>
       </div>
 
+      {/* INFORMACIÓN ADICIONAL */}
       <div className="flex flex-col gap-[24px] text-gry-100 text-fs-14 my-8">
-        {/* Verificar si additionalInfo existe antes de mapearlo */}
-        {data.additionalInfo && data.additionalInfo.map((info, index) => <p key={index}>{info.es}</p>)}
+        {data.sections[1] &&
+          data.sections[1].paragraphs &&
+          data.sections[1].paragraphs.map((paragraph, index) => <p key={index}>{paragraph.es}</p>)}
       </div>
 
-      {/* Verificar si hotelZoneSection existe antes de renderizarlo */}
-      {data.hotelZoneSection && (
-        <div className="my-4">
-          <h3 className="text-fs-20 m-b">{data.hotelZoneSection.title.es}</h3>
+      {/* NUEVA SECCIÓN: Cómo llegar desde la Zona Hotelera */}
+      {hotelZoneSection && (
+        <div className="my-8">
+          <h3 className="text-fs-20 m-b mb-4">{hotelZoneSection.title.es}</h3>
 
-          <div className="flex flex-col gap-[24px] text-gry-100 text-fs-14 mb-8 mt-4">
-            {data.hotelZoneSection.paragraphs &&
-              data.hotelZoneSection.paragraphs.map((paragraph, index) => <p key={index}>{paragraph.es}</p>)}
-
-            {data.hotelZoneSection.quote && <p className="bg-yw-100 p-4 rounded">{data.hotelZoneSection.quote.es}</p>}
-
-            <a href="https://staywuw.com/" className="cursor-pointer text-bl-100">
-              https://staywuw.com/
-            </a>
+          <div className="flex flex-col gap-[24px] text-gry-100 text-fs-14">
+            {hotelZoneSection.paragraphs &&
+              hotelZoneSection.paragraphs.map((paragraph, index) => {
+                if (paragraph.type === "highlighted") {
+                  return (
+                    <p key={index} className="bg-yw-100 p-4 rounded-lg font-medium">
+                      {paragraph.text.es}
+                    </p>
+                  )
+                }
+                return <p key={index}>{paragraph.text?.es || paragraph.es}</p>
+              })}
           </div>
+
+          {hotelZoneSection.link && (
+            <div className="mt-4">
+              <a href={hotelZoneSection.link.url} className="text-bl-100 hover:underline">
+                {hotelZoneSection.link.text.es}
+              </a>
+            </div>
+          )}
         </div>
       )}
 
-      {data.hotelZoneSection && data.hotelZoneSection.quote && (
-        <div className="flex gap-1">
+      {/* CITA DESTACADA si existe */}
+      {data.sections.find((section) => section.id === "htg_main_quote_loc") && (
+        <div className="flex gap-1 my-6">
           <span className="m-s-b text-gry-100 text-fs-32">❝</span>
-          <span className="m-m text-gry-100 text-fs-20 italic">{data.hotelZoneSection.quote.es}</span>
+          <span className="m-m text-gry-100 text-fs-20 italic">
+            {data.sections.find((section) => section.id === "htg_main_quote_loc").text.es}
+          </span>
           <span className="m-s-b text-gry-100 text-fs-32"> ❞</span>
         </div>
       )}
 
-      <div className="h-[437px] w-full my-11">
-        <img
-          src={section.image?.src || "/placeholder.svg"}
-          alt="location how to get"
-          className="w-full h-full object-cover rounded-lg"
-        />
-      </div>
+      {/* IMAGEN DEL MAPA al final */}
+      {data.sections.find((section) => section.id === "htg_main_map_image_loc") && (
+        <div className="h-[437px] w-full my-11">
+          <img
+            src={
+              data.sections.find((section) => section.id === "htg_main_map_image_loc").image?.src || "/placeholder.svg"
+            }
+            alt={
+              data.sections.find((section) => section.id === "htg_main_map_image_loc").image?.alt?.es ||
+              "Mapa de ubicación"
+            }
+            className="w-full h-full object-cover rounded-lg"
+          />
+        </div>
+      )}
     </>
   )
 }
