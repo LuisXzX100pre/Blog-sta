@@ -36,22 +36,15 @@ export default function Template2Layout() {
         <ReturnButton />
         <WelcomeImage source={blogData.heroImage} />
         <CreationDate />
-
-        {/* Contenedor con padding para el contenido principal */}
-        <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="max-w-[68vw] mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex flex-col justify-center">
-            {/* Nueva sección de introducción a Acapulco */}
             {acapulcoGuide && <AcapulcoGuideIntro data={acapulcoGuide.data} />}
-
             <div className="space-y-12">
-              {/* Primera mitad de lugares */}
               {sections?.placesToVisit && (
                 <section>
                   <PlacesToVisit data={sections.placesToVisit.data} showFirstHalf={true} />
                 </section>
               )}
-
-              {/* ¿Sabías que...? - EN EL MEDIO - Forzando los datos directamente */}
               <section>
                 <FactBox
                   data={{
@@ -62,28 +55,21 @@ export default function Template2Layout() {
                   }}
                 />
               </section>
-
-              {/* Segunda mitad de lugares */}
               {sections?.placesToVisit && (
                 <section>
                   <PlacesToVisit data={sections.placesToVisit.data} showSecondHalf={true} />
                 </section>
               )}
-
               <section>
                 <MapView />
               </section>
-
               <section>
                 <RecommendationsBeforeVisit />
               </section>
-
               <section>
                 <RoutesRecommendations />
               </section>
             </div>
-
-            {/* NUEVAS SECCIONES: Categorías y Artículos Relacionados */}
             <CategoryTags />
             <RelatedArticlesBlog />
           </div>

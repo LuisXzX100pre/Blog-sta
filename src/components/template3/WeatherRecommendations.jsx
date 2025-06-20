@@ -18,11 +18,11 @@ export default function WeatherRecommendations({ data }) {
   return (
     <>
       <div className="mt-9">
-        {mainTitle && <Title2 title={mainTitle.text.es} />}
+        {mainTitle && <Title2 title={mainTitle.text.es} type="hotel" />}
         <hr className="my-[15.5px]" />
         <div className="mb-11">{introductionParagraph && <Paragraph text={introductionParagraph.text.es} />}</div>
 
-        <Title2 title="Información climática general" />
+        <Title2 title="Información climática general" type="hotel" />
         <hr className="my-[15.5px]" />
         <Paragraph text="El clima es uno de los factores más importantes a considerar al planificar tu viaje. Conocer las condiciones meteorológicas te ayudará a prepararte mejor y disfrutar al máximo de tu experiencia." />
 
@@ -62,11 +62,11 @@ export default function WeatherRecommendations({ data }) {
           <Paragraph text="Algunos destinos pueden tener condiciones climáticas especiales durante ciertas épocas del año. Es recomendable estar informado sobre estas situaciones para tomar las precauciones necesarias." />
         </div>
 
-       <img
+        <img
           src="https://images.pexels.com/photos/2474690/pexels-photo-2474690.jpeg?auto=compress&cs=tinysrgb&w=800"
           alt="Paisaje del destino"
           style={{ borderRadius: "0.5em" }}
-        className="h-[437px] object-cover w-full"
+          className="h-[437px] object-cover w-full"
         />
 
         <div className="italic m-s-b text-fs-12 text-gry-100 mt-4">Vista panorámica del destino</div>

@@ -1,12 +1,17 @@
-import Title2 from "../general/Title2"
 import Paragraph from "../general/Paragraph"
+import ClickableTitle from "../general/ClickableTitle"
 
 export default function InfoByMonth({ data }) {
   return (
     <div className="mt-11">
       {data.seasons.map((season) => (
         <div key={season.id}>
-          <Title2 title={season.seasonTitle.es} />
+          <ClickableTitle
+            text={season.seasonTitle.es}
+            type="hotel"
+            className="text-fs-24 m-s-b text-[#1a202c] mb-4"
+            as="h2"
+          />
           <hr className="my-[15.5px]" />
           <div className="flex flex-col gap-5">
             {season.seasonIntroductionParagraphs.map((paragraph, index) => (
@@ -16,7 +21,7 @@ export default function InfoByMonth({ data }) {
 
           {season.monthsData.map((month) => (
             <div key={month.id} className="mb-4">
-              <h4 className="text-fs-20 m-s-b my-4">{month.monthTitle.es}</h4>
+              <ClickableTitle text={month.monthTitle.es} type="hotel" className="text-fs-20 m-s-b my-4" as="h4" />
               {month.stats.map((stat) => (
                 <Paragraph key={stat.id} text={`${stat.icon} ${stat.label.es} ${stat.value}`} />
               ))}
@@ -32,7 +37,7 @@ export default function InfoByMonth({ data }) {
                 alt={month.image.alt.es}
                 style={{ borderRadius: "0.5em" }}
                 className="h-[437px] object-cover w-full"
-                  />
+              />
 
               <div className="italic m-s-b text-fs-12 text-gry-100 mt-4">{month.image.alt.es}</div>
             </div>

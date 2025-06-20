@@ -7,6 +7,7 @@
   "heroImage": "https://images.pexels.com/photos/261101/pexels-photo-261101.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
 
   "acapulcoGuide": {
+    "type": "tour",
     "data": {
       "mainTitle": {
         "es": "¿Qué visitar en Acapulco? 8 Lugares Imperdibles",
@@ -49,6 +50,7 @@
   },
   "sections": {
     "locationInfo": {
+      "type": "tour",
       "data": {
         "title": {
           "es": "¿Dónde queda Puerto Juárez?",
@@ -88,6 +90,7 @@
       }
     },
     "whatToFind": {
+      "type": "tour",
       "data": {
         "title": {
           "es": "¿Qué encontrarás en Isla Mujeres?",
@@ -152,6 +155,7 @@
       }
     },
     "howToGetThere": {
+      "type": "tour",
       "data": {
         "sections": [
           {
@@ -268,6 +272,7 @@
       }
     },
     "routesFrom": {
+      "type": "tour",
       "data": {
         "title": {
           "es": "Desde Puerto Juárez a....",
@@ -332,6 +337,7 @@
       }
     },
     "howToBookTransport": {
+      "type": "tour",
       "data": {
         "title": {
           "es": "¿Cómo reservar un transporte?",
@@ -382,6 +388,7 @@
       }
     },
     "photoGallery": {
+      "type": "tour",
       "data": {
         "largeImage": {
           "src": "/src/assets/krysttt.JPG",
@@ -415,6 +422,7 @@
       }
     },
     "familyHotels": {
+      "type": "hotel",
       "data": {
         "title": {
           "es": "Hoteles familiares en Puerto Juárez",
@@ -458,6 +466,7 @@
       }
     },
     "journeyVideo": {
+      "type": "tour",
       "data": {
         "title": {
           "es": "Puerto Juárez a Isla Mujeres",
@@ -492,6 +501,7 @@
       }
     },
     "ferrySchedule": {
+      "type": "tour",
       "data": {
         "title": {
           "es": "Horarios del Ferry Isla Mujeres",
@@ -531,6 +541,7 @@
       }
     },
     "favoriteActivities": {
+      "type": "tour",
       "data": {
         "sectionTitle": {
           "es": "Nuestras 2 actividades favoritas para ti",
@@ -572,6 +583,7 @@
       }
     },
     "placesToVisit": {
+      "type": "tour",
       "data": {
         "sectionTitle": {
           "es": "8 Lugares que visitar en Acapulco",
@@ -762,7 +774,7 @@
               }
             ],
             "image": {
-              "src": "https://images.unsplash.com/photo-1576159599964-9fc3a3c5e4d8?q=80&w=2060&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+              "src": "https://images.unsplash.com/photo-1576159599964-9fc3a3c5e4d8?q=80&w=2060&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wx MjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
               "alt": { "es": "Zona Dorada Acapulco", "en": "Acapulco Golden Zone" }
             }
           }
@@ -770,6 +782,7 @@
       }
     },
     "quickFact": {
+      "type": "tour",
       "data": {
         "title": {
           "es": "¿Sabías qué?...",
@@ -782,6 +795,7 @@
       }
     },
     "touristMap": {
+      "type": "tour",
       "data": {
         "title": {
           "es": "Mapa de lugares turísticos para visitar en Acapulco",
@@ -814,6 +828,7 @@
       }
     },
     "beforeYouVisitRecommendations": {
+      "type": "tour",
       "data": {
         "sectionTitle": {
           "es": "Recomendaciones antes de visitar Acapulco.",
@@ -879,6 +894,7 @@
       }
     },
     "bestRoutesTo": {
+      "type": "tour",
       "data": {
         "sectionTitle": {
           "es": "Mejores rutas hacia Acapulco, Gro:",
@@ -946,6 +962,7 @@
       }
     },
     "generalClimateInfo": {
+      "type": "hotel",
       "data": {
         "contentBlocks": [
           {
@@ -1091,6 +1108,7 @@
       }
     },
     "monthlyInfo": {
+      "type": "hotel",
       "data": {
         "seasons": [
           {
@@ -1711,6 +1729,7 @@
       }
     },
     "frequentlyAskedQuestions": {
+      "type": "hotel",
       "data": {
         "sectionTitle": {
           "es": "5. PREGUNTAS FRECUENTES SOBRE CUÁL ES LA MEJOR ÉPOCA PARA VIAJAR A CANCÚN",
@@ -1757,37 +1776,57 @@
           {
             "id": "faq_cancun_best_time_4",
             "question": {
-              "es": "¿Cuál es la época más barata para viajar a Cancún?",
-              "en": "What is the cheapest time to travel to Cancun?"
+              "es": "¿Cuál es la temporada más barata para viajar a Cancún?",
+              "en": "What is the cheapest season to travel to Cancun?"
             },
             "answer": {
-              "es": "Los meses más baratos para viajar a Cancún son mayo, junio, septiembre y octubre. Durante estos meses encontrarás mejores precios en hoteles y vuelos, aunque debes considerar que es temporada de lluvias.",
-              "en": "The cheapest months to travel to Cancun are May, June, September and October. During these months you will find better prices on hotels and flights, although you should consider that it is rainy season."
+              "es": "La temporada más barata para viajar a Cancún es de mayo a octubre (temporada de lluvias), especialmente septiembre que es cuando hay menos turistas. Sin embargo, debes considerar el riesgo de lluvia y huracanes.",
+              "en": "The cheapest season to travel to Cancun is from May to October (rainy season), especially September when there are fewer tourists. However, you should consider the risk of rain and hurricanes."
             }
           },
           {
             "id": "faq_cancun_best_time_5",
             "question": {
-              "es": "¿Llueve mucho en Cancún durante la temporada de lluvias?",
-              "en": "Does it rain a lot in Cancun during the rainy season?"
+              "es": "¿Qué ropa llevar a Cancún según la época del año?",
+              "en": "What clothes to bring to Cancun depending on the time of year?"
             },
             "answer": {
-              "es": "Durante la temporada de lluvias (mayo a octubre) las precipitaciones suelen ser en forma de aguaceros cortos e intensos, generalmente por la tarde o noche. Los días suelen tener períodos soleados, por lo que aún puedes disfrutar de las actividades turísticas.",
-              "en": "During the rainy season (May to October) precipitation is usually in the form of short, intense downpours, generally in the afternoon or evening. Days usually have sunny periods, so you can still enjoy tourist activities."
-            }
-          },
-          {
-            "id": "faq_cancun_best_time_6",
-            "question": {
-              "es": "¿Qué temperatura hace en Cancún durante el año?",
-              "en": "What temperature is it in Cancun during the year?"
-            },
-            "answer": {
-              "es": "Cancún tiene un clima tropical con temperaturas que oscilan entre 19°C y 33°C durante el año. Los meses más frescos son diciembre, enero y febrero (19-28°C), mientras que los más calurosos son julio y agosto (24-33°C).",
-              "en": "Cancun has a tropical climate with temperatures ranging between 19°C and 33°C throughout the year. The coolest months are December, January and February (19-28°C), while the hottest are July and August (24-33°C)."
+              "es": "En temporada seca (noviembre-abril): ropa ligera de algodón, protector solar, gafas de sol y una chaqueta ligera para las noches. En temporada de lluvias (mayo-octubre): ropa ligera, impermeable, paraguas y calzado que se seque rápido.",
+              "en": "In dry season (November-April): light cotton clothing, sunscreen, sunglasses and a light jacket for evenings. In rainy season (May-October): light clothing, raincoat, umbrella and quick-dry footwear."
             }
           }
         ]
+      }
+    },
+    "finalConclusion": {
+      "type": "hotel",
+      "data": {
+        "sectionTitle": {
+          "es": "6. CONCLUSIÓN: LA MEJOR ÉPOCA PARA VIAJAR A CANCÚN",
+          "en": "6. CONCLUSION: THE BEST TIME TO TRAVEL TO CANCUN"
+        },
+        "conclusionParagraphs": [
+          {
+            "es": "Después de analizar mes a mes las condiciones climáticas, precios y actividades disponibles en Cancún, podemos concluir que la mejor época para viajar a este destino paradisíaco depende en gran medida de tus preferencias personales y presupuesto.",
+            "en": "After analyzing month by month the weather conditions, prices and activities available in Cancun, we can conclude that the best time to travel to this paradisiacal destination depends largely on your personal preferences and budget."
+          },
+          {
+            "es": "Si buscas el clima perfecto con pocas posibilidades de lluvia y no te importa pagar precios más altos, la temporada seca (noviembre a abril) es ideal para ti. Enero se destaca como nuestro mes favorito por ofrecer el equilibrio perfecto entre buen clima, precios razonables después de las fiestas navideñas y menos multitudes que en marzo.",
+            "en": "If you're looking for perfect weather with little chance of rain and don't mind paying higher prices, the dry season (November to April) is ideal for you. January stands out as our favorite month for offering the perfect balance of good weather, reasonable prices after the holidays, and fewer crowds than in March."
+          },
+          {
+            "es": "Por otro lado, si eres un viajero con presupuesto limitado y no te molestan las lluvias ocasionales, la temporada húmeda (mayo a octubre) te permitirá disfrutar de Cancún a precios más accesibles. Mayo y octubre son excelentes opciones dentro de esta temporada.",
+            "en": "On the other hand, if you're a budget traveler and don't mind occasional rain, the wet season (May to October) will allow you to enjoy Cancun at more affordable prices. May and October are excellent options within this season."
+          },
+          {
+            "es": "Recuerda que Cancún es un destino hermoso durante todo el año. La clave está en planificar tu viaje según tus prioridades: ¿prefieres clima perfecto o precios bajos? ¿Te gusta la tranquilidad o no te molestan las multitudes? Sea cual sea tu elección, Cancún te recibirá con sus playas de arena blanca, aguas cristalinas y la calidez de su gente.",
+            "en": "Remember that Cancun is a beautiful destination year-round. The key is to plan your trip according to your priorities: do you prefer perfect weather or low prices? Do you like tranquility or don't mind crowds? Whatever your choice, Cancun will welcome you with its white sand beaches, crystal clear waters and the warmth of its people."
+          }
+        ],
+        "finalCallToAction": {
+          "es": "¡Ahora que conoces cuál es la mejor época para viajar a Cancún según tus necesidades, es hora de comenzar a planificar tu aventura en el Caribe mexicano!",
+          "en": "Now that you know the best time to travel to Cancun according to your needs, it's time to start planning your adventure in the Mexican Caribbean!"
+        }
       }
     }
   }
