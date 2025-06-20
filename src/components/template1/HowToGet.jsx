@@ -1,4 +1,6 @@
-export default function HowToGet({ data }) {
+import ClickableText from "../general/ClickableText"
+
+export default function HowToGet({ data, type = "hotel" }) {
   // Verificar que data existe y tiene la estructura esperada
   if (!data || !data.sections || !data.sections[0]) {
     console.log("HowToGet: datos insuficientes", data)
@@ -13,7 +15,7 @@ export default function HowToGet({ data }) {
       {/* SECCIÓN PRINCIPAL: Cómo llegar desde Cancún */}
       <div className="flex justify-between max-md:flex-col max-md:gap-4">
         <div className="w-[417px] max-md:w-full">
-          <h3 className="text-fs-20 m-b mb-4">{mainSection.title.es}</h3>
+          <ClickableText text={mainSection.title.es} type={type} className="text-fs-20 m-b mb-4" as="h3" />
 
           <div className="flex flex-col gap-[24px] text-gry-100 text-fs-14">
             {mainSection.paragraphs &&
@@ -25,7 +27,7 @@ export default function HowToGet({ data }) {
           <img
             src={mainSection.image?.src || "/placeholder.svg"}
             alt={mainSection.image?.alt?.es || "Imagen de ubicación"}
-            className="w-full h-full object-cover rounded-lg"
+            className="w-full h-full object-cover rounded-[0.5em]"
           />
         </div>
       </div>
@@ -40,14 +42,14 @@ export default function HowToGet({ data }) {
       {/* NUEVA SECCIÓN: Cómo llegar desde la Zona Hotelera */}
       {hotelZoneSection && (
         <div className="my-8">
-          <h3 className="text-fs-20 m-b mb-4">{hotelZoneSection.title.es}</h3>
+          <ClickableText text={hotelZoneSection.title.es} type={type} className="text-fs-20 m-b mb-4" as="h3" />
 
           <div className="flex flex-col gap-[24px] text-gry-100 text-fs-14">
             {hotelZoneSection.paragraphs &&
               hotelZoneSection.paragraphs.map((paragraph, index) => {
                 if (paragraph.type === "highlighted") {
                   return (
-                    <p key={index} className="bg-yw-100 p-4 rounded-lg font-medium">
+                    <p key={index} className="bg-yw-100 p-4 rounded-[0.5em] font-medium">
                       {paragraph.text.es}
                     </p>
                   )
@@ -88,7 +90,7 @@ export default function HowToGet({ data }) {
               data.sections.find((section) => section.id === "htg_main_map_image_loc").image?.alt?.es ||
               "Mapa de ubicación"
             }
-            className="w-full h-full object-cover rounded-lg"
+            className="w-full h-full object-cover rounded-[0.5em]"
           />
         </div>
       )}

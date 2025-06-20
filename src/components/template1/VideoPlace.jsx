@@ -1,4 +1,6 @@
-export default function VideoPlace({ data }) {
+import ClickableText from "../general/ClickableText"
+
+export default function VideoPlace({ data, type = "hotel" }) {
   if (!data) {
     console.log("VideoPlace: datos insuficientes", data)
     return null
@@ -6,7 +8,7 @@ export default function VideoPlace({ data }) {
 
   return (
     <div className="my-11">
-      <h3 className="text-fs-20 m-b mb-4">{data.title?.es}</h3>
+      <ClickableText text={data.title?.es} type={type} className="text-fs-20 m-b mb-4" as="h3" />
 
       <div className="grid grid-cols-1 md:grid-cols-2 gap-x-4 gap-y-6 text-gry-100 text-fs-14 m-m mb-8">
         {data.descriptionParagraphs &&
@@ -14,14 +16,17 @@ export default function VideoPlace({ data }) {
       </div>
 
       {/* VIDEO */}
-      <div className="h-[250px] md:h-[437px] w-full overflow-hidden border border-gray-200 shadow-sm" style={{ borderRadius: '0.5em' }}>
+      <div
+        className="h-[250px] md:h-[437px] w-full overflow-hidden border border-gray-200 shadow-sm"
+        style={{ borderRadius: "0.5em" }}
+      >
         <iframe
           src={data.video?.embedUrl}
           frameBorder="0"
           allowFullScreen
           width="100%"
           height="100%"
-          style={{ borderRadius: '0.5em' }}
+          style={{ borderRadius: "0.5em" }}
           aria-label={data.video?.ariaTitle?.es}
         />
       </div>

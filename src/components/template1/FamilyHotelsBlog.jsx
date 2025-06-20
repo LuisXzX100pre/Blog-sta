@@ -1,4 +1,6 @@
-export default function FamilyHotelsBlog({ data }) {
+import ClickableText from "../general/ClickableText"
+
+export default function FamilyHotelsBlog({ data, type = "hotel" }) {
   if (!data) {
     console.log("FamilyHotelsBlog: datos insuficientes", data)
     return null
@@ -6,7 +8,12 @@ export default function FamilyHotelsBlog({ data }) {
 
   return (
     <div className="my-11">
-      <h3 className="text-fs-20 m-b mb-4">{data.title?.es || "Hoteles recomendados"}</h3>
+      <ClickableText
+        text={data.title?.es || "Hoteles recomendados"}
+        type={type}
+        className="text-fs-20 m-b mb-4"
+        as="h3"
+      />
 
       <div className="flex flex-col gap-6 text-gry-100 text-fs-14 m-m mb-6">
         {data.introductionParagraphs &&

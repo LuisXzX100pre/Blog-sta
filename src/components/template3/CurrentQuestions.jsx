@@ -1,6 +1,6 @@
 import ClickableTitle from "../general/ClickableTitle"
 
-export default function CurrentQuestions({ data }) {
+export default function CurrentQuestions({ data, type = "hotel" }) {
   if (!data) {
     console.log("CurrentQuestions: datos insuficientes", data)
     return null
@@ -10,7 +10,7 @@ export default function CurrentQuestions({ data }) {
     <>
       <ClickableTitle
         text={data.sectionTitle?.es || "Preguntas frecuentes"}
-        type="hotel"
+        type={type}
         className="m-s-b text-fs-28 my-4"
         as="h3"
       />
@@ -19,7 +19,7 @@ export default function CurrentQuestions({ data }) {
       {data.faqList &&
         data.faqList.map((faq) => (
           <div key={faq.id} className="flex flex-col gap-4 mt-4">
-            <ClickableTitle text={faq.question?.es} type="hotel" className="m-s-b text-fs-20" as="h4" />
+            <ClickableTitle text={faq.question?.es} type={type} className="m-s-b text-fs-20" as="h4" />
             <span className="text-fs-14 m-m text-gry-100">{faq.answer?.es}</span>
           </div>
         ))}

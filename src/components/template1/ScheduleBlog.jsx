@@ -1,4 +1,6 @@
-export default function ScheduleBlog({ data }) {
+import ClickableText from "../general/ClickableText"
+
+export default function ScheduleBlog({ data, type = "hotel" }) {
   if (!data || !data.scheduleTable) {
     console.log("ScheduleBlog: datos insuficientes", data)
     return null
@@ -6,7 +8,7 @@ export default function ScheduleBlog({ data }) {
 
   return (
     <div className="flex flex-col gap-4 my-11">
-      <h3 className="text-fs-20 m-b">{data.title?.es || "Horarios"}</h3>
+      <ClickableText text={data.title?.es || "Horarios"} type={type} className="text-fs-20 m-b" as="h3" />
       <span className="text-gry-100 text-fs-14 m-m">{data.introduction?.es}</span>
 
       <table className="border-collapse w-full mt-4">

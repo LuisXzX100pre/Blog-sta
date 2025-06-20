@@ -24,6 +24,9 @@ import GalleryPicsCollage from "../components/template1/GalleryPicsCollage"
 import WhatWillYouFind from "../components/template1/WhatWillYouFind"
 import ScheduleBlog from "../components/template1/ScheduleBlog"
 
+// Importar estilos CSS
+import "../styles/clickable-title.css"
+
 export default function Template1Layout() {
   const sections = blogData?.sections
 
@@ -35,6 +38,11 @@ export default function Template1Layout() {
     )
   }
 
+  // Determinar el tipo basado en las secciones del JSON
+  const getSectionType = (sectionKey) => {
+    return sections[sectionKey]?.type || "hotel"
+  }
+
   return (
     <Container>
       <div className="py-8">
@@ -44,7 +52,7 @@ export default function Template1Layout() {
         <div className="max-w-[68vw] mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex flex-col justify-center">
             <div className="mt-4 mb-6">
-              <Title title={blogData.blogTitle.es} />
+              <Title title={blogData.blogTitle.es} type="hotel" />
             </div>
             <div className="flex flex-col gap-5">
               {Array.isArray(blogData.introduction.es) ? (
@@ -55,15 +63,36 @@ export default function Template1Layout() {
               <div className="space-y-12">
                 {/* Contenido existente del template */}
                 {sections?.photoGallery && <GalleryPicsCollage data={sections.photoGallery.data} />}
-                {sections?.locationInfo && <WhereLocated data={sections.locationInfo.data} />}
-                {sections?.howToBookTransport && <HowToBook data={sections.howToBookTransport.data} />}
-                {sections?.howToGetThere && <HowToGet data={sections.howToGetThere.data} />}
-                {sections?.journeyVideo && <VideoPlace data={sections.journeyVideo.data} />}
-                {sections?.ferrySchedule && <ScheduleBlog data={sections.ferrySchedule.data} />}
-                {sections?.whatToFind && <WhatWillYouFind data={sections.whatToFind.data} />}
-                {sections?.routesFrom && <FromToBlog data={sections.routesFrom.data} />}
-                {sections?.familyHotels && <FamilyHotelsBlog data={sections.familyHotels.data} />}
-                {sections?.favoriteActivities && <FavoriteActivitiesBlog data={sections.favoriteActivities.data} />}
+                {sections?.locationInfo && (
+                  <WhereLocated data={sections.locationInfo.data} type={getSectionType("locationInfo")} />
+                )}
+                {sections?.howToBookTransport && (
+                  <HowToBook data={sections.howToBookTransport.data} type={getSectionType("howToBookTransport")} />
+                )}
+                {sections?.howToGetThere && (
+                  <HowToGet data={sections.howToGetThere.data} type={getSectionType("howToGetThere")} />
+                )}
+                {sections?.journeyVideo && (
+                  <VideoPlace data={sections.journeyVideo.data} type={getSectionType("journeyVideo")} />
+                )}
+                {sections?.ferrySchedule && (
+                  <ScheduleBlog data={sections.ferrySchedule.data} type={getSectionType("ferrySchedule")} />
+                )}
+                {sections?.whatToFind && (
+                  <WhatWillYouFind data={sections.whatToFind.data} type={getSectionType("whatToFind")} />
+                )}
+                {sections?.routesFrom && (
+                  <FromToBlog data={sections.routesFrom.data} type={getSectionType("routesFrom")} />
+                )}
+                {sections?.familyHotels && (
+                  <FamilyHotelsBlog data={sections.familyHotels.data} type={getSectionType("familyHotels")} />
+                )}
+                {sections?.favoriteActivities && (
+                  <FavoriteActivitiesBlog
+                    data={sections.favoriteActivities.data}
+                    type={getSectionType("favoriteActivities")}
+                  />
+                )}
               </div>
               <CategoryTags />
               <RelatedArticlesBlog />

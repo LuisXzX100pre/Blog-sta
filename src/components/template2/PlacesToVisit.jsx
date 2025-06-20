@@ -1,7 +1,8 @@
 import ListElement from "./ListElement"
+import ClickableText from "../general/ClickableText"
 import blogData from "../../data/blog-data.json"
 
-const PlacesToVisit = ({ showFirstHalf = false, showSecondHalf = false }) => {
+const PlacesToVisit = ({ showFirstHalf = false, showSecondHalf = false, type = "tour" }) => {
   const placesData = blogData?.sections?.placesToVisit?.data
 
   if (!placesData) return null
@@ -24,14 +25,14 @@ const PlacesToVisit = ({ showFirstHalf = false, showSecondHalf = false }) => {
       {/* Solo mostrar el título y la introducción en la primera mitad */}
       {showFirstHalf && (
         <>
-          <h2 className="m-s-b text-fs-24 mb-4 text-[#1a202c]">{sectionTitle.es}</h2>
+          <ClickableText text={sectionTitle.es} type={type} className="m-s-b text-fs-24 mb-4 text-[#1a202c]" as="h2" />
           <p className="m-m text-fs-14 text-gry-100 mb-8">{introduction.es}</p>
         </>
       )}
 
       <ul className="space-y-8">
         {placesToShow.map((place, index) => (
-          <ListElement key={place.id} place={place} index={showSecondHalf ? index + 4 : index} />
+          <ListElement key={place.id} place={place} index={showSecondHalf ? index + 4 : index} type={type} />
         ))}
       </ul>
     </div>

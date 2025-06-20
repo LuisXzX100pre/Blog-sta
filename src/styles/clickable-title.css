@@ -1,4 +1,4 @@
-.cancun-clickable {
+.destination-clickable {
   color: inherit; /* Mantiene el color normal del texto */
   cursor: pointer;
   transition: all 0.2s ease-in-out;
@@ -7,9 +7,37 @@
   padding: 1px 2px;
 }
 
-.cancun-clickable:hover {
+.destination-clickable:hover {
   color: #3b82f6; /* blue-500 - Solo azul en hover */
   background-color: #dbeafe; /* blue-50 */
+  text-decoration: underline;
+  transform: scale(1.02);
+}
+
+.destination-clickable:focus {
+  outline: 2px solid #3b82f6;
+  outline-offset: 2px;
+  color: #3b82f6; /* Azul también en focus para accesibilidad */
+}
+
+.destination-clickable:active {
+  color: #1e40af; /* blue-800 */
+  transform: scale(0.98);
+}
+
+/* Mantener compatibilidad con la clase anterior */
+.cancun-clickable {
+  color: inherit;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+  text-decoration: none;
+  border-radius: 2px;
+  padding: 1px 2px;
+}
+
+.cancun-clickable:hover {
+  color: #3b82f6;
+  background-color: #dbeafe;
   text-decoration: underline;
   transform: scale(1.02);
 }
@@ -17,10 +45,10 @@
 .cancun-clickable:focus {
   outline: 2px solid #3b82f6;
   outline-offset: 2px;
-  color: #3b82f6; /* Azul también en focus para accesibilidad */
+  color: #3b82f6;
 }
 
 .cancun-clickable:active {
-  color: #1e40af; /* blue-800 */
+  color: #1e40af;
   transform: scale(0.98);
 }

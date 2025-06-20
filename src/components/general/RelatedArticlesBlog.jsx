@@ -1,7 +1,6 @@
-
 export default function RelatedArticlesBlog() {
   return (
-    <div div className="my-[64px]">
+    <div className="my-[64px]">
       <h3 className="m-b text-fs-24 mb-9">Artículos relacionados</h3>
       <div className="flex flex-col gap-4">
 
@@ -15,7 +14,7 @@ export default function RelatedArticlesBlog() {
               <img
                 src="https://www.micancun.org/wp-content/uploads/2022/05/historial-del-mirador-de-cancun-640x400.jpg"
                 alt="card related articles"
-                className="rounded-lg w-full h-full object-cover"
+                className="rounded-[0.5em] w-full h-full object-cover"
               />
             </div>
 

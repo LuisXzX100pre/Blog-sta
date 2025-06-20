@@ -1,14 +1,14 @@
 import Paragraph from "../general/Paragraph"
 import ClickableTitle from "../general/ClickableTitle"
 
-export default function InfoByMonth({ data }) {
+export default function InfoByMonth({ data, type = "hotel" }) {
   return (
     <div className="mt-11">
       {data.seasons.map((season) => (
         <div key={season.id}>
           <ClickableTitle
             text={season.seasonTitle.es}
-            type="hotel"
+            type={type}
             className="text-fs-24 m-s-b text-[#1a202c] mb-4"
             as="h2"
           />
@@ -21,7 +21,7 @@ export default function InfoByMonth({ data }) {
 
           {season.monthsData.map((month) => (
             <div key={month.id} className="mb-4">
-              <ClickableTitle text={month.monthTitle.es} type="hotel" className="text-fs-20 m-s-b my-4" as="h4" />
+              <ClickableTitle text={month.monthTitle.es} type={type} className="text-fs-20 m-s-b my-4" as="h4" />
               {month.stats.map((stat) => (
                 <Paragraph key={stat.id} text={`${stat.icon} ${stat.label.es} ${stat.value}`} />
               ))}

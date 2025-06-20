@@ -1,4 +1,6 @@
-export default function FavoriteActivitiesBlog({ data }) {
+import ClickableText from "../general/ClickableText"
+
+export default function FavoriteActivitiesBlog({ data, type = "hotel" }) {
   if (!data) {
     console.log("FavoriteActivitiesBlog: datos insuficientes", data)
     return null
@@ -6,7 +8,12 @@ export default function FavoriteActivitiesBlog({ data }) {
 
   return (
     <div className="my-11">
-      <h3 className="text-fs-20 m-b mb-4">{data.sectionTitle?.es || "Actividades recomendadas"}</h3>
+      <ClickableText
+        text={data.sectionTitle?.es || "Actividades recomendadas"}
+        type={type}
+        className="text-fs-20 m-b mb-4"
+        as="h3"
+      />
 
       <div className="flex flex-col gap-6 text-gry-100 text-fs-14 m-m mb-6">
         {data.introductionParagraphs &&
@@ -17,7 +24,7 @@ export default function FavoriteActivitiesBlog({ data }) {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
           {data.activities.map((activity, index) => (
             <div key={index} className="space-y-4">
-              <h4 className="text-fs-16 m-s-b">{activity.title?.es}</h4>
+              <ClickableText text={activity.title?.es} type={type} className="text-fs-16 m-s-b" as="h4" />
               <p className="text-gry-100 text-fs-14 m-m">{activity.description?.es}</p>
             </div>
           ))}

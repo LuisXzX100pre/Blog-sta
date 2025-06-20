@@ -1,4 +1,6 @@
-export default function WhatWillYouFind({ data }) {
+import ClickableText from "../general/ClickableText"
+
+export default function WhatWillYouFind({ data, type = "hotel" }) {
   if (!data || !data.items) {
     console.log("WhatWillYouFind: datos insuficientes", data)
     return null
@@ -6,7 +8,12 @@ export default function WhatWillYouFind({ data }) {
 
   return (
     <>
-      <h3 className="text-fs-20 m-b mb-6">{data.title?.es || "Qué encontrarás en este destino"}</h3>
+      <ClickableText
+        text={data.title?.es || "Qué encontrarás en este destino"}
+        type={type}
+        className="text-fs-20 m-b mb-6"
+        as="h3"
+      />
       <div className="flex flex-col gap-6">
         {data.items.map((item) => (
           <div key={item.id} className="flex gap-6">

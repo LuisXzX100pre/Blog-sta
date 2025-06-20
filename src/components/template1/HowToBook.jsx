@@ -1,4 +1,6 @@
-export default function HowToBook({ data }) {
+import ClickableText from "../general/ClickableText"
+
+export default function HowToBook({ data, type = "hotel" }) {
   if (!data) {
     console.log("HowToBook: datos insuficientes", data)
     return null
@@ -6,7 +8,12 @@ export default function HowToBook({ data }) {
 
   return (
     <>
-      <h3 className="text-fs-20 m-b mb-4">{data.title?.es || "Cómo planificar tu viaje"}</h3>
+      <ClickableText
+        text={data.title?.es || "Cómo planificar tu viaje"}
+        type={type}
+        className="text-fs-20 m-b mb-4"
+        as="h3"
+      />
 
       <div className="flex flex-col gap-[24px] text-gry-100 text-fs-14 mb-8">
         <p>{data.introduction?.es}</p>
@@ -21,10 +28,10 @@ export default function HowToBook({ data }) {
                   step.highlightStyle === "accent" ? "bg-or-100" : "bg-gry-50"
                 } rounded-lg flex items-center justify-center`}
               >
-                <img 
-                  src={step.icon?.src || "/placeholder.svg"} 
-                  alt={step.icon?.alt?.es || "Icono"} 
-                  className="w-8 h-8" 
+                <img
+                  src={step.icon?.src || "/placeholder.svg"}
+                  alt={step.icon?.alt?.es || "Icono"}
+                  className="w-8 h-8"
                 />
               </div>
               <span>{step.text?.es}</span>

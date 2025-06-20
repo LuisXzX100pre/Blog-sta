@@ -18,6 +18,9 @@ import PlacesToVisit from "../components/template2/PlacesToVisit"
 import RecommendationsBeforeVisit from "../components/template2/RecommendationsBeforeVisit"
 import RoutesRecommendations from "../components/template2/RoutesRecommendations"
 
+// Importar estilos CSS
+import "../styles/clickable-title.css"
+
 export default function Template2Layout() {
   const sections = blogData?.sections
   const acapulcoGuide = blogData?.acapulcoGuide
@@ -30,6 +33,11 @@ export default function Template2Layout() {
     )
   }
 
+  // Determinar el tipo basado en las secciones del JSON
+  const getSectionType = (sectionKey) => {
+    return sections[sectionKey]?.type || "tour"
+  }
+
   return (
     <Container>
       <div className="py-8">
@@ -38,11 +46,15 @@ export default function Template2Layout() {
         <CreationDate />
         <div className="max-w-[68vw] mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex flex-col justify-center">
-            {acapulcoGuide && <AcapulcoGuideIntro data={acapulcoGuide.data} />}
+            {acapulcoGuide && <AcapulcoGuideIntro data={acapulcoGuide.data} type={getSectionType("acapulcoGuide")} />}
             <div className="space-y-12">
               {sections?.placesToVisit && (
                 <section>
-                  <PlacesToVisit data={sections.placesToVisit.data} showFirstHalf={true} />
+                  <PlacesToVisit
+                    data={sections.placesToVisit.data}
+                    showFirstHalf={true}
+                    type={getSectionType("placesToVisit")}
+                  />
                 </section>
               )}
               <section>
@@ -57,17 +69,21 @@ export default function Template2Layout() {
               </section>
               {sections?.placesToVisit && (
                 <section>
-                  <PlacesToVisit data={sections.placesToVisit.data} showSecondHalf={true} />
+                  <PlacesToVisit
+                    data={sections.placesToVisit.data}
+                    showSecondHalf={true}
+                    type={getSectionType("placesToVisit")}
+                  />
                 </section>
               )}
               <section>
-                <MapView />
+                <MapView type="tour" />
               </section>
               <section>
-                <RecommendationsBeforeVisit />
+                <RecommendationsBeforeVisit type="tour" />
               </section>
               <section>
-                <RoutesRecommendations />
+                <RoutesRecommendations type="tour" />
               </section>
             </div>
             <CategoryTags />

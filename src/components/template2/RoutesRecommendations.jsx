@@ -1,4 +1,6 @@
-export default function RoutesRecommendations() {
+import ClickableText from "../general/ClickableText"
+
+export default function RoutesRecommendations({ type = "tour" }) {
   const routes = [
     {
       id: "route_1",
@@ -26,7 +28,12 @@ export default function RoutesRecommendations() {
   return (
     <>
       <div className="mb-16">
-        <h2 className=" m-s-b text-fs-28 text-[#eb741e] mb-[15.5px]">Rutas recomendadas</h2>
+        <ClickableText
+          text="Rutas recomendadas"
+          type={type}
+          className="m-s-b text-fs-28 text-[#eb741e] mb-[15.5px]"
+          as="h2"
+        />
         <hr className="mb-11"></hr>
         <ul>
           {routes.map((route) => (

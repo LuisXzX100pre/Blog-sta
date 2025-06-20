@@ -1,6 +1,7 @@
 import TipElementList from "./TipElementList"
+import ClickableText from "../general/ClickableText"
 
-export default function RecommendationsBeforeVisit() {
+export default function RecommendationsBeforeVisit({ type = "tour" }) {
   const tips = [
     { id: 1, text: { es: "Lleva protector solar de factor alto, el sol puede ser muy intenso durante todo el año." } },
     { id: 2, text: { es: "Reserva tus hoteles con anticipación, especialmente durante temporada alta." } },
@@ -16,7 +17,12 @@ export default function RecommendationsBeforeVisit() {
   return (
     <>
       <div className="mt-8 mb-9">
-        <h2 className="m-s-b text-fs-28 text-[#1a202c] mb-[15.5px]">Recomendaciones antes de visitar</h2>
+        <ClickableText
+          text="Recomendaciones antes de visitar"
+          type={type}
+          className="m-s-b text-fs-28 text-[#1a202c] mb-[15.5px]"
+          as="h2"
+        />
         <hr className="mb-[15.5px]"></hr>
         <p className="m-m text-justify text-fs-14 text-gry-100 mb-11">
           Sigue los siguientes consejos para tener una mejor experiencia en tu viaje:

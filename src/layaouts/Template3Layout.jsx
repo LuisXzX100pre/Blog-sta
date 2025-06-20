@@ -31,6 +31,11 @@ export default function Template3Layout() {
     )
   }
 
+  // Determinar el tipo basado en las secciones del JSON
+  const getSectionType = (sectionKey) => {
+    return sections[sectionKey]?.type || "hotel"
+  }
+
   return (
     <Container>
       <div className="py-8">
@@ -51,17 +56,23 @@ export default function Template3Layout() {
               <div className="space-y-12">
                 {sections?.generalClimateInfo && (
                   <section>
-                    <WeatherRecommendations data={sections.generalClimateInfo.data} />
+                    <WeatherRecommendations
+                      data={sections.generalClimateInfo.data}
+                      type={getSectionType("generalClimateInfo")}
+                    />
                   </section>
                 )}
                 {sections?.monthlyInfo && (
                   <section>
-                    <InfoByMonth data={sections.monthlyInfo.data} />
+                    <InfoByMonth data={sections.monthlyInfo.data} type={getSectionType("monthlyInfo")} />
                   </section>
                 )}
                 {sections?.frequentlyAskedQuestions && (
                   <section>
-                    <CurrentQuestions data={sections.frequentlyAskedQuestions.data} />
+                    <CurrentQuestions
+                      data={sections.frequentlyAskedQuestions.data}
+                      type={getSectionType("frequentlyAskedQuestions")}
+                    />
                   </section>
                 )}
                 {sections?.finalConclusion && (

@@ -1,7 +1,7 @@
 import Title2 from "../general/Title2"
 import Paragraph from "../general/Paragraph"
 
-export default function WeatherRecommendations({ data }) {
+export default function WeatherRecommendations({ data, type = "hotel" }) {
   if (!data || !data.contentBlocks) {
     console.log("WeatherRecommendations: datos insuficientes", data)
     return null
@@ -18,11 +18,11 @@ export default function WeatherRecommendations({ data }) {
   return (
     <>
       <div className="mt-9">
-        {mainTitle && <Title2 title={mainTitle.text.es} type="hotel" />}
+        {mainTitle && <Title2 title={mainTitle.text.es} type={type} />}
         <hr className="my-[15.5px]" />
         <div className="mb-11">{introductionParagraph && <Paragraph text={introductionParagraph.text.es} />}</div>
 
-        <Title2 title="Información climática general" type="hotel" />
+        <Title2 title="Información climática general" type={type} />
         <hr className="my-[15.5px]" />
         <Paragraph text="El clima es uno de los factores más importantes a considerar al planificar tu viaje. Conocer las condiciones meteorológicas te ayudará a prepararte mejor y disfrutar al máximo de tu experiencia." />
 

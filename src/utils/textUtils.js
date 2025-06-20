@@ -1,12 +1,12 @@
 export function isCancunHotelTitle(text, type) {
-  return type === "hotel" && text.toLowerCase().includes("cancún")
+  return (type === "hotel" || type === "tour") && text.toLowerCase().includes("cancún")
 }
 
 export function extractCancunSections(blogData) {
   const cancunHotelSections = []
 
   Object.entries(blogData.sections || {}).forEach(([key, section]) => {
-    if (section.type === "hotel") {
+    if (section.type === "hotel" || section.type === "tour") {
       // Verificar títulos principales
       const titles = [section.data?.sectionTitle?.es, section.data?.title?.es, section.data?.mainTitle?.es].filter(
         Boolean,

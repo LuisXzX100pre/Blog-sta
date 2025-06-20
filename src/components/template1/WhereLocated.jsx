@@ -1,4 +1,6 @@
-export default function WhereLocated({ data }) {
+import ClickableText from "../general/ClickableText"
+
+export default function WhereLocated({ data, type = "hotel" }) {
   if (!data) {
     console.log("WhereLocated: datos insuficientes", data)
     return null
@@ -7,7 +9,12 @@ export default function WhereLocated({ data }) {
   return (
     <>
       <div className="my-11 flex flex-col gap-[18px]">
-        <h3 className="text-fs-20 m-b ">{data.title?.es || "Ubicación del destino"}</h3>
+        <ClickableText
+          text={data.title?.es || "Ubicación del destino"}
+          type={type}
+          className="text-fs-20 m-b"
+          as="h3"
+        />
         <div className="flex flex-col gap-[24px] text-gry-100 text-fs-14">
           {data.introductionParagraphs &&
             data.introductionParagraphs.map((paragraph, index) => <p key={index}>{paragraph.es}</p>)}

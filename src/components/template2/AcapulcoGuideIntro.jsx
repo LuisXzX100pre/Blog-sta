@@ -1,14 +1,14 @@
 import Title from "../general/Titles"
 import Paragraph from "../general/Paragraph"
 
-export default function AcapulcoGuideIntro({ data }) {
+export default function AcapulcoGuideIntro({ data, type = "tour" }) {
   if (!data) return null
 
   return (
     <div className="mb-12">
       {/* Título principal usando el mismo componente que Template1 */}
       <div className="mb-6">
-        <Title title={data.mainTitle.es} />
+        <Title title={data.mainTitle.es} type={type} />
       </div>
 
       {/* Subtítulo como texto real, no imagen */}
