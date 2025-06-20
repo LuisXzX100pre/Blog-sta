@@ -1,5 +1,5 @@
 .cancun-clickable {
-  color: #3b82f6; /* blue-500 */
+  color: inherit; /* Mantiene el color normal del texto */
   cursor: pointer;
   transition: all 0.2s ease-in-out;
   text-decoration: none;
@@ -8,7 +8,7 @@
 }
 
 .cancun-clickable:hover {
-  color: #1d4ed8; /* blue-700 */
+  color: #3b82f6; /* blue-500 - Solo azul en hover */
   background-color: #dbeafe; /* blue-50 */
   text-decoration: underline;
   transform: scale(1.02);
@@ -17,6 +17,7 @@
 .cancun-clickable:focus {
   outline: 2px solid #3b82f6;
   outline-offset: 2px;
+  color: #3b82f6; /* Azul también en focus para accesibilidad */
 }
 
 .cancun-clickable:active {
