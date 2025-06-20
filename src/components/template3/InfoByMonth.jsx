@@ -30,8 +30,10 @@ export default function InfoByMonth({ data }) {
               <img
                 src={month.image.src || "/placeholder.svg"}
                 alt={month.image.alt.es}
-                className="rounded-lg h-[437px] object-cover w-full"
-              />
+                style={{ borderRadius: "0.5em" }}
+                className="h-[437px] object-cover w-full"
+                  />
+
               <div className="italic m-s-b text-fs-12 text-gry-100 mt-4">{month.image.alt.es}</div>
             </div>
           ))}

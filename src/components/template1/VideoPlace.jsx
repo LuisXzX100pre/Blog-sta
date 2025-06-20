@@ -14,14 +14,14 @@ export default function VideoPlace({ data }) {
       </div>
 
       {/* VIDEO */}
-      <div className="h-[250px] md:h-[437px] w-full rounded-xl overflow-hidden border border-gray-200 shadow-sm">
+      <div className="h-[250px] md:h-[437px] w-full overflow-hidden border border-gray-200 shadow-sm" style={{ borderRadius: '0.5em' }}>
         <iframe
           src={data.video?.embedUrl}
           frameBorder="0"
           allowFullScreen
           width="100%"
           height="100%"
-          className="rounded-xl"
+          style={{ borderRadius: '0.5em' }}
           aria-label={data.video?.ariaTitle?.es}
         />
       </div>

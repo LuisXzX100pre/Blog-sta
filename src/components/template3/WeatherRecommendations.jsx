@@ -62,11 +62,13 @@ export default function WeatherRecommendations({ data }) {
           <Paragraph text="Algunos destinos pueden tener condiciones climáticas especiales durante ciertas épocas del año. Es recomendable estar informado sobre estas situaciones para tomar las precauciones necesarias." />
         </div>
 
-        <img
+       <img
           src="https://images.pexels.com/photos/2474690/pexels-photo-2474690.jpeg?auto=compress&cs=tinysrgb&w=800"
           alt="Paisaje del destino"
-          className="rounded-lg h-[437px] object-cover w-full"
+          style={{ borderRadius: "0.5em" }}
+        className="h-[437px] object-cover w-full"
         />
+
         <div className="italic m-s-b text-fs-12 text-gry-100 mt-4">Vista panorámica del destino</div>
       </div>
     </>

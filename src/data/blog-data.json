@@ -1,7 +1,7 @@
 {
   "blogTitle": {
-    "es": "Puerto Juárez México. Aquí inició Cancún",
-    "en": "Puerto Juarez, Mexico. Cancun begins here."
+    "es": "¿Cuándo es la mejor época para viajar a Cancún?",
+    "en": "When is the best time to travel to Cancun?"
   },
   "slug": "guia-completa-destinos-mexicanos",
   "heroImage": "https://images.pexels.com/photos/261101/pexels-photo-261101.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
@@ -16,23 +16,35 @@
         "es": "Descubre qué visitar en Acapulco, Guerrero durante tus vacaciones o de fin de semana",
         "en": "Discover what to visit in Acapulco, Guerrero during your vacation or weekend"
       },
-      "heroImage": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-kMotf0sIJpBquD5O0bHUAhdZTV8EOb.png",
       "introductionParagraphs": [
-        
+        {
+          "es": "El ambiente tropical y de playa son una sensación única que transmiten paz y relajación. Acapulco es un lugar con estas características, con múltiples lugares para visitar que se convierte en un destino perfecto para los días vacacionales.",
+          "en": "The tropical and beach atmosphere are a unique sensation that transmit peace and relaxation. Acapulco is a place with these characteristics, with multiple places to visit that becomes a perfect destination for vacation days."
+        },
+        {
+          "es": "Además de las playas bonitas de Acapulco, existen lugares turísticos que son muy tradicionales de la zona y que se caracterizan por ser únicos en su tipo.",
+          "en": "In addition to the beautiful beaches of Acapulco, there are tourist places that are very traditional to the area and are characterized by being unique in their type."
+        },
+        {
+          "es": "La Bahía de Acapulco es un lugar de fácil entrada y salida, ya que su ubicación geográfica favorece a que las carreteras estén muy bien conectadas con esta ciudad.",
+          "en": "The Bay of Acapulco is a place of easy entry and exit, since its geographical location favors that the roads are very well connected with this city."
+        },
+        {
+          "es": "Aprovecha y adquiere boletos de autobús baratos hacia Acapulco, Guerrero. Disfruta de tus vacaciones y planea tu visita a los diferentes lugares.",
+          "en": "Take advantage and get cheap bus tickets to Acapulco, Guerrero. Enjoy your vacation and plan your visit to different places."
+        }
       ]
     }
   },
 
   "introduction": {
     "es": [
-      "Bienvenido a \"Puerto Juárez Cancún\", bienvenido al comienzo de una de las ciudades más importantes de México, que hoy en día recibe a más de 31 millones de pasajeros en su aeropuerto.",
-      "Para empezar, un poco de historia sobre este increíble lugar en el Caribe mexicano: En 1969, el gobierno mexicano inició el proyecto de Cancún, un desarrollo turístico en la costa del Caribe. La primera etapa del proyecto consistió en la construcción de un puerto y una pequeña comunidad pesquera en lo que hoy conocemos como Puerto Juárez, México. Esta comunidad fue la base para el crecimiento de la ciudad de Cancún, que se convirtió en un importante destino turístico internacional.",
-      "Actualmente, este pequeño pueblo pesquero es el principal punto de transportación marítima a Isla Mujeres: Ofrece más de 29 de Ida al día y se estima que más de 22,000 personas al día llegan a este lugar para tomar el ferry a Isla Mujeres."
+      "¿No sabes cuál es la mejor época para viajar a Cancún? Siempre es importante tener claro la meteorología antes de planificar tu viaje a la Riviera Maya. Gracias a su clima tropical, Cancún es un destino para todo el año, y hay temporadas que son más favorables que otras para disfrutar de sus increíbles playas. ¡No querrás que la lluvia te fastidie las vacaciones! Sin embargo, todo depende de lo que estés buscando.",
+      "En este post te contamos mes a mes cuál es la mejor época para viajar a Cancún para que sepas qué te espera en cada época del año."
     ],
     "en": [
-      "Welcome to \"Puerto Juarez Cancun\", welcome to the beginning of one of the most important cities in Mexico, which today receives more than 31 million passengers at its airport.",
-      "To begin, a bit of history about this incredible place in the Mexican Caribbean: In 1969, the Mexican government initiated the Cancun project, a tourist development on the Caribbean coast. The first stage of the project consisted of building a port and a small fishing community in what we now know as Puerto Juarez, Mexico. This community was the base for the growth of the city of Cancun, which became an important international tourist destination.",
-      "Currently, this small fishing village is the main point of maritime transportation to Isla Mujeres: It offers more than 29 one-way trips per day and it is estimated that more than 22,000 people per day arrive at this place to take the ferry to Isla Mujeres."
+      "Don't know when is the best time to travel to Cancun? It's always important to be clear about the weather before planning your trip to the Riviera Maya. Thanks to its tropical climate, Cancun is a year-round destination, and there are seasons that are more favorable than others to enjoy its incredible beaches. You won't want rain to ruin your vacation! However, it all depends on what you're looking for.",
+      "In this post we tell you month by month what is the best time to travel to Cancun so you know what to expect at each time of year."
     ]
   },
   "sections": {
@@ -1135,7 +1147,7 @@
                   }
                 ],
                 "image": {
-                  "src": "/maya-bg.jpg",
+                  "src": "/src/assets/mayo.jpg",
                   "alt": {
                     "es": "Clima de Cancún en noviembre",
                     "en": "Cancun weather in November"
@@ -1160,7 +1172,7 @@
                       "es": "Temperatura promedio (min/max):",
                       "en": "Average temperature (min/max):"
                     },
-                    "value": "21ºC – 29ºC"
+                    "value": "20ºC – 28ºC"
                   },
                   {
                     "id": "precip_dec_month_info",
@@ -1169,24 +1181,216 @@
                       "es": "Precipitación promedio:",
                       "en": "Average precipitation:"
                     },
-                    "value": "85mm"
+                    "value": "80mm"
                   }
                 ],
                 "descriptionParagraphs": [
                   {
-                    "es": "Si lo que buscas es un clima agradable y con menos turistas, noviembre puede ser una de las mejores épocas para viajar a Cancún. Durante esta temporada, encontrarás una temperatura promedio que ronda los 27°C. Junto a esto, disfrutarás de noches frescas que te invitarán a pasear por la playa o deleitarte con una cena al aire libre. Además, el agua del mar se mantiene cálida, similar a la temperatura ambiente, lo que la hace perfecta para nadar, bucear o practicar deportes acuáticos.",
-                    "en": "If you are looking for pleasant weather with fewer tourists, November can be one of the best times to travel to Cancun. During this season, you will find an average temperature around 27°C. Along with this, you will enjoy cool nights that will invite you to walk on the beach or enjoy an outdoor dinner. Additionally, the sea water remains warm, similar to the ambient temperature, making it perfect for swimming, diving, or practicing water sports."
+                    "es": "Durante diciembre, los días en Cancún son más cortos, pero la temperatura se mantiene en un promedio de 28°C durante el día y de 20°C durante la noche. Sin embargo, es un mes bastante caro para viajar a Cancún por las fiestas navideñas. Muchos norteamericanos y europeos viajan a Cancún para pasar Navidad y fin de año en la playa. ¡Y eso hace que los precios suban bastante! Así que, en este mes comienzan a llegar los turistas, por lo que ya se podría considerar una temporada alta.",
+                    "en": "During December, the days in Cancun are shorter, but the temperature remains at an average of 28°C during the day and 20°C at night. However, it is quite an expensive month to travel to Cancun due to the Christmas holidays. Many Americans and Europeans travel to Cancun to spend Christmas and New Year on the beach. And that makes prices go up quite a bit! So, tourists start arriving this month, so it could already be considered high season."
                   },
                   {
-                    "es": "En cuanto a la cantidad de turistas es menor que en temporada alta, por lo que podrás visitar atracciones turísticas sin grandes aglomeraciones. También podrás disfrutar de las playas sin mucho ajetreo y acudir a alguno de los grandes conciertos programados en la ciudad. Otro de los principales atractivos de este mes es El Día de Muertos, que se celebra el 1 y 2 de noviembre. Durante esta hermosa celebración a los difuntos, encontrarás impresionantes decoraciones, ceremonias y un desfile espectacular que estamos seguros querrás presenciar. En cuanto a presupuesto, encontrarás ofertas en hoteles y vuelos, lo que hace de noviembre una época muy apetecible para visitar Cancún",
-                    "en": "In terms of tourists, it is less crowded than in high season, so you can visit tourist attractions without large crowds. You can also enjoy the beaches without much hustle and bustle and attend some of the great concerts scheduled in the city. Another main attraction of this month is The Day of the Dead, which is celebrated on November 1 and 2. During this beautiful celebration of the deceased, you will find impressive decorations, ceremonies, and a spectacular parade that we are sure you will want to witness. In terms of budget, you will find offers on hotels and flights, making November a very appealing time to visit Cancun."
+                    "es": "El clima cálido y la temperatura del mar es ideal para disfrutar de la vida nocturna en la Zona Hotelera de Cancún. Durante tu visita, te recomendamos que formes parte del Desfile de Botes al Atardecer, donde admirarás embarcaciones iluminadas en la Laguna Nichupté, perfecto para compartir con familiares y amigos.",
+                    "en": "The warm climate and sea temperature is ideal for enjoying the nightlife in the Cancun Hotel Zone. During your visit, we recommend that you take part in the Sunset Boat Parade, where you will admire illuminated boats in Nichupté Lagoon, perfect for sharing with family and friends."
                   }
                 ],
                 "image": {
-                  "src": "/maya-bg.jpg",
+                  "src": "/src/assets/mayo.jpg",
                   "alt": {
                     "es": "Clima de Cancún en diciembre",
                     "en": "Cancun weather in December"
+                  }
+                },
+                "imageCaption": {
+                  "es": "Cancún, desde las alturas",
+                  "en": "Cancun, from above"
+                }
+              },
+              {
+                "id": "cancun_jan_month_info_detail",
+                "monthTitle": {
+                  "es": "1.3. Viajar a Cancún en enero",
+                  "en": "1.3. Traveling to Cancun in January"
+                },
+                "stats": [
+                  {
+                    "id": "temp_jan_month_info",
+                    "icon": "🌡",
+                    "label": {
+                      "es": "Temperatura promedio (min/max):",
+                      "en": "Average temperature (min/max):"
+                    },
+                    "value": "19ºC – 28ºC"
+                  },
+                  {
+                    "id": "precip_jan_month_info",
+                    "icon": "🌧",
+                    "label": {
+                      "es": "Precipitación promedio:",
+                      "en": "Average precipitation:"
+                    },
+                    "value": "65mm"
+                  }
+                ],
+                "descriptionParagraphs": [
+                  {
+                    "es": "Para nosotros, ¡enero es el mejor mes para viajar a Cancún! No hay nada mejor que empezar el año uno de los destinos más sorprendentes de todo México. En enero, la temperatura varía entre los 19°C y 28°C, lo que resulta perfecto para disfrutar de la playa sin abrumarte por el calor. Además, en enero hay menos turistas que en los meses de invierno más concurridos, lo que significa que los precios son más bajos y los lugares no están tan llenos.",
+                    "en": "For us, January is the best month to travel to Cancun! There's nothing better than starting the year in one of the most amazing destinations in all of Mexico. In January, the temperature varies between 19°C and 28°C, which is perfect for enjoying the beach without being overwhelmed by the heat. Additionally, in January there are fewer tourists than in the busiest winter months, which means prices are lower and places are not as crowded."
+                  },
+                  {
+                    "es": "El clima es durante esta temporada es irresistible, podrás disfrutar de una temperatura cálida, seca y soleada. Si bien es posible que llegues a experimentar algunas lluvias ocasionales, debido a la temporada de huracanes terminó, es más seguro viajar a Cancún. Pero también es una buena oportunidad para realizar excursiones las tantas ruinas mayas que se encuentran en Tulum. En cuanto al presupuesto, en enero es posible encontrar ofertas atractivas en vuelos y alojamiento. Así que, si lo que buscas ahorrar algunos euros en tus vacaciones, este es el mes perfecto. Sin duda, la mejor época para viajar a Cancún.",
+                    "en": "The weather during this season is irresistible, you can enjoy warm, dry and sunny temperatures. While you may experience some occasional rain, since hurricane season is over, it's safer to travel to Cancun. But it's also a good opportunity to take excursions to the many Mayan ruins found in Tulum. In terms of budget, in January it's possible to find attractive offers on flights and accommodation. So, if you're looking to save some money on your vacation, this is the perfect month. Without a doubt, the best time to travel to Cancun."
+                  }
+                ],
+                "image": {
+                  "src": "/src/assets/mayo.jpg",
+                  "alt": {
+                    "es": "Clima de Cancún en enero",
+                    "en": "Cancun weather in January"
+                  }
+                },
+                "imageCaption": {
+                  "es": "Cancún, desde las alturas",
+                  "en": "Cancun, from above"
+                }
+              },
+              {
+                "id": "cancun_feb_month_info_detail",
+                "monthTitle": {
+                  "es": "1.4. Viajar a Cancún en febrero",
+                  "en": "1.4. Traveling to Cancun in February"
+                },
+                "stats": [
+                  {
+                    "id": "temp_feb_month_info",
+                    "icon": "🌡",
+                    "label": {
+                      "es": "Temperatura promedio (min/max):",
+                      "en": "Average temperature (min/max):"
+                    },
+                    "value": "19ºC – 28ºC"
+                  },
+                  {
+                    "id": "precip_feb_month_info",
+                    "icon": "🌧",
+                    "label": {
+                      "es": "Precipitación promedio:",
+                      "en": "Average precipitation:"
+                    },
+                    "value": "55mm"
+                  }
+                ],
+                "descriptionParagraphs": [
+                  {
+                    "es": "Febrero es otro mes seco y soleado para visitar Cancún, con temperaturas cálidas y agradables para disfrutar del sol y la playa que van desde los 26°C en el día hasta los 20°C por la noche. Las lluvias son escasas y la humedad baja, lo que hace que las condiciones climáticas sean excelentes para disfrutar de actividades al aire libre como buceo, esnórquel o simplemente relajarse en la playa.",
+                    "en": "February is another dry and sunny month to visit Cancun, with warm and pleasant temperatures to enjoy the sun and beach ranging from 26°C during the day to 20°C at night. Rainfall is scarce and humidity is low, making weather conditions excellent for enjoying outdoor activities such as diving, snorkeling, or simply relaxing on the beach."
+                  },
+                  {
+                    "es": "Otra ventaja de este mes, es que las condiciones son de las mejores para tener un día de turismo. Así que no olvides empacar tus zapatos más cómodos para visitar el complejo arqueológico Chichén Itzá, probablemente la atracción más importante de México. Sin embargo, febrero aún es considerado un mes de temporada alta, aunque con relativamente menos turistas que en enero. Esto se debe principalmente al carnaval que se lleva a cabo dentro de la ciudad. Durante el evento encontrarás variedad de dulces, bailes animados, disfraces y carrozas increíblemente decoradas.",
+                    "en": "Another advantage of this month is that the conditions are among the best for a day of tourism. So don't forget to pack your most comfortable shoes to visit the Chichen Itza archaeological complex, probably the most important attraction in Mexico. However, February is still considered a high season month, although with relatively fewer tourists than in January. This is mainly due to the carnival that takes place within the city. During the event you will find a variety of sweets, lively dances, costumes and incredibly decorated floats."
+                  }
+                ],
+                "image": {
+                  "src": "/src/assets/mayo.jpg",
+                  "alt": {
+                    "es": "Clima de Cancún en febrero",
+                    "en": "Cancun weather in February"
+                  }
+                },
+                "imageCaption": {
+                  "es": "Cancún, desde las alturas",
+                  "en": "Cancun, from above"
+                }
+              },
+              {
+                "id": "cancun_mar_month_info_detail",
+                "monthTitle": {
+                  "es": "1.5. Viajar a Cancún en marzo",
+                  "en": "1.5. Traveling to Cancun in March"
+                },
+                "stats": [
+                  {
+                    "id": "temp_mar_month_info",
+                    "icon": "🌡",
+                    "label": {
+                      "es": "Temperatura promedio (min/max):",
+                      "en": "Average temperature (min/max):"
+                    },
+                    "value": "20ºC – 29ºC"
+                  },
+                  {
+                    "id": "precip_mar_month_info",
+                    "icon": "🌧",
+                    "label": {
+                      "es": "Precipitación promedio:",
+                      "en": "Average precipitation:"
+                    },
+                    "value": "40mm"
+                  }
+                ],
+                "descriptionParagraphs": [
+                  {
+                    "es": "Si odias la lluvia, marzo es uno de los mejores meses para viajar a Cancún. ¡La lluvia es casi inexistente! Además, si también eres fan de salir de fiesta, probablemente marzo sea la mejor época para visitar Cancún. Sobre todo porque gran parte de los estudiantes de Estados Unidos se dirigen a esta playa para disfrutar de sus vacaciones. En este mes encontrará una temperatura promedio de 29°C y un clima algo más húmedo.",
+                    "en": "If you hate rain, March is one of the best months to travel to Cancun. Rain is almost non-existent! Additionally, if you're also a fan of partying, March is probably the best time to visit Cancun. Especially because a large part of US students head to this beach to enjoy their vacation. In this month you will find an average temperature of 29°C and a somewhat more humid climate."
+                  },
+                  {
+                    "es": "Sin embargo, puede que este ambiente no sea el que estás buscando y prefieres adentrarte a la selva mexicana en busca de las pirámides más altas. También podrás participar en la Media Maratón de Cancún, un evento anual que se organiza el 5 de marzo por el Día Internacional de la Mujer. En general, esta época es más cara de lo normal por la cantidad de turistas que ingresan a este destino.",
+                    "en": "However, this environment may not be what you're looking for and you prefer to venture into the Mexican jungle in search of the highest pyramids. You can also participate in the Cancun Half Marathon, an annual event organized on March 5 for International Women's Day. In general, this time is more expensive than normal due to the number of tourists entering this destination."
+                  }
+                ],
+                "image": {
+                  "src": "/src/assets/mayo.jpg",
+                  "alt": {
+                    "es": "Clima de Cancún en marzo",
+                    "en": "Cancun weather in March"
+                  }
+                },
+                "imageCaption": {
+                  "es": "Cancún, desde las alturas",
+                  "en": "Cancun, from above"
+                }
+              },
+              {
+                "id": "cancun_apr_month_info_detail",
+                "monthTitle": {
+                  "es": "1.6. Viajar a Cancún en abril",
+                  "en": "1.6. Traveling to Cancun in April"
+                },
+                "stats": [
+                  {
+                    "id": "temp_apr_month_info",
+                    "icon": "🌡",
+                    "label": {
+                      "es": "Temperatura promedio (min/max):",
+                      "en": "Average temperature (min/max):"
+                    },
+                    "value": "22ºC – 30ºC"
+                  },
+                  {
+                    "id": "precip_apr_month_info",
+                    "icon": "🌧",
+                    "label": {
+                      "es": "Precipitación promedio:",
+                      "en": "Average precipitation:"
+                    },
+                    "value": "35mm"
+                  }
+                ],
+                "descriptionParagraphs": [
+                  {
+                    "es": "Abril es el mes más seco del año en Cancún. ¡Apenas llueve tres días en todo el mes! Además, la temporada de lluvias ya está a la vuelta de la esquina y muchos aprovechan para disfrutar de la playa antes de que las precipitaciones lleguen. Así que este mes también es bastante popular y hay una gran cantidad de turistas en la zona. Sin embargo, hay varios eventos y festividades para celebrar la fundación de Cancún, lo que lo convierte en un momento emocionante para visitar la ciudad.",
+                    "en": "April is the driest month of the year in Cancun. It barely rains three days in the entire month! Additionally, the rainy season is just around the corner and many take advantage to enjoy the beach before the rains arrive. So this month is also quite popular and there are a large number of tourists in the area. However, there are several events and festivities to celebrate the founding of Cancun, making it an exciting time to visit the city."
+                  },
+                  {
+                    "es": "Si te gustan los festivales musicales, podrás aprovechar tu estancia para asistir al Paradise Blue Festival, un evento de música electrónica de tres días que atrae a los fanáticos de la música de todo el mundo. Además, podrás ser partícipe de la Semana de la Música de Cancún, que se celebra durante cinco días. Pero si viajas en familia, también deberás tomar en cuenta que el 30 de abril se celebra el día del niño y podrás disfrutar de descuentos en actividades. Junto a esto, la temperatura promedio en abril es de 30°C, lo que lo convierte en otra buena opción para disfrutar del mar y el sol.",
+                    "en": "If you like music festivals, you can take advantage of your stay to attend the Paradise Blue Festival, a three-day electronic music event that attracts music fans from around the world. Additionally, you can participate in Cancun Music Week, which is celebrated for five days. But if you travel with family, you should also take into account that April 30 is Children's Day and you can enjoy discounts on activities. Along with this, the average temperature in April is 30°C, making it another good option to enjoy the sea and sun."
+                  }
+                ],
+                "image": {
+                  "src": "/src/assets/mayo.jpg",
+                  "alt": {
+                    "es": "Clima de Cancún en abril",
+                    "en": "Cancun weather in April"
                   }
                 },
                 "imageCaption": {
@@ -1227,7 +1431,7 @@
                       "es": "Temperatura promedio (min/max):",
                       "en": "Average temperature (min/max):"
                     },
-                    "value": "21ºC – 29ºC"
+                    "value": "24ºC – 32ºC"
                   },
                   {
                     "id": "precip_may_month_info",
@@ -1236,21 +1440,21 @@
                       "es": "Precipitación promedio:",
                       "en": "Average precipitation:"
                     },
-                    "value": "85mm"
+                    "value": "110mm"
                   }
                 ],
                 "descriptionParagraphs": [
                   {
-                    "es": "Si lo que buscas es un clima agradable y con menos turistas, noviembre puede ser una de las mejores épocas para viajar a Cancún. Durante esta temporada, encontrarás una temperatura promedio que ronda los 27°C. Junto a esto, disfrutarás de noches frescas que te invitarán a pasear por la playa o deleitarte con una cena al aire libre. Además, el agua del mar se mantiene cálida, similar a la temperatura ambiente, lo que la hace perfecta para nadar, bucear o practicar deportes acuáticos.",
-                    "en": "If you are looking for pleasant weather with fewer tourists, November can be one of the best times to travel to Cancun. During this season, you will find an average temperature around 27°C. Along with this, you will enjoy cool nights that will invite you to walk on the beach or enjoy an outdoor dinner. Additionally, the sea water remains warm, similar to the ambient temperature, making it perfect for swimming, diving, or practicing water sports."
+                    "es": "Mayo marca el inicio de la temporada de lluvias en Cancún, lo que significa que hay más posibilidades de tormentas aisladas. Sin embargo, la temperatura del mar sigue siendo cálida, con un promedio de 28°C. Esto hace que sea un buen momento para disfrutar de la playa. Además, este mes es considerado de temporada baja, lo que genera que los precios de alojamiento y otras actividades sean más baratos para aquellos que buscan ahorrar.",
+                    "en": "May marks the beginning of the rainy season in Cancun, which means there are more chances of isolated storms. However, the sea temperature remains warm, with an average of 28°C. This makes it a good time to enjoy the beach. Additionally, this month is considered low season, which makes accommodation prices and other activities cheaper for those looking to save."
                   },
                   {
-                    "es": "En cuanto a la cantidad de turistas es menor que en temporada alta, por lo que podrás visitar atracciones turísticas sin grandes aglomeraciones. También podrás disfrutar de las playas sin mucho ajetreo y acudir a alguno de los grandes conciertos programados en la ciudad. Otro de los principales atractivos de este mes es El Día de Muertos, que se celebra el 1 y 2 de noviembre. Durante esta hermosa celebración a los difuntos, encontrarás impresionantes decoraciones, ceremonias y un desfile espectacular que estamos seguros querrás presenciar. En cuanto a presupuesto, encontrarás ofertas en hoteles y vuelos, lo que hace de noviembre una época muy apetecible para visitar Cancún",
-                    "en": "In terms of tourists, it is less crowded than in high season, so you can visit tourist attractions without large crowds. You can also enjoy the beaches without much hustle and bustle and attend some of the great concerts scheduled in the city. Another main attraction of this month is The Day of the Dead, which is celebrated on November 1 and 2. During this beautiful celebration of the deceased, you will find impressive decorations, ceremonies, and a spectacular parade that we are sure you will want to witness. In terms of budget, you will find offers on hotels and flights, making November a very appealing time to visit Cancun."
+                    "es": "Si eres un amante de la naturaleza, ¡este mes te encantará! Ya que la flora y fauna están en plena floración. Como curiosidad, la temporada de anidación de tortugas marinas en Cancún es un proceso natural que ocurre todos los años, de mayo a septiembre. ¡Es un momento muy bonito! Además, la temperatura ambiente promedio es de 28 a 30°C por el día y de 24 a 26°C durante la noche. Así que, si piensas en gastar menos y estás preparado para la posibilidad de lluvias ocasionales, mayo puede ser una buena época para viajar a Cancún.",
+                    "en": "If you are a nature lover, you will love this month! Since the flora and fauna are in full bloom. As a curiosity, the sea turtle nesting season in Cancun is a natural process that occurs every year, from May to September. It's a very beautiful time! Additionally, the average ambient temperature is 28 to 30°C during the day and 24 to 26°C at night. So, if you're thinking of spending less and are prepared for the possibility of occasional rain, May can be a good time to travel to Cancun."
                   }
                 ],
                 "image": {
-                  "src": "/acapulco2.jpg",
+                  "src": "/src/assets/mayo.jpg",
                   "alt": {
                     "es": "Clima de Cancún en mayo",
                     "en": "Cancun weather in May"
@@ -1275,7 +1479,7 @@
                       "es": "Temperatura promedio (min/max):",
                       "en": "Average temperature (min/max):"
                     },
-                    "value": "21ºC – 29ºC"
+                    "value": "25ºC – 32ºC"
                   },
                   {
                     "id": "precip_jun_month_info",
@@ -1284,21 +1488,21 @@
                       "es": "Precipitación promedio:",
                       "en": "Average precipitation:"
                     },
-                    "value": "85mm"
+                    "value": "185mm"
                   }
                 ],
                 "descriptionParagraphs": [
                   {
-                    "es": "Si lo que buscas es un clima agradable y con menos turistas, noviembre puede ser una de las mejores épocas para viajar a Cancún. Durante esta temporada, encontrarás una temperatura promedio que ronda los 27°C. Junto a esto, disfrutarás de noches frescas que te invitarán a pasear por la playa o deleitarte con una cena al aire libre. Además, el agua del mar se mantiene cálida, similar a la temperatura ambiente, lo que la hace perfecta para nadar, bucear o practicar deportes acuáticos.",
-                    "en": "If you are looking for pleasant weather with fewer tourists, November can be one of the best times to travel to Cancun. During this season, you will find an average temperature around 27°C. Along with this, you will enjoy cool nights that will invite you to walk on the beach or enjoy an outdoor dinner. Additionally, the sea water remains warm, similar to the ambient temperature, making it perfect for swimming, diving, or practicing water sports."
+                    "es": "En Cancún, la temporada de huracanes arranca en junio, por lo que debes estar atento sobre las recomendaciones locales referentes al clima. Sin embargo, no debes dejar que esto te detenga de visitar este hermoso destino. La temperatura promedio del aire se mantiene entre 25°C a 32°C, mientras que la del mar se encuentra aproximadamente en 28°C. Además, como las lluvias no han llegado a su pico, tendrá muchas oportunidades para disfrutar de la playa y sus actividades acuáticas.",
+                    "en": "In Cancun, hurricane season starts in June, so you should pay attention to local weather recommendations. However, you shouldn't let this stop you from visiting this beautiful destination. The average air temperature remains between 25°C to 32°C, while the sea temperature is approximately 28°C. Additionally, since the rains have not reached their peak, you will have many opportunities to enjoy the beach and its water activities."
                   },
                   {
-                    "es": "En cuanto a la cantidad de turistas es menor que en temporada alta, por lo que podrás visitar atracciones turísticas sin grandes aglomeraciones. También podrás disfrutar de las playas sin mucho ajetreo y acudir a alguno de los grandes conciertos programados en la ciudad. Otro de los principales atractivos de este mes es El Día de Muertos, que se celebra el 1 y 2 de noviembre. Durante esta hermosa celebración a los difuntos, encontrarás impresionantes decoraciones, ceremonias y un desfile espectacular que estamos seguros querrás presenciar. En cuanto a presupuesto, encontrarás ofertas en hoteles y vuelos, lo que hace de noviembre una época muy apetecible para visitar Cancún",
-                    "en": "In terms of tourists, it is less crowded than in high season, so you can visit tourist attractions without large crowds. You can also enjoy the beaches without much hustle and bustle and attend some of the great concerts scheduled in the city. Another main attraction of this month is The Day of the Dead, which is celebrated on November 1 and 2. During this beautiful celebration of the deceased, you will find impressive decorations, ceremonies, and a spectacular parade that we are sure you will want to witness. In terms of budget, you will find offers on hotels and flights, making November a very appealing time to visit Cancun."
+                    "es": "En cuanto al presupuesto, encontrarás buenos precios antes de que llegue la temporada alta. Sin embargo, ten en cuenta que junio es un mes popular para los viajes de graduación, lo que significa que puede haber más turistas jóvenes en la zona hotelera. Pero si eres más fan de salir al mar que de estar en el hotel, te encantará practicar buceo. Junio es uno de los mejores meses para hacerlo. La temperatura del agua es más cálida y hay muchas opciones para explorar los arrecifes de coral y la vida marina de la zona.",
+                    "en": "In terms of budget, you will find good prices before high season arrives. However, keep in mind that June is a popular month for graduation trips, which means there may be more young tourists in the hotel zone. But if you're more of a fan of going to sea than staying at the hotel, you'll love diving. June is one of the best months to do it. The water temperature is warmer and there are many options to explore the coral reefs and marine life in the area."
                   }
                 ],
                 "image": {
-                  "src": "/acapulco2.jpg",
+                  "src": "/src/assets/junio.jpg",
                   "alt": {
                     "es": "Clima de Cancún en junio",
                     "en": "Cancun weather in June"
@@ -1307,6 +1511,198 @@
                 "imageCaption": {
                   "es": "Cancún, desde las alturas en junio",
                   "en": "Cancun, from above in June"
+                }
+              },
+              {
+                "id": "cancun_jul_month_info_detail",
+                "monthTitle": {
+                  "es": "2.3. Viajar a Cancún en julio",
+                  "en": "2.3. Traveling to Cancun in July"
+                },
+                "stats": [
+                  {
+                    "id": "temp_jul_month_info",
+                    "icon": "🌡",
+                    "label": {
+                      "es": "Temperatura promedio (min/max):",
+                      "en": "Average temperature (min/max):"
+                    },
+                    "value": "25ºC – 32ºC"
+                  },
+                  {
+                    "id": "precip_jul_month_info",
+                    "icon": "🌧",
+                    "label": {
+                      "es": "Precipitación promedio:",
+                      "en": "Average precipitation:"
+                    },
+                    "value": "130mm"
+                  }
+                ],
+                "descriptionParagraphs": [
+                  {
+                    "es": "Julio es uno de los meses más calurosos en Cancún, con una temperatura promedio de 28°C. Aunque también es uno de los meses más húmedos, con un promedio de 130mm de lluvia, lo que puede generar algunas tormentas. Además, este es un mes lleno de eventos y festividades, como el Festival del Caribe, que ofrece una variedad de actividades culturales y musicales que estamos seguros vas a disfrutar.",
+                    "en": "July is one of the hottest months in Cancun, with an average temperature of 28°C. Although it is also one of the wettest months, with an average of 130mm of rain, which can generate some storms. Additionally, this is a month full of events and festivities, such as the Caribbean Festival, which offers a variety of cultural and musical activities that we are sure you will enjoy."
+                  },
+                  {
+                    "es": "También debemos recordarte que este es un mes de temporada alta en Cancún, por lo que los precios pueden ser más altos. Pero si no te importa gastar un poco más, podrás observar a pequeñas crías de tortugas marinas y más vida acuática de la región.",
+                    "en": "We should also remind you that this is a high season month in Cancun, so prices may be higher. But if you don't mind spending a little more, you can observe small sea turtle hatchlings and more aquatic life in the region."
+                  }
+                ],
+                "image": {
+                  "src": "/src/assets/mayo.jpg",
+                  "alt": {
+                    "es": "Clima de Cancún en julio",
+                    "en": "Cancun weather in July"
+                  }
+                },
+                "imageCaption": {
+                  "es": "Cancún, desde las alturas en julio",
+                  "en": "Cancun, from above in July"
+                }
+              },
+              {
+                "id": "cancun_aug_month_info_detail",
+                "monthTitle": {
+                  "es": "2.4. Viajar a Cancún en agosto",
+                  "en": "2.4. Traveling to Cancun in August"
+                },
+                "stats": [
+                  {
+                    "id": "temp_aug_month_info",
+                    "icon": "🌡",
+                    "label": {
+                      "es": "Temperatura promedio (min/max):",
+                      "en": "Average temperature (min/max):"
+                    },
+                    "value": "24ºC – 33ºC"
+                  },
+                  {
+                    "id": "precip_aug_month_info",
+                    "icon": "🌧",
+                    "label": {
+                      "es": "Precipitación promedio:",
+                      "en": "Average precipitation:"
+                    },
+                    "value": "150mm"
+                  }
+                ],
+                "descriptionParagraphs": [
+                  {
+                    "es": "Agosto es el mes más cálido para viajar a Cancún, con una temperatura que puede llegar a los 33°C. Además, este es uno de los meses más populares para los turistas, ya que en muchos países, salen por vacaciones de verano. Esto, a su vez, genera que los precios lleguen a estar más elevados de lo normal.",
+                    "en": "August is the warmest month to travel to Cancun, with a temperature that can reach 33°C. Additionally, this is one of the most popular months for tourists, as in many countries, they go on summer vacation. This, in turn, causes prices to be higher than normal."
+                  },
+                  {
+                    "es": "En cuanto al clima, puedes esperar algunos días de lluvia debido a la temporada de huracanes, pero la mayoría serán soleados y calurosos. Asegúrate de llevar ropa ligera, protector solar y sobre todo, intenta visitar las playas temprano por la mañana o en el atardecer para evitar el sol del mediodía. Personalmente, trataríamos de evitar viajar a Cancún en agosto por los altos precios y las lluvias.",
+                    "en": "As for the weather, you can expect some rainy days due to hurricane season, but most will be sunny and hot. Make sure to bring light clothing, sunscreen and above all, try to visit the beaches early in the morning or at sunset to avoid the midday sun. Personally, we would try to avoid traveling to Cancun in August due to high prices and rains."
+                  }
+                ],
+                "image": {
+                  "src": "/src/assets/mayo.jpg",
+                  "alt": {
+                    "es": "Clima de Cancún en agosto",
+                    "en": "Cancun weather in August"
+                  }
+                },
+                "imageCaption": {
+                  "es": "Cancún, desde las alturas en agosto",
+                  "en": "Cancun, from above in August"
+                }
+              },
+              {
+                "id": "cancun_sep_month_info_detail",
+                "monthTitle": {
+                  "es": "2.5. Viajar a Cancún en septiembre",
+                  "en": "2.5. Traveling to Cancun in September"
+                },
+                "stats": [
+                  {
+                    "id": "temp_sep_month_info",
+                    "icon": "🌡",
+                    "label": {
+                      "es": "Temperatura promedio (min/max):",
+                      "en": "Average temperature (min/max):"
+                    },
+                    "value": "24ºC – 32ºC"
+                  },
+                  {
+                    "id": "precip_sep_month_info",
+                    "icon": "🌧",
+                    "label": {
+                      "es": "Precipitación promedio:",
+                      "en": "Average precipitation:"
+                    },
+                    "value": "225mm"
+                  }
+                ],
+                "descriptionParagraphs": [
+                  {
+                    "es": "Septiembre es el pico más alto en la temporada de huracanes. Por ello, no encontrarás multitudes de turistas, pero sí precios más bajos en alojamiento y actividades. Además, septiembre es el mes más lluvioso en Cancún, por lo que puede haber algunas interrupciones en las actividades al aire libre. Durante este mes, te encontrarás con una temperatura de hasta 32°C y una humedad extrema.",
+                    "en": "September is the highest peak in hurricane season. Therefore, you will not find crowds of tourists, but you will find lower prices on accommodation and activities. Additionally, September is the rainiest month in Cancun, so there may be some interruptions to outdoor activities. During this month, you will encounter temperatures up to 32°C and extreme humidity."
+                  },
+                  {
+                    "es": "Sin embargo, si deseas visitar Cancún en septiembre, también podrás asistir a las festividades del Día de la Independencia de México. Aquí te deslumbrarás con la danza, la música y los increíbles fuegos artificiales. A pesar de los eventos importantes, nosotros creemos que no es la mejor época para viajar a Cancún.",
+                    "en": "However, if you wish to visit Cancun in September, you can also attend the Mexican Independence Day festivities. Here you will be dazzled by the dance, music and incredible fireworks. Despite the important events, we believe it is not the best time to travel to Cancun."
+                  }
+                ],
+                "image": {
+                  "src": "/src/assets/mayo.jpg",
+                  "alt": {
+                    "es": "Clima de Cancún en septiembre",
+                    "en": "Cancun weather in September"
+                  }
+                },
+                "imageCaption": {
+                  "es": "Cancún, desde las alturas en septiembre",
+                  "en": "Cancun, from above in September"
+                }
+              },
+              {
+                "id": "cancun_oct_month_info_detail",
+                "monthTitle": {
+                  "es": "2.6. Viajar a Cancún en octubre",
+                  "en": "2.6. Traveling to Cancun in October"
+                },
+                "stats": [
+                  {
+                    "id": "temp_oct_month_info",
+                    "icon": "🌡",
+                    "label": {
+                      "es": "Temperatura promedio (min/max):",
+                      "en": "Average temperature (min/max):"
+                    },
+                    "value": "23ºC – 31ºC"
+                  },
+                  {
+                    "id": "precip_oct_month_info",
+                    "icon": "🌧",
+                    "label": {
+                      "es": "Precipitación promedio:",
+                      "en": "Average precipitation:"
+                    },
+                    "value": "185mm"
+                  }
+                ],
+                "descriptionParagraphs": [
+                  {
+                    "es": "Con motivo de Halloween, viajar a Cancún en octubre es una excelente opción para aquellos que buscan divertirse en los hoteles, bares y discotecas de la ciudad. En este mes, la temperatura es un poco menos cálida, pero aún puede haber lluvias. Sin embargo, los días suelen ser mayormente soleados y la temperatura del agua sigue agradable para nadar y practicar deportes acuáticos.",
+                    "en": "Due to Halloween, traveling to Cancun in October is an excellent option for those looking to have fun in the city's hotels, bars and nightclubs. In this month, the temperature is a little less warm, but there can still be rain. However, the days are usually mostly sunny and the water temperature remains pleasant for swimming and practicing water sports."
+                  },
+                  {
+                    "es": "En cuanto al presupuesto, encontrarás ofertas atractivas en hoteles y actividades turísticas. Además, descubrirás que hay menos turistas en las playas, lo que significa que disfrutarás de una experiencia más relajante. Si te apasiona la música o ir de pesca, prueba ir a Island Time Music Festival, que durante 4 días organiza espectáculos musicales y competencias de pesca en la hermosa Isla Mujeres.",
+                    "en": "In terms of budget, you will find attractive offers on hotels and tourist activities. Additionally, you will discover that there are fewer tourists on the beaches, which means you will enjoy a more relaxing experience. If you are passionate about music or fishing, try going to the Island Time Music Festival, which for 4 days organizes musical shows and fishing competitions on beautiful Isla Mujeres."
+                  }
+                ],
+                "image": {
+                  "src": "/src/assets/mayo.jpg",
+                  "alt": {
+                    "es": "Clima de Cancún en octubre",
+                    "en": "Cancun weather in October"
+                  }
+                },
+                "imageCaption": {
+                  "es": "Cancún, desde las alturas en octubre",
+                  "en": "Cancun, from above in October"
                 }
               }
             ]
@@ -1339,56 +1735,56 @@
           {
             "id": "faq_cancun_best_time_2",
             "question": {
-              "es": "En definitiva, ¿cuál es el mejor mes para viajar a Cancún?",
-              "en": "Ultimately, what is the best month to travel to Cancun?"
+              "es": "¿Cuándo es temporada alta en Cancún?",
+              "en": "When is high season in Cancun?"
             },
             "answer": {
-              "es": "Enero es el mejor mes para viajar a Cancún. Eso sí, mejor espera a que pase la primera semana y bajen los precios, ya que suelen mantenerse alto después de las festividades de Navidad, Año Nuevo y Reyes. Durante las tres últimas semanas de enero, no hay tantas multitudes como en marzo y abril y no hace tanto calor. ¡Nuestro mes favorito para viajar a Cancún!",
-              "en": "January is the best month to travel to Cancun. However, it's better to wait until after the first week for prices to drop, as they tend to remain high after the Christmas, New Year, and Epiphany holidays. During the last three weeks of January, there aren't as many crowds as in March and April, and it's not as hot. Our favorite month to travel to Cancun!"
+              "es": "La temporada alta en Cancún va de diciembre a abril, siendo los meses más concurridos enero, febrero y marzo. Durante esta época los precios son más altos pero el clima es más seco y soleado.",
+              "en": "High season in Cancun runs from December to April, with January, February and March being the busiest months. During this time prices are higher but the weather is drier and sunnier."
             }
           },
           {
             "id": "faq_cancun_best_time_3",
             "question": {
-              "es": "En definitiva, ¿cuál es el mejor mes para viajar a Cancún?",
-              "en": "Ultimately, what is the best month to travel to Cancun?"
+              "es": "¿Cuándo es temporada de huracanes en Cancún?",
+              "en": "When is hurricane season in Cancun?"
             },
             "answer": {
-              "es": "Enero es el mejor mes para viajar a Cancún. Eso sí, mejor espera a que pase la primera semana y bajen los precios, ya que suelen mantenerse alto después de las festividades de Navidad, Año Nuevo y Reyes. Durante las tres últimas semanas de enero, no hay tantas multitudes como en marzo y abril y no hace tanto calor. ¡Nuestro mes favorito para viajar a Cancún!",
-              "en": "January is the best month to travel to Cancun. However, it's better to wait until after the first week for prices to drop, as they tend to remain high after the Christmas, New Year, and Epiphany holidays. During the last three weeks of January, there aren't as many crowds as in March and April, and it's not as hot. Our favorite month to travel to Cancun!"
+              "es": "La temporada de huracanes en Cancún va de junio a noviembre, siendo septiembre y octubre los meses de mayor riesgo. Sin embargo, los huracanes directos son poco frecuentes y la infraestructura turística está preparada para estas situaciones.",
+              "en": "Hurricane season in Cancun runs from June to November, with September and October being the months of highest risk. However, direct hurricanes are infrequent and the tourist infrastructure is prepared for these situations."
             }
           },
           {
             "id": "faq_cancun_best_time_4",
             "question": {
-              "es": "En definitiva, ¿cuál es el mejor mes para viajar a Cancún?",
-              "en": "Ultimately, what is the best month to travel to Cancun?"
+              "es": "¿Cuál es la época más barata para viajar a Cancún?",
+              "en": "What is the cheapest time to travel to Cancun?"
             },
             "answer": {
-              "es": "Enero es el mejor mes para viajar a Cancún. Eso sí, mejor espera a que pase la primera semana y bajen los precios, ya que suelen mantenerse alto después de las festividades de Navidad, Año Nuevo y Reyes. Durante las tres últimas semanas de enero, no hay tantas multitudes como en marzo y abril y no hace tanto calor. ¡Nuestro mes favorito para viajar a Cancún!",
-              "en": "January is the best month to travel to Cancun. However, it's better to wait until after the first week for prices to drop, as they tend to remain high after the Christmas, New Year, and Epiphany holidays. During the last three weeks of January, there aren't as many crowds as in March and April, and it's not as hot. Our favorite month to travel to Cancun!"
+              "es": "Los meses más baratos para viajar a Cancún son mayo, junio, septiembre y octubre. Durante estos meses encontrarás mejores precios en hoteles y vuelos, aunque debes considerar que es temporada de lluvias.",
+              "en": "The cheapest months to travel to Cancun are May, June, September and October. During these months you will find better prices on hotels and flights, although you should consider that it is rainy season."
             }
           },
           {
             "id": "faq_cancun_best_time_5",
             "question": {
-              "es": "En definitiva, ¿cuál es el mejor mes para viajar a Cancún?",
-              "en": "Ultimately, what is the best month to travel to Cancun?"
+              "es": "¿Llueve mucho en Cancún durante la temporada de lluvias?",
+              "en": "Does it rain a lot in Cancun during the rainy season?"
             },
             "answer": {
-              "es": "Enero es el mejor mes para viajar a Cancún. Eso sí, mejor espera a que pase la primera semana y bajen los precios, ya que suelen mantenerse alto después de las festividades de Navidad, Año Nuevo y Reyes. Durante las tres últimas semanas de enero, no hay tantas multitudes como en marzo y abril y no hace tanto calor. ¡Nuestro mes favorito para viajar a Cancún!",
-              "en": "January is the best month to travel to Cancun. However, it's better to wait until after the first week for prices to drop, as they tend to remain high after the Christmas, New Year, and Epiphany holidays. During the last three weeks of January, there aren't as many crowds as in March and April, and it's not as hot. Our favorite month to travel to Cancun!"
+              "es": "Durante la temporada de lluvias (mayo a octubre) las precipitaciones suelen ser en forma de aguaceros cortos e intensos, generalmente por la tarde o noche. Los días suelen tener períodos soleados, por lo que aún puedes disfrutar de las actividades turísticas.",
+              "en": "During the rainy season (May to October) precipitation is usually in the form of short, intense downpours, generally in the afternoon or evening. Days usually have sunny periods, so you can still enjoy tourist activities."
             }
           },
           {
             "id": "faq_cancun_best_time_6",
             "question": {
-              "es": "En definitiva, ¿cuál es el mejor mes para viajar a Cancún?",
-              "en": "Ultimately, what is the best month to travel to Cancun?"
+              "es": "¿Qué temperatura hace en Cancún durante el año?",
+              "en": "What temperature is it in Cancun during the year?"
             },
             "answer": {
-              "es": "Enero es el mejor mes para viajar a Cancún. Eso sí, mejor espera a que pase la primera semana y bajen los precios, ya que suelen mantenerse alto después de las festividades de Navidad, Año Nuevo y Reyes. Durante las tres últimas semanas de enero, no hay tantas multitudes como en marzo y abril y no hace tanto calor. ¡Nuestro mes favorito para viajar a Cancún!",
-              "en": "January is the best month to travel to Cancun. However, it's better to wait until after the first week for prices to drop, as they tend to remain high after the Christmas, New Year, and Epiphany holidays. During the last three weeks of January, there aren't as many crowds as in March and April, and it's not as hot. Our favorite month to travel to Cancun!"
+              "es": "Cancún tiene un clima tropical con temperaturas que oscilan entre 19°C y 33°C durante el año. Los meses más frescos son diciembre, enero y febrero (19-28°C), mientras que los más calurosos son julio y agosto (24-33°C).",
+              "en": "Cancun has a tropical climate with temperatures ranging between 19°C and 33°C throughout the year. The coolest months are December, January and February (19-28°C), while the hottest are July and August (24-33°C)."
             }
           }
         ]

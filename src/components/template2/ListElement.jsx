@@ -15,7 +15,8 @@ export default function ListElement({ place, index }) {
           ))}
           <img
             src={place.image.src || "/placeholder.svg"}
-            className="rounded-md mt-11 h-[437px] w-full object-cover"
+            className="mt-11 h-[437px] w-full object-cover"
+            style={{ borderRadius: '0.5em' }}
             alt={place.image.alt.es}
           />
         </div>

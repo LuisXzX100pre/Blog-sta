@@ -7,9 +7,10 @@ export default function MapView() {
           Consulta la ubicación de los lugares mencionados en el siguiente mapa:
         </p>
         <img
-          src="/placeholder.svg?height=437&width=800"
+          src="/src/assets/MAPA DE PUERTO JUAREZ.png"
           alt="Mapa de ubicaciones"
-          className="mt-5 rounded-md h-[437px] w-full object-cover"
+          className="mt-5 h-[437px] w-full object-cover"
+          style={{ borderRadius: '0.5em' }}
         />
       </div>
     </>

@@ -1,11 +1,11 @@
 export default function WelcomeImage({ source }) {
   return (
     <>
-      {/* Este componente obtendrá las imagenes de encabezado de todas las entradas de los blogs. */}
       <div className="mb-[44px]">
         <img
-          className="rounded-md w-full h-[310px] object-cover"
-          src={source}
+          className="w-full h-[310px] object-cover"
+          style={{ borderRadius: '0.5em' }}
+          src={source || "/placeholder.svg"}
           alt="Background imagen"
         />
       </div>

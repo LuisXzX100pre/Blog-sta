@@ -9,7 +9,8 @@ export default function GalleryPicsCollage({ data }) {
         <img
           src={data.largeImage?.src || "/placeholder.svg"}
           alt={data.largeImage?.alt?.es || "Imagen principal"}
-          className="w-full h-full object-cover rounded-xl border border-gray-200 shadow-sm"
+          className="w-full h-full object-cover border border-gray-200 shadow-sm"
+          style={{ borderRadius: '0.5em' }}
         />
       </div>
       <div className="w-full lg:w-1/2 h-full grid grid-cols-2 gap-2 max-lg:h-[200px]">
@@ -19,7 +20,8 @@ export default function GalleryPicsCollage({ data }) {
               <img
                 src={image.src || "/placeholder.svg"}
                 alt={image.alt?.es || "Imagen de galería"}
-                className="object-cover rounded-xl border border-gray-200 shadow-sm w-full h-full"
+                className="object-cover border border-gray-200 shadow-sm w-full h-full"
+                style={{ borderRadius: '0.5em' }}
               />
             </div>
           ))}
