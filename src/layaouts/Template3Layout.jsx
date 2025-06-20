@@ -45,14 +45,12 @@ export default function Template3Layout() {
         <div className="max-w-[68vw] mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex flex-col justify-center">
             <div className="mt-4 mb-6">
-              <Title title={blogData.blogTitle.es} type="hotel" />
+              <Title title="¿Cuándo es la mejor época para viajar a Cancún?" type="hotel" />
             </div>
             <div className="flex flex-col gap-5">
-              {Array.isArray(blogData.introduction.es) ? (
-                blogData.introduction.es.map((paragraph, index) => <Paragraph key={index} text={paragraph} />)
-              ) : (
-                <Paragraph text={blogData.introduction.es} />
-              )}
+              {Array.isArray(blogData.introduction?.es)
+                ? blogData.introduction.es.map((paragraph, index) => <Paragraph key={index} text={paragraph} />)
+                : blogData.introduction?.es && <Paragraph text={blogData.introduction.es} />}
               <div className="space-y-12">
                 {sections?.generalClimateInfo && (
                   <section>
@@ -78,10 +76,10 @@ export default function Template3Layout() {
                 {sections?.finalConclusion && (
                   <section>
                     <div className="mt-11">
-                      <Title title={sections.finalConclusion.data.sectionTitle.es} type="hotel" />
+                      <Title title={sections.finalConclusion.data.sectionTitle?.es || "Conclusión"} type="hotel" />
                       <hr className="my-[15.5px]" />
                       <div className="flex flex-col gap-5">
-                        {sections.finalConclusion.data.conclusionParagraphs.map((paragraph, index) => (
+                        {sections.finalConclusion.data.conclusionParagraphs?.map((paragraph, index) => (
                           <Paragraph key={index} text={paragraph.es} />
                         ))}
                       </div>

@@ -1,7 +1,6 @@
 "use client"
 
 import { Container } from "../components/general/Container"
-import blogData from "../data/blog-data.json"
 import ReturnButton from "../components/general/ReturnButton"
 import WelcomeImage from "../components/general/WelcomeImage"
 import CreationDate from "../components/general/CreationDate"
@@ -24,13 +23,18 @@ import GalleryPicsCollage from "../components/template1/GalleryPicsCollage"
 import WhatWillYouFind from "../components/template1/WhatWillYouFind"
 import ScheduleBlog from "../components/template1/ScheduleBlog"
 
+// Importar datos del JSON
+import blogData from "../data/blog-data.json"
+
 // Importar estilos CSS
 import "../styles/clickable-title.css"
 
-export default function Template1Layout() {
-  const sections = blogData?.sections
+export default function Template1Layout({ blogData: propBlogData }) {
+  // Usar blogData pasado como prop o fallback a datos importados
+  const data = propBlogData || blogData
+  const sections = data?.sections
 
-  if (!sections) {
+  if (!data) {
     return (
       <Container>
         <div>Error: No se pudieron cargar los datos del Template 1</div>
@@ -40,26 +44,24 @@ export default function Template1Layout() {
 
   // Determinar el tipo basado en las secciones del JSON
   const getSectionType = (sectionKey) => {
-    return sections[sectionKey]?.type || "hotel"
+    return sections?.[sectionKey]?.type || "hotel"
   }
 
   return (
     <Container>
       <div className="py-8">
         <ReturnButton />
-        <WelcomeImage source={blogData.heroImage} />
+        <WelcomeImage source={data.heroImage} />
         <CreationDate />
         <div className="max-w-[68vw] mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex flex-col justify-center">
             <div className="mt-4 mb-6">
-              <Title title={blogData.blogTitle.es} type="hotel" />
+              <Title title="Puerto Juárez México. Aquí inicio Cancún." type="hotel" />
             </div>
             <div className="flex flex-col gap-5">
-              {Array.isArray(blogData.introduction.es) ? (
-                blogData.introduction.es.map((paragraph, index) => <Paragraph key={index} text={paragraph} />)
-              ) : (
-                <Paragraph text={blogData.introduction.es} />
-              )}
+              {Array.isArray(data.introduction?.es)
+                ? data.introduction.es.map((paragraph, index) => <Paragraph key={index} text={paragraph} />)
+                : data.introduction?.es && <Paragraph text={data.introduction.es} />}
               <div className="space-y-12">
                 {/* Contenido existente del template */}
                 {sections?.photoGallery && <GalleryPicsCollage data={sections.photoGallery.data} />}
