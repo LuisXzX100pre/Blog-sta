@@ -1,13 +1,15 @@
 import ListElement from "./ListElement"
 import ClickableText from "../general/ClickableText"
-import blogData from "../../data/blog-data.json"
 
-const PlacesToVisit = ({ showFirstHalf = false, showSecondHalf = false, type = "tour" }) => {
-  const placesData = blogData?.sections?.placesToVisit?.data
+const PlacesToVisit = ({ data, showFirstHalf = false, showSecondHalf = false, type = "tour", lang = "es" }) => {
+  if (!data) return null
 
-  if (!placesData) return null
+  const getText = (textObj) => {
+    if (typeof textObj === "string") return textObj
+    return textObj?.[lang] || textObj?.es || textObj?.en || ""
+  }
 
-  const { sectionTitle, introduction, placesList } = placesData
+  const { sectionTitle, introduction, placesList } = data
 
   // Si no se especifica ninguna mitad, mostrar todo (comportamiento por defecto)
   let placesToShow = placesList
@@ -25,14 +27,25 @@ const PlacesToVisit = ({ showFirstHalf = false, showSecondHalf = false, type = "
       {/* Solo mostrar el título y la introducción en la primera mitad */}
       {showFirstHalf && (
         <>
-          <ClickableText text={sectionTitle.es} type={type} className="m-s-b text-fs-24 mb-4 text-[#1a202c]" as="h2" />
-          <p className="m-m text-fs-14 text-gry-100 mb-8">{introduction.es}</p>
+          <ClickableText
+            text={getText(sectionTitle)}
+            type={type}
+            className="m-s-b text-fs-24 mb-4 text-[#1a202c]"
+            as="h2"
+          />
+          <p className="m-m text-fs-14 text-gry-100 mb-8">{getText(introduction)}</p>
         </>
       )}
 
       <ul className="space-y-8">
         {placesToShow.map((place, index) => (
-          <ListElement key={place.id} place={place} index={showSecondHalf ? index + 4 : index} type={type} />
+          <ListElement
+            key={place.id}
+            place={place}
+            index={showSecondHalf ? index + 4 : index}
+            type={type}
+            lang={lang}
+          />
         ))}
       </ul>
     </div>

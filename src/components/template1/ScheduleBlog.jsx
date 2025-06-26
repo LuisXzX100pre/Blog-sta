@@ -1,24 +1,36 @@
+"use client"
+
 import ClickableText from "../general/ClickableText"
 
-export default function ScheduleBlog({ data, type = "hotel" }) {
+export default function ScheduleBlog({ data, type = "hotel", lang = "es" }) {
   if (!data || !data.scheduleTable) {
     console.log("ScheduleBlog: datos insuficientes", data)
     return null
   }
 
+  const getText = (textObj) => {
+    if (typeof textObj === "string") return textObj
+    return textObj?.[lang] || textObj?.es || textObj?.en || ""
+  }
+
   return (
     <div className="flex flex-col gap-4 my-11">
-      <ClickableText text={data.title?.es || "Horarios"} type={type} className="text-fs-20 m-b" as="h3" />
-      <span className="text-gry-100 text-fs-14 m-m">{data.introduction?.es}</span>
+      <ClickableText
+        text={getText(data.title) || (lang === "en" ? "Schedules" : "Horarios")}
+        type={type}
+        className="text-fs-20 m-b"
+        as="h3"
+      />
+      <span className="text-gry-100 text-fs-14 m-m">{getText(data.introduction)}</span>
 
       <table className="border-collapse w-full mt-4">
         <thead>
           <tr>
             <th className="rounded-tl-lg border-l border-white bg-bl-100 text-white m-s-b text-fs-14 py-4">
-              {data.scheduleTable.headers[0].label?.es}
+              {getText(data.scheduleTable.headers[0].label)}
             </th>
             <th className="rounded-tr-lg border-l border-white bg-bl-100 text-white m-s-b text-fs-14 py-4">
-              {data.scheduleTable.headers[1].label?.es}
+              {getText(data.scheduleTable.headers[1].label)}
             </th>
           </tr>
         </thead>
@@ -31,7 +43,7 @@ export default function ScheduleBlog({ data, type = "hotel" }) {
           ))}
         </tbody>
       </table>
-      <p className="text-fs-12 text-gry-100 italic mt-2">{data.footerNote?.es}</p>
+      <p className="text-fs-12 text-gry-100 italic mt-2">{getText(data.footerNote)}</p>
     </div>
   )
 }

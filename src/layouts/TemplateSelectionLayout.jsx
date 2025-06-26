@@ -7,7 +7,7 @@ export default function TemplateSelectionLayout() {
       <div className="py-8">
         <h1 className="text-3xl font-bold text-center mb-8">Blog de Viajes</h1>
         <p className="text-center text-gray-600 mb-8 max-w-2xl mx-auto">
-         Seleciona el template adecuado para la informacion adecuada.
+          Selecciona el template adecuado para la información adecuada.
         </p>
         <TemplateCards />
       </div>

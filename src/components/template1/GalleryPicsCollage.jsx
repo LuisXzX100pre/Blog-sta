@@ -1,6 +1,13 @@
-export default function GalleryPicsCollage({ data }) {
+"use client"
+
+export default function GalleryPicsCollage({ data, lang = "es" }) {
   if (!data) {
     return null
+  }
+
+  const getText = (textObj) => {
+    if (typeof textObj === "string") return textObj
+    return textObj?.[lang] || textObj?.es || textObj?.en || ""
   }
 
   return (
@@ -9,7 +16,7 @@ export default function GalleryPicsCollage({ data }) {
       <div className="w-full lg:w-1/2 aspect-[16/10]">
         <img
           src={data.largeImage?.src || "/placeholder.svg"}
-          alt={data.largeImage?.alt?.es || "Imagen principal"}
+          alt={getText(data.largeImage?.alt) || (lang === "en" ? "Main image" : "Imagen principal")}
           className="w-full h-full object-cover border border-gray-200 shadow-sm rounded-[0.5em]"
           loading="lazy"
         />
@@ -22,7 +29,7 @@ export default function GalleryPicsCollage({ data }) {
             <div key={image.id} className="aspect-[16/10]">
               <img
                 src={image.src || "/placeholder.svg"}
-                alt={image.alt?.es || "Imagen de galería"}
+                alt={getText(image.alt) || (lang === "en" ? "Gallery image" : "Imagen de galería")}
                 className="w-full h-full object-cover border border-gray-200 shadow-sm rounded-[0.5em]"
                 loading="lazy"
               />

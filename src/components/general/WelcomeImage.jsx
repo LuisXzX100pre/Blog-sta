@@ -5,7 +5,7 @@ export default function WelcomeImage({ source }) {
         <img
           className="w-full h-[310px] object-cover"
           style={{ borderRadius: '0.5em' }}
-          src={source || "/placeholder.svg"}
+          src={source || "/src/assets/altura.jpeg"}
           alt="Background imagen"
         />
       </div>

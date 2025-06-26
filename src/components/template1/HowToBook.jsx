@@ -1,22 +1,29 @@
+"use client"
+
 import ClickableText from "../general/ClickableText"
 
-export default function HowToBook({ data, type = "hotel" }) {
+export default function HowToBook({ data, type = "hotel", lang = "es" }) {
   if (!data) {
     console.log("HowToBook: datos insuficientes", data)
     return null
   }
 
+  const getText = (textObj) => {
+    if (typeof textObj === "string") return textObj
+    return textObj?.[lang] || textObj?.es || textObj?.en || ""
+  }
+
   return (
     <>
       <ClickableText
-        text={data.title?.es || "Cómo planificar tu viaje"}
+        text={getText(data.title) || (lang === "en" ? "How to plan your trip" : "Cómo planificar tu viaje")}
         type={type}
         className="text-fs-20 m-b mb-4"
         as="h3"
       />
 
       <div className="flex flex-col gap-[24px] text-gry-100 text-fs-14 mb-8">
-        <p>{data.introduction?.es}</p>
+        <p>{getText(data.introduction)}</p>
       </div>
 
       {data.steps && data.steps.length > 0 && (
@@ -30,11 +37,11 @@ export default function HowToBook({ data, type = "hotel" }) {
               >
                 <img
                   src={step.icon?.src || "/placeholder.svg"}
-                  alt={step.icon?.alt?.es || "Icono"}
+                  alt={getText(step.icon?.alt) || (lang === "en" ? "Icon" : "Icono")}
                   className="w-8 h-8"
                 />
               </div>
-              <span>{step.text?.es}</span>
+              <span>{getText(step.text)}</span>
             </div>
           ))}
         </div>

@@ -1,15 +1,22 @@
+"use client"
+
 import ClickableText from "../general/ClickableText"
 
-export default function FamilyHotelsBlog({ data, type = "hotel" }) {
+export default function FamilyHotelsBlog({ data, type = "hotel", lang = "es" }) {
   if (!data) {
     console.log("FamilyHotelsBlog: datos insuficientes", data)
     return null
   }
 
+  const getText = (textObj) => {
+    if (typeof textObj === "string") return textObj
+    return textObj?.[lang] || textObj?.es || textObj?.en || ""
+  }
+
   return (
     <div className="my-11">
       <ClickableText
-        text={data.title?.es || "Hoteles recomendados"}
+        text={getText(data.title) || (lang === "en" ? "Recommended Hotels" : "Hoteles recomendados")}
         type={type}
         className="text-fs-20 m-b mb-4"
         as="h3"
@@ -17,7 +24,7 @@ export default function FamilyHotelsBlog({ data, type = "hotel" }) {
 
       <div className="flex flex-col gap-6 text-gry-100 text-fs-14 m-m mb-6">
         {data.introductionParagraphs &&
-          data.introductionParagraphs.map((paragraph, index) => <p key={index}>{paragraph.es}</p>)}
+          data.introductionParagraphs.map((paragraph, index) => <p key={index}>{getText(paragraph)}</p>)}
       </div>
 
       {data.hotelList && data.hotelList.length > 0 && (
@@ -25,7 +32,7 @@ export default function FamilyHotelsBlog({ data, type = "hotel" }) {
           {data.hotelList.map((hotel, index) => (
             <div key={hotel.id} className="flex gap-2 items-center">
               <span className="m-s-b text-fs-28 text-or-100">{index + 1}.</span>
-              <span className="text-fs-16 m-m">{hotel.name?.es}</span>
+              <span className="text-fs-16 m-m">{getText(hotel.name)}</span>
             </div>
           ))}
         </div>
@@ -35,7 +42,7 @@ export default function FamilyHotelsBlog({ data, type = "hotel" }) {
         <div className="w-full h-[300px] md:h-[437px] mt-6">
           <img
             src={data.mainImage.src || "/placeholder.svg"}
-            alt={data.mainImage.alt?.es || "Hotel recomendado"}
+            alt={getText(data.mainImage.alt) || (lang === "en" ? "Recommended hotel" : "Hotel recomendado")}
             className="w-full h-full object-cover rounded-xl border border-gray-200 shadow-sm"
           />
         </div>
