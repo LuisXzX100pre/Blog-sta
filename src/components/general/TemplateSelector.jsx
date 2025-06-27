@@ -2,6 +2,7 @@
 
 import { Link } from "react-router-dom"
 import { useLanguage } from "../../context/LanguageContext"
+import { generateDestinationUrl } from "../../utils/templateFlexibility"
 
 export default function TemplateSelector() {
   const { lang } = useLanguage()
@@ -11,7 +12,9 @@ export default function TemplateSelector() {
       <h3 className="text-fs-16 m-s-b mb-4 text-gray-700">
         {lang === "en" ? "Quick Navigation" : "Navegación Rápida"}
       </h3>
-      <div className="flex gap-3 flex-wrap">
+
+      {/* Enlaces principales a destinos */}
+      <div className="flex gap-3 flex-wrap mb-4">
         <Link
           to={`/${lang}`}
           className="px-4 py-2 bg-purple-500 text-white rounded-lg hover:bg-purple-600 transition-colors text-fs-14 m-mmb inline-block text-center"
@@ -19,11 +22,82 @@ export default function TemplateSelector() {
           {lang === "en" ? "Home" : "Inicio"}
         </Link>
         <Link
-          to={`/blog/${lang}`}
+          to={generateDestinationUrl("puerto-juarez-mexico", lang)}
+          className="px-4 py-2 bg-blue-500 text-white rounded-lg hover:bg-blue-600 transition-colors text-fs-14 m-mmb inline-block text-center"
+        >
+          Puerto Juárez
+        </Link>
+        <Link
+          to={generateDestinationUrl("acapulco-mexico", lang)}
           className="px-4 py-2 bg-green-500 text-white rounded-lg hover:bg-green-600 transition-colors text-fs-14 m-mmb inline-block text-center"
         >
-          {lang === "en" ? "View Blog" : "Ver Blog"}
+          Acapulco
         </Link>
+        <Link
+          to={generateDestinationUrl("cuando-es-la-mejor-epoca-para-viajar-a-cancun", lang)}
+          className="px-4 py-2 bg-orange-500 text-white rounded-lg hover:bg-orange-600 transition-colors text-fs-14 m-mmb inline-block text-center"
+        >
+          {lang === "en" ? "Cancún Climate" : "Clima Cancún"}
+        </Link>
+      </div>
+
+      {/* Selector de templates alternativos */}
+      <div className="mt-4 pt-4 border-t border-gray-200">
+        <h4 className="text-fs-14 m-s-b mb-2 text-gray-600">
+          {lang === "en" ? "Try Different Templates" : "Prueba Diferentes Templates"}
+        </h4>
+        <div className="grid grid-cols-3 gap-2 text-fs-12">
+          {/* Puerto Juárez con diferentes templates */}
+          <div>
+            <p className="font-semibold mb-1">Puerto Juárez:</p>
+            <Link
+              to={generateDestinationUrl("puerto-juarez-mexico", lang, 2)}
+              className="block text-blue-600 hover:underline"
+            >
+              Template 2
+            </Link>
+            <Link
+              to={generateDestinationUrl("puerto-juarez-mexico", lang, 3)}
+              className="block text-blue-600 hover:underline"
+            >
+              Template 3
+            </Link>
+          </div>
+
+          {/* Acapulco con diferentes templates */}
+          <div>
+            <p className="font-semibold mb-1">Acapulco:</p>
+            <Link
+              to={generateDestinationUrl("acapulco-mexico", lang, 1)}
+              className="block text-green-600 hover:underline"
+            >
+              Template 1
+            </Link>
+            <Link
+              to={generateDestinationUrl("acapulco-mexico", lang, 3)}
+              className="block text-green-600 hover:underline"
+            >
+              Template 3
+            </Link>
+          </div>
+
+          {/* Cancún con diferentes templates */}
+          <div>
+            <p className="font-semibold mb-1">Cancún:</p>
+            <Link
+              to={generateDestinationUrl("cuando-es-la-mejor-epoca-para-viajar-a-cancun", lang, 1)}
+              className="block text-orange-600 hover:underline"
+            >
+              Template 1
+            </Link>
+            <Link
+              to={generateDestinationUrl("cuando-es-la-mejor-epoca-para-viajar-a-cancun", lang, 2)}
+              className="block text-orange-600 hover:underline"
+            >
+              Template 2
+            </Link>
+          </div>
+        </div>
       </div>
 
       {/* Selector de idioma */}

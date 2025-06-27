@@ -24,7 +24,25 @@ import { useLanguage } from "../context/LanguageContext"
 export default function Template1Layout({ blogData: propBlogData, lang }) {
   const { lang: contextLang } = useLanguage()
   const currentLang = lang || contextLang || "es"
-  const data = propBlogData // Solo usar los datos recibidos como props
+
+  // Acceder correctamente a los datos
+  const mainData = propBlogData["puerto-juarez-mexico"] || propBlogData
+  const data = mainData
+  const templateNumber = data?.template || 1
+
+  console.log(`🎯 Template1Layout renderizando con template ${templateNumber}`)
+
+  // ✅ QUITAR VALIDACIÓN - Permitir cualquier template
+  // if (templateNumber !== 1) {
+  //   return (
+  //     <Container>
+  //       <div className="py-8 text-center">
+  //         <p>Este contenido no está disponible para Template 1</p>
+  //       </div>
+  //     </Container>
+  //   )
+  // }
+
   const sections = data?.sections
 
   if (!data) {
@@ -46,15 +64,11 @@ export default function Template1Layout({ blogData: propBlogData, lang }) {
         <ReturnButton />
         <WelcomeImage source={data.heroImage} lang={currentLang} />
         <CreationDate />
-        <div className="max-w-[68vw] mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="max-w-[68vw] mx-auto px-4 sm:px:6 lg:px-8">
           <div className="flex flex-col justify-center">
             <div className="mt-4 mb-6">
               <Title
-                title={
-                  currentLang === "en"
-                    ? "Puerto Juárez Mexico. Where Cancún Begins."
-                    : "Puerto Juárez México. Aquí inicio Cancún."
-                }
+                title={currentLang === "en" ? data.blogTitle || "Travel Guide" : data.blogTitle || "Guía de Viaje"}
                 type="hotel"
               />
             </div>
@@ -63,66 +77,73 @@ export default function Template1Layout({ blogData: propBlogData, lang }) {
                 ? data.introduction.map((paragraph, index) => <Paragraph key={index} text={paragraph} />)
                 : data.introduction && <Paragraph text={data.introduction} />}
               <div className="space-y-12">
-                {sections?.photoGallery && <GalleryPicsCollage data={sections.photoGallery.data} lang={currentLang} />}
-                {sections?.locationInfo && (
-                  <WhereLocated
-                    data={sections.locationInfo.data}
-                    type={getSectionType("locationInfo")}
-                    lang={currentLang}
-                  />
-                )}
-                {sections?.howToBookTransport && (
-                  <HowToBook
-                    data={sections.howToBookTransport.data}
-                    type={getSectionType("howToBookTransport")}
-                    lang={currentLang}
-                  />
-                )}
-                {sections?.howToGetThere && (
-                  <HowToGet
-                    data={sections.howToGetThere.data}
-                    type={getSectionType("howToGetThere")}
-                    lang={currentLang}
-                  />
-                )}
-                {sections?.journeyVideo && (
-                  <VideoPlace
-                    data={sections.journeyVideo.data}
-                    type={getSectionType("journeyVideo")}
-                    lang={currentLang}
-                  />
-                )}
-                {sections?.ferrySchedule && (
-                  <ScheduleBlog
-                    data={sections.ferrySchedule.data}
-                    type={getSectionType("ferrySchedule")}
-                    lang={currentLang}
-                  />
-                )}
-                {sections?.whatToFind && (
-                  <WhatWillYouFind
-                    data={sections.whatToFind.data}
-                    type={getSectionType("whatToFind")}
-                    lang={currentLang}
-                  />
-                )}
-                {sections?.routesFrom && (
-                  <FromToBlog data={sections.routesFrom.data} type={getSectionType("routesFrom")} lang={currentLang} />
-                )}
-                {sections?.familyHotels && (
-                  <FamilyHotelsBlog
-                    data={sections.familyHotels.data}
-                    type={getSectionType("familyHotels")}
-                    lang={currentLang}
-                  />
-                )}
-                {sections?.favoriteActivities && (
-                  <FavoriteActivitiesBlog
-                    data={sections.favoriteActivities.data}
-                    type={getSectionType("favoriteActivities")}
-                    lang={currentLang}
-                  />
-                )}
+                {/* 🧠 Componentes inteligentes que se adaptan a cualquier dato */}
+                <GalleryPicsCollage
+                  data={sections?.photoGallery?.data || sections?.placesToVisit?.data || sections?.monthlyInfo?.data}
+                  lang={currentLang}
+                />
+
+                <WhereLocated
+                  data={sections?.locationInfo?.data || sections?.placesToVisit?.data || sections?.monthlyInfo?.data}
+                  type={getSectionType("locationInfo")}
+                  lang={currentLang}
+                />
+
+                <HowToBook
+                  data={
+                    sections?.howToBookTransport?.data || sections?.placesToVisit?.data || sections?.monthlyInfo?.data
+                  }
+                  type={getSectionType("howToBookTransport")}
+                  lang={currentLang}
+                />
+
+                <HowToGet
+                  data={
+                    sections?.howToGetThere?.data ||
+                    sections?.beforeYouVisitRecommendations?.data ||
+                    sections?.frequentlyAskedQuestions?.data
+                  }
+                  type={getSectionType("howToGetThere")}
+                  lang={currentLang}
+                />
+
+                <VideoPlace
+                  data={sections?.journeyVideo?.data || sections?.placesToVisit?.data || sections?.monthlyInfo?.data}
+                  type={getSectionType("journeyVideo")}
+                  lang={currentLang}
+                />
+
+                <ScheduleBlog
+                  data={sections?.ferrySchedule?.data || sections?.placesToVisit?.data || sections?.monthlyInfo?.data}
+                  type={getSectionType("ferrySchedule")}
+                  lang={currentLang}
+                />
+
+                <WhatWillYouFind
+                  data={sections?.whatToFind?.data || sections?.placesToVisit?.data || sections?.monthlyInfo?.data}
+                  type={getSectionType("whatToFind")}
+                  lang={currentLang}
+                />
+
+                <FromToBlog
+                  data={sections?.routesFrom?.data || sections?.placesToVisit?.data || sections?.monthlyInfo?.data}
+                  type={getSectionType("routesFrom")}
+                  lang={currentLang}
+                />
+
+                <FamilyHotelsBlog
+                  data={sections?.familyHotels?.data || sections?.placesToVisit?.data || sections?.monthlyInfo?.data}
+                  type={getSectionType("familyHotels")}
+                  lang={currentLang}
+                />
+
+                <FavoriteActivitiesBlog
+                  data={
+                    sections?.favoriteActivities?.data || sections?.placesToVisit?.data || sections?.monthlyInfo?.data
+                  }
+                  type={getSectionType("favoriteActivities")}
+                  lang={currentLang}
+                />
               </div>
               <CategoryTags lang={currentLang} />
               <RelatedArticlesBlog lang={currentLang} />

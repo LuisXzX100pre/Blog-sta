@@ -2,7 +2,7 @@
 
 import { useState, useEffect } from "react"
 
-export function useBlogData(lang) {
+export function useBlogData(lang, destinationSlug = null) {
   const [blogData, setBlogData] = useState(null)
   const [loading, setLoading] = useState(true)
   const [error, setError] = useState(null)
@@ -24,7 +24,12 @@ export function useBlogData(lang) {
           data = module.default
         }
 
-        setBlogData(data)
+        // Si se especifica un destino específico, devolver solo ese
+        if (destinationSlug && data[destinationSlug]) {
+          setBlogData({ [destinationSlug]: data[destinationSlug] })
+        } else {
+          setBlogData(data)
+        }
       } catch (err) {
         console.error("Error loading blog data:", err)
         setError(err)
@@ -43,7 +48,7 @@ export function useBlogData(lang) {
     if (lang) {
       loadBlogData()
     }
-  }, [lang])
+  }, [lang, destinationSlug])
 
   return { blogData, loading, error }
 }

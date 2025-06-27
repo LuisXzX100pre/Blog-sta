@@ -12,12 +12,13 @@ export default function ListingBlog({ lang = "es" }) {
   // Las 3 primeras cartas serán los templates principales
   const templateCards = [
     {
-      id: "template1",
-      name: "template1",
+      id: "puerto-juarez-mexico",
+      name: "puerto-juarez-mexico",
       image: "https://images.unsplash.com/photo-1571896349842-33c89424de2d?w=400&h=200&fit=crop",
       date: "2024-01-15",
       type: ["hotel", "transport"],
       isTemplate: true,
+      templateNumber: 1,
       mainTitle: {
         es: "Puerto Juárez México. Aquí inicio Cancún.",
         en: "Puerto Juárez Mexico. Where Cancún Begins.",
@@ -28,12 +29,13 @@ export default function ListingBlog({ lang = "es" }) {
       },
     },
     {
-      id: "template2",
-      name: "template2",
+      id: "acapulco-mexico",
+      name: "acapulco-mexico",
       image: "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=400&h=200&fit=crop",
       date: "2024-01-10",
       type: ["tour", "hotel"],
       isTemplate: true,
+      templateNumber: 2,
       mainTitle: {
         es: "Guía completa de Acapulco",
         en: "Complete Acapulco Guide",
@@ -44,12 +46,13 @@ export default function ListingBlog({ lang = "es" }) {
       },
     },
     {
-      id: "template3",
-      name: "template3",
+      id: "cuando-es-la-mejor-epoca-para-viajar-a-cancun",
+      name: "cuando-es-la-mejor-epoca-para-viajar-a-cancun",
       image: "https://images.unsplash.com/photo-1559827260-dc66d52bef19?w=400&h=200&fit=crop",
       date: "2024-01-05",
       type: ["climate"],
       isTemplate: true,
+      templateNumber: 3,
       mainTitle: {
         es: "¿Cuándo es la mejor época para viajar a Cancún?",
         en: "When is the Best Time to Travel to Cancún?",

@@ -10,10 +10,10 @@ import Template1Layout from "./layouts/Template1Layout"
 import Template2Layout from "./layouts/Template2Layout"
 import Template3Layout from "./layouts/Template3Layout"
 import BlogHomeLayout from "./layouts/BlogHomeLayout"
-import DynamicTemplateRenderer from "./components/dynamics/DynamicTemplateRenderer.jsx"
-import ComponentRenderer from "./components/dynamics/ComponentRenderer.jsx"
+import ComponentRenderer from "./components/dynamics/ComponentRenderer"
 import { useBlogData } from "./hooks/useBlogData"
 import { useLanguage } from "./context/LanguageContext"
+import { adaptDataForTemplate } from "./utils/dataAdapter.js"
 
 // Componente para el home principal
 function HomePage() {
@@ -54,10 +54,15 @@ function TemplateComponentPage() {
   return <ComponentRenderer templateNumber={templateNumber} componentName={component} lang={lang || "es"} />
 }
 
-// Componente para manejar las rutas dinámicas de secciones
-function DynamicSectionPage() {
-  const { lang, section } = useParams()
+// Componente para manejar las rutas dinámicas de destinos específicos
+function DynamicDestinationPage() {
+  const { lang, destination } = useParams()
   const { setLang } = useLanguage()
+  const { blogData, loading, error } = useBlogData(lang)
+
+  // Obtener parámetro de template de la URL si existe
+  const urlParams = new URLSearchParams(window.location.search)
+  const templateOverride = urlParams.get("template") ? Number.parseInt(urlParams.get("template")) : null
 
   useEffect(() => {
     if (lang && (lang === "es" || lang === "en")) {
@@ -69,10 +74,50 @@ function DynamicSectionPage() {
     return <Navigate to="/es" replace />
   }
 
-  return <DynamicTemplateRenderer sectionName={section} lang={lang || "es"} />
+  if (loading) {
+    return <LoadingSpinner />
+  }
+
+  if (error || !blogData) {
+    return (
+      <div className="flex justify-center items-center min-h-[200px]">
+        <p className="text-red-600">Error al cargar el contenido. Intenta nuevamente.</p>
+      </div>
+    )
+  }
+
+  // Verificar si el destino existe en los datos
+  const destinationData = blogData[destination]
+  if (!destinationData) {
+    return <Navigate to="/es" replace />
+  }
+
+  // Determinar qué template usar (override, del JSON, o por defecto)
+  const templateToUse = templateOverride || destinationData.template || 1
+
+  console.log(`🎯 Template original: ${destinationData.template}, Template a usar: ${templateToUse}`)
+
+  // Adaptar datos usando el nuevo sistema inteligente
+  const adaptedData =
+    templateToUse !== destinationData.template ? adaptDataForTemplate(destinationData, templateToUse) : destinationData
+
+  // Crear el objeto de datos en el formato esperado por los layouts
+  const formattedBlogData = { [destination]: adaptedData }
+
+  // Seleccionar el template correcto según el número de template
+  const TemplateComponent =
+    templateToUse === 1
+      ? Template1Layout
+      : templateToUse === 2
+        ? Template2Layout
+        : templateToUse === 3
+          ? Template3Layout
+          : Template1Layout
+
+  return <TemplateComponent blogData={formattedBlogData} lang={lang || "es"} />
 }
 
-// Componente para manejar las rutas de blog completo
+// Componente para manejar las rutas de blog completo (legacy)
 function BlogPage() {
   const { lang } = useParams()
   const { setLang } = useLanguage()
@@ -100,38 +145,14 @@ function BlogPage() {
     )
   }
 
-  return <Template1Layout blogData={blogData} lang={lang || "es"} />
-}
-
-// Componente para rutas de template específico con idioma
-function TemplatePageWithLang({ TemplateComponent }) {
-  const { lang } = useParams()
-  const { setLang } = useLanguage()
-  const { blogData, loading, error } = useBlogData(lang)
-
-  useEffect(() => {
-    if (lang && (lang === "es" || lang === "en")) {
-      setLang(lang)
-    }
-  }, [lang, setLang])
-
-  if (lang && lang !== "es" && lang !== "en") {
-    return <Navigate to="/es/template1" replace />
+  // Por defecto mostrar Puerto Juárez (Template 1)
+  const puertoJuarezData = blogData["puerto-juarez-mexico"]
+  if (puertoJuarezData) {
+    const formattedBlogData = { "puerto-juarez-mexico": puertoJuarezData }
+    return <Template1Layout blogData={formattedBlogData} lang={lang || "es"} />
   }
 
-  if (loading) {
-    return <LoadingSpinner />
-  }
-
-  if (error || !blogData) {
-    return (
-      <div className="flex justify-center items-center min-h-[200px]">
-        <p className="text-red-600">Error al cargar el contenido. Intenta nuevamente.</p>
-      </div>
-    )
-  }
-
-  return <TemplateComponent blogData={blogData} lang={lang || "es"} />
+  return <Navigate to="/es" replace />
 }
 
 function App() {
@@ -148,25 +169,23 @@ function App() {
         {/* Ruta principal del home */}
         <Route path="/:lang" element={<HomePage />} />
 
-        {/* NUEVAS RUTAS: Componentes específicos dentro de templates */}
+        {/* RUTAS PRINCIPALES: Destinos específicos con sus identificadores URL */}
+        <Route path="/:lang/:destination" element={<DynamicDestinationPage />} />
+
+        {/* RUTAS ESPECÍFICAS: Componentes específicos dentro de templates */}
         <Route path="/:lang/:template/:component" element={<TemplateComponentPage />} />
 
-        {/* Rutas dinámicas para secciones específicas */}
-        <Route path="/:lang/:section" element={<DynamicSectionPage />} />
-
-        {/* Rutas de blog completo */}
+        {/* Rutas de blog completo (legacy) */}
         <Route path="/blog/:lang" element={<BlogPage />} />
         <Route path="/blog" element={<Navigate to={`/blog/${lang || "es"}`} replace />} />
 
-        {/* Rutas de templates específicos */}
-        <Route path="/:lang/template1" element={<TemplatePageWithLang TemplateComponent={Template1Layout} />} />
-        <Route path="/:lang/template2" element={<TemplatePageWithLang TemplateComponent={Template2Layout} />} />
-        <Route path="/:lang/template3" element={<TemplatePageWithLang TemplateComponent={Template3Layout} />} />
-
-        {/* Redirecciones de templates sin idioma */}
-        <Route path="/template1" element={<Navigate to={`/${lang || "es"}/template1`} replace />} />
-        <Route path="/template2" element={<Navigate to={`/${lang || "es"}/template2`} replace />} />
-        <Route path="/template3" element={<Navigate to={`/${lang || "es"}/template3`} replace />} />
+        {/* Redirecciones de templates sin idioma (legacy) */}
+        <Route path="/template1" element={<Navigate to={`/${lang || "es"}/puerto-juarez-mexico`} replace />} />
+        <Route path="/template2" element={<Navigate to={`/${lang || "es"}/acapulco-mexico`} replace />} />
+        <Route
+          path="/template3"
+          element={<Navigate to={`/${lang || "es"}/cuando-es-la-mejor-epoca-para-viajar-a-cancun`} replace />}
+        />
 
         {/* Ruta catch-all para URLs no válidas */}
         <Route path="*" element={<Navigate to="/es" replace />} />

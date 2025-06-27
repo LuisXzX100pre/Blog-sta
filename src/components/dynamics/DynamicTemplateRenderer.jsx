@@ -2,9 +2,7 @@
 
 import { Container } from "../general/Container"
 import ReturnButton from "../general/ReturnButton"
-import Template1Layout from "../../layouts/Template1Layout"
-import Template2Layout from "../../layouts/Template2Layout"
-import Template3Layout from "../../layouts/Template3Layout"
+import FlexibleTemplateRenderer from "./FlexibleTemplateRenderer"
 import { useBlogData } from "../../hooks/useBlogData"
 import LoadingSpinner from "../general/LoadingSpinner"
 
@@ -24,50 +22,42 @@ export default function DynamicTemplateRenderer({ sectionName, lang = "es" }) {
             <h1 className="text-fs-24 m-s-b text-gray-800 mb-4">
               {lang === "en" ? "Content not found" : "Contenido no encontrado"}
             </h1>
-            <p className="text-fs-16 text-gray-600">
-              {lang === "en" ? "The requested content does not exist." : "El contenido solicitado no existe."}
-            </p>
           </div>
         </div>
       </Container>
     )
   }
 
-  // Buscar la sección en el JSON
-  const section = blogData.sections?.[sectionName]
+  // Mapear sectionName a la clave correcta del JSON
+  const sectionToDestinationMap = {
+    "puerto-juarez-mexico": "puerto-juarez-mexico",
+    "acapulco-mexico": "acapulco-mexico",
+    "cuando-es-la-mejor-epoca-para-viajar-a-cancun": "cuando-es-la-mejor-epoca-para-viajar-a-cancun",
+  }
 
-  if (!section) {
+  const destinationKey = sectionToDestinationMap[sectionName] || sectionName
+  const mainData = blogData[destinationKey]
+
+  if (!mainData) {
     return (
       <Container>
         <div className="py-8">
           <ReturnButton />
           <div className="text-center">
             <h1 className="text-fs-24 m-s-b text-gray-800 mb-4">
-              {lang === "en" ? "Section not found" : "Sección no encontrada"}
+              {lang === "en" ? "Data not found" : "Datos no encontrados"}
             </h1>
-            <p className="text-fs-16 text-gray-600">
-              {lang === "en" ? "The requested section does not exist." : "La sección solicitada no existe."}
-            </p>
           </div>
         </div>
       </Container>
     )
   }
 
-  // Determinar qué template usar basado en el JSON
-  const templateNumber = section.template || 1
+  // Crear el objeto de datos en el formato esperado
+  const formattedBlogData = { [destinationKey]: mainData }
 
-  // Crear un blogData modificado que solo contenga esta sección
-  const sectionBlogData = {
-    ...blogData,
-    sections: {
-      [sectionName]: section,
-    },
-  }
+  console.log(`🎯 Renderizando ${destinationKey} con template ${mainData.template}`)
 
-  // Seleccionar el template correcto
-  const TemplateComponent =
-    templateNumber === 1 ? Template1Layout : templateNumber === 2 ? Template2Layout : Template3Layout
-
-  return <TemplateComponent blogData={sectionBlogData} lang={lang} />
+  // Usar el nuevo sistema flexible
+  return <FlexibleTemplateRenderer blogData={formattedBlogData} lang={lang} />
 }

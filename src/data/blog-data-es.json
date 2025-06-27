@@ -1,968 +1,665 @@
 {
-  "blogTitle": "¿Cuándo es la mejor época para viajar a Cancún?",
-  "slug": "guia-completa-destinos-mexicanos",
-  "heroImage": "https://images.pexels.com/photos/261101/pexels-photo-261101.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-
-  "acapulcoGuide": {
+  "puerto-juarez-mexico": {
+    "template": 1,
     "type": "tour",
-    "data": {
-      "mainTitle": "¿Qué visitar en Acapulco? 8 Lugares Imperdibles",
-      "subtitle": "Descubre qué visitar en Acapulco, Guerrero durante tus vacaciones o de fin de semana",
-      "introductionParagraphs": [
-        "El ambiente tropical y de playa son una sensación única que transmiten paz y relajación. Acapulco es un lugar con estas características, con múltiples lugares para visitar que se convierte en un destino perfecto para los días vacacionales.",
-        "Además de las playas bonitas de Acapulco, existen lugares turísticos que son muy tradicionales de la zona y que se caracterizan por ser únicos en su tipo.",
-        "La Bahía de Acapulco es un lugar de fácil entrada y salida, ya que su ubicación geográfica favorece a que las carreteras estén muy bien conectadas con esta ciudad.",
-        "Aprovecha y adquiere boletos de autobús baratos hacia Acapulco, Guerrero. Disfruta de tus vacaciones y planea tu visita a los diferentes lugares."
-      ]
-    }
-  },
-
-  "introduction": [
-    "¿No sabes cuál es la mejor época para viajar a Cancún? Siempre es importante tener claro la meteorología antes de planificar tu viaje a la Riviera Maya. Gracias a su clima tropical, Cancún es un destino para todo el año, y hay temporadas que son más favorables que otras para disfrutar de sus increíbles playas. ¡No querrás que la lluvia te fastidie las vacaciones! Sin embargo, todo depende de lo que estés buscando.",
-    "En este post te contamos mes a mes cuál es la mejor época para viajar a Cancún para que sepas qué te espera en cada época del año."
-  ],
-
-  "sections": {
-    "locationInfo": {
-      "type": "tour",
-      "template": 1,
-      "data": {
-        "title": "¿Dónde queda Puerto Juárez?",
-        "introductionParagraphs": [
-          "Puerto Juárez es una localidad que se encuentra en el municipio de Benito Juárez, en el estado de Quintana Roo, México. Está ubicado al norte del centro de Cancún, a lo largo de la costa del Mar Caribe. Es conocido por ser un puerto marítimo importante para la salida de ferries hacia Isla Mujeres.",
-          "Y si te estas preguntando ¿Cuál es la distancia entre Puerto Juárez y aeropuerto de Cancún? La respuesta es: 24.4 kilómetros. Además, el tiempo promedio que vas a demorar en recorrer esta distancia a través de un traslado privado es de 30 minutos aproximadamente.",
-          "Algo muy interesante de todo esto es que Puerto Juárez no es como tal considerado parte de Cancún. Es considerado como una pequeña zona cercana a la ciudad de Cancún. ¿Quieres conocer más? Bueno, sigue leyendo porque ahora nos adentraremos a su puerto y su terminal marítima."
-        ],
-        "mapSection": {
-          "image": {
-            "src": "/src/assets/MAPA DE PUERTO JUAREZ.png",
-            "alt": "Mapa de Google Maps de Puerto Juárez"
-          },
-          "caption": "Puerto Juárez Mapa de Google Map: Este mapa destaca como punto principal la terminal marítima en la Playa Puerto Juárez. El cual es barrio que forma parte de Cancún y se extiende hasta Costa Mujeres. Costa Mujeres no forma parte de Cancún, es una pequeña zona continental de Isla Mujeres."
-        },
-        "conclusionParagraph": "Ahora que ya conoces un poco de Puerto Juárez, seguramente te debes de estar preguntando ¿Cómo llegar a Puerto Juárez desde Cancun?, ¿Cómo llegar del aeropuerto de Cancún a puerto Juárez? e incluso ¿Cómo llegar de Playa del Carmen a Puerto? Bueno, todo eso te lo vamos a describir un poco aquí, en esta sección pero recuerda: Si quieres profundizar más, por eso tenemos artículos completos y técnico que hablan sobre los paso que tienes que seguir para poder llegar al pequeño pueblo pesquero de Puerto Juárez Quintana Roo."
-      }
-    },
-    "whatToFind": {
-      "type": "tour",
-      "template": 1,
-      "data": {
-        "title": "¿Qué encontrarás en Isla Mujeres?",
-        "items": [
-          {
-            "id": "isla_mujeres_arqueologia_unica",
+    "date": "Enero,15,2024",
+    "blogTitle": "Puerto Juárez México. Aquí inicio Cancún.",
+    "slug": "puerto-juarez-mexico-guia-completa",
+    "heroImage": "https://images.unsplash.com/photo-1571896349842-33c89424de2d?w=1200&h=600&fit=crop",
+    "introduction": [
+      "Puerto Juárez es una localidad que se encuentra en el municipio de Benito Juárez, en el estado de Quintana Roo, México. Está ubicado al norte del centro de Cancún, a lo largo de la costa del Mar Caribe.",
+      "Es conocido por ser un puerto marítimo importante para la salida de ferries hacia Isla Mujeres y un punto de conexión clave para explorar las maravillas del Caribe mexicano.",
+      "Desde aquí, miles de viajeros inician su aventura hacia destinos paradisíacos, convirtiendo a Puerto Juárez en la puerta de entrada a experiencias inolvidables."
+    ],
+    "sections": {
+      "locationInfo": {
+        "data": {
+          "title": "¿Dónde queda Puerto Juárez?",
+          "introductionParagraphs": [
+            "Puerto Juárez es una localidad que se encuentra en el municipio de Benito Juárez, en el estado de Quintana Roo, México. Está ubicado al norte del centro de Cancún, a lo largo de la costa del Mar Caribe. Es conocido por ser un puerto marítimo importante para la salida de ferries hacia Isla Mujeres.",
+            "Y si te estas preguntando ¿Cuál es la distancia entre Puerto Juárez y aeropuerto de Cancún? La respuesta es: 24.4 kilómetros. Además, el tiempo promedio que vas a demorar en recorrer esta distancia a través de un traslado privado es de 30 minutos aproximadamente.",
+            "Algo muy interesante de todo esto es que Puerto Juárez no es como tal considerado parte de Cancún. Es considerado como una pequeña zona cercana a la ciudad de Cancún. ¿Quieres conocer más? Bueno, sigue leyendo porque ahora nos adentraremos a su puerto y su terminal marítima."
+          ],
+          "mapSection": {
             "image": {
-              "src": "/src/assets/playa.jpeg",
-              "alt": "Zonas arqueológicas en Isla Mujeres"
+              "src": "/src/assets/MAPA DE PUERTO JUAREZ.png",
+              "alt": "Mapa de Google Maps de Puerto Juárez"
             },
-            "name": "Zonas arqueológicas",
-            "description": "El Meco es una pequeña zona arqueológica que se encuentra en Puerto Juárez y no suele ser muy conocida, lo que le da una privacidad de explorar completamente el lugar casi de manera privada y su costo de acceso es de 50 MXN."
+            "caption": "Puerto Juárez Mapa de Google Map: Este mapa destaca como punto principal la terminal marítima en la Playa Puerto Juárez. El cual es barrio que forma parte de Cancún y se extiende hasta Costa Mujeres. Costa Mujeres no forma parte de Cancún, es una pequeña zona continental de Isla Mujeres."
           },
-          {
-            "id": "isla_mujeres_arqueologia_2",
-            "image": {
-              "src": "/src/assets/isla-mujeres-tour-snorkel.jpg",
-              "alt": "Zonas arqueológicas en Isla Mujeres"
-            },
-            "name": "Zonas arqueológicas",
-            "description": "El Meco es una pequeña zona arqueológica que se encuentra en Puerto Juárez y no suele ser muy conocida, lo que le da una privacidad de explorar completamente el lugar casi de manera privada y su costo de acceso es de 50 MXN."
-          },
-          {
-            "id": "isla_mujeres_arqueologia_3",
-            "image": {
-              "src": "/src/assets/El meco.jpg",
-              "alt": "Zonas arqueológicas en Isla Mujeres"
-            },
-            "name": "Zonas arqueológicas",
-            "description": "El Meco es una pequeña zona arqueológica que se encuentra en Puerto Juárez y no suele ser muy conocida, lo que le da una privacidad de explorar completamente el lugar casi de manera privada y su costo de acceso es de 50 MXN."
-          }
-        ]
-      }
-    },
-    "howToGetThere": {
-      "type": "tour",
-      "template": 1,
-      "data": {
-        "sections": [
-          {
-            "id": "htg_main_intro_loc",
-            "title": "¿Cómo llegar a Puerto Juárez desde Cancún?",
-            "paragraphs": [
-              "Si te encuentras en Cancún y deseas llegar a Puerto Juárez, ya sea para tomar el ferry a Isla Mujeres, visitar la zona arqueológica El Meco, recorrer el pequeño pueblo o disfrutar de su gastronomía, conocer y refrescarte con sus playas, entonces aquí te explicaremos paso a paso cómo hacerlo.",
-              "Como ya debes saber, el centro de Cancún es el punto en el cual se toman los camiones, colectivos y taxis para poder llegar a cualquier otra parte de Cancún o incluso fuera de él. Por ende, ya te debes imaginar que para llegar a Puerto Juárez, primero necesitas estar en el centro de Cancún.",
-              "Entonces, ¿Cómo puedo llegar al centro de Cancún? Normalmente no es muy complicado llegar al centro de Cancún, casi todas las rutas de los camiones de transporte público llegan por aquí, sin embargo el centro de Cancún es un poco amplio en contexto de la palabra, entonces ¿Cómo llegar a Puerto Juárez desde el centro de Cancún? ."
-            ],
-            "image": {
-              "src": "/src/assets/How-to-get-to-Puerto-Morelos-Juarez-from-Cancun.jpg",
-              "alt": "Cómo llegar a Puerto Juárez desde Cancún"
-            }
-          },
-          {
-            "id": "htg_main_details_loc",
-            "paragraphs": [
-              "El crucero es una parte que forma parte del centro de Cancún y se puede encontrar entre la avenida José López Portillo y Tulum. En esta intersección, tú puedes tomar uno de los camiones o colectivos que recorren Puerto Juárez y en cierta instancia, Costa Mujeres y parte de Playa Mujeres.",
-              "Cabe mencionar que no es la única alternativa. Desde el centro de Cancún se puede tomar un taxi hacia Puerto Juárez, pero este puede tener un costo de 200 MXN a 300 MXN, que en USD son aproximadamente de 20 USD a 30 USD.",
-              "Cabe mencionar que al ser parte de Cancún, es mucho más sencillo encontrar transporte recurrente hacia Puerto Juárez y nuevamente repetimos: El centro de Cancún es amplio y el lugar que estás buscando para abordar un transporte a cualquier lugar de Puerto es en el crucero."
-            ]
-          },
-          {
-            "id": "htg_main_zona_hotelera_loc",
-            "title": "¿Cómo llegar a Puerto Juárez desde la Zona Hotelera de Cancún?",
-            "paragraphs": [
-              {
-                "type": "normal",
-                "text": "Desde la Zona Hotelera, también se puede llegar a cualquier parte de Puerto Juárez, pero es necesario entender que para lograrlo se tiene que realizar una combinación de 2 o 3 servicios de transporte público."
-              },
-              {
-                "type": "normal",
-                "text": "¿Por qué transporte público? Porque los servicios de taxi que puedes adquirir en la Zona Hotelera te pueden llegar a cobrar hasta 800 MXN o más por llevarte a Puerto Juárez, y no queremos eso, ¿verdad?"
-              },
-              {
-                "type": "normal",
-                "text": "Nuestro primer camión lo tomaremos afuera de nuestro hotel. Normalmente, a las afueras de cualquiera de los hoteles de la Zona Hotelera, encontraremos \"paraderos de autobuses\", y si no somos muy pacientes, entonces tomaremos cualquiera de los camiones que vaya hacia el centro de Cancún."
-              },
-              {
-                "type": "normal",
-                "text": "Normalmente existen camiones que te pueden llevar directo al crucero, pero si no eres paciente, puedes tomar cualquier otro camión."
-              },
-              {
-                "type": "highlighted",
-                "text": "Entonces, desde el centro, puedes tomar otro camión hacia el crucero y desde aquí, tomar un transporte hacia Puerto Juárez. Así de simple y así de sencillo."
-              }
-            ],
-            "link": {
-              "url": "https://staywuw.com/",
-              "text": "https://staywuw.com/"
-            }
-          },
-          {
-            "id": "htg_main_quote_loc",
-            "text": "¿Por qué transporte público? Porque los servicios de taxi que puedes adquirir en la Zona Hotelera te pueden llegar a cobrar hasta 800 MXN o más por llevarte a Puerto Juárez, y no queremos eso, ¿verdad?"
-          },
-          {
-            "id": "htg_main_map_image_loc",
-            "image": {
-              "src": "/src/assets/como-llegar-a-puerto-juarez-desde-zona-hotelera.jpg",
-              "alt": "Ubicación como llegar a Puerto Juárez"
-            }
-          }
-        ]
-      }
-    },
-    "routesFrom": {
-      "type": "tour",
-      "template": 1,
-      "data": {
-        "title": "Desde Puerto Juárez a....",
-        "routes": [
-          {
-            "id": "pj_to_cancun_detail_main",
-            "number": 1,
-            "descriptionParagraphs": [
-              "Si te encuentras en Cancún y deseas llegar a Puerto Juárez, ya sea para tomar el ferry a Isla Mujeres, visitar la zona arqueológica El Meco, recorrer el pequeño pueblo o disfrutar de su gastronomía, conocer y refrescarte con sus playas, entonces aquí te explicaremos paso a paso cómo hacerlo.",
-              "Como ya debes saber, el centro de Cancún es el punto en el cual se toman los camiones, colectivos y taxis para poder llegar a cualquier otra parte de Cancún o incluso fuera de él. Por ende, ya te debes imaginar que para llegar a Puerto Juárez, primero necesitas estar en el centro de Cancún.",
-              "Entonces, ¿Cómo puedo llegar al centro de Cancún? Normalmente no es muy complicado llegar al centro de Cancún, casi todas las rutas de los camiones de transporte público llegan por aquí, sin embargo el centro de Cancún es un poco amplio en contexto de la palabra, entonces ¿Cómo llegar a Puerto Juárez desde el centro de Cancún? ."
-            ]
-          },
-          {
-            "id": "pj_to_cancun_detail_2",
-            "number": 2,
-            "descriptionParagraphs": [
-              "Si te encuentras en Cancún y deseas llegar a Puerto Juárez, ya sea para tomar el ferry a Isla Mujeres, visitar la zona arqueológica El Meco, recorrer el pequeño pueblo o disfrutar de su gastronomía, conocer y refrescarte con sus playas, entonces aquí te explicaremos paso a paso cómo hacerlo.",
-              "Como ya debes saber, el centro de Cancún es el punto en el cual se toman los camiones, colectivos y taxis para poder llegar a cualquier otra parte de Cancún o incluso fuera de él. Por ende, ya te debes imaginar que para llegar a Puerto Juárez, primero necesitas estar en el centro de Cancún.",
-              "Entonces, ¿Cómo puedo llegar al centro de Cancún? Normalmente no es muy complicado llegar al centro de Cancún, casi todas las rutas de los camiones de transporte público llegan por aquí, sin embargo el centro de Cancún es un poco amplio en contexto de la palabra, entonces ¿Cómo llegar a Puerto Juárez desde el centro de Cancún? ."
-            ]
-          },
-          {
-            "id": "pj_to_cancun_detail_3",
-            "number": 3,
-            "descriptionParagraphs": [
-              "Si te encuentras en Cancún y deseas llegar a Puerto Juárez, ya sea para tomar el ferry a Isla Mujeres, visitar la zona arqueológica El Meco, recorrer el pequeño pueblo o disfrutar de su gastronomía, conocer y refrescarte con sus playas, entonces aquí te explicaremos paso a paso cómo hacerlo.",
-              "Como ya debes saber, el centro de Cancún es el punto en el cual se toman los camiones, colectivos y taxis para poder llegar a cualquier otra parte de Cancún o incluso fuera de él. Por ende, ya te debes imaginar que para llegar a Puerto Juárez, primero necesitas estar en el centro de Cancún.",
-              "Entonces, ¿Cómo puedo llegar al centro de Cancún? Normalmente no es muy complicado llegar al centro de Cancún, casi todas las rutas de los camiones de transporte público llegan por aquí, sin embargo el centro de Cancún es un poco amplio en contexto de la palabra, entonces ¿Cómo llegar a Puerto Juárez desde el centro de Cancún? ."
-            ]
-          }
-        ]
-      }
-    },
-    "howToBookTransport": {
-      "type": "tour",
-      "template": 1,
-      "data": {
-        "title": "¿Cómo reservar un transporte?",
-        "introduction": "Lorem ipsum dolor sit amet consectetur. Viverra dignissim dictum faucibus sed potenti commodo libero id. Fames massa consectetur duis tortor urna maecenas accumsan habitant. Ut placerat sit aliquam dolor penatibus ut nunc interdum laoreet. Viverra dis sagittis amet quam aliquet etiam sed tincidunt. Convallis leo in netus velit. Metus proin elit posuere dictumst felis sodales nisl. Pellentesque aenean in turpis lacus egestas consectetur.",
-        "steps": [
-          {
-            "id": "htb_trans_step1_main",
-            "icon": {
-              "src": "https://photos.staywuw.com/assets/icons/location/location-on-bl.svg",
-              "alt": "Icono ubicación"
-            },
-            "text": "Tu estancia perfecta comienza con la ubicación ideal.",
-            "highlightStyle": "normal"
-          },
-          {
-            "id": "htb_trans_step2_main",
-            "icon": {
-              "src": "https://photos.staywuw.com/assets/icons/calendar/calendar-done-w.svg",
-              "alt": "Icono calendario"
-            },
-            "text": "Selecciona el día que más te convenga.",
-            "highlightStyle": "accent"
-          },
-          {
-            "id": "htb_trans_step3_main",
-            "icon": {
-              "src": "https://photos.staywuw.com/assets/icons/general/airport-bl.svg",
-              "alt": "Icono aeropuerto"
-            },
-            "text": "Elige y reserva el auto perfecto para ti",
-            "highlightStyle": "normal"
-          }
-        ]
-      }
-    },
-    "photoGallery": {
-      "type": "tour",
-      "template": 1,
-      "data": {
-        "largeImage": {
-          "src": "/src/assets/krysttt.JPG",
-          "alt": "Galería de blog Hotel Krystal Cancún"
-        },
-        "smallImages": [
-          {
-            "id": "gallery_main_img_1",
-            "src": "/src/assets/imagen 1.jpeg",
-            "alt": "Imagen 1 de galería"
-          },
-          {
-            "id": "gallery_main_img_2",
-            "src": "/src/assets/img 2.jpg",
-            "alt": "Imagen 2 de galería"
-          },
-          {
-            "id": "gallery_main_img_3",
-            "src": "/src/assets/ptj.jpg",
-            "alt": "Imagen 3 de galería"
-          },
-          {
-            "id": "gallery_main_img_4",
-            "src": "/src/assets/aire can.jpg",
-            "alt": "Imagen 4 de galería"
-          }
-        ]
-      }
-    },
-    "familyHotels": {
-      "type": "hotel",
-      "template": 1,
-      "data": {
-        "title": "Hoteles familiares en Puerto Juárez",
-        "introductionParagraphs": [
-          "Puerto Juárez es un destino ideal para familias con niños. El pueblo ofrece una variedad de actividades y atracciones para niños de todas las edades, como playas, parques acuáticos, parques temáticos y museos.",
-          "Si estás buscando un hotel familiar en Puerto Juárez, hay muchas opciones disponibles. Aquí hay una lista de los mejores hoteles familiares en Puerto Juárez:"
-        ],
-        "hotelList": [
-          {
-            "id": "hotel_la_amada_principal",
-            "name": "La Amada"
-          },
-          {
-            "id": "hotel_la_amada_2",
-            "name": "La Amada"
-          },
-          {
-            "id": "hotel_la_amada_3",
-            "name": "La Amada"
-          },
-          {
-            "id": "hotel_la_amada_4",
-            "name": "La Amada"
-          }
-        ],
-        "mainImage": {
-          "src": "/src/assets/imagen alberca.jpg",
-          "alt": "Hotel familiar en Puerto Juárez"
+          "conclusionParagraph": "Ahora que ya conoces un poco de Puerto Juárez, seguramente te debes de estar preguntando ¿Cómo llegar a Puerto Juárez desde Cancun?, ¿Cómo llegar del aeropuerto de Cancún a puerto Juárez? e incluso ¿Cómo llegar de Playa del Carmen a Puerto? Bueno, todo eso te lo vamos a describir un poco aquí, en esta sección pero recuerda: Si quieres profundizar más, por eso tenemos artículos completos y técnico que hablan sobre los paso que tienes que seguir para poder llegar al pequeño pueblo pesquero de Puerto Juárez Quintana Roo."
         }
-      }
-    },
-    "journeyVideo": {
-      "type": "tour",
-      "template": 1,
-      "data": {
-        "title": "Puerto Juárez a Isla Mujeres",
-        "descriptionParagraphs": [
-          "La terminal marítima de Puerto Juárez es el principal punto de conexión para el transporte marítimo desde y hacia Isla Mujeres. Ahora que hemos explorado las diversas formas de llegar a dicho lugar, seguramente te estarás preguntando sobre la distancia y el costo del ferry, ¿verdad? Bueno, ¡ahora responderemos esas preguntas!",
-          "¿Cuál es el precio del ferry de Puerto Juárez a Isla Mujeres? El costo del ferry desde Puerto Juárez a Isla Mujeres es de 270 pesos mexicanos (14.25 dólares) por trayecto para adultos y 200 pesos mexicanos (10.25 dólares) para niños. Para el viaje de ida y vuelta, el precio es de 540 pesos mexicanos (28.50 dólares) para adultos y 400 pesos mexicanos (20.50 dólares) para niños.",
-          "¿Cuál es la distancia de Puerto Juárez a Isla Mujeres? La distancia desde la terminal marítima de Puerto Juárez hasta Isla Mujeres es de 13.9 km, y la duración promedio del viaje en ferry es de 25 minutos o menos. Todo dependerá de las condiciones climáticas en el momento de tu viaje.",
-          "Es importante mencionar que estos precios son para el público en general. Existen tarifas especiales que suelen ser más económicas para residentes del estado, personas de la tercera edad, y precios ligeramente más altos al optar por servicios VIP de traslado marítimo de ultramar."
-        ],
-        "video": {
-          "embedUrl": "https://www.youtube.com/embed/FkCXFvgmzB0",
-          "ariaTitle": "Viaje en Ferry Puerto Juárez a Isla Mujeres"
-        },
-        "videoCaption": "Disfruta el viaje."
-      }
-    },
-    "ferrySchedule": {
-      "type": "tour",
-      "template": 1,
-      "data": {
-        "title": "Horarios del Ferry Isla Mujeres",
-        "introduction": "Descubre la comodidad y eficiencia de los horarios del ferry que conecta con el paraíso de Isla Mujeres. Sumérgete en una experiencia de transporte marítimo diseñada para ofrecer conexiones fluidas y convenientes. Conoce más sobre los horarios del ferry Isla Mujeres y planifica tu viaje con la certeza de disfrutar de una travesía sin contratiempos hacia este destino de ensueño.",
-        "scheduleTable": {
-          "headers": [
+      },
+      "whatToFind": {
+        "data": {
+          "title": "¿Qué encontrarás en Puerto Juárez?",
+          "items": [
             {
-              "id": "cancunToIsla",
-              "label": "Cancún a Isla Mujeres"
+              "id": "puerto_juarez_terminal",
+              "image": {
+                "src": "/src/assets/playa.jpeg",
+                "alt": "Terminal marítima de Puerto Juárez"
+              },
+              "name": "Terminal Marítima",
+              "description": "La terminal marítima de Puerto Juárez es el principal punto de conexión para el transporte hacia Isla Mujeres. Cuenta con instalaciones modernas y servicios completos para los viajeros."
             },
             {
-              "id": "islaToCancun",
-              "label": "Isla Mujeres a Cancún"
+              "id": "puerto_juarez_arqueologia",
+              "image": {
+                "src": "/src/assets/El meco.jpg",
+                "alt": "Zona arqueológica El Meco"
+              },
+              "name": "Zona Arqueológica El Meco",
+              "description": "El Meco es una pequeña zona arqueológica que se encuentra en Puerto Juárez y no suele ser muy conocida, lo que le da una privacidad de explorar completamente el lugar casi de manera privada y su costo de acceso es de 50 MXN."
+            },
+            {
+              "id": "puerto_juarez_snorkel",
+              "image": {
+                "src": "/src/assets/isla-mujeres-tour-snorkel.jpg",
+                "alt": "Tours de snorkel desde Puerto Juárez"
+              },
+              "name": "Tours de Snorkel",
+              "description": "Desde Puerto Juárez salen diversos tours de snorkel hacia los arrecifes cercanos, donde podrás explorar la rica vida marina del Caribe mexicano en aguas cristalinas."
+            }
+          ]
+        }
+      },
+      "howToGetThere": {
+        "data": {
+          "sections": [
+            {
+              "id": "htg_main_intro_loc",
+              "title": "¿Cómo llegar a Puerto Juárez desde Cancún?",
+              "paragraphs": [
+                "Si te encuentras en Cancún y deseas llegar a Puerto Juárez, ya sea para tomar el ferry a Isla Mujeres, visitar la zona arqueológica El Meco, recorrer el pequeño pueblo o disfrutar de su gastronomía, conocer y refrescarte con sus playas, entonces aquí te explicaremos paso a paso cómo hacerlo.",
+                "Como ya debes saber, el centro de Cancún es el punto en el cual se toman los camiones, colectivos y taxis para poder llegar a cualquier otra parte de Cancún o incluso fuera de él. Por ende, ya te debes imaginar que para llegar a Puerto Juárez, primero necesitas estar en el centro de Cancún.",
+                "Entonces, ¿Cómo puedo llegar al centro de Cancún? Normalmente no es muy complicado llegar al centro de Cancún, casi todas las rutas de los camiones de transporte público llegan por aquí, sin embargo el centro de Cancún es un poco amplio en contexto de la palabra, entonces ¿Cómo llegar a Puerto Juárez desde el centro de Cancún? ."
+              ],
+              "image": {
+                "src": "/src/assets/How-to-get-to-Puerto-Morelos-Juarez-from-Cancun.jpg",
+                "alt": "Cómo llegar a Puerto Juárez desde Cancún"
+              }
+            },
+            {
+              "id": "htg_main_details_loc",
+              "paragraphs": [
+                "El crucero es una parte que forma parte del centro de Cancún y se puede encontrar entre la avenida José López Portillo y Tulum. En esta intersección, tú puedes tomar uno de los camiones o colectivos que recorren Puerto Juárez y en cierta instancia, Costa Mujeres y parte de Playa Mujeres.",
+                "Cabe mencionar que no es la única alternativa. Desde el centro de Cancún se puede tomar un taxi hacia Puerto Juárez, pero este puede tener un costo de 200 MXN a 300 MXN, que en USD son aproximadamente de 20 USD a 30 USD.",
+                "Cabe mencionar que al ser parte de Cancún, es mucho más sencillo encontrar transporte recurrente hacia Puerto Juárez y nuevamente repetimos: El centro de Cancún es amplio y el lugar que estás buscando para abordar un transporte a cualquier lugar de Puerto es en el crucero."
+              ]
+            },
+            {
+              "id": "htg_main_zona_hotelera_loc",
+              "title": "¿Cómo llegar a Puerto Juárez desde la Zona Hotelera de Cancún?",
+              "paragraphs": [
+                {
+                  "type": "normal",
+                  "text": "Desde la Zona Hotelera, también se puede llegar a cualquier parte de Puerto Juárez, pero es necesario entender que para lograrlo se tiene que realizar una combinación de 2 o 3 servicios de transporte público."
+                },
+                {
+                  "type": "highlighted",
+                  "text": "¿Por qué transporte público? Porque los servicios de taxi que puedes adquirir en la Zona Hotelera te pueden llegar a cobrar hasta 800 MXN o más por llevarte a Puerto Juárez, y no queremos eso, ¿verdad?"
+                },
+                {
+                  "type": "normal",
+                  "text": "Nuestro primer camión lo tomaremos afuera de nuestro hotel. Normalmente, a las afueras de cualquiera de los hoteles de la Zona Hotelera, encontraremos \"paraderos de autobuses\", y si no somos muy pacientes, entonces tomaremos cualquiera de los camiones que vaya hacia el centro de Cancún."
+                }
+              ],
+              "link": {
+                "url": "https://staywuw.com/",
+                "text": "https://staywuw.com/"
+              }
+            },
+            {
+              "id": "htg_main_quote_loc",
+              "text": "¿Por qué transporte público? Porque los servicios de taxi que puedes adquirir en la Zona Hotelera te pueden llegar a cobrar hasta 800 MXN o más por llevarte a Puerto Juárez, y no queremos eso, ¿verdad?"
+            },
+            {
+              "id": "htg_main_map_image_loc",
+              "image": {
+                "src": "/src/assets/como-llegar-a-puerto-juarez-desde-zona-hotelera.jpg",
+                "alt": "Ubicación como llegar a Puerto Juárez"
+              }
+            }
+          ]
+        }
+      },
+      "howToBookTransport": {
+        "data": {
+          "title": "¿Cómo reservar un transporte?",
+          "introduction": "Reservar tu transporte hacia Puerto Juárez es sencillo y tienes varias opciones disponibles. Aquí te explicamos los pasos básicos para que puedas planificar tu viaje de manera eficiente.",
+          "steps": [
+            {
+              "id": "htb_trans_step1_main",
+              "icon": {
+                "src": "https://photos.staywuw.com/assets/icons/location/location-on-bl.svg",
+                "alt": "Icono ubicación"
+              },
+              "text": "Tu estancia perfecta comienza con la ubicación ideal.",
+              "highlightStyle": "normal"
+            },
+            {
+              "id": "htb_trans_step2_main",
+              "icon": {
+                "src": "https://photos.staywuw.com/assets/icons/calendar/calendar-done-w.svg",
+                "alt": "Icono calendario"
+              },
+              "text": "Selecciona el día que más te convenga.",
+              "highlightStyle": "accent"
+            },
+            {
+              "id": "htb_trans_step3_main",
+              "icon": {
+                "src": "https://photos.staywuw.com/assets/icons/general/airport-bl.svg",
+                "alt": "Icono aeropuerto"
+              },
+              "text": "Elige y reserva el transporte perfecto para ti",
+              "highlightStyle": "normal"
+            }
+          ]
+        }
+      },
+      "photoGallery": {
+        "data": {
+          "largeImage": {
+            "src": "/src/assets/krysttt.JPG",
+            "alt": "Vista panorámica de Puerto Juárez"
+          },
+          "smallImages": [
+            {
+              "id": "gallery_main_img_1",
+              "src": "/src/assets/imagen 1.jpeg",
+              "alt": "Terminal marítima de Puerto Juárez"
+            },
+            {
+              "id": "gallery_main_img_2",
+              "src": "/src/assets/img 2.jpg",
+              "alt": "Ferry hacia Isla Mujeres"
+            },
+            {
+              "id": "gallery_main_img_3",
+              "src": "/src/assets/ptj.jpg",
+              "alt": "Playa de Puerto Juárez"
+            },
+            {
+              "id": "gallery_main_img_4",
+              "src": "/src/assets/aire can.jpg",
+              "alt": "Vista aérea de Puerto Juárez"
+            }
+          ]
+        }
+      },
+      "familyHotels": {
+        "data": {
+          "title": "Hoteles familiares en Puerto Juárez",
+          "introductionParagraphs": [
+            "Puerto Juárez es un destino ideal para familias con niños. El pueblo ofrece una variedad de actividades y atracciones para niños de todas las edades, como playas, parques acuáticos, parques temáticos y museos.",
+            "Si estás buscando un hotel familiar en Puerto Juárez, hay muchas opciones disponibles. Aquí hay una lista de los mejores hoteles familiares en Puerto Juárez:"
+          ],
+          "hotelList": [
+            {
+              "id": "hotel_puerto_juarez_1",
+              "name": "Hotel Puerto Juárez"
+            },
+            {
+              "id": "hotel_puerto_juarez_2",
+              "name": "Posada del Pescador"
+            },
+            {
+              "id": "hotel_puerto_juarez_3",
+              "name": "Casa Blanca Inn"
+            },
+            {
+              "id": "hotel_puerto_juarez_4",
+              "name": "Hotel Playa Norte"
             }
           ],
-          "rows": [
-            { "cancunToIsla": "5:30 am", "islaToCancun": "6:00 am" },
-            { "cancunToIsla": "6:30 am", "islaToCancun": "7:00 am" },
-            { "cancunToIsla": "7:00 am", "islaToCancun": "8:00 am" }
-          ]
-        },
-        "footerNote": "Horarios sujetos a cambio."
-      }
-    },
-    "favoriteActivities": {
-      "type": "tour",
-      "template": 1,
-      "data": {
-        "sectionTitle": "Nuestras 2 actividades favoritas para ti",
-        "introductionParagraphs": [
-          "Puerto Juárez es un destino ideal para familias con niños. El pueblo ofrece una variedad de actividades y atracciones para niños de todas las edades, como playas, parques acuáticos, parques temáticos y museos.",
-          "Si estás buscando un hotel familiar en Puerto Juárez, hay muchas opciones disponibles. Aquí hay una lista de los mejores hoteles familiares en Puerto Juárez:"
-        ],
-        "activities": [
-          {
-            "title": "Capitán Hook",
-            "description": "Cerca de la terminal marítima de ultramar de Puerto Juárez, encontraremos el tour del Capitán Hooks, un tour que nos regala una aventura recorriendo el mar caribe a bordo de la replica de un galeón español, mientras disfrutamos de un show pirata y una rica cena que puede ser pollo o langosta."
-          },
-          {
-            "title": "Tour Isla Mujeres",
-            "description": "Si bien desde la terminal de Puerto Juárez se puede llegar a Isla Mujeres, muchos prefieren tomar los tour a Isla Mujeres, que ofrecen los lancheros cercanos a la terminal marítima. Estos tour particularmente te llevan a conocer las mejores zonas de la Isla y te incluyen un rico bufet."
+          "mainImage": {
+            "src": "/src/assets/imagen alberca.jpg",
+            "alt": "Hotel familiar en Puerto Juárez"
           }
-        ],
-        "mainImage": {
-          "src": "/src/assets/tour-en-cancun-capitan-hook-barco-pirata.jpg",
-          "alt": "Actividades favoritas en Puerto Juárez"
         }
-      }
-    },
-    "placesToVisit": {
-      "type": "tour",
-      "template": 1,
-      "data": {
-        "sectionTitle": "8 Lugares que visitar en Acapulco",
-        "introduction": "Toma nota de tus favoritos y consulta el mapa con ubicaciones exactas al final de la nota. Comienza a planear tus días cuando sea el momento de llegar a la gran costera Guerrerense.",
-        "placesList": [
-          {
-            "id": "acapulco_ptv_zona_dorada",
-            "number": 1,
-            "title": "Zona Dorada",
-            "subtitle": "¡La emblemática costa que distingue a Acapulco!.",
-            "descriptionParagraphs": [
-              "Para empezar el día y si eres de las personas a las que les gusta ejercitarse un poco antes de empezar la jornada, la Zona Dorada de Acapulco te ofrece la oportunidad de practicar paddle board y kayak en el mar.",
-              "¿Te imaginas navegar con un acompañante mientras remas por tu cuenta? Es un buen ejercicio para despertar y la brisa del mar te relajará."
-            ],
-            "image": {
-              "src": "https://images.unsplash.com/photo-1576159599964-9fc3a3c5e4d8?q=80&w=2060&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-              "alt": "Zona Dorada Acapulco"
-            }
+      },
+      "journeyVideo": {
+        "data": {
+          "title": "Puerto Juárez a Isla Mujeres",
+          "descriptionParagraphs": [
+            "La terminal marítima de Puerto Juárez es el principal punto de conexión para el transporte marítimo desde y hacia Isla Mujeres. Ahora que hemos explorado las diversas formas de llegar a dicho lugar, seguramente te estarás preguntando sobre la distancia y el costo del ferry, ¿verdad? Bueno, ¡ahora responderemos esas preguntas!",
+            "¿Cuál es el precio del ferry de Puerto Juárez a Isla Mujeres? El costo del ferry desde Puerto Juárez a Isla Mujeres es de 270 pesos mexicanos (14.25 dólares) por trayecto para adultos y 200 pesos mexicanos (10.25 dólares) para niños. Para el viaje de ida y vuelta, el precio es de 540 pesos mexicanos (28.50 dólares) para adultos y 400 pesos mexicanos (20.50 dólares) para niños.",
+            "¿Cuál es la distancia de Puerto Juárez a Isla Mujeres? La distancia desde la terminal marítima de Puerto Juárez hasta Isla Mujeres es de 13.9 km, y la duración promedio del viaje en ferry es de 25 minutos o menos. Todo dependerá de las condiciones climáticas en el momento de tu viaje.",
+            "Es importante mencionar que estos precios son para el público en general. Existen tarifas especiales que suelen ser más económicas para residentes del estado, personas de la tercera edad, y precios ligeramente más altos al optar por servicios VIP de traslado marítimo de ultramar."
+          ],
+          "video": {
+            "embedUrl": "https://www.youtube.com/embed/FkCXFvgmzB0",
+            "ariaTitle": "Viaje en Ferry Puerto Juárez a Isla Mujeres"
           },
-          {
-            "id": "acapulco_ptv_lugar_2",
-            "number": 2,
-            "title": "Zona Dorada",
-            "subtitle": "¡La emblemática costa que distingue a Acapulco!.",
-            "descriptionParagraphs": [
-              "Para empezar el día y si eres de las personas a las que les gusta ejercitarse un poco antes de empezar la jornada, la Zona Dorada de Acapulco te ofrece la oportunidad de practicar paddle board y kayak en el mar.",
-              "¿Te imaginas navegar con un acompañante mientras remas por tu cuenta? Es un buen ejercicio para despertar y la brisa del mar te relajará."
+          "videoCaption": "Disfruta el viaje en ferry desde Puerto Juárez hacia Isla Mujeres."
+        }
+      },
+      "ferrySchedule": {
+        "data": {
+          "title": "Horarios del Ferry Isla Mujeres",
+          "introduction": "Descubre la comodidad y eficiencia de los horarios del ferry que conecta con el paraíso de Isla Mujeres. Sumérgete en una experiencia de transporte marítimo diseñada para ofrecer conexiones fluidas y convenientes. Conoce más sobre los horarios del ferry Isla Mujeres y planifica tu viaje con la certeza de disfrutar de una travesía sin contratiempos hacia este destino de ensueño.",
+          "scheduleTable": {
+            "headers": [
+              {
+                "id": "cancunToIsla",
+                "label": "Puerto Juárez a Isla Mujeres"
+              },
+              {
+                "id": "islaToCancun",
+                "label": "Isla Mujeres a Puerto Juárez"
+              }
             ],
-            "image": {
-              "src": "https://images.unsplash.com/photo-1576159599964-9fc3a3c5e4d8?q=80&w=2060&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-              "alt": "Zona Dorada Acapulco"
-            }
+            "rows": [
+              { "cancunToIsla": "5:30 am", "islaToCancun": "6:00 am" },
+              { "cancunToIsla": "6:30 am", "islaToCancun": "7:00 am" },
+              { "cancunToIsla": "7:00 am", "islaToCancun": "8:00 am" },
+              { "cancunToIsla": "8:30 am", "islaToCancun": "9:00 am" },
+              { "cancunToIsla": "10:00 am", "islaToCancun": "10:30 am" },
+              { "cancunToIsla": "11:30 am", "islaToCancun": "12:00 pm" },
+              { "cancunToIsla": "1:00 pm", "islaToCancun": "1:30 pm" },
+              { "cancunToIsla": "2:30 pm", "islaToCancun": "3:00 pm" },
+              { "cancunToIsla": "4:00 pm", "islaToCancun": "4:30 pm" },
+              { "cancunToIsla": "5:30 pm", "islaToCancun": "6:00 pm" }
+            ]
           },
-          {
-            "id": "acapulco_ptv_lugar_3",
-            "number": 3,
-            "title": "Zona Dorada",
-            "subtitle": "¡La emblemática costa que distingue a Acapulco!.",
-            "descriptionParagraphs": [
-              "Para empezar el día y si eres de las personas a las que les gusta ejercitarse un poco antes de empezar la jornada, la Zona Dorada de Acapulco te ofrece la oportunidad de practicar paddle board y kayak en el mar.",
-              "¿Te imaginas navegar con un acompañante mientras remas por tu cuenta? Es un buen ejercicio para despertar y la brisa del mar te relajará."
-            ],
-            "image": {
-              "src": "https://images.unsplash.com/photo-1576159599964-9fc3a3c5e4d8?q=80&w=2060&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-              "alt": "Zona Dorada Acapulco"
-            }
-          },
-          {
-            "id": "acapulco_ptv_lugar_4",
-            "number": 4,
-            "title": "Zona Dorada",
-            "subtitle": "¡La emblemática costa que distingue a Acapulco!.",
-            "descriptionParagraphs": [
-              "Para empezar el día y si eres de las personas a las que les gusta ejercitarse un poco antes de empezar la jornada, la Zona Dorada de Acapulco te ofrece la oportunidad de practicar paddle board y kayak en el mar.",
-              "¿Te imaginas navegar con un acompañante mientras remas por tu cuenta? Es un buen ejercicio para despertar y la brisa del mar te relajará."
-            ],
-            "image": {
-              "src": "https://images.unsplash.com/photo-1576159599964-9fc3a3c5e4d8?q=80&w=2060&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-              "alt": "Zona Dorada Acapulco"
-            }
-          },
-          {
-            "id": "acapulco_ptv_lugar_5",
-            "number": 5,
-            "title": "Zona Dorada",
-            "subtitle": "¡La emblemática costa que distingue a Acapulco!.",
-            "descriptionParagraphs": [
-              "Para empezar el día y si eres de las personas a las que les gusta ejercitarse un poco antes de empezar la jornada, la Zona Dorada de Acapulco te ofrece la oportunidad de practicar paddle board y kayak en el mar.",
-              "¿Te imaginas navegar con un acompañante mientras remas por tu cuenta? Es un buen ejercicio para despertar y la brisa del mar te relajará."
-            ],
-            "image": {
-              "src": "https://images.unsplash.com/photo-1576159599964-9fc3a3c5e4d8?q=80&w=2060&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-              "alt": "Zona Dorada Acapulco"
-            }
-          },
-          {
-            "id": "acapulco_ptv_lugar_6",
-            "number": 6,
-            "title": "Zona Dorada",
-            "subtitle": "¡La emblemática costa que distingue a Acapulco!.",
-            "descriptionParagraphs": [
-              "Para empezar el día y si eres de las personas a las que les gusta ejercitarse un poco antes de empezar la jornada, la Zona Dorada de Acapulco te ofrece la oportunidad de practicar paddle board y kayak en el mar.",
-              "¿Te imaginas navegar con un acompañante mientras remas por tu cuenta? Es un buen ejercicio para despertar y la brisa del mar te relajará."
-            ],
-            "image": {
-              "src": "https://images.unsplash.com/photo-1576159599964-9fc3a3c5e4d8?q=80&w=2060&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-              "alt": "Zona Dorada Acapulco"
-            }
-          },
-          {
-            "id": "acapulco_ptv_lugar_7",
-            "number": 7,
-            "title": "Zona Dorada",
-            "subtitle": "¡La emblemática costa que distingue a Acapulco!.",
-            "descriptionParagraphs": [
-              "Para empezar el día y si eres de las personas a las que les gusta ejercitarse un poco antes de empezar la jornada, la Zona Dorada de Acapulco te ofrece la oportunidad de practicar paddle board y kayak en el mar.",
-              "¿Te imaginas navegar con un acompañante mientras remas por tu cuenta? Es un buen ejercicio para despertar y la brisa del mar te relajará."
-            ],
-            "image": {
-              "src": "https://images.unsplash.com/photo-1576159599964-9fc3a3c5e4d8?q=80&w=2060&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-              "alt": "Zona Dorada Acapulco"
-            }
-          },
-          {
-            "id": "acapulco_ptv_lugar_8",
-            "number": 8,
-            "title": "Zona Dorada",
-            "subtitle": "¡La emblemática costa que distingue a Acapulco!.",
-            "descriptionParagraphs": [
-              "Para empezar el día y si eres de las personas a las que les gusta ejercitarse un poco antes de empezar la jornada, la Zona Dorada de Acapulco te ofrece la oportunidad de practicar paddle board y kayak en el mar.",
-              "¿Te imaginas navegar con un acompañante mientras remas por tu cuenta? Es un buen ejercicio para despertar y la brisa del mar te relajará."
-            ],
-            "image": {
-              "src": "https://images.unsplash.com/photo-1576159599964-9fc3a3c5e4d8?q=80&w=2060&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wx MjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-              "alt": "Zona Dorada Acapulco"
-            }
-          }
-        ]
-      }
-    },
-    "quickFact": {
-      "type": "tour",
-      "template": 1,
-      "data": {
-        "title": "¿Sabías qué?...",
-        "fact": "Acapulco es la ciudad más grande del Estado de Guerrero y es uno de los 10 destinos turísticos más visitados de México."
-      }
-    },
-    "touristMap": {
-      "type": "tour",
-      "template": 1,
-      "data": {
-        "title": "Mapa de lugares turísticos para visitar en Acapulco",
-        "introduction": "Consulta todos los lugares mencionados para visitar en Acapulco en el siguiente mapa:",
-        "mapConfiguration": {
-          "apiKey": "",
-          "defaultCenter": { "lat": 16.85, "lng": -99.88 },
-          "defaultZoom": 12,
-          "markers": [
+          "footerNote": "Horarios sujetos a cambio por condiciones climáticas."
+        }
+      },
+      "favoriteActivities": {
+        "data": {
+          "sectionTitle": "Nuestras 2 actividades favoritas para ti",
+          "introductionParagraphs": [
+            "Puerto Juárez ofrece una variedad de actividades emocionantes para todos los gustos. Desde aventuras marítimas hasta experiencias culturales únicas.",
+            "Aquí te presentamos nuestras dos actividades favoritas que no puedes perderte durante tu visita a Puerto Juárez:"
+          ],
+          "activities": [
             {
-              "id": "acapulco_map_main_marker_1",
-              "position": { "lat": 16.8464, "lng": -99.9117 },
-              "name": "La Quebrada",
-              "description": "Clavados famosos."
+              "title": "Capitán Hook",
+              "description": "Cerca de la terminal marítima de ultramar de Puerto Juárez, encontraremos el tour del Capitán Hooks, un tour que nos regala una aventura recorriendo el mar caribe a bordo de la replica de un galeón español, mientras disfrutamos de un show pirata y una rica cena que puede ser pollo o langosta."
+            },
+            {
+              "title": "Tour Isla Mujeres",
+              "description": "Si bien desde la terminal de Puerto Juárez se puede llegar a Isla Mujeres, muchos prefieren tomar los tour a Isla Mujeres, que ofrecen los lancheros cercanos a la terminal marítima. Estos tour particularmente te llevan a conocer las mejores zonas de la Isla y te incluyen un rico bufet."
             }
-          ]
-        },
-        "fallbackImage": {
-          "src": "/googleMaps.png",
-          "alt": "Mapa de Acapulco"
+          ],
+          "mainImage": {
+            "src": "/src/assets/tour-en-cancun-capitan-hook-barco-pirata.jpg",
+            "alt": "Actividades favoritas en Puerto Juárez"
+          }
         }
       }
-    },
-    "beforeYouVisitRecommendations": {
-      "type": "tour",
-      "template": 1,
+    }
+  },
+  "acapulco-mexico": {
+    "template": 2,
+    "type": "tour",
+    "date": "Febrero,10,2024",
+    "blogTitle": "Guía completa de Acapulco",
+    "slug": "guia-completa-acapulco-lugares-imperdibles",
+    "heroImage": "https://images.pexels.com/photos/261101/pexels-photo-261101.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "acapulcoGuide": {
       "data": {
-        "sectionTitle": "Recomendaciones antes de visitar Acapulco.",
-        "recommendations": [
-          {
-            "id": "byv_intro_main",
-            "type": "paragraph",
-            "text": "Antes de planear tu viaje a Acapulco, es importante que tengas en cuenta algunos factores para que tu experiencia sea inolvidable. Por ello, te compartimos algunas recomendaciones clave que te ayudarán a disfrutar al máximo de tu viaje."
-          },
-          {
-            "id": "byv_p_1",
-            "type": "paragraph",
-            "text": "El clima en Acapulco es tropical con dos temporadas principales: la temporada seca (noviembre a abril) y la temporada de lluvias (mayo a octubre). Durante la temporada seca, las temperaturas oscilan entre 24°C y 30°C, mientras que en la temporada de lluvias pueden llegar a los 33°C con alta humedad."
-          },
-          {
-            "id": "byv_p_2",
-            "type": "paragraph",
-            "text": "Te recomendamos llevar ropa ligera y cómoda, como camisetas, shorts y trajes de baño, así como protector solar, sombrero o gorra y gafas de sol para protegerte del sol intenso."
-          },
-          {
-            "id": "byv_p_3",
-            "type": "paragraph",
-            "text": "Durante la temporada de lluvias, lleva un paraguas pequeño o impermeable y calzado que se seque rápidamente, ya que las lluvias suelen ser breves pero intensas."
-          },
-          {
-            "id": "byv_p_4",
-            "type": "paragraph",
-            "text": "Es importante mantenerse hidratado en todo momento, especialmente si planeas actividades al aire libre como caminatas o visitas a zonas arqueológicas."
-          },
-          {
-            "id": "byv_p_5",
-            "type": "paragraph",
-            "text": "La temporada de huracanes se extiende desde principios de junio hasta finales de noviembre. Sin embargo, la temperatura del mar es más alta entre septiembre y octubre, lo que también significa que el riesgo de huracanes es mayor durante ese período."
-          },
-          {
-            "id": "byv_p_6",
-            "type": "paragraph",
-            "text": "Durante estos meses, te recomendamos prestar más atención a los informes climáticos de la zona. Además, algunas recomendaciones importantes incluyen tener un suministro de agua, alimentos y un plan de evacuación en caso de ser necesario."
-          },
-          {
-            "id": "byv_final_image",
-            "type": "imageWithCaption",
-            "image": {
-              "src": "/hotel-krystal-cancun.png",
-              "alt": "Clima soleado en Cancún"
+        "mainTitle": "¿Qué visitar en Acapulco? 8 Lugares Imperdibles",
+        "subtitle": "Descubre qué visitar en Acapulco, Guerrero durante tus vacaciones o de fin de semana",
+        "introductionParagraphs": [
+          "El ambiente tropical y de playa son una sensación única que transmiten paz y relajación. Acapulco es un lugar con estas características, con múltiples lugares para visitar que se convierte en un destino perfecto para los días vacacionales.",
+          "Además de las playas bonitas de Acapulco, existen lugares turísticos que son muy tradicionales de la zona y que se caracterizan por ser únicos en su tipo."
+        ]
+      }
+    },
+    "introduction": [
+      "Acapulco, conocido como la 'Perla del Pacífico', es uno de los destinos turísticos más emblemáticos de México. Con sus hermosas playas, rica historia y vibrante vida nocturna, Acapulco ofrece experiencias inolvidables para todo tipo de viajeros.",
+      "Desde sus famosos clavadistas de La Quebrada hasta sus lujosos resorts frente al mar, este destino combina perfectamente la tradición mexicana con las comodidades modernas."
+    ],
+    "sections": {
+      "placesToVisit": {
+        "data": {
+          "sectionTitle": "8 Lugares que visitar en Acapulco",
+          "introduction": "Toma nota de tus favoritos y consulta el mapa con ubicaciones exactas al final de la nota. Comienza a planear tus días cuando sea el momento de llegar a la gran costera Guerrerense.",
+          "placesList": [
+            {
+              "id": "acapulco_ptv_zona_dorada",
+              "number": 1,
+              "title": "Zona Dorada",
+              "subtitle": "¡La emblemática costa que distingue a Acapulco!",
+              "descriptionParagraphs": [
+                "Para empezar el día y si eres de las personas a las que les gusta ejercitarse un poco antes de empezar la jornada, la Zona Dorada de Acapulco te ofrece la oportunidad de practicar paddle board y kayak en el mar.",
+                "¿Te imaginas navegar con un acompañante mientras remas por tu cuenta? Es un buen ejercicio para despertar y la brisa del mar te relajará."
+              ],
+              "image": {
+                "src": "https://images.unsplash.com/photo-1576159599964-9fc3a3c5e4d8?q=80&w=2060&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+                "alt": "Zona Dorada Acapulco"
+              }
             },
-            "caption": "Cancún, desde las alturas"
-          }
-        ]
-      }
-    },
-    "monthlyInfo": {
-      "type": "hotel",
-      "template": 1,
-      "data": {
-        "seasons": [
-          {
-            "id": "dry_season_cancun_month_info",
-            "seasonTitle": "1. Viajar a Cancún en temporada seca (noviembre a abril)",
-            "seasonIntroductionParagraphs": [
-              "Si eres de los que buscan disfrutar de un clima cálido y seco, de noviembre hasta abril es la mejor época para viajar a Cancún.",
-              "Especialmente enero: es el mes que más te recomendamos para visitar este hermoso destino. La temperatura que encontrarás oscila entre los 24 y 30ºC, lo que hace de este momento la mejor época para viajar a Cancún y disfrutar de sus playas. Además, durante estos meses es menos probable que llueva, por lo que es el momento ideal para que practiques deportes acuáticos como buceo, esnórquel o kayak. Y ya que vas a estar al aire libre, tenemos que contarte que otra ventaja de esta temporada es que como existe menos humedad, también existen menos mosquitos que puedan llegar a molestar. En cuanto a la cantidad de turistas, esta época es considerada como temporada alta en Cancún. Por lo que es importante que tengas en cuenta tu presupuesto para alojamiento, vuelos y otras actividades, ya que pueden ser más caros. Sin embargo, si planificas tu viaje con antelación, encontrarás interesantes ofertas y disfrutarás de una experiencia inolvidable."
-            ],
-            "monthsData": [
+            {
+              "id": "acapulco_ptv_la_quebrada",
+              "number": 2,
+              "title": "La Quebrada",
+              "subtitle": "Los famosos clavadistas de Acapulco",
+              "descriptionParagraphs": [
+                "La Quebrada es sin duda el atractivo más famoso de Acapulco. Aquí, valientes clavadistas se lanzan desde acantilados de más de 35 metros de altura hacia las aguas del Pacífico.",
+                "Este espectáculo, que se realiza desde 1934, es una tradición que ha convertido a Acapulco en un destino mundialmente reconocido."
+              ],
+              "image": {
+                "src": "https://images.unsplash.com/photo-1582719471384-894fbb16e074?w=800&h=400&fit=crop",
+                "alt": "Clavadistas de La Quebrada"
+              }
+            },
+            {
+              "id": "acapulco_ptv_playa_condesa",
+              "number": 3,
+              "title": "Playa Condesa",
+              "subtitle": "La playa más popular de Acapulco",
+              "descriptionParagraphs": [
+                "Playa Condesa es el corazón de la diversión en Acapulco. Con su arena dorada y aguas cálidas, es perfecta para relajarse durante el día y disfrutar de la vida nocturna.",
+                "Aquí encontrarás una gran variedad de restaurantes, bares y clubes que hacen de esta playa el centro de la actividad turística."
+              ],
+              "image": {
+                "src": "https://images.unsplash.com/photo-1571896349842-33c89424de2d?w=800&h=400&fit=crop",
+                "alt": "Playa Condesa Acapulco"
+              }
+            },
+            {
+              "id": "acapulco_ptv_fuerte_san_diego",
+              "number": 4,
+              "title": "Fuerte de San Diego",
+              "subtitle": "Historia y cultura en el corazón de Acapulco",
+              "descriptionParagraphs": [
+                "El Fuerte de San Diego es una fortaleza del siglo XVIII que alberga el Museo Histórico de Acapulco. Es el lugar perfecto para conocer la rica historia de este puerto.",
+                "Sus murallas han sido testigos de batallas épicas y hoy en día ofrecen una vista espectacular de la bahía de Acapulco."
+              ],
+              "image": {
+                "src": "https://images.unsplash.com/photo-1518638150340-f706e86654de?w=800&h=400&fit=crop",
+                "alt": "Fuerte de San Diego"
+              }
+            },
+            {
+              "id": "acapulco_ptv_isla_roqueta",
+              "number": 5,
+              "title": "Isla La Roqueta",
+              "subtitle": "Un paraíso natural a pocos minutos de la costa",
+              "descriptionParagraphs": [
+                "Isla La Roqueta es un pequeño paraíso ubicado en la bahía de Acapulco. Es perfecta para practicar snorkel, buceo o simplemente relajarse en sus playas vírgenes.",
+                "La isla cuenta con senderos naturales, un faro histórico y aguas cristalinas ideales para actividades acuáticas."
+              ],
+              "image": {
+                "src": "https://images.unsplash.com/photo-1559827260-dc66d52bef19?w=800&h=400&fit=crop",
+                "alt": "Isla La Roqueta"
+              }
+            },
+            {
+              "id": "acapulco_ptv_capilla_paz",
+              "number": 6,
+              "title": "Capilla de la Paz",
+              "subtitle": "Vista panorámica de toda la bahía",
+              "descriptionParagraphs": [
+                "La Capilla de la Paz se encuentra en la parte más alta de Acapulco y ofrece una vista panorámica impresionante de toda la bahía.",
+                "Es un lugar perfecto para contemplar el atardecer y tomar fotografías espectaculares de la ciudad y el océano."
+              ],
+              "image": {
+                "src": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800&h=400&fit=crop",
+                "alt": "Capilla de la Paz Acapulco"
+              }
+            },
+            {
+              "id": "acapulco_ptv_mercado_municipal",
+              "number": 7,
+              "title": "Mercado Municipal",
+              "subtitle": "Sabores auténticos de Guerrero",
+              "descriptionParagraphs": [
+                "El Mercado Municipal es el lugar perfecto para probar la gastronomía local de Acapulco. Aquí encontrarás desde mariscos frescos hasta dulces tradicionales.",
+                "No te pierdas el famoso pescado a la talla, los camarones al coco y las nieves de sabores tropicales."
+              ],
+              "image": {
+                "src": "https://images.unsplash.com/photo-1555881400-74d7acaacd8b?w=800&h=400&fit=crop",
+                "alt": "Mercado Municipal Acapulco"
+              }
+            },
+            {
+              "id": "acapulco_ptv_playa_pie_cuesta",
+              "number": 8,
+              "title": "Playa Pie de la Cuesta",
+              "subtitle": "Atardeceres espectaculares",
+              "descriptionParagraphs": [
+                "Playa Pie de la Cuesta es famosa por tener algunos de los atardeceres más hermosos de México. Sus aguas tranquilas la hacen perfecta para relajarse.",
+                "Además, aquí puedes practicar esquí acuático, pasear en lancha o simplemente disfrutar de un cóctel mientras observas el sol ocultarse en el horizonte."
+              ],
+              "image": {
+                "src": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=800&h=400&fit=crop",
+                "alt": "Playa Pie de la Cuesta"
+              }
+            }
+          ]
+        }
+      },
+      "quickFact": {
+        "data": {
+          "title": "¿Sabías qué?...",
+          "fact": "Acapulco fue el primer destino turístico internacional de México y durante los años 50 y 60 era conocido como el 'Hollywood del Pacífico' por ser visitado por estrellas de cine como Elizabeth Taylor, Frank Sinatra y Elvis Presley."
+        }
+      },
+      "touristMap": {
+        "data": {
+          "title": "Mapa de lugares turísticos para visitar en Acapulco",
+          "introduction": "Consulta todos los lugares mencionados para visitar en Acapulco en el siguiente mapa:",
+          "mapConfiguration": {
+            "apiKey": "",
+            "defaultCenter": { "lat": 16.85, "lng": -99.88 },
+            "defaultZoom": 12,
+            "markers": [
               {
-                "id": "cancun_nov_month_info_detail",
-                "monthTitle": "1.1. Viajar a Cancún en noviembre",
-                "stats": [
-                  {
-                    "id": "temp_nov_month_info",
-                    "icon": "🌡",
-                    "label": "Temperatura promedio (min/max):",
-                    "value": "21ºC – 29ºC"
-                  },
-                  {
-                    "id": "precip_nov_month_info",
-                    "icon": "🌧",
-                    "label": "Precipitación promedio:",
-                    "value": "85mm"
-                  }
-                ],
-                "descriptionParagraphs": [
-                  "Si lo que buscas es un clima agradable y con menos turistas, noviembre puede ser una de las mejores épocas para viajar a Cancún. Durante esta temporada, encontrarás una temperatura promedio que ronda los 27°C. Junto a esto, disfrutarás de noches frescas que te invitarán a pasear por la playa o deleitarte con una cena al aire libre. Además, el agua del mar se mantiene cálida, similar a la temperatura ambiente, lo que la hace perfecta para nadar, bucear o practicar deportes acuáticos.",
-                  "En cuanto a la cantidad de turistas es menor que en temporada alta, por lo que podrás visitar atracciones turísticas sin grandes aglomeraciones. También podrás disfrutar de las playas sin mucho ajetreo y acudir a alguno de los grandes conciertos programados en la ciudad. Otro de los principales atractivos de este mes es El Día de Muertos, que se celebra el 1 y 2 de noviembre. Durante esta hermosa celebración a los difuntos, encontrarás impresionantes decoraciones, ceremonias y un desfile espectacular que estamos seguros querrás presenciar. En cuanto a presupuesto, encontrarás ofertas en hoteles y vuelos, lo que hace de noviembre una época muy apetecible para visitar Cancún"
-                ],
-                "image": {
-                  "src": "/src/assets/mayo.jpg",
-                  "alt": "Clima de Cancún en noviembre"
-                },
-                "imageCaption": "Cancún, desde las alturas"
-              },
-              {
-                "id": "cancun_dec_month_info_detail",
-                "monthTitle": "1.2. Viajar a Cancún en diciembre",
-                "stats": [
-                  {
-                    "id": "temp_dec_month_info",
-                    "icon": "🌡",
-                    "label": "Temperatura promedio (min/max):",
-                    "value": "20ºC – 28ºC"
-                  },
-                  {
-                    "id": "precip_dec_month_info",
-                    "icon": "🌧",
-                    "label": "Precipitación promedio:",
-                    "value": "80mm"
-                  }
-                ],
-                "descriptionParagraphs": [
-                  "Durante diciembre, los días en Cancún son más cortos, pero la temperatura se mantiene en un promedio de 28°C durante el día y de 20°C durante la noche. Sin embargo, es un mes bastante caro para viajar a Cancún por las fiestas navideñas. Muchos norteamericanos y europeos viajan a Cancún para pasar Navidad y fin de año en la playa. ¡Y eso hace que los precios suban bastante! Así que, en este mes comienzan a llegar los turistas, por lo que ya se podría considerar una temporada alta.",
-                  "El clima cálido y la temperatura del mar es ideal para disfrutar de la vida nocturna en la Zona Hotelera de Cancún. Durante tu visita, te recomendamos que formes parte del Desfile de Botes al Atardecer, donde admirarás embarcaciones iluminadas en la Laguna Nichupté, perfecto para compartir con familiares y amigos."
-                ],
-                "image": {
-                  "src": "/src/assets/mayo.jpg",
-                  "alt": "Clima de Cancún en diciembre"
-                },
-                "imageCaption": "Cancún, desde las alturas"
-              },
-              {
-                "id": "cancun_jan_month_info_detail",
-                "monthTitle": "1.3. Viajar a Cancún en enero",
-                "stats": [
-                  {
-                    "id": "temp_jan_month_info",
-                    "icon": "🌡",
-                    "label": "Temperatura promedio (min/max):",
-                    "value": "19ºC – 28ºC"
-                  },
-                  {
-                    "id": "precip_jan_month_info",
-                    "icon": "🌧",
-                    "label": "Precipitación promedio:",
-                    "value": "65mm"
-                  }
-                ],
-                "descriptionParagraphs": [
-                  "Para nosotros, ¡enero es el mejor mes para viajar a Cancún! No hay nada mejor que empezar el año uno de los destinos más sorprendentes de todo México. En enero, la temperatura varía entre los 19°C y 28°C, lo que resulta perfecto para disfrutar de la playa sin abrumarte por el calor. Además, en enero hay menos turistas que en los meses de invierno más concurridos, lo que significa que los precios son más bajos y los lugares no están tan llenos.",
-                  "El clima es durante esta temporada es irresistible, podrás disfrutar de una temperatura cálida, seca y soleada. Si bien es posible que llegues a experimentar algunas lluvias ocasionales, debido a la temporada de huracanes terminó, es más seguro viajar a Cancún. Pero también es una buena oportunidad para realizar excursiones las tantas ruinas mayas que se encuentran en Tulum. En cuanto al presupuesto, en enero es posible encontrar ofertas atractivas en vuelos y alojamiento. Así que, si lo que buscas ahorrar algunos euros en tus vacaciones, este es el mes perfecto. Sin duda, la mejor época para viajar a Cancún."
-                ],
-                "image": {
-                  "src": "/src/assets/mayo.jpg",
-                  "alt": "Clima de Cancún en enero"
-                },
-                "imageCaption": "Cancún, desde las alturas"
-              },
-              {
-                "id": "cancun_feb_month_info_detail",
-                "monthTitle": "1.4. Viajar a Cancún en febrero",
-                "stats": [
-                  {
-                    "id": "temp_feb_month_info",
-                    "icon": "🌡",
-                    "label": "Temperatura promedio (min/max):",
-                    "value": "19ºC – 28ºC"
-                  },
-                  {
-                    "id": "precip_feb_month_info",
-                    "icon": "🌧",
-                    "label": "Precipitación promedio:",
-                    "value": "55mm"
-                  }
-                ],
-                "descriptionParagraphs": [
-                  "Febrero es otro mes seco y soleado para visitar Cancún, con temperaturas cálidas y agradables para disfrutar del sol y la playa que van desde los 26°C en el día hasta los 20°C por la noche. Las lluvias son escasas y la humedad baja, lo que hace que las condiciones climáticas sean excelentes para disfrutar de actividades al aire libre como buceo, esnórquel o simplemente relajarse en la playa.",
-                  "Otra ventaja de este mes, es que las condiciones son de las mejores para tener un día de turismo. Así que no olvides empacar tus zapatos más cómodos para visitar el complejo arqueológico Chichén Itzá, probablemente la atracción más importante de México. Sin embargo, febrero aún es considerado un mes de temporada alta, aunque con relativamente menos turistas que en enero. Esto se debe principalmente al carnaval que se lleva a cabo dentro de la ciudad. Durante el evento encontrarás variedad de dulces, bailes animados, disfraces y carrozas increíblemente decoradas."
-                ],
-                "image": {
-                  "src": "/src/assets/mayo.jpg",
-                  "alt": "Clima de Cancún en febrero"
-                },
-                "imageCaption": "Cancún, desde las alturas"
-              },
-              {
-                "id": "cancun_mar_month_info_detail",
-                "monthTitle": "1.5. Viajar a Cancún en marzo",
-                "stats": [
-                  {
-                    "id": "temp_mar_month_info",
-                    "icon": "🌡",
-                    "label": "Temperatura promedio (min/max):",
-                    "value": "20ºC – 29ºC"
-                  },
-                  {
-                    "id": "precip_mar_month_info",
-                    "icon": "🌧",
-                    "label": "Precipitación promedio:",
-                    "value": "40mm"
-                  }
-                ],
-                "descriptionParagraphs": [
-                  "Si odias la lluvia, marzo es uno de los mejores meses para viajar a Cancún. ¡La lluvia es casi inexistente! Además, si también eres fan de salir de fiesta, probablemente marzo sea la mejor época para visitar Cancún. Sobre todo porque gran parte de los estudiantes de Estados Unidos se dirigen a esta playa para disfrutar de sus vacaciones. En este mes encontrará una temperatura promedio de 29°C y un clima algo más húmedo.",
-                  "Sin embargo, puede que este ambiente no sea el que estás buscando y prefieres adentrarte a la selva mexicana en busca de las pirámides más altas. También podrás participar en la Media Maratón de Cancún, un evento anual que se organiza el 5 de marzo por el Día Internacional de la Mujer. En general, esta época es más cara de lo normal por la cantidad de turistas que ingresan a este destino."
-                ],
-                "image": {
-                  "src": "/src/assets/mayo.jpg",
-                  "alt": "Clima de Cancún en marzo"
-                },
-                "imageCaption": "Cancún, desde las alturas"
-              },
-              {
-                "id": "cancun_apr_month_info_detail",
-                "monthTitle": "1.6. Viajar a Cancún en abril",
-                "stats": [
-                  {
-                    "id": "temp_apr_month_info",
-                    "icon": "🌡",
-                    "label": "Temperatura promedio (min/max):",
-                    "value": "22ºC – 30ºC"
-                  },
-                  {
-                    "id": "precip_apr_month_info",
-                    "icon": "🌧",
-                    "label": "Precipitación promedio:",
-                    "value": "35mm"
-                  }
-                ],
-                "descriptionParagraphs": [
-                  "Abril es el mes más seco del año en Cancún. ¡Apenas llueve tres días en todo el mes! Además, la temporada de lluvias ya está a la vuelta de la esquina y muchos aprovechan para disfrutar de la playa antes de que las precipitaciones lleguen. Así que este mes también es bastante popular y hay una gran cantidad de turistas en la zona. Sin embargo, hay varios eventos y festividades para celebrar la fundación de Cancún, lo que lo convierte en un momento emocionante para visitar la ciudad.",
-                  "Si te gustan los festivales musicales, podrás aprovechar tu estancia para asistir al Paradise Blue Festival, un evento de música electrónica de tres días que atrae a los fanáticos de la música de todo el mundo. Además, podrás ser partícipe de la Semana de la Música de Cancún, que se celebra durante cinco días. Pero si viajas en familia, también deberás tomar en cuenta que el 30 de abril se celebra el día del niño y podrás disfrutar de descuentos en actividades. Junto a esto, la temperatura promedio en abril es de 30°C, lo que lo convierte en otra buena opción para disfrutar del mar y el sol."
-                ],
-                "image": {
-                  "src": "/src/assets/mayo.jpg",
-                  "alt": "Clima de Cancún en abril"
-                },
-                "imageCaption": "Cancún, desde las alturas"
+                "id": "acapulco_map_main_marker_1",
+                "position": { "lat": 16.8464, "lng": -99.9117 },
+                "name": "La Quebrada",
+                "description": "Clavados famosos."
               }
             ]
           },
-          {
-            "id": "rainy_season_cancun_month_info",
-            "seasonTitle": "2. Viajar a Cancún en temporada de lluvias (mayo a octubre)",
-            "seasonIntroductionParagraphs": [
-              "Viajar a Cancún durante la temporada de lluvias, puede ser una experiencia diferente. Esta época abarca los meses de mayo a octubre y puede ser una buena oportunidad para disfrutar de deportes acuáticos. La temperatura sigue siendo cálida, con un clima que puede ir desde los 23°C hasta los 33°C. Además, los precios suelen ser más bajos que en temporada alta, lo que será una ventaja para los viajeros que quieran ahorrar algo de dinero.",
-              "Sin embargo, es importante mencionar que el clima es el factor que más debe tomar en cuenta, ya que en ciertos meses, las lluvias pueden ser bastante intensas. También hay un mayor riesgo de huracanes durante esta temporada. Aunque no debes preocuparte, ya que los resorts y autoridades locales suelen estar preparados para ellos."
-            ],
-            "monthsData": [
-              {
-                "id": "cancun_may_month_info_detail",
-                "monthTitle": "2.1. Viajar a Cancún en mayo",
-                "stats": [
-                  {
-                    "id": "temp_may_month_info",
-                    "icon": "🌡",
-                    "label": "Temperatura promedio (min/max):",
-                    "value": "24ºC – 32ºC"
-                  },
-                  {
-                    "id": "precip_may_month_info",
-                    "icon": "🌧",
-                    "label": "Precipitación promedio:",
-                    "value": "110mm"
-                  }
-                ],
-                "descriptionParagraphs": [
-                  "Mayo marca el inicio de la temporada de lluvias en Cancún, lo que significa que hay más posibilidades de tormentas aisladas. Sin embargo, la temperatura del mar sigue siendo cálida, con un promedio de 28°C. Esto hace que sea un buen momento para disfrutar de la playa. Además, este mes es considerado de temporada baja, lo que genera que los precios de alojamiento y otras actividades sean más baratos para aquellos que buscan ahorrar.",
-                  "Si eres un amante de la naturaleza, ¡este mes te encantará! Ya que la flora y fauna están en plena floración. Como curiosidad, la temporada de anidación de tortugas marinas en Cancún es un proceso natural que ocurre todos los años, de mayo a septiembre. ¡Es un momento muy bonito! Además, la temperatura ambiente promedio es de 28 a 30°C por el día y de 24 a 26°C durante la noche. Así que, si piensas en gastar menos y estás preparado para la posibilidad de lluvias ocasionales, mayo puede ser una buena época para viajar a Cancún."
-                ],
-                "image": {
-                  "src": "/src/assets/mayo.jpg",
-                  "alt": "Clima de Cancún en mayo"
-                },
-                "imageCaption": "Cancún, desde las alturas en mayo"
-              },
-              {
-                "id": "cancun_jun_month_info_detail",
-                "monthTitle": "2.2. Viajar a Cancún en junio",
-                "stats": [
-                  {
-                    "id": "temp_jun_month_info",
-                    "icon": "🌡",
-                    "label": "Temperatura promedio (min/max):",
-                    "value": "25ºC – 32ºC"
-                  },
-                  {
-                    "id": "precip_jun_month_info",
-                    "icon": "🌧",
-                    "label": "Precipitación promedio:",
-                    "value": "185mm"
-                  }
-                ],
-                "descriptionParagraphs": [
-                  "En Cancún, la temporada de huracanes arranca en junio, por lo que debes estar atento sobre las recomendaciones locales referentes al clima. Sin embargo, no debes dejar que esto te detenga de visitar este hermoso destino. La temperatura promedio del aire se mantiene entre 25°C a 32°C, mientras que la del mar se encuentra aproximadamente en 28°C. Además, como las lluvias no han llegado a su pico, tendrá muchas oportunidades para disfrutar de la playa y sus actividades acuáticas.",
-                  "En cuanto al presupuesto, encontrarás buenos precios antes de que llegue la temporada alta. Sin embargo, ten en cuenta que junio es un mes popular para los viajes de graduación, lo que significa que puede haber más turistas jóvenes en la zona hotelera. Pero si eres más fan de salir al mar que de estar en el hotel, te encantará practicar buceo. Junio es uno de los mejores meses para hacerlo. La temperatura del agua es más cálida y hay muchas opciones para explorar los arrecifes de coral y la vida marina de la zona."
-                ],
-                "image": {
-                  "src": "/src/assets/junio.jpg",
-                  "alt": "Clima de Cancún en junio"
-                },
-                "imageCaption": "Cancún, desde las alturas en junio"
-              },
-              {
-                "id": "cancun_jul_month_info_detail",
-                "monthTitle": "2.3. Viajar a Cancún en julio",
-                "stats": [
-                  {
-                    "id": "temp_jul_month_info",
-                    "icon": "🌡",
-                    "label": "Temperatura promedio (min/max):",
-                    "value": "25ºC – 32ºC"
-                  },
-                  {
-                    "id": "precip_jul_month_info",
-                    "icon": "🌧",
-                    "label": "Precipitación promedio:",
-                    "value": "130mm"
-                  }
-                ],
-                "descriptionParagraphs": [
-                  "Julio es uno de los meses más calurosos en Cancún, con una temperatura promedio de 28°C. Aunque también es uno de los meses más húmedos, con un promedio de 130mm de lluvia, lo que puede generar algunas tormentas. Además, este es un mes lleno de eventos y festividades, como el Festival del Caribe, que ofrece una variedad de actividades culturales y musicales que estamos seguros vas a disfrutar.",
-                  "También debemos recordarte que este es un mes de temporada alta en Cancún, por lo que los precios pueden ser más altos. Pero si no te importa gastar un poco más, podrás observar a pequeñas crías de tortugas marinas y más vida acuática de la región."
-                ],
-                "image": {
-                  "src": "/src/assets/mayo.jpg",
-                  "alt": "Clima de Cancún en julio"
-                },
-                "imageCaption": "Cancún, desde las alturas en julio"
-              },
-              {
-                "id": "cancun_aug_month_info_detail",
-                "monthTitle": "2.4. Viajar a Cancún en agosto",
-                "stats": [
-                  {
-                    "id": "temp_aug_month_info",
-                    "icon": "🌡",
-                    "label": "Temperatura promedio (min/max):",
-                    "value": "24ºC – 33ºC"
-                  },
-                  {
-                    "id": "precip_aug_month_info",
-                    "icon": "🌧",
-                    "label": "Precipitación promedio:",
-                    "value": "150mm"
-                  }
-                ],
-                "descriptionParagraphs": [
-                  "Agosto es el mes más cálido para viajar a Cancún, con una temperatura que puede llegar a los 33°C. Además, este es uno de los meses más populares para los turistas, ya que en muchos países, salen por vacaciones de verano. Esto, a su vez, genera que los precios lleguen a estar más elevados de lo normal.",
-                  "En cuanto al clima, puedes esperar algunos días de lluvia debido a la temporada de huracanes, pero la mayoría serán soleados y calurosos. Asegúrate de llevar ropa ligera, protector solar y sobre todo, intenta visitar las playas temprano por la mañana o en el atardecer para evitar el sol del mediodía. Personalmente, trataríamos de evitar viajar a Cancún en agosto por los altos precios y las lluvias."
-                ],
-                "image": {
-                  "src": "/src/assets/mayo.jpg",
-                  "alt": "Clima de Cancún en agosto"
-                },
-                "imageCaption": "Cancún, desde las alturas en agosto"
-              },
-              {
-                "id": "cancun_sep_month_info_detail",
-                "monthTitle": "2.5. Viajar a Cancún en septiembre",
-                "stats": [
-                  {
-                    "id": "temp_sep_month_info",
-                    "icon": "🌡",
-                    "label": "Temperatura promedio (min/max):",
-                    "value": "24ºC – 32ºC"
-                  },
-                  {
-                    "id": "precip_sep_month_info",
-                    "icon": "🌧",
-                    "label": "Precipitación promedio:",
-                    "value": "225mm"
-                  }
-                ],
-                "descriptionParagraphs": [
-                  "Septiembre es el pico más alto en la temporada de huracanes. Por ello, no encontrarás multitudes de turistas, pero sí precios más bajos en alojamiento y actividades. Además, septiembre es el mes más lluvioso en Cancún, por lo que puede haber algunas interrupciones en las actividades al aire libre. Durante este mes, te encontrarás con una temperatura de hasta 32°C y una humedad extrema.",
-                  "Sin embargo, si deseas visitar Cancún en septiembre, también podrás asistir a las festividades del Día de la Independencia de México. Aquí te deslumbrarás con la danza, la música y los increíbles fuegos artificiales. A pesar de los eventos importantes, nosotros creemos que no es la mejor época para viajar a Cancún."
-                ],
-                "image": {
-                  "src": "/src/assets/mayo.jpg",
-                  "alt": "Clima de Cancún en septiembre"
-                },
-                "imageCaption": "Cancún, desde las alturas en septiembre"
-              },
-              {
-                "id": "cancun_oct_month_info_detail",
-                "monthTitle": "2.6. Viajar a Cancún en octubre",
-                "stats": [
-                  {
-                    "id": "temp_oct_month_info",
-                    "icon": "🌡",
-                    "label": "Temperatura promedio (min/max):",
-                    "value": "23ºC – 31ºC"
-                  },
-                  {
-                    "id": "precip_oct_month_info",
-                    "icon": "🌧",
-                    "label": "Precipitación promedio:",
-                    "value": "185mm"
-                  }
-                ],
-                "descriptionParagraphs": [
-                  "Con motivo de Halloween, viajar a Cancún en octubre es una excelente opción para aquellos que buscan divertirse en los hoteles, bares y discotecas de la ciudad. En este mes, la temperatura es un poco menos cálida, pero aún puede haber lluvias. Sin embargo, los días suelen ser mayormente soleados y la temperatura del agua sigue agradable para nadar y practicar deportes acuáticos.",
-                  "En cuanto al presupuesto, encontrarás ofertas atractivas en hoteles y actividades turísticas. Además, descubrirás que hay menos turistas en las playas, lo que significa que disfrutarás de una experiencia más relajante. Si te apasiona la música o ir de pesca, prueba ir a Island Time Music Festival, que durante 4 días organiza espectáculos musicales y competencias de pesca en la hermosa Isla Mujeres."
-                ],
-                "image": {
-                  "src": "/src/assets/mayo.jpg",
-                  "alt": "Clima de Cancún en octubre"
-                },
-                "imageCaption": "Cancún, desde las alturas en octubre"
-              }
-            ]
+          "fallbackImage": {
+            "src": "/googleMaps.png",
+            "alt": "Mapa de Acapulco"
           }
-        ]
+        }
+      },
+      "beforeYouVisitRecommendations": {
+        "data": {
+          "sectionTitle": "Recomendaciones antes de visitar Acapulco",
+          "recommendations": [
+            {
+              "id": 1,
+              "text": "Lleva protector solar de factor alto, el sol tropical puede ser muy intenso durante todo el día."
+            },
+            {
+              "id": 2,
+              "text": "Reserva tus hoteles con anticipación, especialmente durante temporada alta (diciembre-abril)."
+            },
+            {
+              "id": 3,
+              "text": "Prueba la gastronomía local: pescado a la talla, pozole guerrerense y las famosas nieves de Acapulco."
+            },
+            {
+              "id": 4,
+              "text": "Mantente hidratado y bebe agua embotellada para evitar problemas estomacales."
+            },
+            {
+              "id": 5,
+              "text": "Lleva efectivo, muchos lugares pequeños y mercados no aceptan tarjetas de crédito."
+            }
+          ]
+        }
       }
-    },
-    "frequentlyAskedQuestions": {
-      "type": "hotel",
-      "template": 1,
-      "data": {
-        "sectionTitle": "5. PREGUNTAS FRECUENTES SOBRE CUÁL ES LA MEJOR ÉPOCA PARA VIAJAR A CANCÚN",
-        "introduction": "A continuación, a modo de resumen del artículo, responderemos algunas cuestiones acerca de la mejor época para viajar a Cancún.",
-        "faqList": [
-          {
-            "id": "faq_cancun_best_time_final_main",
-            "question": "En definitiva, ¿cuál es el mejor mes para viajar a Cancún?",
-            "answer": "Enero es el mejor mes para viajar a Cancún. Eso sí, mejor espera a que pase la primera semana y bajen los precios, ya que suelen mantenerse alto después de las festividades de Navidad, Año Nuevo y Reyes. Durante las tres últimas semanas de enero, no hay tantas multitudes como en marzo y abril y no hace tanto calor. ¡Nuestro mes favorito para viajar a Cancún!"
-          },
-          {
-            "id": "faq_cancun_best_time_2",
-            "question": "¿Cuándo es temporada alta en Cancún?",
-            "answer": "La temporada alta en Cancún va de diciembre a abril, siendo los meses más concurridos enero, febrero y marzo. Durante esta época los precios son más altos pero el clima es más seco y soleado."
-          },
-          {
-            "id": "faq_cancun_best_time_3",
-            "question": "¿Cuándo es temporada de huracanes en Cancún?",
-            "answer": "La temporada de huracanes en Cancún va de junio a noviembre, siendo septiembre y octubre los meses de mayor riesgo. Sin embargo, los huracanes directos son poco frecuentes y la infraestructura turística está preparada para estas situaciones."
-          },
-          {
-            "id": "faq_cancun_best_time_4",
-            "question": "¿Cuál es la temporada más barata para viajar a Cancún?",
-            "answer": "La temporada más barata para viajar a Cancún es de mayo a octubre (temporada de lluvias), especialmente septiembre que es cuando hay menos turistas. Sin embargo, debes considerar el riesgo de lluvia y huracanes."
-          },
-          {
-            "id": "faq_cancun_best_time_5",
-            "question": "¿Qué ropa llevar a Cancún según la época del año?",
-            "answer": "En temporada seca (noviembre-abril): ropa ligera de algodón, protector solar, gafas de sol y una chaqueta ligera para las noches. En temporada de lluvias (mayo-octubre): ropa ligera, impermeable, paraguas y calzado que se seque rápido."
-          }
-        ]
-      }
-    },
-    "finalConclusion": {
-      "type": "hotel",
-      "template": 1,
-      "data": {
-        "sectionTitle": "6. CONCLUSIÓN: LA MEJOR ÉPOCA PARA VIAJAR A CANCÚN",
-        "conclusionParagraphs": [
-          "Después de analizar mes a mes las condiciones climáticas, precios y actividades disponibles en Cancún, podemos concluir que la mejor época para viajar a este destino paradisíaco depende en gran medida de tus preferencias personales y presupuesto.",
-          "Si buscas el clima perfecto con pocas posibilidades de lluvia y no te importa pagar precios más altos, la temporada seca (noviembre a abril) es ideal para ti. Enero se destaca como nuestro mes favorito por ofrecer el equilibrio perfecto entre buen clima, precios razonables después de las fiestas navideñas y menos multitudes que en marzo.",
-          "Por otro lado, si eres un viajero con presupuesto limitado y no te molestan las lluvias ocasionales, la temporada húmeda (mayo a octubre) te permitirá disfrutar de Cancún a precios más accesibles. Mayo y octubre son excelentes opciones dentro de esta temporada.",
-          "Recuerda que Cancún es un destino hermoso durante todo el año. La clave está en planificar tu viaje según tus prioridades: ¿prefieres clima perfecto o precios bajos? ¿Te gusta la tranquilidad o no te molestan las multitudes? Sea cual sea tu elección, Cancún te recibirá con sus playas de arena blanca, aguas cristalinas y la calidez de su gente."
-        ],
-        "finalCallToAction": "¡Ahora que conoces cuál es la mejor época para viajar a Cancún según tus necesidades, es hora de comenzar a planificar tu aventura en el Caribe mexicano!"
+    }
+  },
+  "cuando-es-la-mejor-epoca-para-viajar-a-cancun": {
+    "template": 3,
+    "type": "climate",
+    "date": "Marzo,5,2024",
+    "blogTitle": "¿Cuándo es la mejor época para viajar a Cancún?",
+    "slug": "mejor-epoca-viajar-cancun-clima-guia",
+    "heroImage": "https://images.pexels.com/photos/261101/pexels-photo-261101.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "introduction": [
+      "¿No sabes cuál es la mejor época para viajar a Cancún? Siempre es importante tener claro la meteorología antes de planificar tu viaje a la Riviera Maya. Gracias a su clima tropical, Cancún es un destino para todo el año, y hay temporadas que son más favorables que otras para disfrutar de sus increíbles playas. ¡No querrás que la lluvia te fastidie las vacaciones! Sin embargo, todo depende de lo que estés buscando.",
+      "En este post te contamos mes a mes cuál es la mejor época para viajar a Cancún para que sepas qué te espera en cada época del año."
+    ],
+    "sections": {
+      "monthlyInfo": {
+        "data": {
+          "seasons": [
+            {
+              "id": "dry_season_cancun_month_info",
+              "seasonTitle": "1. Viajar a Cancún en temporada seca (noviembre a abril)",
+              "seasonIntroductionParagraphs": [
+                "Si eres de los que buscan disfrutar de un clima cálido y seco, de noviembre hasta abril es la mejor época para viajar a Cancún.",
+                "Especialmente enero: es el mes que más te recomendamos para visitar este hermoso destino. La temperatura que encontrarás oscila entre los 24 y 30ºC, lo que hace de este momento la mejor época para viajar a Cancún y disfrutar de sus playas. Además, durante estos meses es menos probable que llueva, por lo que es el momento ideal para que practiques deportes acuáticos como buceo, esnórquel o kayak."
+              ],
+              "monthsData": [
+                {
+                  "id": "cancun_nov_month_info_detail",
+                  "monthTitle": "1.1. Viajar a Cancún en noviembre",
+                  "stats": [
+                    {
+                      "id": "temp_nov_month_info",
+                      "icon": "🌡",
+                      "label": "Temperatura promedio (min/max):",
+                      "value": "21ºC – 29ºC"
+                    },
+                    {
+                      "id": "precip_nov_month_info",
+                      "icon": "🌧",
+                      "label": "Precipitación promedio:",
+                      "value": "85mm"
+                    }
+                  ],
+                  "descriptionParagraphs": [
+                    "Si lo que buscas es un clima agradable y con menos turistas, noviembre puede ser una de las mejores épocas para viajar a Cancún. Durante esta temporada, encontrarás una temperatura promedio que ronda los 27°C.",
+                    "En cuanto a la cantidad de turistas es menor que en temporada alta, por lo que podrás visitar atracciones turísticas sin grandes aglomeraciones."
+                  ],
+                  "image": {
+                    "src": "/src/assets/mayo.jpg",
+                    "alt": "Clima de Cancún en noviembre"
+                  }
+                },
+                {
+                  "id": "cancun_dec_month_info_detail",
+                  "monthTitle": "1.2. Viajar a Cancún en diciembre",
+                  "stats": [
+                    {
+                      "id": "temp_dec_month_info",
+                      "icon": "🌡",
+                      "label": "Temperatura promedio (min/max):",
+                      "value": "20ºC – 28ºC"
+                    },
+                    {
+                      "id": "precip_dec_month_info",
+                      "icon": "🌧",
+                      "label": "Precipitación promedio:",
+                      "value": "80mm"
+                    }
+                  ],
+                  "descriptionParagraphs": [
+                    "Durante diciembre, los días en Cancún son más cortos, pero la temperatura se mantiene en un promedio de 28°C durante el día y de 20°C durante la noche.",
+                    "El clima cálido y la temperatura del mar es ideal para disfrutar de la vida nocturna en la Zona Hotelera de Cancún."
+                  ],
+                  "image": {
+                    "src": "/src/assets/mayo.jpg",
+                    "alt": "Clima de Cancún en diciembre"
+                  }
+                },
+                {
+                  "id": "cancun_jan_month_info_detail",
+                  "monthTitle": "1.3. Viajar a Cancún en enero",
+                  "stats": [
+                    {
+                      "id": "temp_jan_month_info",
+                      "icon": "🌡",
+                      "label": "Temperatura promedio (min/max):",
+                      "value": "19ºC – 28ºC"
+                    },
+                    {
+                      "id": "precip_jan_month_info",
+                      "icon": "🌧",
+                      "label": "Precipitación promedio:",
+                      "value": "65mm"
+                    }
+                  ],
+                  "descriptionParagraphs": [
+                    "Para nosotros, ¡enero es el mejor mes para viajar a Cancún! No hay nada mejor que empezar el año uno de los destinos más sorprendentes de todo México.",
+                    "El clima es durante esta temporada es irresistible, podrás disfrutar de una temperatura cálida, seca y soleada."
+                  ],
+                  "image": {
+                    "src": "/src/assets/mayo.jpg",
+                    "alt": "Clima de Cancún en enero"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "rainy_season_cancun_month_info",
+              "seasonTitle": "2. Viajar a Cancún en temporada de lluvias (mayo a octubre)",
+              "seasonIntroductionParagraphs": [
+                "Viajar a Cancún durante la temporada de lluvias, puede ser una experiencia diferente. Esta época abarca los meses de mayo a octubre y puede ser una buena oportunidad para disfrutar de deportes acuáticos.",
+                "Sin embargo, es importante mencionar que el clima es el factor que más debe tomar en cuenta, ya que en ciertos meses, las lluvias pueden ser bastante intensas."
+              ],
+              "monthsData": [
+                {
+                  "id": "cancun_may_month_info_detail",
+                  "monthTitle": "2.1. Viajar a Cancún en mayo",
+                  "stats": [
+                    {
+                      "id": "temp_may_month_info",
+                      "icon": "🌡",
+                      "label": "Temperatura promedio (min/max):",
+                      "value": "24ºC – 32ºC"
+                    },
+                    {
+                      "id": "precip_may_month_info",
+                      "icon": "🌧",
+                      "label": "Precipitación promedio:",
+                      "value": "110mm"
+                    }
+                  ],
+                  "descriptionParagraphs": [
+                    "Mayo marca el inicio de la temporada de lluvias en Cancún, lo que significa que hay más posibilidades de tormentas aisladas.",
+                    "Si eres un amante de la naturaleza, ¡este mes te encantará! Ya que la flora y fauna están en plena floración."
+                  ],
+                  "image": {
+                    "src": "/src/assets/mayo.jpg",
+                    "alt": "Clima de Cancún en mayo"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "generalClimateInfo": {
+        "data": {
+          "contentBlocks": [
+            {
+              "type": "mainTitle",
+              "text": "Información climática general"
+            },
+            {
+              "type": "paragraph",
+              "text": "El clima es uno de los factores más importantes a considerar al planificar tu viaje. Conocer las condiciones meteorológicas te ayudará a prepararte mejor y disfrutar al máximo de tu experiencia."
+            }
+          ]
+        }
+      },
+      "frequentlyAskedQuestions": {
+        "data": {
+          "sectionTitle": "5. PREGUNTAS FRECUENTES SOBRE CUÁL ES LA MEJOR ÉPOCA PARA VIAJAR A CANCÚN",
+          "introduction": "A continuación, a modo de resumen del artículo, responderemos algunas cuestiones acerca de la mejor época para viajar a Cancún.",
+          "faqList": [
+            {
+              "id": "faq_cancun_best_time_final_main",
+              "question": "En definitiva, ¿cuál es el mejor mes para viajar a Cancún?",
+              "answer": "Enero es el mejor mes para viajar a Cancún. Eso sí, mejor espera a que pase la primera semana y bajen los precios, ya que suelen mantenerse alto después de las festividades de Navidad, Año Nuevo y Reyes."
+            }
+          ]
+        }
       }
     }
   }

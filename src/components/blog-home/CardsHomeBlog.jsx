@@ -6,8 +6,9 @@ export default function CardsHomeBlog({ blog, lang = "es", TruncateLetters }) {
   const navigate = useNavigate()
 
   const searchBlog = (blogItem) => {
-    // Si es un template, navegar a la ruta del template
+    // Si es un template, navegar usando el identificador URL correcto
     if (blogItem.isTemplate) {
+      // Ahora el name ya ES el identificador URL correcto
       navigate(`/${lang}/${blogItem.name}`)
     }
     // Si es una sección específica, navegar a la ruta dinámica
