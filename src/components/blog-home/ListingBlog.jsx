@@ -2,10 +2,12 @@
 
 import { useState, useEffect } from "react"
 import CardsHomeBlog from "./CardsHomeBlog"
+import { useBlogData } from "../../hooks/useBlogData"
 
 export default function ListingBlog({ lang = "es" }) {
   const [isLoader, setIsLoader] = useState(true)
   const [currentBlog, setCurrentBlog] = useState([])
+  const { blogData } = useBlogData(lang)
 
   // Las 3 primeras cartas serán los templates principales
   const templateCards = [
@@ -59,81 +61,148 @@ export default function ListingBlog({ lang = "es" }) {
     },
   ]
 
-  // Blogs adicionales con secciones específicas
-  const additionalBlogs = [
-    {
-      id: "howToBookTransport",
-      name: "howToBookTransport",
-      image: "https://images.unsplash.com/photo-1544620347-c4fd4a3d5957?w=400&h=200&fit=crop",
-      date: "2024-01-01",
-      type: ["transport"],
-      isSection: true,
-      mainTitle: {
-        es: "Cómo Reservar Transporte",
-        en: "How to Book Transport",
-      },
-      description: {
-        es: "Guía completa para reservar y planificar tu transporte de manera fácil y segura.",
-        en: "Complete guide to book and plan your transportation easily and safely.",
-      },
-    },
-    {
-      id: "touristMap",
-      name: "touristMap",
-      image: "https://images.unsplash.com/photo-1524661135-423995f22d0b?w=400&h=200&fit=crop",
-      date: "2023-12-28",
-      type: ["tour"],
-      isSection: true,
-      mainTitle: {
-        es: "Mapa Turístico Interactivo",
-        en: "Interactive Tourist Map",
-      },
-      description: {
-        es: "Explora los mejores destinos con nuestro mapa interactivo y planifica tu ruta perfecta.",
-        en: "Explore the best destinations with our interactive map and plan your perfect route.",
-      },
-    },
-    {
-      id: "weatherInfo",
-      name: "weatherInfo",
-      image: "https://images.unsplash.com/photo-1504608524841-42fe6f032b4b?w=400&h=200&fit=crop",
-      date: "2023-12-25",
-      type: ["climate"],
-      isSection: true,
-      mainTitle: {
-        es: "Información del Clima",
-        en: "Weather Information",
-      },
-      description: {
-        es: "Conoce las condiciones climáticas actuales y pronósticos para planificar mejor tu viaje.",
-        en: "Know current weather conditions and forecasts to better plan your trip.",
-      },
-    },
-    {
-      id: "hotelRecommendations",
-      name: "hotelRecommendations",
-      image: "https://images.unsplash.com/photo-1566073771259-6a8506099945?w=400&h=200&fit=crop",
-      date: "2023-12-20",
-      type: ["hotel"],
-      isSection: true,
-      mainTitle: {
-        es: "Hoteles Recomendados",
-        en: "Recommended Hotels",
-      },
-      description: {
-        es: "Descubre los mejores hoteles seleccionados especialmente para tu comodidad y presupuesto.",
-        en: "Discover the best hotels specially selected for your comfort and budget.",
-      },
-    },
-  ]
-
   useEffect(() => {
     setTimeout(() => {
-      const allBlogs = [...templateCards, ...additionalBlogs]
+      let allBlogs = [...templateCards]
+
+      // Agregar secciones del JSON como cards adicionales
+      if (blogData?.sections) {
+        const sectionCards = Object.entries(blogData.sections).map(([sectionKey, sectionData]) => ({
+          id: sectionKey,
+          name: sectionKey,
+          image: getSectionImage(sectionKey),
+          date: "2024-01-01",
+          type: [sectionData.type || "tour"],
+          isSection: true,
+          template: sectionData.template || 1,
+          mainTitle: {
+            es: getSectionTitle(sectionKey, "es"),
+            en: getSectionTitle(sectionKey, "en"),
+          },
+          description: {
+            es: getSectionDescription(sectionKey, "es"),
+            en: getSectionDescription(sectionKey, "en"),
+          },
+        }))
+
+        allBlogs = [...allBlogs, ...sectionCards]
+      }
+
       setCurrentBlog(allBlogs)
       setIsLoader(false)
     }, 1000)
-  }, [])
+  }, [blogData])
+
+  // Función para obtener imagen según la sección
+  const getSectionImage = (sectionKey) => {
+    const imageMap = {
+      howToBookTransport: "https://images.unsplash.com/photo-1544620347-c4fd4a3d5957?w=400&h=200&fit=crop",
+      locationInfo: "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=400&h=200&fit=crop",
+      whatToFind: "https://images.unsplash.com/photo-1571896349842-33c89424de2d?w=400&h=200&fit=crop",
+      howToGetThere: "https://images.unsplash.com/photo-1524661135-423995f22d0b?w=400&h=200&fit=crop",
+      routesFrom: "https://images.unsplash.com/photo-1504608524841-42fe6f032b4b?w=400&h=200&fit=crop",
+      photoGallery: "https://images.unsplash.com/photo-1566073771259-6a8506099945?w=400&h=200&fit=crop",
+      familyHotels: "https://images.unsplash.com/photo-1566073771259-6a8506099945?w=400&h=200&fit=crop",
+      journeyVideo: "https://images.unsplash.com/photo-1559827260-dc66d52bef19?w=400&h=200&fit=crop",
+      ferrySchedule: "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=400&h=200&fit=crop",
+      favoriteActivities: "https://images.unsplash.com/photo-1571896349842-33c89424de2d?w=400&h=200&fit=crop",
+    }
+    return imageMap[sectionKey] || "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=400&h=200&fit=crop"
+  }
+
+  // Función para obtener título según la sección
+  const getSectionTitle = (sectionKey, lang) => {
+    const titleMap = {
+      howToBookTransport: {
+        es: "Cómo Reservar Transporte",
+        en: "How to Book Transport",
+      },
+      locationInfo: {
+        es: "Información de Ubicación",
+        en: "Location Information",
+      },
+      whatToFind: {
+        es: "Qué Encontrarás",
+        en: "What You'll Find",
+      },
+      howToGetThere: {
+        es: "Cómo Llegar",
+        en: "How to Get There",
+      },
+      routesFrom: {
+        es: "Rutas Disponibles",
+        en: "Available Routes",
+      },
+      photoGallery: {
+        es: "Galería de Fotos",
+        en: "Photo Gallery",
+      },
+      familyHotels: {
+        es: "Hoteles Familiares",
+        en: "Family Hotels",
+      },
+      journeyVideo: {
+        es: "Video del Viaje",
+        en: "Journey Video",
+      },
+      ferrySchedule: {
+        es: "Horarios del Ferry",
+        en: "Ferry Schedule",
+      },
+      favoriteActivities: {
+        es: "Actividades Favoritas",
+        en: "Favorite Activities",
+      },
+    }
+    return titleMap[sectionKey]?.[lang] || sectionKey
+  }
+
+  // Función para obtener descripción según la sección
+  const getSectionDescription = (sectionKey, lang) => {
+    const descMap = {
+      howToBookTransport: {
+        es: "Guía completa para reservar y planificar tu transporte de manera fácil y segura.",
+        en: "Complete guide to book and plan your transportation easily and safely.",
+      },
+      locationInfo: {
+        es: "Descubre la ubicación exacta y cómo llegar a tu destino.",
+        en: "Discover the exact location and how to get to your destination.",
+      },
+      whatToFind: {
+        es: "Explora todo lo que puedes encontrar en este increíble destino.",
+        en: "Explore everything you can find in this incredible destination.",
+      },
+      howToGetThere: {
+        es: "Instrucciones detalladas sobre cómo llegar a tu destino.",
+        en: "Detailed instructions on how to get to your destination.",
+      },
+      routesFrom: {
+        es: "Conoce todas las rutas disponibles desde diferentes puntos.",
+        en: "Learn about all available routes from different points.",
+      },
+      photoGallery: {
+        es: "Disfruta de una hermosa galería de fotos del destino.",
+        en: "Enjoy a beautiful photo gallery of the destination.",
+      },
+      familyHotels: {
+        es: "Los mejores hoteles familiares para tu estancia perfecta.",
+        en: "The best family hotels for your perfect stay.",
+      },
+      journeyVideo: {
+        es: "Mira videos del viaje y experiencias únicas.",
+        en: "Watch journey videos and unique experiences.",
+      },
+      ferrySchedule: {
+        es: "Consulta los horarios actualizados del ferry.",
+        en: "Check updated ferry schedules.",
+      },
+      favoriteActivities: {
+        es: "Nuestras actividades favoritas recomendadas para ti.",
+        en: "Our favorite recommended activities for you.",
+      },
+    }
+    return descMap[sectionKey]?.[lang] || "Descripción no disponible"
+  }
 
   const TruncateLetters = (text, wordLimit) => {
     if (!text) return ""
@@ -144,7 +213,6 @@ export default function ListingBlog({ lang = "es" }) {
 
   return (
     <div className="relative">
-      {/* Título principal más grande y prominente */}
       <div className="mb-8 text-center">
         <h1 className="text-fs-40 m-b text-gray-800 mb-4">
           {lang === "en" ? "Featured Content" : "Contenido Destacado"}

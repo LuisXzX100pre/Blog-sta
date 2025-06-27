@@ -13,7 +13,7 @@ export default function SectionRenderer({ sectionName, lang = "es" }) {
     return textObj?.[lang] || textObj?.es || textObj?.en || ""
   }
 
-  // Datos de ejemplo para cada sección
+
   const sectionData = {
     howToBookTransport: {
       component: HowToBook,
