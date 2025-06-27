@@ -56,10 +56,10 @@ export default function CardsHomeBlog({ blog, lang = "es", TruncateLetters }) {
         onClick={() => searchBlog(blog)}
         className="relative flex flex-col w-[332px] h-[372px] border border-[#ebebeb] px-4 pt-4 pb-6 rounded-lg shadow-3xl justify-between max-xl:w-[309px] max-md:w-full cursor-pointer hover:shadow-xl group transition-shadow duration-300"
       >
-        {/* Etiqueta especial para templates y secciones - ARREGLADO EL Z-INDEX */}
+        {/* Etiqueta especial para templates y secciones - Z-INDEX ALTO PARA QUE ESTÉ AL FRENTE */}
         {specialLabel && (
           <div
-            className={`absolute top-2 right-2 ${specialLabel.color} text-white px-2 py-1 rounded-full text-fs-10 m-s-b z-10`}
+            className={`absolute top-2 right-2 ${specialLabel.color} text-white px-2 py-1 rounded-full text-fs-10 m-s-b z-20`}
           >
             {specialLabel.text}
           </div>
@@ -67,7 +67,7 @@ export default function CardsHomeBlog({ blog, lang = "es", TruncateLetters }) {
 
         <div className="flex flex-col gap-4">
           {/* IMG CARD */}
-          <div className="h-[150px] overflow-hidden rounded-lg">
+          <div className="h-[150px] overflow-hidden rounded-lg relative z-10">
             <img
               src={blog.image || "/placeholder.svg"}
               alt="blog card"

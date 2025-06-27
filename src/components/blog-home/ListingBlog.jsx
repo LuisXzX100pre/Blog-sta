@@ -213,17 +213,7 @@ export default function ListingBlog({ lang = "es" }) {
 
   return (
     <div className="relative">
-      <div className="mb-8 text-center">
-        <h1 className="text-fs-40 m-b text-gray-800 mb-4">
-          {lang === "en" ? "Featured Content" : "Contenido Destacado"}
-        </h1>
-        <p className="text-fs-16 text-gray-600 max-w-2xl mx-auto">
-          {lang === "en"
-            ? "Explore our most popular destinations and travel guides"
-            : "Explora nuestros destinos más populares y guías de viaje"}
-        </p>
-      </div>
-
+      {/* Sin título ni descripción - directo a las cards */}
       <div className="flex gap-4 flex-wrap mt-[47px] max-lg:justify-center mb-6">
         {!isLoader && currentBlog.length > 0 ? (
           <>

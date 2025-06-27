@@ -10,7 +10,8 @@ import Template1Layout from "./layouts/Template1Layout"
 import Template2Layout from "./layouts/Template2Layout"
 import Template3Layout from "./layouts/Template3Layout"
 import BlogHomeLayout from "./layouts/BlogHomeLayout"
-import DynamicTemplateRenderer from "./components/dynamic/DynamicTemplateRenderer.jsx"
+import DynamicTemplateRenderer from "./components/dynamics/DynamicTemplateRenderer.jsx"
+import ComponentRenderer from "./components/dynamics/ComponentRenderer.jsx"
 import { useBlogData } from "./hooks/useBlogData"
 import { useLanguage } from "./context/LanguageContext"
 
@@ -30,6 +31,27 @@ function HomePage() {
   }
 
   return <BlogHomeLayout lang={lang || "es"} />
+}
+
+// Componente para manejar componentes específicos dentro de templates
+function TemplateComponentPage() {
+  const { lang, template, component } = useParams()
+  const { setLang } = useLanguage()
+
+  useEffect(() => {
+    if (lang && (lang === "es" || lang === "en")) {
+      setLang(lang)
+    }
+  }, [lang, setLang])
+
+  if (lang && lang !== "es" && lang !== "en") {
+    return <Navigate to="/es" replace />
+  }
+
+  // Extraer el número del template
+  const templateNumber = template.replace("template", "")
+
+  return <ComponentRenderer templateNumber={templateNumber} componentName={component} lang={lang || "es"} />
 }
 
 // Componente para manejar las rutas dinámicas de secciones
@@ -78,11 +100,10 @@ function BlogPage() {
     )
   }
 
-  // Mostrar Template1 por defecto para el blog completo
   return <Template1Layout blogData={blogData} lang={lang || "es"} />
 }
 
-// Componente para rutas de template específico con idioma (mantener para compatibilidad)
+// Componente para rutas de template específico con idioma
 function TemplatePageWithLang({ TemplateComponent }) {
   const { lang } = useParams()
   const { setLang } = useLanguage()
@@ -127,14 +148,17 @@ function App() {
         {/* Ruta principal del home */}
         <Route path="/:lang" element={<HomePage />} />
 
-        {/* Rutas dinámicas para secciones específicas - NUEVA FUNCIONALIDAD */}
+        {/* NUEVAS RUTAS: Componentes específicos dentro de templates */}
+        <Route path="/:lang/:template/:component" element={<TemplateComponentPage />} />
+
+        {/* Rutas dinámicas para secciones específicas */}
         <Route path="/:lang/:section" element={<DynamicSectionPage />} />
 
         {/* Rutas de blog completo */}
         <Route path="/blog/:lang" element={<BlogPage />} />
         <Route path="/blog" element={<Navigate to={`/blog/${lang || "es"}`} replace />} />
 
-        {/* Rutas de templates específicos (mantener para compatibilidad) */}
+        {/* Rutas de templates específicos */}
         <Route path="/:lang/template1" element={<TemplatePageWithLang TemplateComponent={Template1Layout} />} />
         <Route path="/:lang/template2" element={<TemplatePageWithLang TemplateComponent={Template2Layout} />} />
         <Route path="/:lang/template3" element={<TemplatePageWithLang TemplateComponent={Template3Layout} />} />
