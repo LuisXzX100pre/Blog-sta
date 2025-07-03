@@ -11,6 +11,16 @@
       "Es conocido por ser un puerto marítimo importante para la salida de ferries hacia Isla Mujeres y un punto de conexión clave para explorar las maravillas del Caribe mexicano.",
       "Desde aquí, miles de viajeros inician su aventura hacia destinos paradisíacos, convirtiendo a Puerto Juárez en la puerta de entrada a experiencias inolvidables."
     ],
+    "acapulcoGuide": {
+      "data": {
+        "mainTitle": "¿Qué visitar en Puerto Juárez? 8 Lugares Imperdibles",
+        "subtitle": "Descubre qué visitar en Puerto Juárez durante tus vacaciones o de fin de semana",
+        "introductionParagraphs": [
+          "El ambiente tropical y de playa son una sensación única que transmiten paz y relajación. Puerto Juárez es un lugar con estas características, con múltiples lugares para visitar que se convierte en un destino perfecto para los días vacacionales.",
+          "Además de las playas bonitas de Puerto Juárez, existen lugares turísticos que son muy tradicionales de la zona y que se caracterizan por ser únicos en su tipo."
+        ]
+      }
+    },
     "sections": {
       "locationInfo": {
         "data": {
@@ -289,146 +299,122 @@
             "alt": "Actividades favoritas en Puerto Juárez"
           }
         }
-      }
-    }
-  },
-  "acapulco-mexico": {
-    "template": 2,
-    "type": "tour",
-    "date": "Febrero,10,2024",
-    "blogTitle": "Guía completa de Acapulco",
-    "slug": "guia-completa-acapulco-lugares-imperdibles",
-    "heroImage": "https://images.pexels.com/photos/261101/pexels-photo-261101.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-    "acapulcoGuide": {
-      "data": {
-        "mainTitle": "¿Qué visitar en Acapulco? 8 Lugares Imperdibles",
-        "subtitle": "Descubre qué visitar en Acapulco, Guerrero durante tus vacaciones o de fin de semana",
-        "introductionParagraphs": [
-          "El ambiente tropical y de playa son una sensación única que transmiten paz y relajación. Acapulco es un lugar con estas características, con múltiples lugares para visitar que se convierte en un destino perfecto para los días vacacionales.",
-          "Además de las playas bonitas de Acapulco, existen lugares turísticos que son muy tradicionales de la zona y que se caracterizan por ser únicos en su tipo."
-        ]
-      }
-    },
-    "introduction": [
-      "Acapulco, conocido como la 'Perla del Pacífico', es uno de los destinos turísticos más emblemáticos de México. Con sus hermosas playas, rica historia y vibrante vida nocturna, Acapulco ofrece experiencias inolvidables para todo tipo de viajeros.",
-      "Desde sus famosos clavadistas de La Quebrada hasta sus lujosos resorts frente al mar, este destino combina perfectamente la tradición mexicana con las comodidades modernas."
-    ],
-    "sections": {
+      },
       "placesToVisit": {
         "data": {
-          "sectionTitle": "8 Lugares que visitar en Acapulco",
-          "introduction": "Toma nota de tus favoritos y consulta el mapa con ubicaciones exactas al final de la nota. Comienza a planear tus días cuando sea el momento de llegar a la gran costera Guerrerense.",
+          "sectionTitle": "8 Lugares que visitar en Puerto Juárez",
+          "introduction": "Toma nota de tus favoritos y consulta el mapa con ubicaciones exactas al final de la nota. Comienza a planear tus días cuando sea el momento de llegar a la gran costera.",
           "placesList": [
             {
-              "id": "acapulco_ptv_zona_dorada",
+              "id": "puerto_juarez_ptv_zona_dorada",
               "number": 1,
-              "title": "Zona Dorada",
-              "subtitle": "¡La emblemática costa que distingue a Acapulco!",
+              "title": "Terminal Marítima",
+              "subtitle": "¡El punto de partida hacia Isla Mujeres!",
               "descriptionParagraphs": [
-                "Para empezar el día y si eres de las personas a las que les gusta ejercitarse un poco antes de empezar la jornada, la Zona Dorada de Acapulco te ofrece la oportunidad de practicar paddle board y kayak en el mar.",
-                "¿Te imaginas navegar con un acompañante mientras remas por tu cuenta? Es un buen ejercicio para despertar y la brisa del mar te relajará."
+                "La terminal marítima de Puerto Juárez es el principal punto de conexión para el transporte hacia Isla Mujeres. Cuenta con instalaciones modernas y servicios completos para los viajeros.",
+                "Desde aquí salen los ferries cada 30 minutos hacia el paraíso caribeño, ofreciendo una experiencia de viaje cómoda y segura."
               ],
               "image": {
-                "src": "https://images.unsplash.com/photo-1576159599964-9fc3a3c5e4d8?q=80&w=2060&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-                "alt": "Zona Dorada Acapulco"
+                "src": "/src/assets/playa.jpeg",
+                "alt": "Terminal marítima de Puerto Juárez"
               }
             },
             {
-              "id": "acapulco_ptv_la_quebrada",
+              "id": "puerto_juarez_ptv_la_quebrada",
               "number": 2,
-              "title": "La Quebrada",
-              "subtitle": "Los famosos clavadistas de Acapulco",
+              "title": "Zona Arqueológica El Meco",
+              "subtitle": "Historia maya en Puerto Juárez",
               "descriptionParagraphs": [
-                "La Quebrada es sin duda el atractivo más famoso de Acapulco. Aquí, valientes clavadistas se lanzan desde acantilados de más de 35 metros de altura hacia las aguas del Pacífico.",
-                "Este espectáculo, que se realiza desde 1934, es una tradición que ha convertido a Acapulco en un destino mundialmente reconocido."
+                "El Meco es una pequeña zona arqueológica que se encuentra en Puerto Juárez y no suele ser muy conocida, lo que le da una privacidad de explorar completamente el lugar casi de manera privada.",
+                "Su costo de acceso es de 50 MXN y ofrece una experiencia única para conocer la historia prehispánica de la región."
               ],
               "image": {
-                "src": "https://images.unsplash.com/photo-1582719471384-894fbb16e074?w=800&h=400&fit=crop",
-                "alt": "Clavadistas de La Quebrada"
+                "src": "/src/assets/El meco.jpg",
+                "alt": "Zona arqueológica El Meco"
               }
             },
             {
-              "id": "acapulco_ptv_playa_condesa",
+              "id": "puerto_juarez_ptv_playa_condesa",
               "number": 3,
-              "title": "Playa Condesa",
-              "subtitle": "La playa más popular de Acapulco",
+              "title": "Playa Norte",
+              "subtitle": "Arena blanca y aguas cristalinas",
               "descriptionParagraphs": [
-                "Playa Condesa es el corazón de la diversión en Acapulco. Con su arena dorada y aguas cálidas, es perfecta para relajarse durante el día y disfrutar de la vida nocturna.",
-                "Aquí encontrarás una gran variedad de restaurantes, bares y clubes que hacen de esta playa el centro de la actividad turística."
+                "Playa Norte es una de las playas más hermosas de la región, con arena blanca y aguas cristalinas perfectas para relajarse.",
+                "Es ideal para familias y ofrece una vista espectacular del Mar Caribe mexicano."
               ],
               "image": {
-                "src": "https://images.unsplash.com/photo-1571896349842-33c89424de2d?w=800&h=400&fit=crop",
-                "alt": "Playa Condesa Acapulco"
+                "src": "/src/assets/playa.jpeg",
+                "alt": "Playa Norte Puerto Juárez"
               }
             },
             {
-              "id": "acapulco_ptv_fuerte_san_diego",
+              "id": "puerto_juarez_ptv_fuerte_san_diego",
               "number": 4,
-              "title": "Fuerte de San Diego",
-              "subtitle": "Historia y cultura en el corazón de Acapulco",
+              "title": "Restaurantes Locales",
+              "subtitle": "Gastronomía auténtica del Caribe",
               "descriptionParagraphs": [
-                "El Fuerte de San Diego es una fortaleza del siglo XVIII que alberga el Museo Histórico de Acapulco. Es el lugar perfecto para conocer la rica historia de este puerto.",
-                "Sus murallas han sido testigos de batallas épicas y hoy en día ofrecen una vista espectacular de la bahía de Acapulco."
+                "Puerto Juárez cuenta con excelentes restaurantes locales donde puedes disfrutar de mariscos frescos y platillos típicos de la región.",
+                "La gastronomía local incluye pescado a la veracruzana, ceviche fresco y deliciosos tacos de pescado."
               ],
               "image": {
-                "src": "https://images.unsplash.com/photo-1518638150340-f706e86654de?w=800&h=400&fit=crop",
-                "alt": "Fuerte de San Diego"
+                "src": "/src/assets/playa.jpeg",
+                "alt": "Restaurantes en Puerto Juárez"
               }
             },
             {
-              "id": "acapulco_ptv_isla_roqueta",
+              "id": "puerto_juarez_ptv_isla_roqueta",
               "number": 5,
-              "title": "Isla La Roqueta",
-              "subtitle": "Un paraíso natural a pocos minutos de la costa",
+              "title": "Tours de Snorkel",
+              "subtitle": "Explora el mundo submarino",
               "descriptionParagraphs": [
-                "Isla La Roqueta es un pequeño paraíso ubicado en la bahía de Acapulco. Es perfecta para practicar snorkel, buceo o simplemente relajarse en sus playas vírgenes.",
-                "La isla cuenta con senderos naturales, un faro histórico y aguas cristalinas ideales para actividades acuáticas."
+                "Desde Puerto Juárez salen diversos tours de snorkel hacia los arrecifes cercanos, donde podrás explorar la rica vida marina del Caribe mexicano.",
+                "Las aguas cristalinas ofrecen una visibilidad excelente para observar peces tropicales y corales coloridos."
               ],
               "image": {
-                "src": "https://images.unsplash.com/photo-1559827260-dc66d52bef19?w=800&h=400&fit=crop",
-                "alt": "Isla La Roqueta"
+                "src": "/src/assets/isla-mujeres-tour-snorkel.jpg",
+                "alt": "Tours de snorkel desde Puerto Juárez"
               }
             },
             {
-              "id": "acapulco_ptv_capilla_paz",
+              "id": "puerto_juarez_ptv_capilla_paz",
               "number": 6,
-              "title": "Capilla de la Paz",
-              "subtitle": "Vista panorámica de toda la bahía",
+              "title": "Mercado Local",
+              "subtitle": "Productos frescos y artesanías",
               "descriptionParagraphs": [
-                "La Capilla de la Paz se encuentra en la parte más alta de Acapulco y ofrece una vista panorámica impresionante de toda la bahía.",
-                "Es un lugar perfecto para contemplar el atardecer y tomar fotografías espectaculares de la ciudad y el océano."
+                "El mercado local de Puerto Juárez es perfecto para comprar productos frescos, artesanías locales y souvenirs auténticos.",
+                "Aquí encontrarás desde frutas tropicales hasta textiles tradicionales mexicanos."
               ],
               "image": {
-                "src": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800&h=400&fit=crop",
-                "alt": "Capilla de la Paz Acapulco"
+                "src": "/src/assets/playa.jpeg",
+                "alt": "Mercado local Puerto Juárez"
               }
             },
             {
-              "id": "acapulco_ptv_mercado_municipal",
+              "id": "puerto_juarez_ptv_mercado_municipal",
               "number": 7,
-              "title": "Mercado Municipal",
-              "subtitle": "Sabores auténticos de Guerrero",
+              "title": "Paseos en Lancha",
+              "subtitle": "Recorre la costa caribeña",
               "descriptionParagraphs": [
-                "El Mercado Municipal es el lugar perfecto para probar la gastronomía local de Acapulco. Aquí encontrarás desde mariscos frescos hasta dulces tradicionales.",
-                "No te pierdas el famoso pescado a la talla, los camarones al coco y las nieves de sabores tropicales."
+                "Los paseos en lancha desde Puerto Juárez te permiten explorar la hermosa costa del Caribe mexicano y disfrutar de vistas espectaculares.",
+                "Puedes contratar tours que incluyen paradas en diferentes puntos de interés y actividades acuáticas."
               ],
               "image": {
-                "src": "https://images.unsplash.com/photo-1555881400-74d7acaacd8b?w=800&h=400&fit=crop",
-                "alt": "Mercado Municipal Acapulco"
+                "src": "/src/assets/playa.jpeg",
+                "alt": "Paseos en lancha Puerto Juárez"
               }
             },
             {
-              "id": "acapulco_ptv_playa_pie_cuesta",
+              "id": "puerto_juarez_ptv_playa_pie_cuesta",
               "number": 8,
-              "title": "Playa Pie de la Cuesta",
-              "subtitle": "Atardeceres espectaculares",
+              "title": "Atardeceres en el Malecón",
+              "subtitle": "Vistas espectaculares del Caribe",
               "descriptionParagraphs": [
-                "Playa Pie de la Cuesta es famosa por tener algunos de los atardeceres más hermosos de México. Sus aguas tranquilas la hacen perfecta para relajarse.",
-                "Además, aquí puedes practicar esquí acuático, pasear en lancha o simplemente disfrutar de un cóctel mientras observas el sol ocultarse en el horizonte."
+                "El malecón de Puerto Juárez ofrece algunos de los atardeceres más hermosos de la región, con vistas panorámicas del Mar Caribe.",
+                "Es el lugar perfecto para relajarse, tomar fotografías y disfrutar de la brisa marina al final del día."
               ],
               "image": {
-                "src": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=800&h=400&fit=crop",
-                "alt": "Playa Pie de la Cuesta"
+                "src": "/src/assets/playa.jpeg",
+                "alt": "Atardeceres en Puerto Juárez"
               }
             }
           ]
@@ -437,93 +423,124 @@
       "quickFact": {
         "data": {
           "title": "¿Sabías qué?...",
-          "fact": "Acapulco fue el primer destino turístico internacional de México y durante los años 50 y 60 era conocido como el 'Hollywood del Pacífico' por ser visitado por estrellas de cine como Elizabeth Taylor, Frank Sinatra y Elvis Presley."
+          "fact": "Puerto Juárez fue el primer puerto establecido en la región antes de que Cancún se convirtiera en el destino turístico que conocemos hoy. Durante décadas, fue el principal punto de conexión marítima hacia Isla Mujeres y otras islas del Caribe mexicano, y durante los años 50 y 60 era conocido como la 'Puerta del Caribe' por ser visitado por pescadores y aventureros de todo el mundo."
         }
       },
       "touristMap": {
         "data": {
-          "title": "Mapa de lugares turísticos para visitar en Acapulco",
-          "introduction": "Consulta todos los lugares mencionados para visitar en Acapulco en el siguiente mapa:",
+          "title": "Mapa de lugares turísticos para visitar en Puerto Juárez",
+          "introduction": "Consulta todos los lugares mencionados para visitar en Puerto Juárez en el siguiente mapa:",
           "mapConfiguration": {
             "apiKey": "",
-            "defaultCenter": { "lat": 16.85, "lng": -99.88 },
-            "defaultZoom": 12,
+            "defaultCenter": { "lat": 21.2619, "lng": -86.8515 },
+            "defaultZoom": 14,
             "markers": [
               {
-                "id": "acapulco_map_main_marker_1",
-                "position": { "lat": 16.8464, "lng": -99.9117 },
-                "name": "La Quebrada",
-                "description": "Clavados famosos."
+                "id": "puerto_juarez_map_main_marker_1",
+                "position": { "lat": 21.2619, "lng": -86.8515 },
+                "name": "Terminal Marítima Puerto Juárez",
+                "description": "Principal punto de conexión hacia Isla Mujeres."
+              },
+              {
+                "id": "puerto_juarez_map_main_marker_2",
+                "position": { "lat": 21.2701, "lng": -86.8456 },
+                "name": "Zona Arqueológica El Meco",
+                "description": "Sitio arqueológico maya."
+              },
+              {
+                "id": "puerto_juarez_map_main_marker_3",
+                "position": { "lat": 21.265, "lng": -86.849 },
+                "name": "Playa Norte",
+                "description": "Hermosa playa con arena blanca."
               }
             ]
           },
           "fallbackImage": {
             "src": "/googleMaps.png",
-            "alt": "Mapa de Acapulco"
+            "alt": "Mapa de Puerto Juárez"
           }
         }
       },
       "beforeYouVisitRecommendations": {
         "data": {
-          "sectionTitle": "Recomendaciones antes de visitar Acapulco",
+          "sectionTitle": "Recomendaciones antes de visitar Puerto Juárez",
           "recommendations": [
             {
               "id": 1,
-              "text": "Lleva protector solar de factor alto, el sol tropical puede ser muy intenso durante todo el día."
+              "text": "Lleva efectivo, muchos servicios locales y el ferry hacia Isla Mujeres requieren pago en efectivo."
             },
             {
               "id": 2,
-              "text": "Reserva tus hoteles con anticipación, especialmente durante temporada alta (diciembre-abril)."
+              "text": "Verifica los horarios del ferry con anticipación, especialmente durante temporada baja cuando pueden cambiar."
             },
             {
               "id": 3,
-              "text": "Prueba la gastronomía local: pescado a la talla, pozole guerrerense y las famosas nieves de Acapulco."
+              "text": "Lleva protector solar y ropa cómoda, estarás expuesto al sol durante el trayecto en ferry."
             },
             {
               "id": 4,
-              "text": "Mantente hidratado y bebe agua embotellada para evitar problemas estomacales."
+              "text": "Si planeas visitar El Meco, lleva agua y calzado cómodo para caminar por el sitio arqueológico."
             },
             {
               "id": 5,
-              "text": "Lleva efectivo, muchos lugares pequeños y mercados no aceptan tarjetas de crédito."
+              "text": "Considera llegar temprano para evitar las multitudes, especialmente los fines de semana."
             }
           ]
         }
-      }
-    }
-  },
-  "cuando-es-la-mejor-epoca-para-viajar-a-cancun": {
-    "template": 3,
-    "type": "climate",
-    "date": "Marzo,5,2024",
-    "blogTitle": "¿Cuándo es la mejor época para viajar a Cancún?",
-    "slug": "mejor-epoca-viajar-cancun-clima-guia",
-    "heroImage": "https://images.pexels.com/photos/261101/pexels-photo-261101.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-    "introduction": [
-      "¿No sabes cuál es la mejor época para viajar a Cancún? Siempre es importante tener claro la meteorología antes de planificar tu viaje a la Riviera Maya. Gracias a su clima tropical, Cancún es un destino para todo el año, y hay temporadas que son más favorables que otras para disfrutar de sus increíbles playas. ¡No querrás que la lluvia te fastidie las vacaciones! Sin embargo, todo depende de lo que estés buscando.",
-      "En este post te contamos mes a mes cuál es la mejor época para viajar a Cancún para que sepas qué te espera en cada época del año."
-    ],
-    "sections": {
+      },
+      "generalClimateInfo": {
+        "data": {
+          "title": "CUÁNDO ES LA MEJOR ÉPOCA PARA VISITAR PUERTO JUÁREZ",
+          "introduction": "Antes de planificar tu visita a Puerto Juárez, es importante que conozcas un poco más de las temporadas y el clima de la región para que tengas un mejor criterio.",
+          "climateCharacteristics": {
+            "title": "Características generales del clima en Puerto Juárez",
+            "description": "Puerto Juárez, al estar ubicado en la costa del Caribe mexicano, comparte las características climáticas de Cancún. Su principal atractivo son las conexiones marítimas y las playas, así que es mejor que te asegures un buen clima antes de visitarlo. A continuación te contaremos algunas características generales del clima de Puerto Juárez para que te familiarices con la región y sepas cuándo es mejor visitarlo.",
+            "seasons": {
+              "title": "Dos temporadas: seca y lluviosa",
+              "drySeasonInfo": {
+                "title": "Temporada seca en Puerto Juárez ☀️",
+                "description": "¡La temporada seca es la mejor época para visitar Puerto Juárez, va desde noviembre hasta abril! Durante estos meses, las temperaturas son las más agradables del año, el sol brilla, la brisa es acogedora y hay muy pocas posibilidades de lluvia. Durante esta temporada, el destino es muy concurrido, ya que muchas personas buscan refugiarse del frío y disfrutar de unas vacaciones en la playa.",
+                "additionalInfo": "Debido a esto, es probable que los precios de hoteles y actividades turísticas sean más caros durante esta época. Sin embargo, los precios no impiden que los turistas sigan visitando Puerto Juárez para disfrutar de sus hermosas playas, aguas cristalinas, agradable clima y las conexiones marítimas hacia Isla Mujeres. Sin duda, ¡la mejor época para visitar Puerto Juárez!"
+              },
+              "rainySeasonInfo": {
+                "title": "Temporada de lluvias en Puerto Juárez 💧",
+                "description": "Por otro lado, la temporada de lluvias en Puerto Juárez dura de mayo a octubre. Durante estos meses la temperatura de la región se mantiene cálida y puedes encontrar menos turistas, lo que hace de esta temporada una de las mejores para visitar Puerto Juárez si quieres estar tranquilo y ahorrar unos cuantos pesos.",
+                "warnings": "Sin embargo, es importante que tengas en cuenta que durante esta época del año las posibilidades de lluvias y tormentas eléctricas son mayores. Por ello, te recomendamos llevar un impermeable y estar cerca de zonas seguras. También es importante verificar los horarios de ferry ya que pueden verse afectados por las condiciones climáticas.",
+                "benefits": "A pesar de las lluvias, Puerto Juárez sigue recibiendo bastantes turistas durante esta época del año. Dicho esto, la temporada de lluvias es la mejor oportunidad para disfrutar de este sorprendente destino sin tener que gastar mucho dinero."
+              }
+            },
+            "hurricaneInfo": {
+              "title": "Riesgo de huracanes entre septiembre y octubre",
+              "description": "La temporada de huracanes se extiende desde principios de junio hasta finales de noviembre. Sin embargo, la temperatura del mar es más alta entre septiembre y octubre, lo que también significa que el riesgo de huracanes es mayor durante ese período.",
+              "recommendations": "Durante estos meses, te recomendamos prestar más atención a los informes climáticos de la zona. Además, algunas recomendaciones importantes incluyen tener un suministro de agua, alimentos y un plan de evacuación en caso de ser necesario. Los servicios de ferry hacia Isla Mujeres pueden suspenderse temporalmente por seguridad.",
+              "temperatures": "Si hablamos de la temperatura máxima, durante el día varía entre 30 y 33°C. Mientras que en la noche, gira en torno a los 22 y 25°C. Junto a esto, cabe mencionar que la humedad también suele ser algo mayor durante esta temporada.",
+              "safety": "Sin embargo, Puerto Juárez cuenta con un sistema de alerta temprana y una infraestructura turística lista para minimizar riesgos en caso de emergencia. Además, solo dos grandes huracanes han pasado por esta región en 17 años. Así que, siempre y cuando estés al tanto de la información climática, despreocúpate y disfruta de tu viaje por este increíble destino."
+            }
+          }
+        }
+      },
       "monthlyInfo": {
         "data": {
           "seasons": [
             {
-              "id": "dry_season_cancun_month_info",
-              "seasonTitle": "1. Viajar a Cancún en temporada seca (noviembre a abril)",
+              "id": "dry_season_puerto_juarez_month_info",
+              "seasonTitle": "1. Visitar Puerto Juárez en temporada seca (noviembre a abril)",
               "seasonIntroductionParagraphs": [
-                "Si eres de los que buscan disfrutar de un clima cálido y seco, de noviembre hasta abril es la mejor época para viajar a Cancún.",
-                "Especialmente enero: es el mes que más te recomendamos para visitar este hermoso destino. La temperatura que encontrarás oscila entre los 24 y 30ºC, lo que hace de este momento la mejor época para viajar a Cancún y disfrutar de sus playas. Además, durante estos meses es menos probable que llueva, por lo que es el momento ideal para que practiques deportes acuáticos como buceo, esnórquel o kayak."
+                "Si eres de los que buscan disfrutar de un clima cálido y seco, de noviembre hasta abril es la mejor época para visitar Puerto Juárez.",
+                "Especialmente enero es el mes que más te recomendamos para visitar este hermoso destino. La temperatura que encontrarás oscila entre los 24 y 30°C, lo que hace de este momento la mejor época para visitar Puerto Juárez y disfrutar de sus conexiones marítimas.",
+                "Además, durante estos meses es menos probable que llueva, por lo que es el momento ideal para que practiques deportes acuáticos como buceo, esnórquel o kayak. Y ya que vas a estar al aire libre, tenemos que contarte que otra ventaja de esta temporada es que como existe menos humedad, también existen menos mosquitos que puedan llegar a molestar.",
+                "En cuanto a la cantidad de turistas, esta época es considerada como temporada alta en Puerto Juárez. Por lo que es importante que tengas en cuenta tu presupuesto para alojamiento, vuelos y otras actividades, ya que pueden ser más caros. Sin embargo, si planificas tu viaje con antelación, encontrarás interesantes ofertas y disfrutarás de una experiencia inolvidable."
               ],
               "monthsData": [
                 {
-                  "id": "cancun_nov_month_info_detail",
-                  "monthTitle": "1.1. Viajar a Cancún en noviembre",
+                  "id": "puerto_juarez_nov_month_info_detail",
+                  "monthTitle": "1.1. Visitar Puerto Juárez en noviembre",
                   "stats": [
                     {
                       "id": "temp_nov_month_info",
                       "icon": "🌡",
                       "label": "Temperatura promedio (min/max):",
-                      "value": "21ºC – 29ºC"
+                      "value": "21°C – 29°C"
                     },
                     {
                       "id": "precip_nov_month_info",
@@ -533,23 +550,24 @@
                     }
                   ],
                   "descriptionParagraphs": [
-                    "Si lo que buscas es un clima agradable y con menos turistas, noviembre puede ser una de las mejores épocas para viajar a Cancún. Durante esta temporada, encontrarás una temperatura promedio que ronda los 27°C.",
-                    "En cuanto a la cantidad de turistas es menor que en temporada alta, por lo que podrás visitar atracciones turísticas sin grandes aglomeraciones."
+                    "Si lo que buscas es un clima agradable y con menos turistas, noviembre puede ser una de las mejores épocas para visitar Puerto Juárez. Durante esta temporada, encontrarás una temperatura promedio que ronda los 27°C. Junto a esto, disfrutarás de noches frescas que te invitarán a pasear por la playa o deleitarte con una cena al aire libre. Además, el agua del mar se mantiene cálida, similar a la temperatura ambiente, lo que la hace perfecta para nadar, bucear o practicar deportes acuáticos.",
+                    "En cuanto a la cantidad de turistas es menor que en temporada alta, por lo que podrás visitar atracciones turísticas sin grandes aglomeraciones. También podrás disfrutar de las playas sin mucho ajetreo y tomar el ferry hacia Isla Mujeres con mayor comodidad.",
+                    "Otro de los principales atractivos de este mes es El Día de Muertos, que se celebra el 1 y 2 de noviembre. Durante esta hermosa celebración a los difuntos, encontrarás impresionantes decoraciones, ceremonias y un ambiente cultural único que estamos seguros querrás presenciar. En cuanto a presupuesto, encontrarás ofertas en hoteles y vuelos, lo que hace de noviembre una época muy apetecible para visitar Puerto Juárez."
                   ],
                   "image": {
-                    "src": "/src/assets/mayo.jpg",
-                    "alt": "Clima de Cancún en noviembre"
+                    "src": "https://images.pexels.com/photos/1450360/pexels-photo-1450360.jpeg?auto=compress&cs=tinysrgb&w=800",
+                    "alt": "Clima de Puerto Juárez en noviembre"
                   }
                 },
                 {
-                  "id": "cancun_dec_month_info_detail",
-                  "monthTitle": "1.2. Viajar a Cancún en diciembre",
+                  "id": "puerto_juarez_dec_month_info_detail",
+                  "monthTitle": "1.2. Visitar Puerto Juárez en diciembre",
                   "stats": [
                     {
                       "id": "temp_dec_month_info",
                       "icon": "🌡",
                       "label": "Temperatura promedio (min/max):",
-                      "value": "20ºC – 28ºC"
+                      "value": "20°C - 28°C"
                     },
                     {
                       "id": "precip_dec_month_info",
@@ -559,23 +577,24 @@
                     }
                   ],
                   "descriptionParagraphs": [
-                    "Durante diciembre, los días en Cancún son más cortos, pero la temperatura se mantiene en un promedio de 28°C durante el día y de 20°C durante la noche.",
-                    "El clima cálido y la temperatura del mar es ideal para disfrutar de la vida nocturna en la Zona Hotelera de Cancún."
+                    "Durante diciembre, los días en Puerto Juárez son más cortos, pero la temperatura se mantiene en un promedio de 28°C durante el día y de 20°C durante la noche.",
+                    "Sin embargo, es un mes bastante caro para viajar a Puerto Juárez por las fiestas navideñas. Muchos norteamericanos y europeos viajan a esta región para pasar Navidad y fin de año en la playa. ¡Y eso hace que los precios suban bastante! Así que, en este mes comienzan a llegar los turistas, por lo que ya se podría considerar una temporada alta.",
+                    "El clima cálido y la temperatura del mar es ideal para disfrutar de las actividades marítimas y los tours hacia Isla Mujeres. Durante tu visita, te recomendamos que disfrutes de los atardeceres desde el malecón, donde admirarás vistas espectaculares del Caribe, perfecto para compartir con familiares y amigos."
                   ],
                   "image": {
-                    "src": "/src/assets/mayo.jpg",
-                    "alt": "Clima de Cancún en diciembre"
+                    "src": "https://images.pexels.com/photos/2474690/pexels-photo-2474690.jpeg?auto=compress&cs=tinysrgb&w=800",
+                    "alt": "Clima de Puerto Juárez en diciembre"
                   }
                 },
                 {
-                  "id": "cancun_jan_month_info_detail",
-                  "monthTitle": "1.3. Viajar a Cancún en enero",
+                  "id": "puerto_juarez_jan_month_info_detail",
+                  "monthTitle": "1.3. Visitar Puerto Juárez en enero",
                   "stats": [
                     {
                       "id": "temp_jan_month_info",
                       "icon": "🌡",
                       "label": "Temperatura promedio (min/max):",
-                      "value": "19ºC – 28ºC"
+                      "value": "19°C - 28°C"
                     },
                     {
                       "id": "precip_jan_month_info",
@@ -585,33 +604,121 @@
                     }
                   ],
                   "descriptionParagraphs": [
-                    "Para nosotros, ¡enero es el mejor mes para viajar a Cancún! No hay nada mejor que empezar el año uno de los destinos más sorprendentes de todo México.",
-                    "El clima es durante esta temporada es irresistible, podrás disfrutar de una temperatura cálida, seca y soleada."
+                    "Para nosotros, ¡enero es el mejor mes para visitar Puerto Juárez!",
+                    "No hay nada mejor que empezar el año en uno de los destinos más sorprendentes de todo México. En enero, la temperatura varía entre los 19°C y 28°C, lo que resulta perfecto para disfrutar de la playa sin abrumarte por el calor.",
+                    "Además, en enero hay menos turistas que en los meses de invierno más concurridos, lo que significa que los precios son más bajos y los lugares no están tan llenos.",
+                    "El clima durante esta temporada es irresistible, podrás disfrutar de una temperatura cálida, seca y soleada. Si bien es posible que llegues a experimentar algunas lluvias ocasionales, debido a que la temporada de huracanes terminó, es más seguro viajar a Puerto Juárez. Pero también es una buena oportunidad para realizar excursiones a la zona arqueológica El Meco.",
+                    "En cuanto al presupuesto, en enero es posible encontrar ofertas atractivas en vuelos y alojamiento. Así que, si lo que buscas es ahorrar algunos pesos en tus vacaciones, este es el mes perfecto. Sin duda, la mejor época para visitar Puerto Juárez."
                   ],
                   "image": {
-                    "src": "/src/assets/mayo.jpg",
-                    "alt": "Clima de Cancún en enero"
+                    "src": "https://images.pexels.com/photos/1320684/pexels-photo-1320684.jpeg?auto=compress&cs=tinysrgb&w=800",
+                    "alt": "Clima de Puerto Juárez en enero"
+                  }
+                },
+                {
+                  "id": "puerto_juarez_feb_month_info_detail",
+                  "monthTitle": "1.4. Visitar Puerto Juárez en febrero",
+                  "stats": [
+                    {
+                      "id": "temp_feb_month_info",
+                      "icon": "🌡",
+                      "label": "Temperatura promedio (min/max):",
+                      "value": "19°C - 28°C"
+                    },
+                    {
+                      "id": "precip_feb_month_info",
+                      "icon": "🌧",
+                      "label": "Precipitación promedio:",
+                      "value": "55mm"
+                    }
+                  ],
+                  "descriptionParagraphs": [
+                    "Febrero es otro mes seco y soleado para visitar Puerto Juárez, con temperaturas cálidas y agradables para disfrutar del sol y la playa que van desde los 26°C en el día hasta los 20°C por la noche. Las lluvias son escasas y la humedad baja, lo que hace que las condiciones climáticas sean excelentes para disfrutar de actividades al aire libre como buceo, esnórquel o simplemente relajarse en la playa.",
+                    "Otra ventaja de este mes, es que las condiciones son de las mejores para tener un día de turismo. Así que no olvides empacar tus zapatos más cómodos para visitar la zona arqueológica El Meco, una joya histórica poco conocida de la región.",
+                    "Sin embargo, febrero aún es considerado un mes de temporada alta, aunque con relativamente menos turistas que en enero. Esto se debe principalmente al carnaval que se lleva a cabo en la región. Durante el evento encontrarás variedad de actividades, música y un ambiente festivo increíble.",
+                    "Si quieres vivir esta experiencia te recomendamos viajar a finales de mes, específicamente entre el 25 y 28 de febrero, aunque los eventos pueden variar dependiendo del año. ¡Y ten en cuenta que los precios suben!"
+                  ],
+                  "image": {
+                    "src": "https://images.pexels.com/photos/2166559/pexels-photo-2166559.jpeg?auto=compress&cs=tinysrgb&w=800",
+                    "alt": "Clima de Puerto Juárez en febrero"
+                  }
+                },
+                {
+                  "id": "puerto_juarez_mar_month_info_detail",
+                  "monthTitle": "1.5. Visitar Puerto Juárez en marzo",
+                  "stats": [
+                    {
+                      "id": "temp_mar_month_info",
+                      "icon": "🌡",
+                      "label": "Temperatura promedio (min/max):",
+                      "value": "20°C - 29°C"
+                    },
+                    {
+                      "id": "precip_mar_month_info",
+                      "icon": "🌧",
+                      "label": "Precipitación promedio:",
+                      "value": "40mm"
+                    }
+                  ],
+                  "descriptionParagraphs": [
+                    "Si odias la lluvia, marzo es uno de los mejores meses para visitar Puerto Juárez. ¡La lluvia es casi inexistente!",
+                    "Además, si también eres fan de las actividades acuáticas, probablemente marzo sea la mejor época para visitar Puerto Juárez. En este mes encontrarás una temperatura promedio de 29°C y un clima algo más húmedo, pero perfecto para disfrutar del mar.",
+                    "Sin embargo, puede que este ambiente no sea el que estás buscando y prefieras adentrarte a explorar la zona arqueológica El Meco o disfrutar de los tours de snorkel. También podrás participar en actividades locales y festivales que se organizan durante este mes.",
+                    "En general, esta época es más cara de lo normal por la cantidad de turistas que ingresan a este destino, especialmente aquellos que buscan escapar del frío del norte."
+                  ],
+                  "image": {
+                    "src": "https://images.pexels.com/photos/1371360/pexels-photo-1371360.jpeg?auto=compress&cs=tinysrgb&w=800",
+                    "alt": "Clima de Puerto Juárez en marzo"
+                  }
+                },
+                {
+                  "id": "puerto_juarez_apr_month_info_detail",
+                  "monthTitle": "1.6. Visitar Puerto Juárez en abril",
+                  "stats": [
+                    {
+                      "id": "temp_apr_month_info",
+                      "icon": "🌡",
+                      "label": "Temperatura promedio (min/max):",
+                      "value": "22°C - 30°C"
+                    },
+                    {
+                      "id": "precip_apr_month_info",
+                      "icon": "🌧",
+                      "label": "Precipitación promedio:",
+                      "value": "35mm"
+                    }
+                  ],
+                  "descriptionParagraphs": [
+                    "Abril es el mes más seco del año en Puerto Juárez. ¡Apenas llueve tres días en todo el mes!",
+                    "Además, la temporada de lluvias ya está a la vuelta de la esquina y muchos aprovechan para disfrutar de la playa antes de que las precipitaciones lleguen. Así que este mes también es bastante popular y hay una gran cantidad de turistas en la zona. Sin embargo, hay varios eventos y festividades locales que hacen de abril un momento emocionante para visitar Puerto Juárez.",
+                    "Si te gustan las actividades marítimas, podrás aprovechar tu estancia para disfrutar de los mejores tours hacia Isla Mujeres, ya que las condiciones del mar son ideales. Además, podrás ser partícipe de celebraciones locales que se realizan durante este mes.",
+                    "Pero si viajas en familia, también deberás tomar en cuenta que el 30 de abril se celebra el día del niño y podrás disfrutar de descuentos en actividades. Junto a esto, la temperatura promedio en abril es de 30°C, lo que lo convierte en otra buena opción para disfrutar del mar y el sol."
+                  ],
+                  "image": {
+                    "src": "https://images.pexels.com/photos/1450360/pexels-photo-1450360.jpeg?auto=compress&cs=tinysrgb&w=800",
+                    "alt": "Clima de Puerto Juárez en abril"
                   }
                 }
               ]
             },
             {
-              "id": "rainy_season_cancun_month_info",
-              "seasonTitle": "2. Viajar a Cancún en temporada de lluvias (mayo a octubre)",
+              "id": "rainy_season_puerto_juarez_month_info",
+              "seasonTitle": "2. Visitar Puerto Juárez en temporada de lluvias (mayo a octubre)",
               "seasonIntroductionParagraphs": [
-                "Viajar a Cancún durante la temporada de lluvias, puede ser una experiencia diferente. Esta época abarca los meses de mayo a octubre y puede ser una buena oportunidad para disfrutar de deportes acuáticos.",
-                "Sin embargo, es importante mencionar que el clima es el factor que más debe tomar en cuenta, ya que en ciertos meses, las lluvias pueden ser bastante intensas."
+                "Visitar Puerto Juárez durante la temporada de lluvias, puede ser una experiencia diferente. Esta época abarca los meses de mayo a octubre y puede ser una buena oportunidad para disfrutar de deportes acuáticos. La temperatura sigue siendo cálida, con un clima que puede ir desde los 23°C hasta los 33°C. Además, los precios suelen ser más bajos que en temporada alta, lo que será una ventaja para los viajeros que quieran ahorrar algo de dinero.",
+                "Sin embargo, es importante mencionar que el clima es el factor que más debe tomar en cuenta, ya que en ciertos meses, las lluvias pueden ser bastante intensas. También hay un mayor riesgo de huracanes durante esta temporada. Aunque no debes preocuparte, ya que los servicios locales y autoridades suelen estar preparados para ellos.",
+                "Además, te recomendamos verificar las condiciones climáticas antes de viajar y llevar ropa adecuada para la lluvia. Los horarios de ferry hacia Isla Mujeres pueden verse afectados durante esta temporada."
               ],
               "monthsData": [
                 {
-                  "id": "cancun_may_month_info_detail",
-                  "monthTitle": "2.1. Viajar a Cancún en mayo",
+                  "id": "puerto_juarez_may_month_info_detail",
+                  "monthTitle": "2.1. Visitar Puerto Juárez en mayo",
                   "stats": [
                     {
                       "id": "temp_may_month_info",
                       "icon": "🌡",
                       "label": "Temperatura promedio (min/max):",
-                      "value": "24ºC – 32ºC"
+                      "value": "24°C - 32°C"
                     },
                     {
                       "id": "precip_may_month_info",
@@ -621,12 +728,148 @@
                     }
                   ],
                   "descriptionParagraphs": [
-                    "Mayo marca el inicio de la temporada de lluvias en Cancún, lo que significa que hay más posibilidades de tormentas aisladas.",
-                    "Si eres un amante de la naturaleza, ¡este mes te encantará! Ya que la flora y fauna están en plena floración."
+                    "Mayo marca el inicio de la temporada de lluvias en Puerto Juárez, lo que significa que hay más posibilidades de tormentas aisladas. Sin embargo, la temperatura del mar sigue siendo cálida, con un promedio de 28°C. Esto hace que sea un buen momento para disfrutar de la playa. Además, este mes es considerado de temporada baja, lo que genera que los precios de alojamiento y otras actividades sean más baratos para aquellos que buscan ahorrar.",
+                    "Si eres un amante de la naturaleza, ¡este mes te encantará! Ya que la flora y fauna están en plena floración. Como curiosidad, la temporada de anidación de tortugas marinas en la región es un proceso natural que ocurre todos los años, de mayo a septiembre. ¡Es un momento muy bonito!",
+                    "Además, la temperatura ambiente promedio es de 28 a 30°C por el día y de 24 a 26°C durante la noche. Así que, si piensas en gastar menos y estás preparado para la posibilidad de lluvias ocasionales, mayo puede ser una buena época para visitar Puerto Juárez."
                   ],
                   "image": {
-                    "src": "/src/assets/mayo.jpg",
-                    "alt": "Clima de Cancún en mayo"
+                    "src": "https://images.pexels.com/photos/2474690/pexels-photo-2474690.jpeg?auto=compress&cs=tinysrgb&w=800",
+                    "alt": "Clima de Puerto Juárez en mayo"
+                  }
+                },
+                {
+                  "id": "puerto_juarez_jun_month_info_detail",
+                  "monthTitle": "2.2. Visitar Puerto Juárez en junio",
+                  "stats": [
+                    {
+                      "id": "temp_jun_month_info",
+                      "icon": "🌡",
+                      "label": "Temperatura promedio (min/max):",
+                      "value": "25°C - 32°C"
+                    },
+                    {
+                      "id": "precip_jun_month_info",
+                      "icon": "🌧",
+                      "label": "Precipitación promedio:",
+                      "value": "185mm"
+                    }
+                  ],
+                  "descriptionParagraphs": [
+                    "En Puerto Juárez, la temporada de huracanes arranca en junio, por lo que debes estar atento sobre las recomendaciones locales referentes al clima. Sin embargo, no debes dejar que esto te detenga de visitar este hermoso destino.",
+                    "La temperatura promedio del aire se mantiene entre 25°C a 32°C, mientras que la del mar se encuentra aproximadamente en 28°C. Además, como las lluvias no han llegado a su pico, tendrás muchas oportunidades para disfrutar de la playa y sus actividades acuáticas.",
+                    "En cuanto al presupuesto, encontrarás buenos precios antes de que llegue la temporada alta. Sin embargo, ten en cuenta que junio es un mes popular para los viajes de graduación, lo que significa que puede haber más turistas jóvenes en la zona.",
+                    "Pero si eres más fan de salir al mar que de estar en el hotel, te encantará practicar buceo. Junio es uno de los mejores meses para hacerlo. La temperatura del agua es más cálida y hay muchas opciones para explorar los arrecifes de coral y la vida marina de la zona."
+                  ],
+                  "image": {
+                    "src": "https://images.pexels.com/photos/1320684/pexels-photo-1320684.jpeg?auto=compress&cs=tinysrgb&w=800",
+                    "alt": "Clima de Puerto Juárez en junio"
+                  }
+                },
+                {
+                  "id": "puerto_juarez_jul_month_info_detail",
+                  "monthTitle": "2.3. Visitar Puerto Juárez en julio",
+                  "stats": [
+                    {
+                      "id": "temp_jul_month_info",
+                      "icon": "🌡",
+                      "label": "Temperatura promedio (min/max):",
+                      "value": "25°C - 32°C"
+                    },
+                    {
+                      "id": "precip_jul_month_info",
+                      "icon": "🌧",
+                      "label": "Precipitación promedio:",
+                      "value": "130mm"
+                    }
+                  ],
+                  "descriptionParagraphs": [
+                    "Julio es uno de los meses más calurosos en Puerto Juárez, con una temperatura promedio de 28°C. Aunque también es uno de los meses más húmedos, con un promedio de 130mm de lluvia, lo que puede generar algunas tormentas.",
+                    "Además, este es un mes lleno de eventos y festividades locales, que ofrecen una variedad de actividades culturales y musicales que estamos seguros vas a disfrutar.",
+                    "También debemos recordarte que este es un mes de temporada alta en Puerto Juárez, por lo que los precios pueden ser más altos. Pero si no te importa gastar un poco más, podrás observar a pequeñas crías de tortugas marinas y más vida acuática de la región."
+                  ],
+                  "image": {
+                    "src": "https://images.pexels.com/photos/2166559/pexels-photo-2166559.jpeg?auto=compress&cs=tinysrgb&w=800",
+                    "alt": "Clima de Puerto Juárez en julio"
+                  }
+                },
+                {
+                  "id": "puerto_juarez_aug_month_info_detail",
+                  "monthTitle": "2.4. Visitar Puerto Juárez en agosto",
+                  "stats": [
+                    {
+                      "id": "temp_aug_month_info",
+                      "icon": "🌡",
+                      "label": "Temperatura promedio (min/max):",
+                      "value": "24°C - 33°C"
+                    },
+                    {
+                      "id": "precip_aug_month_info",
+                      "icon": "🌧",
+                      "label": "Precipitación promedio:",
+                      "value": "150mm"
+                    }
+                  ],
+                  "descriptionParagraphs": [
+                    "Agosto es el mes más cálido para visitar Puerto Juárez, con una temperatura que puede llegar a los 33°C. Además, este es uno de los meses más populares para los turistas, ya que en muchos países, salen por vacaciones de verano. Esto, a su vez, genera que los precios lleguen a estar más elevados de lo normal.",
+                    "En cuanto al clima, puedes esperar algunos días de lluvia debido a la temporada de huracanes, pero la mayoría serán soleados y calurosos. Asegúrate de llevar ropa ligera, protector solar y sobre todo, intenta visitar las playas temprano por la mañana o en el atardecer para evitar el sol del mediodía. Personalmente, trataríamos de evitar viajar a Puerto Juárez en agosto por los altos precios y las lluvias."
+                  ],
+                  "image": {
+                    "src": "https://images.pexels.com/photos/1371360/pexels-photo-1371360.jpeg?auto=compress&cs=tinysrgb&w=800",
+                    "alt": "Clima de Puerto Juárez en agosto"
+                  }
+                },
+                {
+                  "id": "puerto_juarez_sep_month_info_detail",
+                  "monthTitle": "2.5. Visitar Puerto Juárez en septiembre",
+                  "stats": [
+                    {
+                      "id": "temp_sep_month_info",
+                      "icon": "🌡",
+                      "label": "Temperatura promedio (min/max):",
+                      "value": "24°C - 32°C"
+                    },
+                    {
+                      "id": "precip_sep_month_info",
+                      "icon": "🌧",
+                      "label": "Precipitación promedio:",
+                      "value": "225mm"
+                    }
+                  ],
+                  "descriptionParagraphs": [
+                    "Septiembre es el pico más alto en la temporada de huracanes. Por ello, no encontrarás multitudes de turistas, pero sí precios más bajos en alojamiento y actividades.",
+                    "Además, septiembre es el mes más lluvioso en Puerto Juárez, por lo que puede haber algunas interrupciones en las actividades al aire libre. Durante este mes, te encontrarás con una temperatura de hasta 32°C y una humedad extrema.",
+                    "Sin embargo, si deseas visitar Puerto Juárez en septiembre, también podrás asistir a las festividades del Día de la Independencia de México. Aquí te deslumbrarás con la danza, la música y los increíbles fuegos artificiales. A pesar de los eventos importantes, nosotros creemos que no es la mejor época para visitar Puerto Juárez."
+                  ],
+                  "image": {
+                    "src": "https://images.pexels.com/photos/1450360/pexels-photo-1450360.jpeg?auto=compress&cs=tinysrgb&w=800",
+                    "alt": "Clima de Puerto Juárez en septiembre"
+                  }
+                },
+                {
+                  "id": "puerto_juarez_oct_month_info_detail",
+                  "monthTitle": "2.6. Visitar Puerto Juárez en octubre",
+                  "stats": [
+                    {
+                      "id": "temp_oct_month_info",
+                      "icon": "🌡",
+                      "label": "Temperatura promedio (min/max):",
+                      "value": "23°C - 31°C"
+                    },
+                    {
+                      "id": "precip_oct_month_info",
+                      "icon": "🌧",
+                      "label": "Precipitación promedio:",
+                      "value": "185mm"
+                    }
+                  ],
+                  "descriptionParagraphs": [
+                    "Con motivo de Halloween, visitar Puerto Juárez en octubre es una excelente opción para aquellos que buscan divertirse en los hoteles, bares y restaurantes de la zona. En este mes, la temperatura es un poco menos cálida, pero aún puede haber lluvias. Sin embargo, los días suelen ser mayormente soleados y la temperatura del agua sigue agradable para namar y practicar deportes acuáticos.",
+                    "En cuanto al presupuesto, encontrarás ofertas atractivas en hoteles y actividades turísticas. Además, descubrirás que hay menos turistas en las playas, lo que significa que disfrutarás de una experiencia más relajante.",
+                    "Si te apasiona la música o las actividades marítimas, octubre es un buen mes para disfrutar de tours hacia Isla Mujeres con menos aglomeraciones y precios más accesibles."
+                  ],
+                  "image": {
+                    "src": "https://images.pexels.com/photos/2474690/pexels-photo-2474690.jpeg?auto=compress&cs=tinysrgb&w=800",
+                    "alt": "Clima de Puerto Juárez en octubre"
                   }
                 }
               ]
@@ -634,29 +877,801 @@
           ]
         }
       },
-      "generalClimateInfo": {
+      "frequentlyAskedQuestions": {
         "data": {
-          "contentBlocks": [
+          "sectionTitle": "5. PREGUNTAS FRECUENTES SOBRE CUÁL ES LA MEJOR ÉPOCA PARA VISITAR PUERTO JUÁREZ",
+          "introduction": "A continuación, a modo de resumen del artículo, responderemos algunas cuestiones acerca de la mejor época para visitar Puerto Juárez.",
+          "faqList": [
             {
-              "type": "mainTitle",
-              "text": "Información climática general"
+              "id": "faq_puerto_juarez_best_time_final_main",
+              "question": "En definitiva, ¿cuál es el mejor mes para visitar Puerto Juárez?",
+              "answer": "Enero es el mejor mes para visitar Puerto Juárez. Eso sí, mejor espera a que pase la primera semana y bajen los precios, ya que suelen mantenerse alto después de las festividades de Navidad, Año Nuevo y Reyes."
             },
             {
-              "type": "paragraph",
-              "text": "El clima es uno de los factores más importantes a considerar al planificar tu viaje. Conocer las condiciones meteorológicas te ayudará a prepararte mejor y disfrutar al máximo de tu experiencia."
+              "id": "faq_puerto_juarez_high_season",
+              "question": "¿Cuándo es temporada alta en Puerto Juárez?",
+              "answer": "La temporada alta en Puerto Juárez va de diciembre a abril, siendo enero, febrero y marzo los meses más concurridos. Durante este período los precios son más altos, pero el clima es más seco y soleado."
+            },
+            {
+              "id": "faq_puerto_juarez_hurricane_season",
+              "question": "¿Cuándo es la temporada de huracanes en Puerto Juárez?",
+              "answer": "La temporada de huracanes en Puerto Juárez va de junio a noviembre, siendo septiembre y octubre los meses de mayor riesgo. Sin embargo, los huracanes directos son poco frecuentes y la infraestructura turística está preparada para estas situaciones."
+            },
+            {
+              "id": "faq_puerto_juarez_cheapest_season",
+              "question": "¿Cuál es la época más barata para visitar Puerto Juárez?",
+              "answer": "La época más barata para visitar Puerto Juárez es de mayo a octubre (temporada de lluvias), especialmente septiembre cuando hay menos turistas. Sin embargo, debes considerar el riesgo de lluvias y huracanes."
+            },
+            {
+              "id": "faq_puerto_juarez_what_to_pack",
+              "question": "¿Qué ropa llevar a Puerto Juárez según la época del año?",
+              "answer": "En temporada seca (noviembre-abril): ropa ligera de algodón, protector solar, gafas de sol y una chaqueta ligera para las noches. En temporada de lluvias (mayo-octubre): ropa ligera, impermeable, paraguas y calzado de secado rápido."
+            }
+          ]
+        }
+      }
+    }
+  },
+  "acapulco-guia-completa": {
+    "template": 2,
+    "type": "tour",
+    "date": "Febrero, 20, 2024",
+    "blogTitle": "Acapulco: Guía Completa de la Perla del Pacífico",
+    "slug": "acapulco-guia-completa",
+    "heroImage": "/src/assets/junio.jpg",
+    "introduction": [
+      "Acapulco, un nombre que evoca imágenes de glamour, playas doradas y una vida nocturna legendaria. Ubicado en la costa del Pacífico de México, este destino ha sido un imán para viajeros de todo el mundo durante décadas.",
+      "Desde los icónicos clavadistas de La Quebrada hasta sus modernas zonas hoteleras, Acapulco combina a la perfección la tradición con la modernidad.",
+      "Prepárate para descubrir todo lo que este vibrante puerto tiene para ofrecer, desde su rica historia hasta sus emocionantes actividades."
+    ],
+    "acapulcoGuide": {
+      "data": {
+        "mainTitle": "¿Qué visitar en Acapulco? 10 Lugares que no te puedes perder",
+        "subtitle": "Descubre los tesoros de Acapulco, desde sus playas hasta su cultura",
+        "introductionParagraphs": [
+          "Acapulco es mucho más que solo playas. Es un destino lleno de historia, cultura y belleza natural. Cada rincón de la ciudad cuenta una historia, esperando a ser descubierta por viajeros curiosos.",
+          "En esta guía, te llevaremos a un recorrido por los lugares más emblemáticos y las joyas ocultas que hacen de Acapulco un destino inolvidable."
+        ]
+      }
+    },
+    "sections": {
+      "locationInfo": {
+        "data": {
+          "title": "¿Dónde queda Acapulco?",
+          "introductionParagraphs": [
+            "Acapulco de Juárez es una ciudad y puerto mexicano ubicado en el estado de Guerrero, sobre la costa del Océano Pacífico. Es famoso por su bahía semicircular y su vibrante atmósfera.",
+            "La distancia desde la Ciudad de México es de aproximadamente 380 kilómetros, lo que lo convierte en un destino de fin de semana popular para los capitalinos, accesible por carretera o por aire.",
+            "Acapulco se divide en tres grandes zonas turísticas: Acapulco Tradicional, Acapulco Dorado y Acapulco Diamante, cada una con su propio encanto y oferta turística."
+          ],
+          "mapSection": {
+            "image": {
+              "src": "/src/assets/MAPA DE ACAPULCO.png",
+              "alt": "Mapa de Google Maps de Acapulco"
+            },
+            "caption": "Mapa de Acapulco: La bahía es el corazón de la ciudad, rodeada por las zonas Tradicional, Dorada y Diamante, cada una ofreciendo una experiencia única."
+          },
+          "conclusionParagraph": "Ahora que sabes dónde está, es hora de explorar cómo moverte por la ciudad y descubrir sus maravillas. Desde el transporte público hasta los taxis y servicios de transporte privado, Acapulco ofrece múltiples opciones para que tu visita sea cómoda y sencilla."
+        }
+      },
+      "whatToFind": {
+        "data": {
+          "title": "¿Qué encontrarás en Acapulco?",
+          "items": [
+            {
+              "id": "acapulco_la_quebrada",
+              "image": {
+                "src": "https://images.pexels.com/photos/7746553/pexels-photo-7746553.jpeg?auto=compress&cs=tinysrgb&w=800",
+                "alt": "Clavadistas de La Quebrada"
+              },
+              "name": "La Quebrada",
+              "description": "El espectáculo de clavadistas más famoso del mundo. Valientes locales se lanzan desde acantilados de 35 metros hacia el océano."
+            },
+            {
+              "id": "acapulco_fuerte_san_diego",
+              "image": {
+                "src": "https://images.pexels.com/photos/11994729/pexels-photo-11994729.jpeg?auto=compress&cs=tinysrgb&w=800",
+                "alt": "Fuerte de San Diego en Acapulco"
+              },
+              "name": "Fuerte de San Diego",
+              "description": "Una fortaleza histórica en forma de estrella que hoy alberga el Museo Histórico de Acapulco, con vistas espectaculares de la bahía."
+            },
+            {
+              "id": "acapulco_isla_roqueta",
+              "image": {
+                "src": "https://images.pexels.com/photos/1371360/pexels-photo-1371360.jpeg?auto=compress&cs=tinysrgb&w=800",
+                "alt": "Isla de la Roqueta"
+              },
+              "name": "Isla de la Roqueta",
+              "description": "Una reserva natural ideal para el snorkel, el buceo y el senderismo. Accesible en lanchas de fondo de cristal desde Playa Caleta."
+            }
+          ]
+        }
+      },
+      "howToGetThere": {
+        "data": {
+          "sections": [
+            {
+              "id": "htg_main_intro_loc_acapulco",
+              "title": "¿Cómo llegar a Acapulco?",
+              "paragraphs": [
+                "Llegar a Acapulco es sencillo gracias a su excelente conectividad. El Aeropuerto Internacional de Acapulco (ACA) recibe vuelos nacionales e internacionales.",
+                "Por carretera, la Autopista del Sol conecta la Ciudad de México con Acapulco en un viaje de aproximadamente 4 a 5 horas.",
+                "Dentro de la ciudad, puedes moverte en taxis, autobuses urbanos o alquilar un coche para mayor libertad."
+              ],
+              "image": {
+                "src": "/src/assets/How-to-get-to-Puerto-Morelos-Juarez-from-Cancun.jpg",
+                "alt": "Carretera hacia Acapulco"
+              }
+            }
+          ]
+        }
+      },
+      "howToBookTransport": {
+        "data": {
+          "title": "¿Cómo reservar tours y actividades?",
+          "introduction": "Reservar tus actividades en Acapulco es fácil. Puedes hacerlo en línea, a través de tu hotel o directamente con los operadores turísticos en las playas.",
+          "steps": [
+            {
+              "id": "htb_trans_step1_acapulco",
+              "icon": {
+                "src": "https://photos.staywuw.com/assets/icons/location/location-on-bl.svg",
+                "alt": "Icono buscar"
+              },
+              "text": "Investiga y elige las actividades que más te interesen.",
+              "highlightStyle": "normal"
+            },
+            {
+              "id": "htb_trans_step2_acapulco",
+              "icon": {
+                "src": "https://photos.staywuw.com/assets/icons/calendar/calendar-done-w.svg",
+                "alt": "Icono calendario"
+              },
+              "text": "Compara precios y lee opiniones de otros viajeros.",
+              "highlightStyle": "accent"
+            },
+            {
+              "id": "htb_trans_step3_acapulco",
+              "icon": {
+                "src": "https://photos.staywuw.com/assets/icons/general/airport-bl.svg",
+                "alt": "Icono reservar"
+              },
+              "text": "Reserva con anticipación, especialmente en temporada alta.",
+              "highlightStyle": "normal"
+            }
+          ]
+        }
+      },
+      "photoGallery": {
+        "data": {
+          "largeImage": {
+            "src": "https://images.pexels.com/photos/1602276506709/pexels-photo-1602276506709.jpeg?auto=compress&cs=tinysrgb&w=800",
+            "alt": "Vista panorámica de Acapulco"
+          },
+          "smallImages": [
+            {
+              "id": "gallery_acapulco_img_1",
+              "src": "https://images.pexels.com/photos/7746553/pexels-photo-7746553.jpeg?auto=compress&cs=tinysrgb&w=400",
+              "alt": "Clavadista en La Quebrada"
+            },
+            {
+              "id": "gallery_acapulco_img_2",
+              "src": "https://images.pexels.com/photos/1371360/pexels-photo-1371360.jpeg?auto=compress&cs=tinysrgb&w=400",
+              "alt": "Playa en Acapulco"
+            },
+            {
+              "id": "gallery_acapulco_img_3",
+              "src": "https://images.pexels.com/photos/11994729/pexels-photo-11994729.jpeg?auto=compress&cs=tinysrgb&w=400",
+              "alt": "Atardecer en la bahía"
+            },
+            {
+              "id": "gallery_acapulco_img_4",
+              "src": "https://images.pexels.com/photos/2166559/pexels-photo-2166559.jpeg?auto=compress&cs=tinysrgb&w=400",
+              "alt": "Vida nocturna en Acapulco"
+            }
+          ]
+        }
+      },
+      "familyHotels": {
+        "data": {
+          "title": "Hoteles para todos en Acapulco",
+          "introductionParagraphs": [
+            "Acapulco cuenta con una vasta oferta hotelera que se adapta a todos los presupuestos y estilos de viaje, desde lujosos resorts en la Zona Diamante hasta hoteles boutique en el Acapulco Tradicional."
+          ],
+          "hotelList": [
+            { "id": "hotel_acapulco_1", "name": "Las Brisas Acapulco" },
+            { "id": "hotel_acapulco_2", "name": "Princess Mundo Imperial" },
+            { "id": "hotel_acapulco_3", "name": "Banyan Tree Cabo Marqués" },
+            { "id": "hotel_acapulco_4", "name": "Hotel Encanto Acapulco" }
+          ],
+          "mainImage": {
+            "src": "https://images.pexels.com/photos/261102/pexels-photo-261102.jpeg?auto=compress&cs=tinysrgb&w=800",
+            "alt": "Hotel de lujo en Acapulco"
+          }
+        }
+      },
+      "journeyVideo": {
+        "data": {
+          "title": "Un Vistazo a la Magia de Acapulco",
+          "descriptionParagraphs": [
+            "Nada captura la esencia de Acapulco como verlo en movimiento. Desde la adrenalina de los clavadistas hasta la serenidad de sus atardeceres, la ciudad es un espectáculo visual.",
+            "Este video te ofrece una probada de la energía, la belleza y la emoción que te esperan en la Perla del Pacífico. ¡Prepárate para enamorarte!"
+          ],
+          "video": {
+            "embedUrl": "https://www.youtube.com/embed/videoseries?list=PLfHkS-yASj3m7m2-ztk4-tpaB72y-x3qg",
+            "ariaTitle": "Video de Acapulco"
+          },
+          "videoCaption": "Disfruta de las vistas y sonidos de Acapulco."
+        }
+      },
+      "ferrySchedule": {
+        "data": {
+          "title": "Horarios de Tours y Actividades",
+          "introduction": "Planifica tu día en Acapulco conociendo los horarios de las principales atracciones. Los espectáculos de La Quebrada tienen horarios fijos, y los tours a la Isla de la Roqueta salen con frecuencia durante el día.",
+          "scheduleTable": {
+            "headers": [
+              { "id": "activity", "label": "Actividad" },
+              { "id": "schedule", "label": "Horarios Principales" }
+            ],
+            "rows": [
+              { "activity": "Clavados en La Quebrada (Día)", "schedule": "1:00 PM" },
+              { "activity": "Clavados en La Quebrada (Noche)", "schedule": "7:30 PM, 8:30 PM, 9:30 PM, 10:30 PM" },
+              { "activity": "Lanchas a Isla Roqueta", "schedule": "Cada 30 min de 9:00 AM a 5:00 PM" },
+              { "activity": "Liberación de Tortugas (Temp.)", "schedule": "Generalmente al atardecer (consultar)" }
+            ]
+          },
+          "footerNote": "Los horarios pueden variar según la temporada y las condiciones climáticas."
+        }
+      },
+      "favoriteActivities": {
+        "data": {
+          "sectionTitle": "Nuestras 2 actividades favoritas en Acapulco",
+          "introductionParagraphs": [
+            "Con tanto que hacer, es difícil elegir. Pero si tuviéramos que recomendar solo dos experiencias imperdibles, serían estas:"
+          ],
+          "activities": [
+            {
+              "title": "Cena con vista a La Quebrada",
+              "description": "Disfruta de una deliciosa cena en uno de los restaurantes con vista a los acantilados y maravíllate con el espectáculo de los clavadistas nocturnos con antorchas."
+            },
+            {
+              "title": "Paseo en Yate por la Bahía",
+              "description": "Alquila un yate al atardecer para un recorrido por la bahía. Disfruta de la música, las bebidas y las vistas espectaculares de la ciudad iluminada."
+            }
+          ],
+          "mainImage": {
+            "src": "https://images.pexels.com/photos/7746553/pexels-photo-7746553.jpeg?auto=compress&cs=tinysrgb&w=800",
+            "alt": "Actividades en Acapulco"
+          }
+        }
+      },
+      "placesToVisit": {
+        "data": {
+          "sectionTitle": "10 Lugares que visitar en Acapulco",
+          "introduction": "Toma nota de tus favoritos y consulta el mapa con ubicaciones exactas al final de la nota. ¡Comienza a planear tu aventura en el Pacífico!",
+          "placesList": [
+            {
+              "id": "acapulco_ptv_quebrada",
+              "number": 1,
+              "title": "La Quebrada",
+              "subtitle": "El alma de Acapulco",
+              "descriptionParagraphs": [
+                "No puedes decir que visitaste Acapulco sin haber visto a los clavadistas. Es una tradición que ha pasado de generación en generación y un espectáculo que te dejará sin aliento."
+              ],
+              "image": {
+                "src": "https://images.pexels.com/photos/7746553/pexels-photo-7746553.jpeg?auto=compress&cs=tinysrgb&w=800",
+                "alt": "La Quebrada"
+              }
+            },
+            {
+              "id": "acapulco_ptv_zocalo",
+              "number": 2,
+              "title": "Zócalo y Catedral",
+              "subtitle": "El corazón del Acapulco Tradicional",
+              "descriptionParagraphs": [
+                "El Zócalo, o Plaza Álvarez, es el punto de encuentro de los locales. Relájate bajo la sombra de sus árboles, disfruta de un café y admira la peculiar arquitectura de la Catedral de Nuestra Señora de la Soledad."
+              ],
+              "image": {
+                "src": "https://images.pexels.com/photos/11994729/pexels-photo-11994729.jpeg?auto=compress&cs=tinysrgb&w=800",
+                "alt": "Zócalo de Acapulco"
+              }
+            }
+          ]
+        }
+      },
+      "quickFact": {
+        "data": {
+          "title": "¿Sabías qué?...",
+          "fact": "La palabra 'Acapulco' proviene del náhuatl 'Aca-pōl-co', que significa 'Lugar donde fueron destruidos o arrasados los carrizos'. La bahía fue descubierta por exploradores españoles en 1521."
+        }
+      },
+      "touristMap": {
+        "data": {
+          "title": "Mapa de lugares turísticos para visitar en Acapulco",
+          "introduction": "Consulta todos los lugares mencionados para visitar en Acapulco en el siguiente mapa:",
+          "fallbackImage": { "src": "/googleMaps.png", "alt": "Mapa de Acapulco" }
+        }
+      },
+      "beforeYouVisitRecommendations": {
+        "data": {
+          "sectionTitle": "Recomendaciones antes de visitar Acapulco",
+          "recommendations": [
+            { "id": 1, "text": "Usa protector solar biodegradable para proteger los ecosistemas marinos." },
+            { "id": 2, "text": "Mantente hidratado. El clima es cálido y húmedo durante todo el año." },
+            { "id": 3, "text": "Prueba la gastronomía local, especialmente el 'Pescado a la Talla'." },
+            { "id": 4, "text": "Negocia el precio de los taxis antes de abordar para evitar sorpresas." },
+            { "id": 5, "text": "Disfruta de la vida nocturna, pero siempre con precaución y en zonas turísticas." }
+          ]
+        }
+      },
+      "generalClimateInfo": {
+        "data": {
+          "title": "CUÁNDO ES LA MEJOR ÉPOCA PARA VISITAR ACAPULCO",
+          "introduction": "Acapulco goza de un clima tropical cálido durante todo el año, pero hay matices que pueden hacer tu visita más placentera.",
+          "climateCharacteristics": {
+            "title": "Características generales del clima en Acapulco",
+            "description": "El clima de Acapulco es consistentemente cálido, con temperaturas promedio que oscilan entre 26 y 28°C. La principal diferencia a lo largo del año es la temporada de lluvias.",
+            "seasons": {
+              "title": "Temporada seca y de lluvias",
+              "drySeasonInfo": {
+                "title": "Temporada Seca (Noviembre a Abril) ☀️",
+                "description": "Es la mejor época para visitar. Disfrutarás de días soleados y cielos despejados, perfectos para la playa y actividades al aire libre. Es también la temporada alta, así que espera más multitudes y precios más altos."
+              },
+              "rainySeasonInfo": {
+                "title": "Temporada de Lluvias (Mayo a Octubre) 💧",
+                "description": "Se caracteriza por tardes lluviosas y tormentas eléctricas, aunque las mañanas suelen ser soleadas. La vegetación es exuberante y los precios son más bajos. Es ideal si no te importa un poco de lluvia y buscas mejores ofertas."
+              }
+            }
+          }
+        }
+      },
+      "monthlyInfo": {
+        "data": {
+          "seasons": [
+            {
+              "id": "dry_season_acapulco_month_info",
+              "seasonTitle": "1. Visitar Acapulco en temporada seca (noviembre a abril)",
+              "seasonIntroductionParagraphs": [
+                "Esta es la temporada ideal para los amantes del sol. El clima es perfecto, con baja humedad y días soleados garantizados. Es el momento perfecto para disfrutar de todo lo que Acapulco tiene para ofrecer al aire libre."
+              ],
+              "monthsData": [
+                {
+                  "id": "acapulco_jan_month_info_detail",
+                  "monthTitle": "1.1. Visitar Acapulco en Enero",
+                  "stats": [
+                    { "id": "temp_jan_month_info_acapulco", "icon": "🌡", "label": "Temperatura:", "value": "27°C" },
+                    { "id": "precip_jan_month_info_acapulco", "icon": "🌧", "label": "Precipitación:", "value": "10mm" }
+                  ],
+                  "descriptionParagraphs": [
+                    "Enero es perfecto. El clima es ideal y las multitudes de las fiestas de fin de año han disminuido. Es un gran momento para disfrutar de la playa con un clima perfecto."
+                  ],
+                  "image": {
+                    "src": "https://images.pexels.com/photos/1320684/pexels-photo-1320684.jpeg?auto=compress&cs=tinysrgb&w=800",
+                    "alt": "Clima de Acapulco en enero"
+                  }
+                }
+              ]
             }
           ]
         }
       },
       "frequentlyAskedQuestions": {
         "data": {
-          "sectionTitle": "5. PREGUNTAS FRECUENTES SOBRE CUÁL ES LA MEJOR ÉPOCA PARA VIAJAR A CANCÚN",
-          "introduction": "A continuación, a modo de resumen del artículo, responderemos algunas cuestiones acerca de la mejor época para viajar a Cancún.",
+          "sectionTitle": "5. PREGUNTAS FRECUENTES SOBRE ACAPULCO",
+          "introduction": "Aquí respondemos algunas de las dudas más comunes para que planifiques tu viaje a Acapulco sin contratiempos.",
           "faqList": [
             {
-              "id": "faq_cancun_best_time_final_main",
-              "question": "En definitiva, ¿cuál es el mejor mes para viajar a Cancún?",
-              "answer": "Enero es el mejor mes para viajar a Cancún. Eso sí, mejor espera a que pase la primera semana y bajen los precios, ya que suelen mantenerse alto después de las festividades de Navidad, Año Nuevo y Reyes."
+              "id": "faq_acapulco_best_time",
+              "question": "En definitiva, ¿cuál es el mejor mes para visitar Acapulco?",
+              "answer": "De noviembre a abril, durante la temporada seca. Febrero y marzo son particularmente buenos por su clima excelente y menos multitudes que en diciembre o Semana Santa."
+            },
+            {
+              "id": "faq_acapulco_safety",
+              "question": "¿Es seguro viajar a Acapulco?",
+              "answer": "Como en cualquier gran destino turístico, es importante tomar precauciones. Mantente en las zonas turísticas principales (Dorado y Diamante), no muestres objetos de valor y usa transporte de confianza. Las zonas turísticas están bien vigiladas."
+            },
+            {
+              "id": "faq_acapulco_transport",
+              "question": "¿Necesito alquilar un coche?",
+              "answer": "No es estrictamente necesario. Los taxis y autobuses son abundantes y económicos para moverse dentro de las zonas turísticas. Sin embargo, un coche te da más flexibilidad para explorar los alrededores."
+            },
+            {
+              "id": "faq_acapulco_currency",
+              "question": "¿Aceptan dólares estadounidenses?",
+              "answer": "Sí, muchos hoteles, restaurantes y tiendas en zonas turísticas aceptan dólares, pero a menudo obtendrás un mejor tipo de cambio pagando en pesos mexicanos. Es recomendable llevar algo de moneda local."
+            },
+            {
+              "id": "faq_acapulco_what_to_pack",
+              "question": "¿Qué ropa debo empacar?",
+              "answer": "Ropa ligera y de playa: trajes de baño, shorts, camisetas, sandalias. Incluye algo un poco más formal para cenas o salidas nocturnas. No olvides un sombrero, gafas de sol y mucho protector solar."
+            }
+          ]
+        }
+      }
+    }
+  },
+  "cancun-guia-hoteles": {
+    "template": 3,
+    "type": "hotel",
+    "date": "Marzo, 10, 2024",
+    "blogTitle": "Guía de Hoteles en Cancún: Lujo y Confort",
+    "slug": "cancun-guia-hoteles-todo-incluido",
+    "heroImage": "https://images.unsplash.com/photo-1563911302283-d2bc129e7570?w=1200&h=600&fit=crop",
+    "introduction": [
+      "Cancún es sinónimo de playas de arena blanca, aguas turquesas y una oferta hotelera de clase mundial. Elegir el hotel adecuado es el primer paso para unas vacaciones perfectas en el Caribe Mexicano.",
+      "Desde resorts todo incluido para familias hasta lujosos hoteles boutique solo para adultos, Cancún tiene el alojamiento perfecto para cada tipo de viajero.",
+      "En esta guía, te ayudaremos a navegar por la Zona Hotelera y más allá para encontrar tu hogar lejos del hogar."
+    ],
+    "acapulcoGuide": {
+      "data": {
+        "mainTitle": "Encontrando tu Hotel Ideal en Cancún",
+        "subtitle": "Una guía para elegir el mejor resort en la Zona Hotelera y Playa Mujeres",
+        "introductionParagraphs": [
+          "La Zona Hotelera de Cancún, una franja de tierra de 23 kilómetros en forma de '7', alberga la mayoría de los resorts, restaurantes y vida nocturna. Cada kilómetro ofrece una experiencia diferente.",
+          "Ya sea que busques un ambiente de fiesta, un retiro tranquilo o un paraíso familiar, la clave está en saber dónde buscar."
+        ]
+      }
+    },
+    "sections": {
+      "locationInfo": {
+        "data": {
+          "title": "¿Dónde alojarse en Cancún?",
+          "introductionParagraphs": [
+            "La Zona Hotelera es el corazón turístico de Cancún. Se divide en varias áreas: la parte norte (Km 3-9) tiene aguas más tranquilas, ideal para familias. La parte este (Km 9-22) tiene olas más fuertes y es donde se concentra la vida nocturna.",
+            "Playa Mujeres, al norte de Cancún, es una zona más nueva y exclusiva, con resorts de lujo y un ambiente más relajado.",
+            "El centro de Cancún ofrece opciones más económicas y una experiencia más local, aunque lejos de la playa."
+          ],
+          "mapSection": {
+            "image": {
+              "src": "/src/assets/MAPA DE CANCUN.png",
+              "alt": "Mapa de la Zona Hotelera de Cancún"
+            },
+            "caption": "Mapa de la Zona Hotelera de Cancún: El '7' que define el paraíso, con el Mar Caribe de un lado y la Laguna Nichupté del otro."
+          },
+          "conclusionParagraph": "Elegir la ubicación correcta es fundamental. Considera qué tipo de vacaciones buscas: ¿relajación total, acceso a la vida nocturna, actividades familiares? Tu respuesta definirá la mejor zona para ti."
+        }
+      },
+      "whatToFind": {
+        "data": {
+          "title": "¿Qué buscar en un Hotel de Cancún?",
+          "items": [
+            {
+              "id": "cancun_hotel_all_inclusive",
+              "image": {
+                "src": "https://images.pexels.com/photos/261102/pexels-photo-261102.jpeg?auto=compress&cs=tinysrgb&w=800",
+                "alt": "Buffet en hotel todo incluido"
+              },
+              "name": "Plan Todo Incluido",
+              "description": "La mayoría de los resorts en Cancún operan bajo este plan, que incluye comidas, bebidas y a menudo actividades. Ideal para no preocuparse por nada."
+            },
+            {
+              "id": "cancun_hotel_beachfront",
+              "image": {
+                "src": "https://images.pexels.com/photos/1450360/pexels-photo-1450360.jpeg?auto=compress&cs=tinysrgb&w=800",
+                "alt": "Acceso a la playa desde un hotel"
+              },
+              "name": "Acceso a la Playa",
+              "description": "Verifica que el hotel tenga acceso directo a una buena franja de playa. Algunos tienen áreas rocosas, mientras que otros ofrecen playas de arena suave."
+            },
+            {
+              "id": "cancun_hotel_amenities",
+              "image": {
+                "src": "https://images.pexels.com/photos/271624/pexels-photo-271624.jpeg?auto=compress&cs=tinysrgb&w=800",
+                "alt": "Spa de un hotel de lujo"
+              },
+              "name": "Amenidades y Servicios",
+              "description": "Considera qué es importante para ti: ¿un spa de clase mundial, un gimnasio moderno, piscinas infinity, club de niños, campos de golf?"
+            }
+          ]
+        }
+      },
+      "howToGetThere": {
+        "data": {
+          "sections": [
+            {
+              "id": "htg_main_intro_loc_cancun",
+              "title": "Transporte desde el Aeropuerto de Cancún (CUN)",
+              "paragraphs": [
+                "El Aeropuerto Internacional de Cancún es uno de los más transitados de América Latina. Desde allí, tienes varias opciones para llegar a tu hotel.",
+                "Puedes tomar un taxi oficial, un servicio de transporte compartido (shuttle) o reservar un traslado privado con antelación, que suele ser la opción más cómoda y segura.",
+                "El sistema de autobuses ADO también conecta el aeropuerto con el centro de Cancún, desde donde puedes tomar un taxi o autobús local a la Zona Hotelera."
+              ],
+              "image": {
+                "src": "/src/assets/How-to-get-to-Puerto-Morelos-Juarez-from-Cancun.jpg",
+                "alt": "Transporte en Cancún"
+              }
+            }
+          ]
+        }
+      },
+      "howToBookTransport": {
+        "data": {
+          "title": "¿Cómo reservar tu hotel ideal?",
+          "introduction": "Reservar tu hotel en Cancún es fácil, pero hacerlo con inteligencia te ahorrará dinero y asegurará la mejor experiencia.",
+          "steps": [
+            {
+              "id": "htb_trans_step1_cancun",
+              "icon": {
+                "src": "https://photos.staywuw.com/assets/icons/location/location-on-bl.svg",
+                "alt": "Icono buscar"
+              },
+              "text": "Define tu presupuesto y tipo de viaje (familia, pareja, amigos).",
+              "highlightStyle": "normal"
+            },
+            {
+              "id": "htb_trans_step2_cancun",
+              "icon": {
+                "src": "https://photos.staywuw.com/assets/icons/calendar/calendar-done-w.svg",
+                "alt": "Icono calendario"
+              },
+              "text": "Reserva con varios meses de antelación, especialmente para temporada alta.",
+              "highlightStyle": "accent"
+            },
+            {
+              "id": "htb_trans_step3_cancun",
+              "icon": {
+                "src": "https://photos.staywuw.com/assets/icons/general/airport-bl.svg",
+                "alt": "Icono reservar"
+              },
+              "text": "Compara precios en diferentes plataformas y en el sitio web oficial del hotel.",
+              "highlightStyle": "normal"
+            }
+          ]
+        }
+      },
+      "photoGallery": {
+        "data": {
+          "largeImage": {
+            "src": "https://images.pexels.com/photos/261102/pexels-photo-261102.jpeg?auto=compress&cs=tinysrgb&w=800",
+            "alt": "Piscina de un resort en Cancún"
+          },
+          "smallImages": [
+            {
+              "id": "gallery_cancun_img_1",
+              "src": "https://images.pexels.com/photos/1450360/pexels-photo-1450360.jpeg?auto=compress&cs=tinysrgb&w=400",
+              "alt": "Playa de un hotel en Cancún"
+            },
+            {
+              "id": "gallery_cancun_img_2",
+              "src": "https://images.pexels.com/photos/271624/pexels-photo-271624.jpeg?auto=compress&cs=tinysrgb&w=400",
+              "alt": "Habitación de hotel con vista al mar"
+            },
+            {
+              "id": "gallery_cancun_img_3",
+              "src": "https://images.pexels.com/photos/221457/pexels-photo-221457.jpeg?auto=compress&cs=tinysrgb&w=400",
+              "alt": "Restaurante de un resort"
+            },
+            {
+              "id": "gallery_cancun_img_4",
+              "src": "https://images.pexels.com/photos/258154/pexels-photo-258154.jpeg?auto=compress&cs=tinysrgb&w=400",
+              "alt": "Atardecer desde un hotel en Cancún"
+            }
+          ]
+        }
+      },
+      "familyHotels": {
+        "data": {
+          "title": "Top 4 Hoteles Recomendados en Cancún",
+          "introductionParagraphs": [
+            "La elección es vasta, pero aquí te dejamos cuatro de los hoteles más aclamados por los viajeros por su excelente servicio, instalaciones y ubicación."
+          ],
+          "hotelList": [
+            { "id": "hotel_cancun_1", "name": "Le Blanc Spa Resort (Solo Adultos, Lujo)" },
+            { "id": "hotel_cancun_2", "name": "Hyatt Ziva Cancún (Familiar, Todo Incluido)" },
+            { "id": "hotel_cancun_3", "name": "Nizuc Resort & Spa (Lujo, Privacidad)" },
+            { "id": "hotel_cancun_4", "name": "Live Aqua Beach Resort (Solo Adultos, Sensorial)" }
+          ],
+          "mainImage": {
+            "src": "https://images.pexels.com/photos/258154/pexels-photo-258154.jpeg?auto=compress&cs=tinysrgb&w=800",
+            "alt": "Hotel de lujo en Cancún"
+          }
+        }
+      },
+      "journeyVideo": {
+        "data": {
+          "title": "Vive la Experiencia de un Resort en Cancún",
+          "descriptionParagraphs": [
+            "Imagina despertar con el sonido de las olas, disfrutar de un desayuno con vista al mar turquesa y pasar el día entre la piscina y la playa. Los hoteles de Cancún no son solo un lugar para dormir, son el destino en sí mismo.",
+            "Este video te da una idea de la experiencia de lujo y confort que te espera en los mejores resorts de Cancún. Desde la gastronomía hasta el entretenimiento, todo está diseñado para tu disfrute."
+          ],
+          "video": {
+            "embedUrl": "https://www.youtube.com/embed/videoseries?list=PLfHkS-yASj3n_yv-9q4a-i9-lsZlZ_5Jj",
+            "ariaTitle": "Video de Hoteles en Cancún"
+          },
+          "videoCaption": "Un vistazo a la vida en un resort de Cancún."
+        }
+      },
+      "ferrySchedule": {
+        "data": {
+          "title": "Información de Transporte Local",
+          "introduction": "Moverse por la Zona Hotelera es muy fácil. La ruta de autobuses R-1 y R-2 recorre toda la zona 24/7 y es una opción muy económica y segura.",
+          "scheduleTable": {
+            "headers": [
+              { "id": "transport", "label": "Medio de Transporte" },
+              { "id": "cost", "label": "Costo Aproximado (MXN)" }
+            ],
+            "rows": [
+              { "transport": "Autobús Público (R-1, R-2)", "cost": "$12" },
+              { "transport": "Taxi dentro de la Zona Hotelera", "cost": "$100 - $300" },
+              { "transport": "Taxi al Centro", "cost": "$300 - $500" },
+              { "transport": "Ferry a Isla Mujeres (desde Zona Hotelera)", "cost": "$25 USD (viaje redondo)" }
+            ]
+          },
+          "footerNote": "Los precios de los taxis no están regulados, siempre acuerda la tarifa antes de subir."
+        }
+      },
+      "favoriteActivities": {
+        "data": {
+          "sectionTitle": "Nuestras 2 recomendaciones de hoteles",
+          "introductionParagraphs": [
+            "Si tuviéramos que elegir solo dos hoteles para recomendar, uno para familias y otro para parejas, serían estos:"
+          ],
+          "activities": [
+            {
+              "title": "Para Familias: Hyatt Ziva Cancún",
+              "description": "Ubicado en Punta Cancún, está rodeado por el mar en tres lados. Tiene un delfinario propio, club de niños, múltiples restaurantes y un ambiente familiar de lujo."
+            },
+            {
+              "title": "Para Parejas: Le Blanc Spa Resort",
+              "description": "La máxima expresión del lujo todo incluido solo para adultos. Servicio de mayordomo, spa de clase mundial, alta gastronomía y una atención al detalle insuperable."
+            }
+          ],
+          "mainImage": {
+            "src": "https://images.pexels.com/photos/221457/pexels-photo-221457.jpeg?auto=compress&cs=tinysrgb&w=800",
+            "alt": "Hotel recomendado en Cancún"
+          }
+        }
+      },
+      "placesToVisit": {
+        "data": {
+          "sectionTitle": "Más allá del Hotel: 3 Lugares Cercanos",
+          "introduction": "Aunque es tentador no salir del resort, Cancún tiene mucho que ofrecer en sus alrededores.",
+          "placesList": [
+            {
+              "id": "cancun_ptv_la_isla",
+              "number": 1,
+              "title": "La Isla Shopping Village",
+              "subtitle": "Compras al aire libre",
+              "descriptionParagraphs": [
+                "Un hermoso centro comercial al aire libre con canales, boutiques de lujo, restaurantes y un acuario interactivo. Ideal para una tarde de compras y paseo."
+              ],
+              "image": {
+                "src": "https://images.pexels.com/photos/2474690/pexels-photo-2474690.jpeg?auto=compress&cs=tinysrgb&w=800",
+                "alt": "La Isla Shopping Village"
+              }
+            },
+            {
+              "id": "cancun_ptv_museo_maya",
+              "number": 2,
+              "title": "Museo Maya de Cancún",
+              "subtitle": "Un viaje a la historia",
+              "descriptionParagraphs": [
+                "Junto a la zona arqueológica de San Miguelito, este moderno museo alberga una de las colecciones más importantes de la cultura maya. Una visita cultural obligada."
+              ],
+              "image": {
+                "src": "https://images.pexels.com/photos/1320684/pexels-photo-1320684.jpeg?auto=compress&cs=tinysrgb&w=800",
+                "alt": "Museo Maya de Cancún"
+              }
+            }
+          ]
+        }
+      },
+      "quickFact": {
+        "data": {
+          "title": "¿Sabías qué?...",
+          "fact": "La arena de las playas de Cancún está compuesta principalmente de coral triturado, lo que hace que se mantenga fresca al tacto incluso en los días más calurosos."
+        }
+      },
+      "touristMap": {
+        "data": {
+          "title": "Mapa de la Zona Hotelera de Cancún",
+          "introduction": "Explora la ubicación de los principales hoteles y puntos de interés en este mapa.",
+          "fallbackImage": { "src": "/googleMaps.png", "alt": "Mapa de Cancún" }
+        }
+      },
+      "beforeYouVisitRecommendations": {
+        "data": {
+          "sectionTitle": "Recomendaciones para tu Estancia",
+          "recommendations": [
+            { "id": 1, "text": "Bebe solo agua embotellada. No bebas agua del grifo." },
+            {
+              "id": 2,
+              "text": "El sol del Caribe es muy fuerte. Usa protector solar de alto SPF y reaplica constantemente."
+            },
+            {
+              "id": 3,
+              "text": "Las propinas son una parte importante de la cultura de servicio. Considera un 10-15% en restaurantes y para el personal del hotel."
+            },
+            {
+              "id": 4,
+              "text": "Aprende algunas frases básicas en español. Aunque se habla inglés en todas partes, un 'hola' o 'gracias' será muy apreciado."
+            },
+            {
+              "id": 5,
+              "text": "Revisa si tu plan de telefonía celular tiene cobertura en México para evitar cargos de roaming."
+            }
+          ]
+        }
+      },
+      "generalClimateInfo": {
+        "data": {
+          "title": "CUÁNDO ES LA MEJOR ÉPOCA PARA VISITAR CANCÚN",
+          "introduction": "El clima de Cancún es un factor clave para planificar tus vacaciones. Aquí te damos un resumen para que elijas la mejor fecha.",
+          "climateCharacteristics": {
+            "title": "Características generales del clima en Cancún",
+            "description": "Cancún tiene un clima tropical, con temperaturas cálidas y alta humedad durante todo el año. La temperatura promedio anual es de 27°C.",
+            "seasons": {
+              "title": "Temporada Seca vs. Temporada de Lluvias",
+              "drySeasonInfo": {
+                "title": "Temporada Seca (Diciembre a Abril) ☀️",
+                "description": "Considerada la mejor época para visitar. Días soleados, baja probabilidad de lluvia y temperaturas agradables. Es la temporada alta, por lo que los precios y la afluencia de turistas son mayores."
+              },
+              "rainySeasonInfo": {
+                "title": "Temporada de Lluvias (Mayo a Noviembre) 💧",
+                "description": "Caracterizada por lluvias cortas pero intensas, generalmente por la tarde. Hay mayor riesgo de huracanes de agosto a octubre. Los precios son más bajos y hay menos gente."
+              }
+            }
+          }
+        }
+      },
+      "monthlyInfo": {
+        "data": {
+          "seasons": [
+            {
+              "id": "dry_season_cancun_month_info",
+              "seasonTitle": "1. Visitar Cancún en temporada seca (diciembre a abril)",
+              "seasonIntroductionParagraphs": [
+                "Esta es la temporada alta por una razón: el clima es espectacular. Si buscas sol garantizado para tus vacaciones en la playa, este es el momento de ir."
+              ],
+              "monthsData": [
+                {
+                  "id": "cancun_mar_month_info_detail",
+                  "monthTitle": "1.1. Visitar Cancún en Marzo",
+                  "stats": [
+                    { "id": "temp_mar_month_info_cancun", "icon": "🌡", "label": "Temperatura:", "value": "28°C" },
+                    { "id": "precip_mar_month_info_cancun", "icon": "🌧", "label": "Precipitación:", "value": "40mm" }
+                  ],
+                  "descriptionParagraphs": [
+                    "Marzo es popular por el 'Spring Break', atrayendo a multitudes de estudiantes. El clima es perfecto, pero espera un ambiente de fiesta y precios elevados."
+                  ],
+                  "image": {
+                    "src": "https://images.pexels.com/photos/1371360/pexels-photo-1371360.jpeg?auto=compress&cs=tinysrgb&w=800",
+                    "alt": "Clima de Cancún en marzo"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "frequentlyAskedQuestions": {
+        "data": {
+          "sectionTitle": "5. PREGUNTAS FRECUENTES SOBRE HOTELES EN CANCÚN",
+          "introduction": "Resolvemos tus dudas para que tu estancia en Cancún sea perfecta.",
+          "faqList": [
+            {
+              "id": "faq_cancun_all_inclusive_worth_it",
+              "question": "¿Vale la pena un hotel todo incluido?",
+              "answer": "Generalmente sí. Si planeas pasar la mayor parte del tiempo en el hotel y disfrutar de comidas y bebidas sin límite, es una excelente opción en términos de costo-beneficio. Si prefieres explorar y comer fuera, podría no serlo."
+            },
+            {
+              "id": "faq_cancun_sargassum",
+              "question": "¿Qué pasa con el sargazo?",
+              "answer": "El sargazo es un alga que llega a las costas del Caribe estacionalmente, principalmente en los meses más cálidos (abril a agosto). Muchos hoteles hacen un gran esfuerzo por limpiar sus playas diariamente. Puedes consultar webcams en vivo para ver el estado actual de las playas."
+            },
+            {
+              "id": "faq_cancun_best_area_for_families",
+              "question": "¿Cuál es la mejor zona para familias?",
+              "answer": "La parte norte de la Zona Hotelera (Km 3-9) y Playa Mujeres son ideales por sus aguas tranquilas y resorts con excelentes instalaciones para niños."
+            },
+            {
+              "id": "faq_cancun_best_area_for_nightlife",
+              "question": "¿Cuál es la mejor zona para la vida nocturna?",
+              "answer": "El corazón de la fiesta está en Punta Cancún, alrededor del Km 9 de la Zona Hotelera, donde se encuentran discotecas famosas como Coco Bongo."
+            },
+            {
+              "id": "faq_cancun_currency_and_tipping",
+              "question": "Moneda y Propinas",
+              "answer": "El peso mexicano (MXN) es la moneda oficial. Aunque se aceptan dólares, es mejor pagar en pesos. La propina es muy apreciada; un 10-15% es estándar para un buen servicio."
             }
           ]
         }

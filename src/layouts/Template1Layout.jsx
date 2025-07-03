@@ -25,125 +25,47 @@ export default function Template1Layout({ blogData: propBlogData, lang }) {
   const { lang: contextLang } = useLanguage()
   const currentLang = lang || contextLang || "es"
 
-  // Acceder correctamente a los datos
-  const mainData = propBlogData["puerto-juarez-mexico"] || propBlogData
-  const data = mainData
-  const templateNumber = data?.template || 1
-
-  console.log(`🎯 Template1Layout renderizando con template ${templateNumber}`)
-
-  // ✅ QUITAR VALIDACIÓN - Permitir cualquier template
-  // if (templateNumber !== 1) {
-  //   return (
-  //     <Container>
-  //       <div className="py-8 text-center">
-  //         <p>Este contenido no está disponible para Template 1</p>
-  //       </div>
-  //     </Container>
-  //   )
-  // }
-
-  const sections = data?.sections
+  const data = Object.values(propBlogData)[0]
 
   if (!data) {
-    return null
+    return (
+      <Container>
+        <div className="py-8 text-center">
+          <p>No se encontraron datos para renderizar el blog.</p>
+        </div>
+      </Container>
+    )
   }
 
-  const getSectionType = (sectionKey) => {
-    return sections?.[sectionKey]?.type || "hotel"
-  }
-
-  const getText = (textObj) => {
-    if (typeof textObj === "string") return textObj
-    return textObj?.[currentLang] || textObj?.es || textObj?.en || ""
-  }
+  const sections = data.sections
+  const type = data.type || "hotel"
 
   return (
     <Container>
       <div className="py-8">
         <ReturnButton />
         <WelcomeImage source={data.heroImage} lang={currentLang} />
-        <CreationDate />
+        <CreationDate date={data.date} />
         <div className="max-w-[68vw] mx-auto px-4 sm:px:6 lg:px-8">
           <div className="flex flex-col justify-center">
             <div className="mt-4 mb-6">
-              <Title
-                title={currentLang === "en" ? data.blogTitle || "Travel Guide" : data.blogTitle || "Guía de Viaje"}
-                type="hotel"
-              />
+              <Title title={data.blogTitle || "Guía de Viaje"} type={type} />
             </div>
             <div className="flex flex-col gap-5">
-              {Array.isArray(data.introduction)
-                ? data.introduction.map((paragraph, index) => <Paragraph key={index} text={paragraph} />)
-                : data.introduction && <Paragraph text={data.introduction} />}
+              {Array.isArray(data.introduction) &&
+                data.introduction.map((paragraph, index) => <Paragraph key={index} text={paragraph} />)}
+
               <div className="space-y-12">
-                {/* 🧠 Componentes inteligentes que se adaptan a cualquier dato */}
-                <GalleryPicsCollage
-                  data={sections?.photoGallery?.data || sections?.placesToVisit?.data || sections?.monthlyInfo?.data}
-                  lang={currentLang}
-                />
-
-                <WhereLocated
-                  data={sections?.locationInfo?.data || sections?.placesToVisit?.data || sections?.monthlyInfo?.data}
-                  type={getSectionType("locationInfo")}
-                  lang={currentLang}
-                />
-
-                <HowToBook
-                  data={
-                    sections?.howToBookTransport?.data || sections?.placesToVisit?.data || sections?.monthlyInfo?.data
-                  }
-                  type={getSectionType("howToBookTransport")}
-                  lang={currentLang}
-                />
-
-                <HowToGet
-                  data={
-                    sections?.howToGetThere?.data ||
-                    sections?.beforeYouVisitRecommendations?.data ||
-                    sections?.frequentlyAskedQuestions?.data
-                  }
-                  type={getSectionType("howToGetThere")}
-                  lang={currentLang}
-                />
-
-                <VideoPlace
-                  data={sections?.journeyVideo?.data || sections?.placesToVisit?.data || sections?.monthlyInfo?.data}
-                  type={getSectionType("journeyVideo")}
-                  lang={currentLang}
-                />
-
-                <ScheduleBlog
-                  data={sections?.ferrySchedule?.data || sections?.placesToVisit?.data || sections?.monthlyInfo?.data}
-                  type={getSectionType("ferrySchedule")}
-                  lang={currentLang}
-                />
-
-                <WhatWillYouFind
-                  data={sections?.whatToFind?.data || sections?.placesToVisit?.data || sections?.monthlyInfo?.data}
-                  type={getSectionType("whatToFind")}
-                  lang={currentLang}
-                />
-
-                <FromToBlog
-                  data={sections?.routesFrom?.data || sections?.placesToVisit?.data || sections?.monthlyInfo?.data}
-                  type={getSectionType("routesFrom")}
-                  lang={currentLang}
-                />
-
-                <FamilyHotelsBlog
-                  data={sections?.familyHotels?.data || sections?.placesToVisit?.data || sections?.monthlyInfo?.data}
-                  type={getSectionType("familyHotels")}
-                  lang={currentLang}
-                />
-
-                <FavoriteActivitiesBlog
-                  data={
-                    sections?.favoriteActivities?.data || sections?.placesToVisit?.data || sections?.monthlyInfo?.data
-                  }
-                  type={getSectionType("favoriteActivities")}
-                  lang={currentLang}
-                />
+                <GalleryPicsCollage data={sections?.photoGallery?.data} lang={currentLang} />
+                <WhereLocated data={sections?.locationInfo?.data} type={type} lang={currentLang} />
+                <HowToBook data={sections?.howToBookTransport?.data} type={type} lang={currentLang} />
+                <HowToGet data={sections?.howToGetThere?.data} type={type} lang={currentLang} />
+                <VideoPlace data={sections?.journeyVideo?.data} type={type} lang={currentLang} />
+                <ScheduleBlog data={sections?.ferrySchedule?.data} type={type} lang={currentLang} />
+                <WhatWillYouFind data={sections?.whatToFind?.data} type={type} lang={currentLang} />
+                <FromToBlog data={sections?.routesFrom?.data} type={type} lang={currentLang} />
+                <FamilyHotelsBlog data={sections?.familyHotels?.data} type={type} lang={currentLang} />
+                <FavoriteActivitiesBlog data={sections?.favoriteActivities?.data} type={type} lang={currentLang} />
               </div>
               <CategoryTags lang={currentLang} />
               <RelatedArticlesBlog lang={currentLang} />

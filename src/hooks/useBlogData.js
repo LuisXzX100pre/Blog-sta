@@ -2,7 +2,7 @@
 
 import { useState, useEffect } from "react"
 
-export function useBlogData(lang, destinationSlug = null) {
+export function useBlogData(lang = "es", destinationSlug = null) {
   const [blogData, setBlogData] = useState(null)
   const [loading, setLoading] = useState(true)
   const [error, setError] = useState(null)
@@ -15,16 +15,13 @@ export function useBlogData(lang, destinationSlug = null) {
 
         let data
         if (lang === "en") {
-          // Importar datos en inglés
           const module = await import("../data/blog-data-en.json")
           data = module.default
         } else {
-          // Por defecto usar español
           const module = await import("../data/blog-data-es.json")
           data = module.default
         }
 
-        // Si se especifica un destino específico, devolver solo ese
         if (destinationSlug && data[destinationSlug]) {
           setBlogData({ [destinationSlug]: data[destinationSlug] })
         } else {
@@ -33,7 +30,7 @@ export function useBlogData(lang, destinationSlug = null) {
       } catch (err) {
         console.error("Error loading blog data:", err)
         setError(err)
-        // Fallback a datos en español si hay error
+     
         try {
           const fallbackModule = await import("../data/blog-data-es.json")
           setBlogData(fallbackModule.default)

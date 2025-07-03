@@ -2,8 +2,16 @@
 
 import { useState } from "react"
 
-export default function SearchHomeBlog({ lang = "es" }) {
+export default function SearchHomeBlog({ lang = "es", onSearchChange }) {
   const [searchTerm, setSearchTerm] = useState("")
+
+  const handleSearchChange = (e) => {
+    const value = e.target.value
+    setSearchTerm(value)
+    if (onSearchChange) {
+      onSearchChange(value)
+    }
+  }
 
   return (
     <div className="bg-white border border-gray-200 rounded-lg p-4 mb-6 shadow-sm">
@@ -13,7 +21,7 @@ export default function SearchHomeBlog({ lang = "es" }) {
           type="text"
           placeholder={lang === "en" ? "Search..." : "Buscar..."}
           value={searchTerm}
-          onChange={(e) => setSearchTerm(e.target.value)}
+          onChange={handleSearchChange}
           className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent"
         />
         <div className="absolute right-3 top-2.5">

@@ -1,51 +1,41 @@
-"use client";
+"use client"
 
-import Link from "next/link";
-import { Dialog } from "@headlessui/react";
-import { XMarkIcon } from "@heroicons/react/24/outline";
-import { useContext, useEffect, useState } from "react";
+import { Dialog } from "@headlessui/react"
+import { XMarkIcon } from "@heroicons/react/24/outline"
+import { useEffect, useState } from "react"
+import { useLocation, useNavigate } from "react-router-dom"
 
-import { SelectCurrency } from "./SelectCurrency";
-import LanguageContext from "@/language/LanguageContext";
-import { LanguageSelector } from "@/language/LanguageSelector";
-import { NavigationConfig } from "@/config/Navigation/NavigationConfig";
+import { SelectCurrency } from "./SelectCurrency"
+import { useLanguage } from "../../context/LanguageContext"
+import { LanguageSelector } from "./LanguageSelector"
+
+const ASSETS_URL = "https://photos.staywuw.com/assets/"
 
 export function HamburgerMenu({ open, setMobileMenuOpen }) {
-  const [currentActiveIcon, setCurrentActiveIcon] = useState(null);
+  const { lang } = useLanguage()
+  const location = useLocation()
+  const navigate = useNavigate()
 
-  const { languageData, language } = useContext(LanguageContext);
-  // GET ACTIVITY SERVICE
-  const routerActual = NavigationConfig();
+  const [currentActiveIcon, setCurrentActiveIcon] = useState(null)
 
   useEffect(() => {
-    setCurrentActiveIcon(routerActual);
-  }, [routerActual]);
+    const path = location.pathname.split("/")[2]
+    if (["hotels", "tours", "transports"].includes(path)) {
+      setCurrentActiveIcon(path)
+    } else if (location.pathname.includes("/blog")) {
+      setCurrentActiveIcon("blog")
+    } else {
+      setCurrentActiveIcon("home")
+    }
+  }, [location.pathname])
 
-  // LP RELOAD HOME
-  const changeHome = () => {
-    window.open(`/`, "_self");
-  };
-  const changeBlog = () => {
-    window.open(`/blog/${language}`, "_self");
-  };
-  const changeHotels = () => {
-    window.open(`/${language}/hotels`, "_self");
-  };
-  const changeTour = () => {
-    window.open(`/${language}/tours`, "_self");
-  };
-  const changeTransport = () => {
-    window.open(`/${language}/transports`, "_self");
-  };
-  // LP END
+  const navigateTo = (path) => {
+    navigate(path)
+    setMobileMenuOpen(false)
+  }
 
   return (
-    <Dialog
-      as="div"
-      className="lg:hidden"
-      open={open}
-      onClose={setMobileMenuOpen}
-    >
+    <Dialog as="div" className="lg:hidden" open={open} onClose={() => setMobileMenuOpen(false)}>
       <div className="fixed inset-0 z-10" />
       <Dialog.Panel className="fixed inset-y-0 right-0 z-10 w-full overflow-y-auto bg-white px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">
         <div className="flex items-center justify-between">
@@ -61,175 +51,75 @@ export function HamburgerMenu({ open, setMobileMenuOpen }) {
         <div className="mt-6 flow-root">
           <div className="-my-6 divide-y divide-gray-500/10">
             <div className="flex gap-x-4 mt-4 py-6">
-              {/* BLOG LINK */}
-            <div
-              className="flex items-center text-gry-100 m-b hover:text-or-100 no-underline cursor-pointer"
-              onClick={() => {
-                changeBlog();
-              }}
-            >
-              <img
-                src={`${process.env.NEXT_PUBLIC_URL}icons/general/globe-${
-                  currentActiveIcon === "blog" ? "o.svg" : "b.svg"
-                }`}
-                alt="icon blog"
-                className="pr-2 pb-1"
-              />
-              <span
-                className={`${
-                  currentActiveIcon === "blog" ? "text-or-100" : ""
-                }`}
+              <div
+                className="flex items-center text-gry-100 m-b hover:text-or-100 no-underline cursor-pointer"
+                onClick={() => navigateTo(`/blog/${lang}`)}
               >
-                Blog
-              </span>
-            </div>
+                <img
+                  src={`${ASSETS_URL}icons/general/globe-${currentActiveIcon === "blog" ? "o.svg" : "b.svg"}`}
+                  alt="icon blog"
+                  className="pr-2 pb-1"
+                />
+                <span className={`${currentActiveIcon === "blog" ? "text-or-100" : ""}`}>Blog</span>
+              </div>
               <SelectCurrency />
-
               <LanguageSelector />
             </div>
 
             <div className="space-y-7 py-6">
-              {/* HOME LINK */}
               <div
-                  className="flex items-center text-gry-100 m-b hover:text-or-100 no-underline cursor-pointer"
-                  onClick={() => {
-                    changeHome();
-                  }}
-                >
-                  <img
-                    src={`${process.env.NEXT_PUBLIC_URL}icons/general/home-${
-                      currentActiveIcon === "home"
-                        ? "o.svg"
-                        : "b.svg"
-                    }`}
-                    alt="icon hotel"
-                    className="pr-2 pb-1"
-                  />
-                  <span
-                    className={`${
-                      currentActiveIcon === "home"
-                        ? "text-or-100"
-                        : ""
-                    }`}
-                  >
-                    {/* {languageData.SearchBox.tabHotel.hotel} */}
-                    Home
-                  </span>
-                </div>
-
-              {/* HOTEL LINK */}
-              <div
-                onClick={() => {
-                  changeHotels();
-                }}
-                className="flex items-center pr-4 text-gry-100 m-b hover:text-or-100 no-underline"
+                className="flex items-center text-gry-100 m-b hover:text-or-100 no-underline cursor-pointer"
+                onClick={() => navigateTo(`/${lang}`)}
               >
-                {/* <Link
-                  href={`/${language}/hotels`}
-                  // href={`${process.env.NEXT_PUBLIC_HOME}`}
-                  passHref
-                  className="flex items-center pr-4 text-gry-100 m-b hover:text-or-100 no-underline	"
-                > */}{" "}
                 <img
-                  // src={`${process.env.NEXT_PUBLIC_URL}icons/hotel/hotel-b.svg`}
-                  src={`${process.env.NEXT_PUBLIC_URL}icons/hotel/hotel-${
-                    currentActiveIcon === "hotels" ||
-                    currentActiveIcon === "hotel"
-                      ? "o.svg"
-                      : "b.svg"
-                  }`}
+                  src={`${ASSETS_URL}icons/general/home-${currentActiveIcon === "home" ? "o.svg" : "b.svg"}`}
+                  alt="icon home"
+                  className="pr-2 pb-1"
+                />
+                <span className={`${currentActiveIcon === "home" ? "text-or-100" : ""}`}>Home</span>
+              </div>
+
+              <div
+                onClick={() => navigateTo(`/${lang}/hotels`)}
+                className="flex items-center pr-4 text-gry-100 m-b hover:text-or-100 no-underline cursor-pointer"
+              >
+                <img
+                  src={`${ASSETS_URL}icons/hotel/hotel-${currentActiveIcon === "hotels" ? "o.svg" : "b.svg"}`}
                   alt="hotel-menu"
                   className="pr-2"
                 />
-                <span
-                  className={`${
-                    currentActiveIcon === "hotels" && "text-or-100"
-                  }`}
-                >
-                  {languageData.SearchBox.tabHotel.hotel}
-                </span>
-                {/* </Link> */}
+                <span className={`${currentActiveIcon === "hotels" ? "text-or-100" : ""}`}>Hotel</span>
               </div>
 
-              {/* TOUR LINK */}
               <div
-                onClick={() => {
-                  changeTour();
-                }}
-                className="flex items-center pr-4 text-gry-100 m-b hover:text-or-100 no-underline"
+                onClick={() => navigateTo(`/${lang}/tours`)}
+                className="flex items-center pr-4 text-gry-100 m-b hover:text-or-100 no-underline cursor-pointer"
               >
-                {/* <Link
-                  href={`/${language}/tours`}
-                  passHref
-                  className="flex items-center pr-4 text-gry-100 m-b hover:text-or-100 no-underline	"
-                > */}
                 <img
-                  // src={`${process.env.NEXT_PUBLIC_URL}icons/tour/tour-b.svg`}
-                  src={`${process.env.NEXT_PUBLIC_URL}icons/tour/tour-${
-                    currentActiveIcon === "tours" ||
-                    currentActiveIcon === "tour"
-                      ? "o.svg"
-                      : "b.svg"
-                  }`}
+                  src={`${ASSETS_URL}icons/tour/tour-${currentActiveIcon === "tours" ? "o.svg" : "b.svg"}`}
                   alt="tour-menu"
                   className="pr-2"
                 />
-                <span
-                  className={`${
-                    currentActiveIcon === "tours" ||
-                    currentActiveIcon === "tour"
-                      ? "text-or-100"
-                      : ""
-                  }`}
-                >
-                  Tours
-                </span>
-                {/* </Link> */}
+                <span className={`${currentActiveIcon === "tours" ? "text-or-100" : ""}`}>Tours</span>
               </div>
 
-              {/* TRANSPORT LINK */}
               <div
-                onClick={() => {
-                  changeTransport();
-                }}
-                className="flex items-center pr-4 text-gry-100 m-b hover:text-or-100 no-underline hidden"
+                onClick={() => navigateTo(`/${lang}/transports`)}
+                className="flex items-center pr-4 text-gry-100 m-b hover:text-or-100 no-underline cursor-pointer"
               >
-                {/* <Link
-                  href={`/${language}/transports`}
-                  passHref
-                  className="flex items-center pr-4 text-gry-100 m-b hover:text-or-100 no-underline	"
-                > */}
                 <img
-                  // src={`${process.env.NEXT_PUBLIC_URL}icons/transport/transport-b.svg`}
-                  src={`${
-                    process.env.NEXT_PUBLIC_URL
-                  }icons/transport/transport-${
-                    currentActiveIcon === "transports" ||
-                    currentActiveIcon === "transport"
-                      ? "o.svg"
-                      : "b.svg"
+                  src={`${ASSETS_URL}icons/transport/transport-${
+                    currentActiveIcon === "transports" ? "o.svg" : "b.svg"
                   }`}
                   alt="transport-menu"
                   className="pr-2"
-                  width="32px"
-                  height="23px"
                 />
-                <span
-                  className={`${
-                    currentActiveIcon === "transports" ||
-                    currentActiveIcon === "transport"
-                      ? "text-or-100"
-                      : ""
-                  }`}
-                >
-                  {languageData.modalHotelOptions.titleTransfer}
-                </span>
-                {/* </Link> */}
+                <span className={`${currentActiveIcon === "transports" ? "text-or-100" : ""}`}>Transporte</span>
               </div>
             </div>
           </div>
         </div>
       </Dialog.Panel>
     </Dialog>
-  );
+  )
 }

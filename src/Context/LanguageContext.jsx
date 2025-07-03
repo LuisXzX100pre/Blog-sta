@@ -1,6 +1,6 @@
 "use client"
 
-import React, { createContext, useContext, useEffect } from "react"
+import { createContext, useContext, useState, useEffect } from "react"
 import { useLocation, useNavigate } from "react-router-dom"
 
 const LanguageContext = createContext()
@@ -9,61 +9,54 @@ export function LanguageProvider({ children }) {
   const location = useLocation()
   const navigate = useNavigate()
 
-  const getBrowserLanguage = () => {
-    const lang = navigator.language || navigator.userLanguage
-    return lang.startsWith("es") ? "es" : "en"
-  }
-
-  const getLanguageFromURL = () => {
+  // Function to get the initial language
+  const getInitialLanguage = () => {
     const pathSegments = location.pathname.split("/").filter(Boolean)
-    const firstSegment = pathSegments[0]
-
-
-    if (firstSegment === "es" || firstSegment === "en") {
-      return firstSegment
+    const langSegment = pathSegments[0]
+    if (langSegment === "es" || langSegment === "en") {
+      return langSegment
     }
-
-    if (pathSegments.includes("blog") && pathSegments.length >= 2) {
-      const blogIndex = pathSegments.indexOf("blog")
-      if (blogIndex > 0) {
-        const langSegment = pathSegments[blogIndex - 1]
-        if (langSegment === "es" || langSegment === "en") {
-          return langSegment
-        }
-      }
-    }
-
-    return null
+    // Fallback to browser language or default to 'es'
+    const browserLang = navigator.language || navigator.userLanguage
+    return browserLang.startsWith("en") ? "en" : "es"
   }
 
-  const [lang, setLang] = React.useState(() => {
-    return getLanguageFromURL() || getBrowserLanguage()
-  })
+  const [lang, setLang] = useState(getInitialLanguage)
 
+  // Effect to sync language from URL and redirect if necessary
   useEffect(() => {
-    const urlLang = getLanguageFromURL()
-    if (urlLang && urlLang !== lang) {
-      setLang(urlLang)
+    const pathSegments = location.pathname.split("/").filter(Boolean)
+    const langSegment = pathSegments[0]
+
+    if (langSegment === "es" || langSegment === "en") {
+      if (langSegment !== lang) {
+        setLang(langSegment)
+      }
+    } else {
+      // If no lang in URL, redirect to the current language's path
+      const newPath = `/${lang}${location.pathname === "/" ? "" : location.pathname}`
+      navigate(newPath, { replace: true })
     }
-  }, [location.pathname, lang])
+  }, [location.pathname, navigate, lang])
 
   const changeLanguage = (newLang) => {
-    setLang(newLang)
+    if (newLang === lang) return // No change needed
 
     const pathSegments = location.pathname.split("/").filter(Boolean)
 
-    if (pathSegments.includes("blog")) {
-      const blogIndex = pathSegments.indexOf("blog")
-      if (blogIndex > 0) {
-        pathSegments[blogIndex - 1] = newLang
-      } else {
-        pathSegments.unshift(newLang)
-      }
-      navigate("/" + pathSegments.join("/"))
+    // Replace the language segment or add it if it doesn't exist
+    if (pathSegments.length > 0 && (pathSegments[0] === "es" || pathSegments[0] === "en")) {
+      pathSegments[0] = newLang
+    } else {
+      pathSegments.unshift(newLang)
     }
+
+    const newPath = "/" + pathSegments.join("/")
+    navigate(newPath)
+    setLang(newLang) // Update state immediately for responsiveness
   }
 
-  return <LanguageContext.Provider value={{ lang, setLang, changeLanguage }}>{children}</LanguageContext.Provider>
+  return <LanguageContext.Provider value={{ lang, changeLanguage }}>{children}</LanguageContext.Provider>
 }
 
 export const useLanguage = () => useContext(LanguageContext)

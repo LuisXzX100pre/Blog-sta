@@ -5,14 +5,39 @@ import { useClickableText } from "../../hooks/useClickableText"
 export default function ClickableText({ text, type = "tour", className = "", as: Component = "span" }) {
   const { hasClickableDestination } = useClickableText()
 
-  if (!text || typeof text !== "string") {
-    return <Component className={className}>{text || ""}</Component>
+  // 🔧 FUNCIÓN PARA NORMALIZAR TEXTO DE FORMA SEGURA
+  const normalizeText = (textData) => {
+    if (!textData) return ""
+
+    if (typeof textData === "string") return textData
+
+    if (typeof textData === "object" && textData !== null) {
+      // Si es un objeto con type y text
+      if (textData.type && textData.text) {
+        return textData.text
+      }
+      // Si es un objeto con idiomas
+      if (textData.es || textData.en) {
+        return textData.es || textData.en
+      }
+      // Si es cualquier otro objeto, convertir a string
+      return JSON.stringify(textData)
+    }
+
+    return String(textData)
   }
 
-  const shouldMakeClickable = hasClickableDestination(text, type)
+  // Normalizar el texto antes de procesarlo
+  const normalizedText = normalizeText(text)
+
+  if (!normalizedText || typeof normalizedText !== "string") {
+    return <Component className={className}>{normalizedText || ""}</Component>
+  }
+
+  const shouldMakeClickable = hasClickableDestination(normalizedText, type)
 
   if (!shouldMakeClickable) {
-    return <Component className={className}>{text}</Component>
+    return <Component className={className}>{normalizedText}</Component>
   }
 
   // Mapeo de destinos y sus enlaces
@@ -73,7 +98,7 @@ export default function ClickableText({ text, type = "tour", className = "", as:
     return elements.length > 0 ? elements : [processedText]
   }
 
-  const processedElements = processTextToReact(text)
+  const processedElements = processTextToReact(normalizedText)
 
   return <Component className={className}>{processedElements}</Component>
 }

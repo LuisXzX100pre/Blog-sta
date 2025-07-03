@@ -6,19 +6,12 @@ export default function CardsHomeBlog({ blog, lang = "es", TruncateLetters }) {
   const navigate = useNavigate()
 
   const searchBlog = (blogItem) => {
-    // Si es un template, navegar usando el identificador URL correcto
-    if (blogItem.isTemplate) {
-      // Ahora el name ya ES el identificador URL correcto
-      navigate(`/${lang}/${blogItem.name}`)
-    }
-    // Si es una sección específica, navegar a la ruta dinámica
-    else if (blogItem.isSection) {
-      navigate(`/${lang}/${blogItem.name}`)
-    }
-    // Si es un blog normal, navegar al blog específico
-    else {
-      navigate(`/blog/${lang}/${blogItem.name}`)
-    }
+    // Navegar a la ruta base (sin query parameters)
+    // El template por defecto se tomará del JSON
+    const targetUrl = `/${lang}/${blogItem.id}`
+
+    console.log("🔍 Navegando a:", targetUrl)
+    navigate(targetUrl)
   }
 
   const getCategoryName = (type) => {
@@ -31,25 +24,14 @@ export default function CardsHomeBlog({ blog, lang = "es", TruncateLetters }) {
     return categories[type] || type
   }
 
-  // Agregar una etiqueta especial para los templates y secciones
-  const getSpecialLabel = (blogItem) => {
-    if (blogItem.isTemplate) {
-      const labels = {
-        template1: lang === "en" ? "Hotel Guide" : "Guía de Hoteles",
-        template2: lang === "en" ? "Tour Guide" : "Guía de Tours",
-        template3: lang === "en" ? "Climate Guide" : "Guía del Clima",
-      }
-      return { text: labels[blogItem.name] || (lang === "en" ? "Template" : "Plantilla"), color: "bg-blue-500" }
+  const getTemplateLabel = (templateNumber) => {
+    const labels = {
+      1: lang === "en" ? "Hotel Guide" : "Guía de Hoteles",
+      2: lang === "en" ? "Tour Guide" : "Guía de Tours",
+      3: lang === "en" ? "Climate Guide" : "Guía del Clima",
     }
-
-    if (blogItem.isSection) {
-      return { text: lang === "en" ? "Quick Guide" : "Guía Rápida", color: "bg-green-500" }
-    }
-
-    return null
+    return labels[templateNumber] || (lang === "en" ? "Guide" : "Guía")
   }
-
-  const specialLabel = getSpecialLabel(blog)
 
   return (
     <div className="flex gap-4 flex-wrap max-lg:justify-center">
@@ -57,12 +39,10 @@ export default function CardsHomeBlog({ blog, lang = "es", TruncateLetters }) {
         onClick={() => searchBlog(blog)}
         className="relative flex flex-col w-[332px] h-[372px] border border-[#ebebeb] px-4 pt-4 pb-6 rounded-lg shadow-3xl justify-between max-xl:w-[309px] max-md:w-full cursor-pointer hover:shadow-xl group transition-shadow duration-300"
       >
-        {/* Etiqueta especial para templates y secciones - Z-INDEX ALTO PARA QUE ESTÉ AL FRENTE */}
-        {specialLabel && (
-          <div
-            className={`absolute top-2 right-2 ${specialLabel.color} text-white px-2 py-1 rounded-full text-fs-10 m-s-b z-20`}
-          >
-            {specialLabel.text}
+        {/* Etiqueta del template por defecto */}
+        {blog.template && (
+          <div className="absolute top-2 right-2 bg-blue-500 text-white px-2 py-1 rounded-full text-fs-10 m-s-b z-20">
+            {getTemplateLabel(blog.template)}
           </div>
         )}
 
@@ -75,19 +55,23 @@ export default function CardsHomeBlog({ blog, lang = "es", TruncateLetters }) {
               className="rounded-lg w-full h-full object-cover group-hover:scale-110 transition-transform duration-500 ease-in-out select-none"
             />
           </div>
+
           {/* DATE CARD */}
           <div className="flex flex-col gap-2">
             <span className="text-[#d1d2d5] text-fs-12 m-m">{blog.date}</span>
+
             {/* NAME CARD */}
             <span className="text-fs-16 m-b">
               {TruncateLetters(blog.mainTitle?.[lang] || blog.mainTitle?.es || "...", 10)}
             </span>
+
             {/* DESCRIPTION */}
             <span className="text-fs-12 m-m text-gry-100 text-justify">
               {TruncateLetters(blog.description?.[lang] || blog.description?.es || "...", 21) + " ..."}
             </span>
           </div>
         </div>
+
         <div className="flex gap-3">
           {blog.type.map((blogT, index) => (
             <div key={index} className="rounded-full bg-gry-50 text-gry-100 px-2 py-1 w-fit text-fs-10">

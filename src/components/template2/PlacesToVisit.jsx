@@ -1,25 +1,33 @@
+"use client"
+
 import ListElement from "./ListElement"
 import ClickableText from "../general/ClickableText"
 
 const PlacesToVisit = ({ data, showFirstHalf = false, showSecondHalf = false, type = "tour", lang = "es" }) => {
-  if (!data) return null
-
   const getText = (textObj) => {
     if (typeof textObj === "string") return textObj
     return textObj?.[lang] || textObj?.es || textObj?.en || ""
   }
 
-  const { sectionTitle, introduction, placesList } = data
+  // Solo usar datos directos del Template 2
+  if (!data?.placesList || !Array.isArray(data.placesList) || data.placesList.length === 0) {
+    return (
+      <div className="container mx-auto py-8">
+        <p className="text-center text-gray-500">
+          {lang === "en" ? "No places available to display." : "No hay lugares disponibles para mostrar."}
+        </p>
+      </div>
+    )
+  }
 
-  // Si no se especifica ninguna mitad, mostrar todo (comportamiento por defecto)
-  let placesToShow = placesList
+  // Determinar qué lugares mostrar
+  let placesToShow = data.placesList
 
   if (showFirstHalf) {
-    // Mostrar solo los primeros 4 lugares (1-4)
-    placesToShow = placesList.slice(0, 4)
+    placesToShow = data.placesList.slice(0, Math.ceil(data.placesList.length / 2))
   } else if (showSecondHalf) {
-    // Mostrar solo los últimos 4 lugares (5-8)
-    placesToShow = placesList.slice(4, 8)
+    const halfPoint = Math.ceil(data.placesList.length / 2)
+    placesToShow = data.placesList.slice(halfPoint)
   }
 
   return (
@@ -28,12 +36,12 @@ const PlacesToVisit = ({ data, showFirstHalf = false, showSecondHalf = false, ty
       {showFirstHalf && (
         <>
           <ClickableText
-            text={getText(sectionTitle)}
+            text={getText(data.sectionTitle)}
             type={type}
             className="m-s-b text-fs-24 mb-4 text-[#1a202c]"
             as="h2"
           />
-          <p className="m-m text-fs-14 text-gry-100 mb-8">{getText(introduction)}</p>
+          <p className="m-m text-fs-14 text-gry-100 mb-8">{getText(data.introduction)}</p>
         </>
       )}
 
@@ -42,7 +50,7 @@ const PlacesToVisit = ({ data, showFirstHalf = false, showSecondHalf = false, ty
           <ListElement
             key={place.id}
             place={place}
-            index={showSecondHalf ? index + 4 : index}
+            index={showSecondHalf ? index + Math.ceil(data.placesList.length / 2) : index}
             type={type}
             lang={lang}
           />

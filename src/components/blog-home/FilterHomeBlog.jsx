@@ -1,8 +1,8 @@
 "use client"
 
-import { useState } from "react"
+import { useState, useEffect } from "react"
 
-export default function FilterHomeBlog({ lang = "es" }) {
+export default function FilterHomeBlog({ lang = "es", onFilterChange }) {
   const [selectedCategories, setSelectedCategories] = useState([])
 
   const categories = [
@@ -13,10 +13,19 @@ export default function FilterHomeBlog({ lang = "es" }) {
   ]
 
   const toggleCategory = (categoryId) => {
-    setSelectedCategories((prev) =>
-      prev.includes(categoryId) ? prev.filter((id) => id !== categoryId) : [...prev, categoryId],
-    )
+    const newCategories = selectedCategories.includes(categoryId)
+      ? selectedCategories.filter((id) => id !== categoryId)
+      : [...selectedCategories, categoryId]
+
+    setSelectedCategories(newCategories)
   }
+
+  // Notificar cambios al componente padre
+  useEffect(() => {
+    if (onFilterChange) {
+      onFilterChange(selectedCategories)
+    }
+  }, [selectedCategories, onFilterChange])
 
   return (
     <div className="bg-white border border-gray-200 rounded-lg p-4 mb-6 shadow-sm">

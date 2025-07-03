@@ -28,7 +28,6 @@ export default function ComponentRenderer({ templateNumber, componentName, lang 
     )
   }
 
-  // Verificar si el componente existe
   const Component = COMPONENT_MAP[componentName]
   if (!Component) {
     return (
@@ -50,7 +49,6 @@ export default function ComponentRenderer({ templateNumber, componentName, lang 
     )
   }
 
-  // Obtener la sección de datos correspondiente
   const sectionKey = COMPONENT_TO_SECTION_MAP[componentName]
   const sectionData = blogData.sections?.[sectionKey] || blogData[sectionKey]
 
@@ -73,8 +71,6 @@ export default function ComponentRenderer({ templateNumber, componentName, lang 
       </Container>
     )
   }
-
-  // Obtener el tipo del componente
   const componentType = sectionData.type || "hotel"
 
   return (

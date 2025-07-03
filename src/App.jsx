@@ -1,7 +1,6 @@
 "use client"
 
-import { useEffect } from "react"
-import { Routes, Route, useParams, Navigate } from "react-router-dom"
+import { Routes, Route, useParams, Navigate, useSearchParams } from "react-router-dom"
 import Navigation from "./components/navigation/Navigation.jsx"
 import FooterT from "./components/footer/FooterT.jsx"
 import ScrollToTop from "./components/general/ScrollToTop"
@@ -13,18 +12,11 @@ import BlogHomeLayout from "./layouts/BlogHomeLayout"
 import ComponentRenderer from "./components/dynamics/ComponentRenderer"
 import { useBlogData } from "./hooks/useBlogData"
 import { useLanguage } from "./context/LanguageContext"
-import { adaptDataForTemplate } from "./utils/dataAdapter.js"
+import { intelligentAdapter } from "./utils/intelligentDataAdapter.js"
 
 // Componente para el home principal
 function HomePage() {
   const { lang } = useParams()
-  const { setLang } = useLanguage()
-
-  useEffect(() => {
-    if (lang && (lang === "es" || lang === "en")) {
-      setLang(lang)
-    }
-  }, [lang, setLang])
 
   if (lang && lang !== "es" && lang !== "en") {
     return <Navigate to="/es" replace />
@@ -33,16 +25,8 @@ function HomePage() {
   return <BlogHomeLayout lang={lang || "es"} />
 }
 
-// Componente para manejar componentes específicos dentro de templates
 function TemplateComponentPage() {
   const { lang, template, component } = useParams()
-  const { setLang } = useLanguage()
-
-  useEffect(() => {
-    if (lang && (lang === "es" || lang === "en")) {
-      setLang(lang)
-    }
-  }, [lang, setLang])
 
   if (lang && lang !== "es" && lang !== "en") {
     return <Navigate to="/es" replace />
@@ -57,18 +41,11 @@ function TemplateComponentPage() {
 // Componente para manejar las rutas dinámicas de destinos específicos
 function DynamicDestinationPage() {
   const { lang, destination } = useParams()
-  const { setLang } = useLanguage()
   const { blogData, loading, error } = useBlogData(lang)
 
   // Obtener parámetro de template de la URL si existe
-  const urlParams = new URLSearchParams(window.location.search)
-  const templateOverride = urlParams.get("template") ? Number.parseInt(urlParams.get("template")) : null
-
-  useEffect(() => {
-    if (lang && (lang === "es" || lang === "en")) {
-      setLang(lang)
-    }
-  }, [lang, setLang])
+  const [searchParams] = useSearchParams()
+  const templateOverride = searchParams.get("template") ? Number.parseInt(searchParams.get("template")) : null
 
   if (lang && lang !== "es" && lang !== "en") {
     return <Navigate to="/es" replace />
@@ -86,25 +63,84 @@ function DynamicDestinationPage() {
     )
   }
 
-  // Verificar si el destino existe en los datos
   const destinationData = blogData[destination]
   if (!destinationData) {
-    return <Navigate to="/es" replace />
+    const destinationEntry = Object.entries(blogData).find(([key, data]) => data.slug === destination)
+    if (destinationEntry) {
+      const [destinationKey] = destinationEntry
+      return <Navigate to={`/${lang}/${destinationKey}`} replace />
+    }
+    return <Navigate to={`/${lang || "es"}`} replace />
   }
 
-  // Determinar qué template usar (override, del JSON, o por defecto)
   const templateToUse = templateOverride || destinationData.template || 1
+  const originalTemplate = destinationData.template || 1
 
-  console.log(`🎯 Template original: ${destinationData.template}, Template a usar: ${templateToUse}`)
+  console.log(`🎯 Template original: ${originalTemplate}, Template a usar: ${templateToUse}`)
 
-  // Adaptar datos usando el nuevo sistema inteligente
-  const adaptedData =
-    templateToUse !== destinationData.template ? adaptDataForTemplate(destinationData, templateToUse) : destinationData
+  let adaptedData = destinationData
 
-  // Crear el objeto de datos en el formato esperado por los layouts
+  if (templateToUse !== originalTemplate) {
+    console.log(`🔄 Adaptando datos de ${destination} de template ${originalTemplate} a template ${templateToUse}`)
+
+    const adaptedSections = {}
+
+    Object.entries(destinationData.sections || {}).forEach(([key, section]) => {
+      if (section?.data) {
+        const componentType = getComponentTypeFromSectionKey(key, templateToUse)
+
+        adaptedSections[key] = {
+          ...section,
+          data: intelligentAdapter.adaptDataForComponent(section.data, componentType, {}),
+        }
+      } else {
+        adaptedSections[key] = section
+      }
+    })
+
+    adaptedData = {
+      ...destinationData,
+      template: templateToUse,
+      sections: adaptedSections,
+    }
+
+    console.log(`✅ Datos adaptados de ${destination} para template ${templateToUse}`)
+  }
+
+  function getComponentTypeFromSectionKey(sectionKey, targetTemplate) {
+    const mappings = {
+      1: {
+        whatToFind: "list",
+        photoGallery: "gallery",
+        locationInfo: "info",
+        ferrySchedule: "schedule",
+        journeyVideo: "video",
+        familyHotels: "list",
+        favoriteActivities: "list",
+        howToGetThere: "info",
+        howToBookTransport: "info",
+        routesFrom: "list",
+      },
+      2: {
+        placesToVisit: "list",
+        touristMap: "map",
+        quickFact: "info",
+        beforeYouVisitRecommendations: "list",
+        routesFrom: "list",
+        acapulcoGuide: "info",
+      },
+      3: {
+        monthlyInfo: "monthly",
+        generalClimateInfo: "info",
+        frequentlyAskedQuestions: "faq",
+      },
+    }
+
+    return mappings[targetTemplate]?.[sectionKey] || "info"
+  }
+
   const formattedBlogData = { [destination]: adaptedData }
 
-  // Seleccionar el template correcto según el número de template
   const TemplateComponent =
     templateToUse === 1
       ? Template1Layout
@@ -117,17 +153,9 @@ function DynamicDestinationPage() {
   return <TemplateComponent blogData={formattedBlogData} lang={lang || "es"} />
 }
 
-// Componente para manejar las rutas de blog completo (legacy)
 function BlogPage() {
   const { lang } = useParams()
-  const { setLang } = useLanguage()
   const { blogData, loading, error } = useBlogData(lang)
-
-  useEffect(() => {
-    if (lang && (lang === "es" || lang === "en")) {
-      setLang(lang)
-    }
-  }, [lang, setLang])
 
   if (lang && lang !== "es" && lang !== "en") {
     return <Navigate to="/blog/es" replace />
@@ -145,7 +173,6 @@ function BlogPage() {
     )
   }
 
-  // Por defecto mostrar Puerto Juárez (Template 1)
   const puertoJuarezData = blogData["puerto-juarez-mexico"]
   if (puertoJuarezData) {
     const formattedBlogData = { "puerto-juarez-mexico": puertoJuarezData }
@@ -164,7 +191,7 @@ function App() {
       <ScrollToTop />
       <Routes>
         {/* Redirección de la raíz al idioma por defecto */}
-        <Route path="/" element={<Navigate to="/es" replace />} />
+        <Route path="/" element={<Navigate to={`/${lang || "es"}`} replace />} />
 
         {/* Ruta principal del home */}
         <Route path="/:lang" element={<HomePage />} />
@@ -181,14 +208,11 @@ function App() {
 
         {/* Redirecciones de templates sin idioma (legacy) */}
         <Route path="/template1" element={<Navigate to={`/${lang || "es"}/puerto-juarez-mexico`} replace />} />
-        <Route path="/template2" element={<Navigate to={`/${lang || "es"}/acapulco-mexico`} replace />} />
-        <Route
-          path="/template3"
-          element={<Navigate to={`/${lang || "es"}/cuando-es-la-mejor-epoca-para-viajar-a-cancun`} replace />}
-        />
+        <Route path="/template2" element={<Navigate to={`/${lang || "es"}/acapulco-guia-completa`} replace />} />
+        <Route path="/template3" element={<Navigate to={`/${lang || "es"}/cancun-guia-hoteles`} replace />} />
 
         {/* Ruta catch-all para URLs no válidas */}
-        <Route path="*" element={<Navigate to="/es" replace />} />
+        <Route path="*" element={<Navigate to={`/${lang || "es"}`} replace />} />
       </Routes>
       <FooterT />
     </>
